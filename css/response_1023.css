@@ -482,32 +482,6 @@
     /*---------------
         Main section
     ---------------*/
-    .main_slider .slide
-    {
-        min-height: 350px;
-        padding: 40px 30px 120px;
-    }
-
-    .main_slider .slide .title
-    {
-        font-size: 36px;
-    }
-
-    .main_slider .slide .desc
-    {
-        font-size: 17px;
-    }
-
-    .main_slider .slide .link
-    {
-        font-size: 17px;
-        line-height: 47px;
-
-        height: 47px;
-    }
-
-
-
     .for_integrators
     {
         min-height: 0;

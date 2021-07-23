@@ -122,19 +122,10 @@
     /*---------------
         Main section
     ---------------*/
-    .main_slider .slide
-    {
-        min-height: 250px;
-    }
-
     .main_slider .slide .title
     {
-        font-size: 25px;
-    }
-
-    .main_slider .slide .desc
-    {
-        font-size: 15px;
+        font-size: 23px;
+        line-height: 29px;
     }
 
 

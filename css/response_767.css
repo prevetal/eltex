@@ -228,32 +228,46 @@
     ---------------*/
     .main_slider .slide
     {
-        min-height: 280px;
-        padding: 40px 20px;
+        min-height: 444px;
+        padding: 44px 32px;
+
+        align-items: flex-start;
+        align-content: flex-start;
     }
 
     .main_slider .slide .title
     {
-        font-size: 32px;
+        font-size: 24px;
+        line-height: 30px;
     }
 
-    .main_slider .slide .desc
+    .main_slider .slide .items
     {
         font-size: 16px;
+        font-weight: 300;
     }
 
     .main_slider .slide .link
     {
-        font-size: 16px;
-        line-height: 44px;
+        font-size: 17px;
+        line-height: 50px;
 
-        height: 44px;
+        height: 50px;
+        margin-top: 32px;
+        padding: 0 28px;
     }
 
 
-    .main_slider .advantages
+    .main_slider .slide .tablet_bg
     {
         display: none;
+    }
+
+    .main_slider .slide .mob_bg
+    {
+        display: block;
+
+        background-position: 100% 100%;
     }
 
 
