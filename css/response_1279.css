@@ -271,6 +271,43 @@
     .main_slider .slide .tablet_bg
     {
         display: block;
+
+        background-position: 100% 50%;
+    }
+
+
+    .main_slider .slide .stickers
+    {
+        right: 30px;
+    }
+
+
+    .main_slider .slide .videos_row
+    {
+        width: calc(100% + 30px);
+        margin-right: 0;
+        margin-left: -30px;
+    }
+
+    .main_slider .slide .videos_row > *
+    {
+        width: 296px;
+        max-width: calc(50% - 30px);
+        margin-left: 30px;
+    }
+
+    .main_slider .slide .videos_row > *:first-child .name:before,
+    .main_slider .slide .videos_row > *:last-child
+    {
+        display: none;
+    }
+
+    .main_slider .slide .videos_row .name
+    {
+        font-size: 15px;
+
+        min-height: 56px;
+        padding: 8px 12px;
     }
 
 
@@ -533,7 +570,6 @@
 
     .product_info .info
     {
-        padding-bottom: 56px;
         padding-left: 20px;
     }
 
@@ -555,22 +591,6 @@
         padding: 20px;
     }
 
-    .product_info .info .buy_info .col_left
-    {
-        width: calc(100% - 206px);
-    }
-
-    .product_info .info .buy_info .col_right
-    {
-        display: flex;
-
-        width: 186px;
-        margin-top: 0;
-
-        align-items: flex-start;
-        align-content: space-between;
-    }
-
 
     .product_info .info .price_block
     {
@@ -582,60 +602,8 @@
         margin-left: 15px;
     }
 
-    .product_info .info .price_block .price
-    {
-        font-size: 50px;
-        line-height: 46px;
-    }
 
-    .product_info .info .price_block .price sup
-    {
-        font-size: 16px;
-        line-height: 16px;
-    }
-
-    .product_info .info .price_block .price .arr
-    {
-        width: 6px;
-        height: 10px;
-    }
-
-    .product_info .info .price_block .price .arr:before
-    {
-        left: -5px;
-
-        width: 16px;
-        height: 8px;
-
-        border-top-width: 8px;
-        border-right-width: 8px;
-        border-left-width: 8px;
-    }
-
-
-    .product_info .info .price_block .garanti_price
-    {
-        font-size: 22px;
-    }
-
-    .product_info .info .price_block .garanti_price small
-    {
-        font-size: 16px;
-    }
-
-
-    .product_info .info .buy_info .quike_buy_link,
-    .product_info .info .buy_info .buy_link
-    {
-        font-size: 16px;
-        line-height: 44px;
-
-        height: 44px;
-        padding: 0 20px;
-    }
-
-
-    .product_info .info .buy_info .amount:before
+    /* .product_info .info .buy_info .amount:before
     {
         width: 44px;
     }
@@ -657,49 +625,7 @@
 
         height: 44px;
         padding: 0 40px;
-    }
-
-
-    .product_info .info .compare
-    {
-        margin-left: 20px !important;
-    }
-
-
-    .product_info .info .buy_info .issue_invoice
-    {
-        width: 186px;
-        padding: 10px 20px 10px 55px;
-    }
-
-    .product_info .info .buy_info .issue_invoice img
-    {
-        left: 20px;
-    }
-
-
-    .product_info .info .buy_info .col_right > *.links
-    {
-        width: 100%;
-    }
-
-    .product_info .info .buy_info .col_right > * + *.links
-    {
-        margin-top: 25px;
-    }
-
-
-    .product_info .info .buy_info .links button,
-    .product_info .info .buy_info .garanti .add_link
-    {
-        font-size: 15px;
-    }
-
-
-    .product_info .info .similar_link
-    {
-        bottom: 20px;
-    }
+    } */
 
 
 

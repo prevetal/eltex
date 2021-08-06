@@ -1158,40 +1158,39 @@
 													<div class="val">
 														<div class="price down">
 															<span>34 454</span> <sup>руб</sup>
-															<div class="arr"></div>
 														</div>
 
-														<div class="garanti_price"></div>
+														<!-- <div class="garanti_price"></div>
 
 														<div>
 															<button class="get_corp_price modal_link" data-content="#best_price_modal">Запросить корп. цену</button>
-														</div>
+														</div> -->
 													</div>
 												</div>
-
 
 												<div class="status">
 													<div class="val green">В наличии</div>
 
 													<div class="cities">
-														<div>Москва <b>164 шт</b></div>
-														<div>Новосибирск <b>164 шт</b></div>
+														<div>Москва 164 шт</b></div>
+														<div>Новосибирск 164 шт</b></div>
+														<div>Транзит с завода 500 шт</b></div>
 													</div>
 												</div>
 											</div>
 
 
 											<div class="col_right">
-												<button class="issue_invoice modal_link" data-content="#invoice_modal">
-													<img data-src="images/ic_doc_blue.svg" alt="" class="lozad">
-													<b>Выставить счет</b> (для юр. лица)
-												</button>
+												<button class="reduce_price_btn">Снизить цену</button>
 
+												<div class="garanti">
+													<div class="val">Гарантия 12 мес</div>
+												</div>
 
 												<div class="links">
-													<div><button class="modal_link" data-content="#test_modal">
-														<span>Бесплатное тестирование</span>
-													</button></div>
+													<button class="add_link modal_link" data-content="#add_garanti_modal">
+														<span>Добавить <b>“гарантию+”</b></span>
+													</button>
 
 													<div><button>
 														<span>Рассчитать цену доставки</span>
@@ -1203,66 +1202,105 @@
 											<div class="buy_links">
 												<button class="quike_buy_link modal_link" data-content="#quike_buy_modal">Быстрая заявка</button>
 
-												<button class="buy_link">В корзину</button>
+												<button class="issue_invoice modal_link" data-content="#invoice_modal">
+													<img data-src="images/ic_doc_blue.svg" alt="" class="lozad">
+													Выставить счет <small>(для юр. лица)</small>
+												</button>
 
-												<!-- <div class="amount">
+												<button class="buy_link">
+													<div class="icon">
+														<svg><use xlink:href="images/sprite.svg#ic_buy2"></use></svg>
+													</div>
+												</button>
+
+												<div class="amount">
 													<button type="button" class="minus"></button>
 
 													<input type="text" value="1" class="input"
 													  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
 
 													<button type="button" class="plus"></button>
-												</div> -->
+												</div>
 
-												<div class="compare tooltip">
+												<div class="compare">
 													<!-- <button class="compare_link show_tooltip"> -->
 													<button class="compare_link">
 														<div class="icon">
 															<svg><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
 														</div>
-														<span>Сравнить</span>
 													</button>
-
-													<div class="text">
-														<a href="/">Перейти в сравнение</a>
-													</div>
 												</div>
 											</div>
 
 
-											<div class="garanti">
-												<div class="val">Гарантия 12 мес <span></span></div>
+											<div class="desktop_hide mob_show">
+												<div class="garanti">
+													<div class="val">Гарантия 12 мес</div>
+												</div>
 
-												<button class="add_link modal_link" data-content="#add_garanti_modal">
-													<svg class="icon">
-														<use xlink:href="images/sprite.svg#ic_garanti"></use>
-													</svg>
-													<span>Добавить гарантию</span>
+												<div class="links">
+													<button class="add_link modal_link" data-content="#add_garanti_modal">
+														<span>Добавить <b>“гарантию+”</b></span>
+													</button>
+
+													<div><button>
+														<span>Рассчитать цену доставки</span>
+													</button></div>
+												</div>
+											</div>
+										</div>
+
+
+										<div class="bottom">
+											<div class="manager">
+												<div class="photo online">
+													<img data-src="images/tmp/manager_photo.jpg" alt="" class="lozad">
+												</div>
+
+												<div>
+													<div class="name">Акименко Евгений</div>
+													<div class="post">специалист GPON</div>
+
+													<div class="email">
+														<a href="mailto:e.akimenko@eltexcm.ru">e.akimenko@eltexcm.ru</a>
+													</div>
+
+													<button class="chat_btn">Написать в чат</button>
+
+													<div class="messengers">
+														<a href="/" target="_blank" rel="noopener nofollow">
+															<svg class="icon icon1">
+																<use xlink:href="images/sprite.svg#ic_messenger1"></use>
+															</svg>
+														</a>
+
+														<a href="/" target="_blank" rel="noopener nofollow">
+															<svg class="icon icon2">
+																<use xlink:href="images/sprite.svg#ic_messenger2"></use>
+															</svg>
+														</a>
+													</div>
+												</div>
+											</div>
+
+											<div class="col_right">
+												<div class="pluses">
+													<div>
+														Скидка с первого заказа!
+														<svg class="icon icon1"><use xlink:href="images/sprite.svg#ic_pluses1"></use></svg>
+													</div>
+
+													<div>
+														Мы диллер №1 Eltex
+														<svg class="icon icon2"><use xlink:href="images/sprite.svg#ic_pluses2"></use></svg>
+													</div>
+												</div>
+
+												<button class="similar_link">
+													<span>Аналогичные устройства</span>
 												</button>
 											</div>
 										</div>
-
-
-										<div class="pluses">
-											<div>
-												<svg class="icon icon1">
-													<use xlink:href="images/sprite.svg#ic_pluses1"></use>
-												</svg>
-												Скидка с первого заказа!
-											</div>
-
-											<div>
-												<svg class="icon icon2">
-													<use xlink:href="images/sprite.svg#ic_pluses2"></use>
-												</svg>
-												Мы диллер №1 Eltex
-											</div>
-										</div>
-
-
-										<button class="similar_link">
-											<span>Аналогичные устройства</span>
-										</button>
 									</div>
 								</div>
 

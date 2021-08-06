@@ -66,6 +66,13 @@
 
 
 
+    .desktop_hide
+    {
+        display: block !important;
+    }
+
+
+
     /*---------------
         Header
     ---------------*/
@@ -122,10 +129,22 @@
     /*---------------
         Main section
     ---------------*/
+    .main_slider .slide
+    {
+        height: auto !important;
+    }
+
+
     .main_slider .slide .title
     {
-        font-size: 23px;
-        line-height: 29px;
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+
+    .main_slider .slide .slide_title
+    {
+        font-size: 27px;
     }
 
 
@@ -237,22 +256,88 @@
         padding: 20px;
     }
 
+
     .product_info .info .price_block .price
     {
         font-size: 44px;
         line-height: 40px;
     }
 
-    .product_info .info .buy_info .quike_buy_link,
-    .product_info .info .buy_info .buy_link
+
+    .product_info .info .reduce_price_btn ~ .garanti,
+    .product_info .info .reduce_price_btn ~ .links
+    {
+        display: none;
+    }
+
+
+    .product_info .info .buy_info .buy_links
+    {
+        margin-top: 8px;
+    }
+
+    .product_info .info .buy_info .buy_links > * + *,
+    .product_info .info .buy_info .amount.show
+    {
+        margin-left: 8px;
+    }
+
+    .product_info .info .buy_info .compare
+    {
+        margin-left: 8px !important;
+    }
+
+    .product_info .info .buy_info .amount
+    {
+        margin-left: 0;
+    }
+
+
+    .product_info .info .buy_info .issue_invoice
+    {
+        font-size: 13px;
+
+        width: 148px;
+        margin-left: 0;
+        padding: 0 12px 0 40px;
+    }
+
+    .product_info .info .buy_info .issue_invoice img
+    {
+        left: 12px;
+    }
+
+
+    .product_info .info .manager
+    {
+        padding: 10px 12px;
+    }
+
+    .product_info .info .manager .photo
+    {
+        width: 84px;
+        height: 84px;
+    }
+
+    .product_info .info .manager .photo + div
+    {
+        width: calc(100% - 100px);
+    }
+
+    .product_info .info .manager .name
     {
         font-size: 15px;
     }
 
 
-    .product_info .info .buy_info .garanti .add_link
+    .product_info .info .bottom .col_right
     {
-        margin-left: auto;
+        display: block;
+    }
+
+    .product_info .info .similar_link
+    {
+        margin-top: 12px;
     }
 
 
@@ -928,5 +1013,16 @@
     #feedback_modal .modal_title
     {
         margin-bottom: 10px;
+    }
+}
+
+
+
+@media (max-width: 413px)
+{
+    .main_slider .slide .title
+    {
+        font-size: 23px;
+        line-height: 29px;
     }
 }

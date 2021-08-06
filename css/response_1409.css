@@ -69,6 +69,35 @@
     /*---------------
         Main section
     ---------------*/
+    .main_slider .slide .videos_row
+    {
+        width: calc(100% + 112px);
+        margin-right: -46px;
+        margin-left: -66px;
+    }
+
+    .main_slider .slide .videos_row > *
+    {
+        width: calc(33.333% - 20px);
+        margin-left: 20px;
+    }
+
+
+    .main_slider .slide .slide_title
+    {
+        font-size: 32px;
+    }
+
+    .main_slider .slide .videos_row .name
+    {
+        font-size: 14px;
+
+        min-height: 64px;
+        padding: 8px 12px;
+    }
+
+
+
     .products .flex
     {
         --products_count: 5;
@@ -121,49 +150,58 @@
 
     .product_info .info .buy_info .col_left
     {
-        width: 100%;
+        width: calc(100% - 204px);
     }
 
     .product_info .info .buy_info .col_right
     {
-        display: flex;
-
-        width: 100%;
-        margin: 25px 0 0;
-
-        justify-content: flex-start;
-        align-items: center;
-        align-content: center;
-        flex-wrap: wrap;
-    }
-
-    .product_info .info .buy_info .col_right > *.links
-    {
-        width: auto;
-        margin-top: 0;
-    }
-
-    .product_info .info .buy_info .col_right > * + *.links
-    {
-        margin-left: auto;
-    }
-
-    .product_info .info .buy_info .col_right > * + *
-    {
-        margin-top: 25px;
+        width: 172px;
     }
 
 
     .product_info .info .price_block .price
     {
-        font-size: 56px;
+        font-size: 46px;
+        line-height: 46px;
+    }
+
+    .product_info .info .price_block .price sup
+    {
+        font-size: 16px;
+        line-height: 14px;
+
+        margin-left: -6px;
+    }
+
+
+    .product_info .info .reduce_price_btn
+    {
+        height: 46px;
+    }
+
+
+    .product_info .info .buy_info .buy_links > * + *,
+    .product_info .info .buy_info .amount.show
+    {
+        margin-left: 16px;
+    }
+
+    .product_info .info .buy_info .amount
+    {
+        margin-left: 0;
+    }
+
+
+    .product_info .info .manager
+    {
+        width: 328px;
     }
 
 
 
     .product_tabs .tabs button
     {
-        padding: 10px 20px;
+        padding: 10px 16px;
     }
 
     .product_tabs .tab_content.active

@@ -4,10 +4,10 @@ $(() => {
 		items: 1,
 		margin: 0,
 		nav: true,
-		dots: true,
+		dots: false,
 		loop: true,
 		smartSpeed: 750,
-		autoplay: true,
+		autoplay: false,
 		autoplayTimeout: 5000
 	})
 

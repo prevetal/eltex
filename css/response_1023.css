@@ -639,7 +639,7 @@
     .product_info .info
     {
         width: 100%;
-        padding: 25px 25px 56px;
+        padding: 25px 25px 13px;
     }
 
 
@@ -654,14 +654,10 @@
         padding: 25px;
     }
 
-    .product_info .info .buy_info .col_left
-    {
-        width: calc(100% - 245px);
-    }
 
-    .product_info .info .buy_info .col_right
+    .product_info .info .manager
     {
-        width: 215px;
+        width: 340px;
     }
 
 

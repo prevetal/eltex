@@ -271,6 +271,36 @@
     }
 
 
+    .main_slider .slide .stickers
+    {
+        display: none;
+    }
+
+
+    .main_slider .slide .slide_title
+    {
+        font-size: 28px;
+    }
+
+
+    .main_slider .slide .videos_row
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .main_slider .slide .videos_row > *
+    {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .main_slider .slide .videos_row > *:first-child
+    {
+        display: none;
+    }
+
+
 
     .products_block .slider
     {
@@ -442,7 +472,7 @@
 
     .product_info .info
     {
-        padding: 20px 20px 56px;
+        padding: 20px;
     }
 
     .product_info .info .description
@@ -488,53 +518,65 @@
         margin-top: 20px;
     }
 
-    .product_info .info .buy_info .col_left > * + *,
-    .product_info .info .buy_info .col_right > * + *
+
+    .product_info .info .status
     {
-        margin-top: 20px;
+        margin-top: 12px;
     }
 
-
-    .product_info .info .buy_info .buy_links > * + *
-    {
-        margin-left: 0;
-    }
 
     .product_info .info .buy_info .quike_buy_link
     {
         width: 100%;
-        padding: 0 30px;
+        margin-bottom: 8px;
     }
-
-    .product_info .info .buy_info .buy_link
-    {
-        margin-top: 12px;
-        padding: 0 30px;
-    }
-
-    .product_info .info .buy_info .compare
-    {
-        margin-top: 12px;
-    }
-
-
 
     .product_info .info .buy_info .issue_invoice
     {
-        width: 209px;
-        padding: 10px 28px 10px 68px;
-    }
-
-    .product_info .info .buy_info .issue_invoice img
-    {
-        left: 28px;
+        margin-left: 0;
     }
 
 
-    .product_info .info .buy_info .links button,
-    .product_info .info .buy_info .garanti .add_link
+    .product_info .info .bottom
     {
-        font-size: 14px;
+        margin-top: 16px;
+    }
+
+    .product_info .info .bottom .col_right
+    {
+        display: flex;
+
+        width: 100%;
+        margin-top: 16px;
+
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+
+    .product_info .info .manager
+    {
+        width: 100%;
+        padding: 13px 21px;
+    }
+
+
+    .product_info .info .pluses
+    {
+        order: 2;
+    }
+
+    .product_info .info .pluses > * + *
+    {
+        margin-top: 8px;
+    }
+
+
+    .product_info .info .similar_link
+    {
+        margin-top: 2px;
     }
 
 
