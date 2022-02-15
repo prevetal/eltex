@@ -520,6 +520,249 @@ $(() => {
 			touch: false
 		})
 	})
+
+
+	// Страница "О компании" новая
+	$('.page_about_v2 .about_info_v2 .slider_wrap .slider').owlCarousel({
+		items: 1,
+		margin: 20,
+		loop: false,
+		smartSpeed: 500,
+		fluidSpeed: 100,
+		dots: true,
+		nav: false,
+		animateOut: 'fadeOut',
+		animateIn: 'fadeIn',
+		onTranslate: (event) => {
+			const parent = $(event.target).closest('.slider_wrap')
+
+			parent.find('.thumbs .btn').removeClass('active')
+			parent.find('.thumbs .btn:eq(' + event.item.index + ')').addClass('active')
+		}
+	})
+
+	$('.page_about_v2 .about_info_v2 .slider_wrap .thumbs .btn').click(function (e) {
+		e.preventDefault()
+
+		const parent = $(this).closest('.slider_wrap')
+
+		parent.find('.slider').trigger('to.owl', $(this).data('slide-index'))
+	})
+
+
+	// Наши клиенты
+	$('.page_about_v2 .clients .slider').owlCarousel({
+		margin: 15,
+		loop: false,
+		smartSpeed: 500,
+		fluidSpeed: 100,
+		dots: false,
+		nav: false,
+		autoplay: true,
+		autoplayTimeout: 3000,
+		responsive: {
+			0: {
+				items: 2
+			},
+			480: {
+				items: 3
+			},
+			768: {
+				items: 5
+			},
+			1024: {
+				items: 6
+			},
+			1280: {
+				items: 7
+			},
+			1410: {
+				items: 8
+			}
+		}
+	})
+
+
+	// Отзывы V2
+	if ($('.page_about_v2 .reviews_v2 .swiper-container').length) {
+		new Swiper('.page_about_v2 .reviews_v2 .swiper-container', {
+			loop: false,
+			speed: 500,
+			watchSlidesVisibility: true,
+			slideActiveClass: 'active',
+			slideVisibleClass: 'visible',
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev'
+			},
+			breakpoints: {
+				0: {
+					spaceBetween: 24,
+					direction: 'horizontal',
+					slidesPerView: 1,
+					autoHeight: true
+				},
+				768: {
+					spaceBetween: 28,
+					direction: 'horizontal',
+					slidesPerView: 2,
+					autoHeight: true
+				},
+				1024: {
+					spaceBetween: 28,
+					direction: 'vertical',
+					slidesPerView: 'auto',
+					autoHeight: false
+				},
+				1280: {
+					spaceBetween: 32,
+					direction: 'vertical',
+					slidesPerView: 'auto',
+					autoHeight: false
+				},
+				1410: {
+					spaceBetween: 46,
+					direction: 'vertical',
+					slidesPerView: 'auto',
+					autoHeight: false
+				}
+			}
+		})
+	}
+
+
+	// Наши проекты
+	if ($('.page_about_v2 .projects .swiper-container').length) {
+		new Swiper('.page_about_v2 .projects .swiper-container', {
+			loop: false,
+			speed: 500,
+			watchSlidesVisibility: true,
+			slideActiveClass: 'active',
+			slideVisibleClass: 'visible',
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev'
+			},
+			breakpoints: {
+				0: {
+					slidesPerView: 1,
+					spaceBetween: 20
+				},
+				480: {
+					slidesPerView: 2,
+					spaceBetween: 20
+				},
+				768: {
+					slidesPerView: 3,
+					spaceBetween: 20
+				},
+				1024: {
+					slidesPerView: 4,
+					spaceBetween: 24
+				},
+				1410: {
+					slidesPerView: 4,
+					spaceBetween: 57
+				}
+			},
+			on: {
+				init: swiper => {
+					setTimeout(() => {
+						setHeight($(swiper.$el).find('.project .name'))
+						setHeight($(swiper.$el).find('.project .desc'))
+					})
+				},
+				resize: swiper => {
+					$(swiper.$el).find('.project .name, .project .desc').height(' auto')
+
+					setTimeout(() => {
+						setHeight($(swiper.$el).find('.project .name'))
+						setHeight($(swiper.$el).find('.project .desc'))
+					})
+				}
+			}
+		})
+	}
+
+
+	// Выставки, конференции
+	if ($('.page_about_v2 .conferences .gallery.swiper-container').length) {
+		new Swiper('.page_about_v2 .conferences .gallery.swiper-container', {
+			loop: false,
+			speed: 500,
+			watchSlidesVisibility: true,
+			slideActiveClass: 'active',
+			slideVisibleClass: 'visible',
+			slidesPerView: 'auto',
+			spaceBetween: 10,
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev'
+			}
+		})
+	}
+
+
+	// Дипломы
+	if ($('.page_about_v2 .diploms .swiper-container').length) {
+		new Swiper('.page_about_v2 .diploms .swiper-container', {
+			loop: false,
+			speed: 500,
+			watchSlidesVisibility: true,
+			slideActiveClass: 'active',
+			slideVisibleClass: 'visible',
+			slidesPerView: 'auto',
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev'
+			},
+			breakpoints: {
+				0: {
+					spaceBetween: 24
+				},
+				1024: {
+					spaceBetween: 32
+				},
+				1280: {
+					spaceBetween: 52
+				},
+				1410: {
+					spaceBetween: 78
+				}
+			}
+		})
+	}
+
+
+	// Лицензии
+	if ($('.page_about_v2 .licenses .swiper-container').length) {
+		new Swiper('.page_about_v2 .licenses .swiper-container', {
+			loop: false,
+			speed: 500,
+			watchSlidesVisibility: true,
+			slideActiveClass: 'active',
+			slideVisibleClass: 'visible',
+			slidesPerView: 'auto',
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev'
+			},
+			breakpoints: {
+				0: {
+					spaceBetween: 24
+				},
+				1024: {
+					spaceBetween: 32
+				},
+				1280: {
+					spaceBetween: 52
+				},
+				1410: {
+					spaceBetween: 78
+				}
+			}
+		})
+	}
 })
 
 

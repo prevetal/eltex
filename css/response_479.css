@@ -477,13 +477,13 @@
 
 
 
-    .get_price_list .cont
+    .page_about_v2 .get_price_list .cont
     {
         padding: 0 20px;
     }
 
-    .get_price_list .form .line,
-    .get_price_list .form .submit
+    .page_about_v2 .get_price_list .form .line,
+    .page_about_v2 .get_price_list .form .submit
     {
         width: 100%;
         margin-bottom: 10px;
@@ -862,6 +862,616 @@
     .pagination
     {
         padding: 10px 20px;
+    }
+
+
+
+    .page_about_v2 .about_info_v2:before
+    {
+        top: -20px;
+
+        height: 360px;
+    }
+
+
+    .page_about_v2 .about_info_v2 .col_left
+    {
+        padding: 0;
+    }
+
+
+    .page_about_v2 .about_info_v2 .years
+    {
+        font-size: 15px;
+
+        min-height: 52px;
+        margin-left: 0;
+        padding-left: 26px;
+    }
+
+    .page_about_v2 .about_info_v2 .years:before
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+    .page_about_v2 .about_info_v2 .title
+    {
+        font-size: 26px;
+
+        margin-left: 0;
+    }
+
+
+    .page_about_v2 .about_info_v2 .description
+    {
+        margin-left: 0;
+    }
+
+
+    .page_about_v2 .about_info_v2 .slider_wrap figcaption
+    {
+        font-size: 14px;
+    }
+
+
+    .page_about_v2 .about_info_v2 .stats
+    {
+        padding-left: 0;
+    }
+
+    .page_about_v2 .about_info_v2 .stats .item
+    {
+        font-size: 14px;
+    }
+
+    .page_about_v2 .about_info_v2 .stats .val
+    {
+        font-size: 27px;
+
+        width: 84px;
+    }
+
+    .page_about_v2 .about_info_v2 .stats .desc
+    {
+        width: calc(100% - 100px);
+    }
+
+
+
+
+    .page_about_v2 .employees .col_right
+    {
+        padding-left: 0;
+    }
+
+
+    .page_about_v2 .employees .block_title
+    {
+        font-size: 15px;
+
+        min-height: 52px;
+        margin-left: 0;
+        padding-left: 26px;
+    }
+
+    .page_about_v2 .employees .block_title:before
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+    .page_about_v2 .employees .description
+    {
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+
+    .page_about_v2 .employees .col_left .title
+    {
+        font-size: 20px;
+
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+
+    .page_about_v2 .employees .time
+    {
+        font-size: 14px;
+
+        margin-top: 24px;
+        margin-left: 0;
+    }
+
+
+
+    .page_about_v2 .tech_support .col_left .block_title
+    {
+        font-size: 15px;
+
+        min-height: 52px;
+        margin-left: 0;
+        padding-left: 26px;
+    }
+
+    .page_about_v2 .tech_support .col_left .block_title:before
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+    .page_about_v2 .tech_support .col_left .description
+    {
+        font-size: 14px;
+
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+
+    .page_about_v2 .tech_support .col_left .title
+    {
+        font-size: 20px;
+
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+
+    .page_about_v2 .tech_support .col_left > .contacts
+    {
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+    .page_about_v2 .tech_support .col_left > .contacts .email,
+    .page_about_v2 .tech_support .col_left > .contacts .phone
+    {
+        font-size: 14px;
+    }
+
+    .page_about_v2 .tech_support .col_left > .contacts .sep
+    {
+        height: 24px;
+        margin: 0 15px;
+    }
+
+
+    .page_about_v2 .tech_support .services
+    {
+        margin-top: 28px;
+        margin-left: 0;
+    }
+
+    .page_about_v2 .tech_support .services .title
+    {
+        font-size: 15px;
+    }
+
+    .page_about_v2 .tech_support .services .items
+    {
+        font-size: 14px;
+    }
+
+
+    .page_about_v2 .tech_support .boss
+    {
+        width: 100%;
+    }
+
+    .page_about_v2 .tech_support .boss .contacts
+    {
+        bottom: -20px;
+        left: 20px;
+    }
+
+
+    .page_about_v2 .tech_support .message
+    {
+        width: 100%;
+        margin-top: 40px;
+        padding-left: 28px;
+    }
+
+    .page_about_v2 .tech_support .message .icon
+    {
+        top: -16px;
+        left: 0;
+    }
+
+
+    .page_about_v2 .tech_support .webinars
+    {
+        margin-top: 52px;
+    }
+
+
+    .page_about_v2 .tech_support .exp
+    {
+        font-size: 13px;
+    }
+
+
+
+
+    .page_about_v2 .warehouses .head .block_title
+    {
+        font-size: 15px;
+
+        min-height: 52px;
+        margin-left: 0;
+        padding-left: 26px;
+    }
+
+    .page_about_v2 .warehouses .head .block_title:before
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+    .page_about_v2 .warehouses .head .description
+    {
+        font-size: 14px;
+
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+
+    .page_about_v2 .warehouses .head .title
+    {
+        font-size: 20px;
+
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+
+    .page_about_v2 .warehouses .head .col_right
+    {
+        padding-left: 0;
+    }
+
+
+    .page_about_v2 .warehouses .head .count .name
+    {
+        font-size: 18px;
+    }
+
+
+    .page_about_v2 .warehouses .photos
+    {
+        padding-bottom: 32px;
+    }
+
+
+
+    .page_about_v2 .clients .block_title
+    {
+        font-size: 15px;
+
+        min-height: 52px;
+        margin-left: 0;
+        padding-left: 26px;
+    }
+
+    .page_about_v2 .clients .block_title:before
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+    .page_about_v2 .clients .count
+    {
+        margin-left: 0;
+    }
+
+
+    .page_about_v2 .clients .categories
+    {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .page_about_v2 .clients .categories .items
+    {
+        column-count: 1;
+    }
+
+    .page_about_v2 .clients .categories .items > * + *
+    {
+        margin-top: 8px;
+    }
+
+
+    .page_about_v2 .clients .categories .items
+    {
+        font-size: 14px;
+
+        column-gap: 0;
+    }
+
+
+
+    .page_about_v2 .advantages .data
+    {
+        padding: 40px 28px;
+    }
+
+
+    .page_about_v2 .advantages .data .title
+    {
+        font-size: 20px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .page_about_v2 .advantages .item .icon
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+    .page_about_v2 .advantages .item .icon + *
+    {
+        width: calc(100% - 72px);
+        padding-top: 0;
+    }
+
+    .page_about_v2 .advantages .item .name
+    {
+        font-size: 15px;
+    }
+
+    .page_about_v2 .advantages .item .desc
+    {
+        font-size: 14px;
+    }
+
+
+
+    .page_about_v2 .reviews_v2 .block_title
+    {
+        font-size: 15px;
+
+        min-height: 52px;
+        margin-bottom: 24px;
+        margin-left: 0;
+        padding-left: 26px;
+    }
+
+    .page_about_v2 .reviews_v2 .block_title:before
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+    .page_about_v2 .reviews_v2 .cols
+    {
+        padding: 0;
+    }
+
+
+
+    .page_about_v2 .get_price_list .block_title
+    {
+        font-size: 15px;
+
+        min-height: 52px;
+        margin-bottom: 24px;
+        margin-left: 0;
+        padding-left: 26px;
+    }
+
+    .page_about_v2 .get_price_list .block_title:before
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+    .page_about_v2 .get_price_list form
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .page_about_v2 .get_price_list form .field
+    {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .page_about_v2 .get_price_list form .submit_btn
+    {
+        width: 100%;
+    }
+
+
+
+    .page_about_v2 .projects .block_title
+    {
+        font-size: 15px;
+
+        min-height: 52px;
+        margin-left: 0;
+        padding-left: 26px;
+    }
+
+    .page_about_v2 .projects .block_title:before
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+    .page_about_v2 .projects .description
+    {
+        font-size: 14px;
+
+        width: 100%;
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+
+
+    .page_about_v2 .conferences .block_title
+    {
+        font-size: 15px;
+
+        min-height: 52px;
+        margin-left: 0;
+        padding-left: 26px;
+    }
+
+    .page_about_v2 .conferences .block_title:before
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+    .page_about_v2 .conferences .description,
+    .page_about_v2 .conferences .description2,
+    .page_about_v2 .conferences .items
+    {
+        font-size: 14px;
+
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+
+    .page_about_v2 .conferences .diplom
+    {
+        width: 220px;
+    }
+
+    .page_about_v2 .conferences .diplom img
+    {
+        width: 220px;
+    }
+
+
+
+    .page_about_v2 .diploms .block_title
+    {
+        font-size: 15px;
+
+        min-height: 52px;
+        margin-left: 0;
+        padding-left: 26px;
+    }
+
+    .page_about_v2 .diploms .block_title:before
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+    .page_about_v2 .diploms .description
+    {
+        font-size: 14px;
+
+        width: 100%;
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+
+    .page_about_v2 .diploms .swiper-container
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .page_about_v2 .diploms .swiper-button-prev
+    {
+        left: -10px;
+    }
+
+    .page_about_v2 .diploms .swiper-button-next
+    {
+        right: -10px;
+    }
+
+
+
+    .page_about_v2 .licenses .block_title
+    {
+        font-size: 15px;
+
+        min-height: 52px;
+        margin-left: 0;
+        padding-left: 26px;
+    }
+
+    .page_about_v2 .licenses .block_title:before
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+    .page_about_v2 .licenses .swiper-container
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .page_about_v2 .licenses .swiper-button-prev
+    {
+        left: -10px;
+    }
+
+    .page_about_v2 .licenses .swiper-button-next
+    {
+        right: -10px;
+    }
+
+
+
+    .page_about_v2 .get_discount .block_title
+    {
+        font-size: 15px;
+
+        min-height: 52px;
+        margin-left: 0;
+        padding-left: 26px;
+    }
+
+    .page_about_v2 .get_discount .block_title:before
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+    .page_about_v2 .get_discount .description
+    {
+        font-size: 14px;
+
+        width: 100%;
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+
+    .page_about_v2 .get_discount form
+    {
+        width: 100%;
+        margin-left: 0;
     }
 
 

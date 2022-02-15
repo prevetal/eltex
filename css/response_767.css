@@ -113,7 +113,7 @@
     .form .columns > *.width1of3,
     .form .columns > *.width2of3
     {
-        width: calc(100% - var(--form_columns_offset));
+        width: calc(100% - 12px);
     }
 
 
@@ -359,31 +359,31 @@
 
 
 
-    .get_price_list .mob_form_btn
+    .page_about_v2 .get_price_list .mob_form_btn
     {
         display: block;
     }
 
-    .get_price_list .data
+    .page_about_v2 .get_price_list .data
     {
         display: none;
 
         margin-top: 10px;
     }
 
-    .get_price_list .form .line
+    .page_about_v2 .get_price_list .form .line
     {
         width: calc(50% - 5px);
         margin: 0 0 10px;
     }
 
-    .get_price_list .form .line.agree
+    .page_about_v2 .get_price_list .form .line.agree
     {
         width: 100%;
         margin-bottom: 0;
     }
 
-    .get_price_list .form .submit
+    .page_about_v2 .get_price_list .form .submit
     {
         width: calc(50% - 5px);
     }
@@ -1559,6 +1559,666 @@
     .pagination .next
     {
         display: none;
+    }
+
+
+
+    .page_about_v2 .about_info_v2
+    {
+        margin-bottom: 52px;
+    }
+
+    .page_about_v2 .about_info_v2:before
+    {
+        height: 400px;
+    }
+
+
+    .page_about_v2 .about_info_v2 .title
+    {
+        font-size: 28px;
+
+        margin-top: 16px;
+    }
+
+
+    .page_about_v2 .about_info_v2 .description
+    {
+        font-size: 14px;
+
+        margin-top: 12px;
+    }
+
+
+    .page_about_v2 .about_info_v2 .slider_wrap
+    {
+        margin-top: 28px;
+    }
+
+
+    .page_about_v2 .about_info_v2 .stats
+    {
+        display: block;
+
+        margin-bottom: 0;
+        margin-left: 0;
+        padding-left: 30px;
+    }
+
+    .page_about_v2 .about_info_v2 .stats .item
+    {
+        width: 100%;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .page_about_v2 .about_info_v2 .stats .item + .item
+    {
+        margin-top: 8px;
+    }
+
+    .page_about_v2 .about_info_v2 .stats .val
+    {
+        font-size: 30px;
+
+        width: 96px;
+    }
+
+    .page_about_v2 .about_info_v2 .stats .desc
+    {
+        width: calc(100% - 116px);
+    }
+
+
+
+    .page_about_v2 .employees
+    {
+        margin-bottom: 52px;
+    }
+
+
+    .page_about_v2 .employees .col_left,
+    .page_about_v2 .employees .col_right
+    {
+        width: 100%;
+    }
+
+    .page_about_v2 .employees .col_right
+    {
+        padding-top: 40px;
+        padding-left: 26px;
+    }
+
+
+    .page_about_v2 .employees .description
+    {
+        font-size: 14px;
+    }
+
+
+    .page_about_v2 .employees .col_left .title
+    {
+        font-size: 22px;
+
+        margin-top: 20px;
+    }
+
+
+    .page_about_v2 .employees .time
+    {
+        font-size: 14px;
+
+        margin-top: 28px;
+        margin-left: 30px;
+    }
+
+    .page_about_v2 .employees .time .icon
+    {
+        width: 36px;
+        height: 36px;
+    }
+
+    .page_about_v2 .employees .time span
+    {
+        width: calc(100% - 52px);
+    }
+
+
+    .page_about_v2 .employees .items .number
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+    .page_about_v2 .employees .items .name
+    {
+        width: calc(100% - 72px);
+    }
+
+
+
+    .page_about_v2 .tech_support
+    {
+        margin-bottom: 52px;
+        padding: 52px 0;
+    }
+
+
+    .page_about_v2 .tech_support .col_left .title
+    {
+        font-size: 22px;
+    }
+
+
+    .page_about_v2 .tech_support .services
+    {
+        margin-top: 28px;
+    }
+
+    .page_about_v2 .tech_support .services .title
+    {
+        font-size: 15px;
+    }
+
+
+    .page_about_v2 .tech_support .boss
+    {
+        width: 240px;
+    }
+
+    .page_about_v2 .tech_support .boss .contacts
+    {
+        bottom: -20px;
+        left: 0;
+    }
+
+    .page_about_v2 .tech_support .boss .contacts a
+    {
+        width: 44px;
+        height: 44px;
+    }
+
+
+    .page_about_v2 .tech_support .boss .name
+    {
+        font-size: 16px;
+    }
+
+    .page_about_v2 .tech_support .boss .post
+    {
+        font-size: 14px;
+
+        width: 100%;
+    }
+
+
+    .page_about_v2 .tech_support .message
+    {
+        font-size: 14px;
+
+        width: calc(100% - 288px);
+        margin-top: 0;
+
+        align-self: flex-end;
+    }
+
+    .page_about_v2 .tech_support .message .icon
+    {
+        top: 4px;
+        left: -28px;
+
+        height: 100px;
+    }
+
+    .page_about_v2 .tech_support .message p + p
+    {
+        margin-top: 16px;
+    }
+
+
+    .page_about_v2 .tech_support .webinars
+    {
+        margin-top: 40px;
+    }
+
+
+    .page_about_v2 .tech_support .webinars .flex
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 40px);
+        margin: 0 -20px;
+        padding: 0 20px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .page_about_v2 .tech_support .webinars .flex::-webkit-scrollbar
+    {
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .page_about_v2 .tech_support .webinars .flex::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .page_about_v2 .tech_support .webinars .flex > *
+    {
+        display: inline-block;
+
+        width: 280px;
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+    }
+
+    .page_about_v2 .tech_support .webinars .flex > * + *
+    {
+        margin-left: 16px;
+    }
+
+
+    .page_about_v2 .tech_support .webinars .all_link
+    {
+        display: none;
+    }
+
+
+    .page_about_v2 .tech_support .webinars .mob_all_link
+    {
+        display: block;
+    }
+
+
+    .page_about_v2 .tech_support .exp
+    {
+        margin-top: 28px;
+    }
+
+
+
+    .page_about_v2 .warehouses
+    {
+        margin-bottom: 52px;
+    }
+
+
+    .page_about_v2 .warehouses .head .title
+    {
+        font-size: 22px;
+    }
+
+
+    .page_about_v2 .warehouses .head .col_left,
+    .page_about_v2 .warehouses .head .col_right
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .page_about_v2 .warehouses .head .col_right
+    {
+        margin-top: 20px;
+        padding-left: 30px;
+    }
+
+
+    .page_about_v2 .warehouses .head .count .val
+    {
+        font-size: 80px;
+
+        margin-left: 0;
+    }
+
+    .page_about_v2 .warehouses .head .count .name
+    {
+        font-size: 18px;
+    }
+
+
+    .page_about_v2 .warehouses .photos
+    {
+        padding-bottom: 40px;
+    }
+
+
+    .page_about_v2 .warehouses .photos .flex
+    {
+        margin-left: 0;
+    }
+
+    .page_about_v2 .warehouses .photos .flex > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    .page_about_v2 .clients
+    {
+        margin-bottom: 52px;
+    }
+
+
+    .page_about_v2 .clients .block_title
+    {
+        margin-bottom: 8px;
+    }
+
+
+    .page_about_v2 .clients .count
+    {
+        font-size: 80px;
+
+        position: relative;
+        top: 0;
+        right: 0;
+
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+
+
+    .page_about_v2 .clients .categories .items
+    {
+        column-count: 1;
+    }
+
+    .page_about_v2 .clients .categories .items > * + *
+    {
+        margin-top: 8px;
+    }
+
+
+    .page_about_v2 .clients .slider
+    {
+        margin-top: 28px;
+    }
+
+
+
+    .page_about_v2 .advantages
+    {
+        margin-bottom: 52px;
+    }
+
+
+    .page_about_v2 .advantages .data
+    {
+        padding: 40px 32px;
+    }
+
+
+    .page_about_v2 .advantages .data .title
+    {
+        font-size: 22px;
+    }
+
+
+    .page_about_v2 .advantages .flex
+    {
+        margin-left: 0;
+    }
+
+    .page_about_v2 .advantages .flex > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    .page_about_v2 .reviews_v2
+    {
+        margin-bottom: 52px;
+    }
+
+
+    .page_about_v2 .reviews_v2 .head
+    {
+        margin-bottom: 28px;
+    }
+
+    .page_about_v2 .reviews_v2 .head .rating .duration
+    {
+        display: block;
+
+        width: 100%;
+        margin-top: 4px;
+        margin-left: 0;
+    }
+
+
+    .page_about_v2 .reviews_v2 .swiper-button-next,
+    .page_about_v2 .reviews_v2 .swiper-button-prev
+    {
+        top: -68px;
+
+        width: 40px;
+        height: 40px;
+    }
+
+    .page_about_v2 .reviews_v2 .swiper-button-prev
+    {
+        right: 48px;
+    }
+
+    .page_about_v2 .reviews_v2 .swiper-button-next .icon,
+    .page_about_v2 .reviews_v2 .swiper-button-prev .icon
+    {
+        width: 22px;
+        height: 22px;
+    }
+
+
+
+    .page_about_v2 .get_price_list
+    {
+        padding: 52px 0;
+    }
+
+    .page_about_v2 .get_price_list form
+    {
+        width: calc(100% - 30px);
+    }
+
+
+
+    .page_about_v2 .projects
+    {
+        margin-bottom: 52px;
+        padding: 52px 0;
+    }
+
+
+    .page_about_v2 .projects .description
+    {
+        width: calc(100% - 30px);
+    }
+
+
+    .page_about_v2 .projects .swiper-container
+    {
+        margin-top: 52px;
+    }
+
+    .page_about_v2 .projects .swiper-button-next,
+    .page_about_v2 .projects .swiper-button-prev
+    {
+        top: -36px;
+
+        width: 40px;
+        height: 40px;
+    }
+
+    .page_about_v2 .projects .swiper-button-prev
+    {
+        right: 48px;
+    }
+
+    .page_about_v2 .projects .swiper-button-next .icon,
+    .page_about_v2 .projects .swiper-button-prev .icon
+    {
+        width: 22px;
+        height: 22px;
+    }
+
+
+
+    .page_about_v2 .conferences
+    {
+        margin-bottom: 52px;
+    }
+
+
+    .page_about_v2 .conferences .description,
+    .page_about_v2 .conferences .description2,
+    .page_about_v2 .conferences .items
+    {
+        width: 100%;
+    }
+
+
+    .page_about_v2 .conferences .diplom
+    {
+        position: relative;
+        top: 0;
+        right: 0;
+
+        width: 240px;
+        margin: 48px auto 0;
+    }
+
+    .page_about_v2 .conferences .diplom img
+    {
+        width: 240px;
+    }
+
+
+    .page_about_v2 .conferences .swiper-button-next,
+    .page_about_v2 .conferences .swiper-button-prev
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+    .page_about_v2 .conferences .swiper-button-next .icon,
+    .page_about_v2 .conferences .swiper-button-prev .icon
+    {
+        width: 22px;
+        height: 22px;
+    }
+
+
+
+    .page_about_v2 .diploms
+    {
+        margin-bottom: 52px;
+    }
+
+
+    .page_about_v2 .diploms .swiper-button-next,
+    .page_about_v2 .diploms .swiper-button-prev
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+    .page_about_v2 .diploms .swiper-button-next .icon,
+    .page_about_v2 .diploms .swiper-button-prev .icon
+    {
+        width: 22px;
+        height: 22px;
+    }
+
+
+    .page_about_v2 .diploms .item
+    {
+        height: 200px;
+    }
+
+    .page_about_v2 .diploms .item img
+    {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+
+
+    .page_about_v2 .licenses
+    {
+        margin-bottom: 52px;
+    }
+
+
+    .page_about_v2 .licenses .swiper-button-next,
+    .page_about_v2 .licenses .swiper-button-prev
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+    .page_about_v2 .licenses .swiper-button-next .icon,
+    .page_about_v2 .licenses .swiper-button-prev .icon
+    {
+        width: 22px;
+        height: 22px;
+    }
+
+
+    .page_about_v2 .licenses .item
+    {
+        height: 200px;
+    }
+
+    .page_about_v2 .licenses .item img
+    {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+
+
+    .page_about_v2 .get_discount
+    {
+        padding: 52px 0;
+    }
+
+
+    .page_about_v2 .get_discount .description
+    {
+        width: calc(100% - 30px);
+    }
+
+
+    .page_about_v2 .get_discount form
+    {
+        width: calc(100% - 30px);
+        margin-top: 28px;
+        margin-left: 30px;
+        padding: 0;
+    }
+
+    .page_about_v2 .get_discount form .agree
+    {
+        position: relative;
+        right: 0;
+        bottom: 0;
+
+        width: 100%;
+        margin-right: 0;
+        padding: 8px 0 16px;
     }
 
 

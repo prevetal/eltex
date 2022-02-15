@@ -293,6 +293,1060 @@
 
 
 
+    .page_about_v2 .about_info_v2
+    {
+        margin-bottom: 60px;
+        padding-top: 32px;
+    }
+
+    .page_about_v2 .about_info_v2:before
+    {
+        top: -39px;
+
+        height: 560px;
+    }
+
+
+    .page_about_v2 .about_info_v2 .years
+    {
+        font-size: 17px;
+
+        min-height: 64px;
+        margin-left: 20px;
+        padding-left: 32px;
+    }
+
+    .page_about_v2 .about_info_v2 .years:before
+    {
+        width: 64px;
+        height: 64px;
+    }
+
+
+    .page_about_v2 .about_info_v2 .title
+    {
+        font-size: 40px;
+
+        margin-top: 12px;
+        margin-left: 52px;
+    }
+
+
+    .page_about_v2 .about_info_v2 .description
+    {
+        font-size: 17px;
+
+        margin-top: 12px;
+        margin-left: 52px;
+    }
+
+
+    .page_about_v2 .about_info_v2 .slider_wrap
+    {
+        margin-top: 40px;
+    }
+
+
+    .page_about_v2 .about_info_v2 .slider_wrap figcaption
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+    .page_about_v2 .about_info_v2 .slider_wrap .thumbs
+    {
+        width: 428px;
+        margin-left: 4px;
+    }
+
+    .page_about_v2 .about_info_v2 .slider_wrap .thumbs .image
+    {
+        width: 194px;
+        height: 116px;
+    }
+
+
+    .page_about_v2 .about_info_v2 .col_right
+    {
+        margin-left: 52px;
+    }
+
+
+    .page_about_v2 .about_info_v2 .stats .item
+    {
+        font-size: 16px;
+    }
+
+    .page_about_v2 .about_info_v2 .stats .item + .item
+    {
+        margin-top: 8px;
+    }
+
+    .page_about_v2 .about_info_v2 .stats .val
+    {
+        font-size: 44px;
+
+        width: 144px;
+    }
+
+
+
+    .page_about_v2 .employees
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .page_about_v2 .employees .col_left
+    {
+        width: 592px;
+    }
+
+
+    .page_about_v2 .employees .block_title
+    {
+        font-size: 17px;
+
+        min-height: 64px;
+        margin-left: 20px;
+        padding-left: 32px;
+    }
+
+    .page_about_v2 .employees .block_title:before
+    {
+        width: 64px;
+        height: 64px;
+    }
+
+
+    .page_about_v2 .employees .description
+    {
+        font-size: 16px;
+
+        margin-top: 20px;
+        margin-left: 52px;
+    }
+
+    .page_about_v2 .employees .col_left .title
+    {
+        font-size: 27px;
+
+        margin-top: 28px;
+        margin-left: 52px;
+    }
+
+    .page_about_v2 .employees .time
+    {
+        font-size: 16px;
+
+        margin-top: 36px;
+        margin-left: 52px;
+    }
+
+
+    .page_about_v2 .employees .col_right
+    {
+        padding-top: 22px;
+    }
+
+    .page_about_v2 .employees .col_right .title
+    {
+        font-size: 17px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .page_about_v2 .employees .items .number
+    {
+        width: 72px;
+        height: 72px;
+    }
+
+    .page_about_v2 .employees .items .name
+    {
+        font-size: 16px;
+
+        width: calc(100% - 96px);
+    }
+
+
+
+    .page_about_v2 .tech_support
+    {
+        padding: 36px 0 60px;
+    }
+
+
+    .page_about_v2 .tech_support .col_left
+    {
+        padding-top: 24px;
+    }
+
+    .page_about_v2 .tech_support .col_right
+    {
+        margin-right: 52px;
+    }
+
+
+    .page_about_v2 .tech_support .col_left .block_title
+    {
+        font-size: 17px;
+
+        min-height: 64px;
+        margin-left: 20px;
+        padding-left: 32px;
+    }
+
+    .page_about_v2 .tech_support .col_left .block_title:before
+    {
+        width: 64px;
+        height: 64px;
+    }
+
+
+    .page_about_v2 .tech_support .col_left .description
+    {
+        font-size: 16px;
+
+        margin-top: 20px;
+        margin-left: 52px;
+    }
+
+
+    .page_about_v2 .tech_support .col_left .title
+    {
+        font-size: 27px;
+
+        margin-top: 28px;
+        margin-left: 52px;
+    }
+
+    .page_about_v2 .tech_support .col_left > .title span
+    {
+        display: inline-block;
+
+        vertical-align: top;
+    }
+
+
+    .page_about_v2 .tech_support .col_left > .contacts
+    {
+        margin-top: 16px;
+        margin-left: 52px;
+    }
+
+    .page_about_v2 .tech_support .col_left > .contacts .sep
+    {
+        height: 32px;
+        margin: 0 24px;
+    }
+
+
+    .page_about_v2 .tech_support .services
+    {
+        margin-left: 52px;
+    }
+
+
+    .page_about_v2 .tech_support .services .title
+    {
+        font-size: 17px;
+
+        margin-top: 0;
+        margin-bottom: 16px;
+        margin-left: 0;
+    }
+
+
+    .page_about_v2 .tech_support .services .items
+    {
+        font-size: 16px;
+    }
+
+    .page_about_v2 .tech_support .services .items > *
+    {
+        padding-left: 52px;
+    }
+
+    .page_about_v2 .tech_support .services .items > *:before
+    {
+        top: 9px;
+
+        width: 32px;
+    }
+
+    .page_about_v2 .tech_support .services .items > * + *
+    {
+        margin-top: 16px;
+    }
+
+
+    .page_about_v2 .tech_support .boss .post
+    {
+        font-size: 16px;
+
+        width: 280px;
+    }
+
+
+    .page_about_v2 .tech_support .message
+    {
+        font-size: 16px;
+
+        width: 292px;
+        margin-top: 64px;
+    }
+
+    .page_about_v2 .tech_support .message .icon
+    {
+        top: -12px;
+        left: -36px;
+
+        width: 10px;
+        height: 108px;
+    }
+
+    .page_about_v2 .tech_support .message .icon:after
+    {
+        bottom: -20px;
+
+        width: 10px;
+        height: 10px;
+    }
+
+
+    .page_about_v2 .tech_support .webinars
+    {
+        width: 100%;
+        max-width: calc(100% - 52px);
+        margin-top: 52px;
+        margin-left: 52px;
+    }
+
+    .page_about_v2 .tech_support .webinars .title
+    {
+        font-size: 17px;
+
+        margin-bottom: 24px;
+    }
+
+    .page_about_v2 .tech_support .webinars .flex
+    {
+        padding-right: 104px;
+    }
+
+    .page_about_v2 .tech_support .webinars .all_link
+    {
+        right: 0;
+        left: auto;
+
+        margin: auto 0;
+    }
+
+
+    .page_about_v2 .tech_support .exp
+    {
+        font-size: 16px;
+
+        width: 100%;
+        max-width: calc(100% - 52px);
+        margin-top: 32px;
+        margin-left: 52px;
+    }
+
+
+
+    .page_about_v2 .warehouses .head
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .page_about_v2 .warehouses .head .col_left
+    {
+        max-width: calc(50% - 10px);
+        margin-left: 0;
+        padding-top: 0;
+    }
+
+    .page_about_v2 .warehouses .head .col_right
+    {
+        width: calc(50% - 10px);
+        margin-right: 0;
+    }
+
+
+    .page_about_v2 .warehouses .head .block_title
+    {
+        font-size: 17px;
+
+        min-height: 64px;
+        margin-bottom: 0;
+        margin-left: 20px;
+        padding-left: 32px;
+    }
+
+    .page_about_v2 .warehouses .head .block_title:before
+    {
+        width: 64px;
+        height: 64px;
+    }
+
+
+    .page_about_v2 .warehouses .head .description
+    {
+        font-size: 16px;
+
+        margin-top: 20px;
+        margin-left: 52px;
+    }
+
+
+    .page_about_v2 .warehouses .head .title
+    {
+        font-size: 27px;
+
+        margin-left: 52px;
+    }
+
+
+    .page_about_v2 .warehouses .head .count .val
+    {
+        font-size: 140px;
+
+        margin-bottom: -8px;
+        margin-left: -16px;
+    }
+
+    .page_about_v2 .warehouses .head .count .name
+    {
+        font-size: 28px;
+    }
+
+
+    .page_about_v2 .warehouses .photos
+    {
+        padding-bottom: 48px;
+    }
+
+
+
+    .page_about_v2 .clients .block_title
+    {
+        font-size: 17px;
+
+        min-height: 64px;
+        margin-left: 20px;
+        padding-left: 32px;
+    }
+
+    .page_about_v2 .clients .block_title:before
+    {
+        width: 64px;
+        height: 64px;
+    }
+
+
+    .page_about_v2 .clients .count
+    {
+        font-size: 140px;
+
+        top: -24px;
+        right: 52px;
+    }
+
+
+    .page_about_v2 .clients .categories
+    {
+        width: 1000px;
+        max-width: calc(100% - 52px);
+        margin-left: 52px;
+    }
+
+
+    .page_about_v2 .clients .categories .title
+    {
+        font-size: 17px;
+    }
+
+
+    .page_about_v2 .clients .categories .items
+    {
+        font-size: 16px;
+
+        column-gap: 24px;
+    }
+
+    .page_about_v2 .clients .categories .items > *
+    {
+        padding-left: 52px;
+    }
+
+    .page_about_v2 .clients .categories .items > *:before
+    {
+        width: 32px;
+    }
+
+
+    .page_about_v2 .clients .slider
+    {
+        margin-top: 52px;
+    }
+
+
+
+    .page_about_v2 .advantages .data
+    {
+        padding: 52px 80px;
+    }
+
+
+    .page_about_v2 .advantages .data .title
+    {
+        font-size: 28px;
+
+        margin-bottom: 32px;
+    }
+
+
+    .page_about_v2 .advantages .item .icon
+    {
+        width: 68px;
+        height: 68px;
+    }
+
+    .page_about_v2 .advantages .item .icon + *
+    {
+        width: calc(100% - 88px);
+        padding-top: 16px;
+    }
+
+    .page_about_v2 .advantages .item .name
+    {
+        font-size: 17px;
+    }
+
+    .page_about_v2 .advantages .item .desc
+    {
+        font-size: 16px;
+    }
+
+
+
+    .page_about_v2 .reviews_v2
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .page_about_v2 .reviews_v2 .block_title
+    {
+        font-size: 17px;
+
+        min-height: 64px;
+        margin-bottom: 32px;
+        margin-left: 20px;
+        padding-left: 32px;
+    }
+
+    .page_about_v2 .reviews_v2 .block_title:before
+    {
+        width: 64px;
+        height: 64px;
+    }
+
+
+    .page_about_v2 .reviews_v2 .cols
+    {
+        padding-right: 52px;
+        padding-left: 52px;
+    }
+
+
+    .page_about_v2 .reviews_v2 .col_left
+    {
+        width: calc(100% - 340px);
+    }
+
+
+    .page_about_v2 .reviews_v2 .head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .page_about_v2 .reviews_v2 .company
+    {
+        font-size: 18px;
+
+        margin-bottom: 8px;
+    }
+
+
+    .page_about_v2 .reviews_v2 .swiper-container
+    {
+        height: 764px;
+        padding-bottom: 50px;
+    }
+
+
+    .page_about_v2 .reviews_v2 .review .text
+    {
+        margin-top: 8px;
+    }
+
+    .page_about_v2 .reviews_v2 .review .bottom
+    {
+        margin-top: 12px;
+    }
+
+
+    .page_about_v2 .reviews_v2 .rating .title
+    {
+        margin-bottom: 12px;
+    }
+
+
+    .page_about_v2 .reviews_v2 .requisites
+    {
+        margin-top: 40px;
+        padding-top: 39px;
+    }
+
+
+
+    .page_about_v2 .get_price_list
+    {
+        padding: 60px 0;
+    }
+
+
+    .page_about_v2 .get_price_list .bg
+    {
+        margin-right: -612px;
+    }
+
+
+    .page_about_v2 .get_price_list .block_title
+    {
+        font-size: 17px;
+
+        min-height: 64px;
+        margin-left: 20px;
+        padding-left: 32px;
+    }
+
+    .page_about_v2 .get_price_list .block_title:before
+    {
+        width: 64px;
+        height: 64px;
+    }
+
+
+    .page_about_v2 .get_price_list form
+    {
+        width: 520px;
+        margin-left: 40px;
+        padding-top: 6px;
+    }
+
+    .page_about_v2 .get_price_list form .field
+    {
+        width: calc(100% - 208px);
+    }
+
+    .page_about_v2 .get_price_list form .input
+    {
+        font-size: 16px;
+
+        height: 52px;
+    }
+
+    .page_about_v2 .get_price_list form .submit_btn
+    {
+        font-size: 16px;
+
+        width: 192px;
+        height: 52px;
+    }
+
+    .page_about_v2 .get_price_list form .agree
+    {
+        margin-top: 12px;
+    }
+
+
+
+    .page_about_v2 .projects
+    {
+        padding: 60px 0;
+    }
+
+
+    .page_about_v2 .projects .block_title
+    {
+        font-size: 17px;
+
+        min-height: 64px;
+        margin-left: 20px;
+        padding-left: 32px;
+    }
+
+    .page_about_v2 .projects .block_title:before
+    {
+        width: 64px;
+        height: 64px;
+    }
+
+
+    .page_about_v2 .projects .description
+    {
+        font-size: 16px;
+
+        width: 476px;
+        margin-top: 20px;
+        margin-left: 52px;
+    }
+
+
+    .page_about_v2 .projects .swiper-container
+    {
+        margin-top: 40px;
+    }
+
+    .page_about_v2 .projects .swiper-button-next,
+    .page_about_v2 .projects .swiper-button-prev
+    {
+        top: -68px;
+    }
+
+
+    .page_about_v2 .projects .project .thumb
+    {
+        margin-bottom: 20px;
+    }
+
+    .page_about_v2 .projects .project .name
+    {
+        font-size: 16px;
+    }
+
+    .page_about_v2 .projects .project .desc
+    {
+        font-size: 15px;
+    }
+
+    .page_about_v2 .projects .project .cats
+    {
+        font-size: 15px;
+
+        margin-top: 20px;
+    }
+
+
+
+    .page_about_v2 .conferences
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .page_about_v2 .conferences .block_title
+    {
+        font-size: 17px;
+
+        min-height: 64px;
+        margin-left: 20px;
+        padding-left: 32px;
+    }
+
+    .page_about_v2 .conferences .block_title:before
+    {
+        width: 64px;
+        height: 64px;
+    }
+
+
+    .page_about_v2 .conferences .description,
+    .page_about_v2 .conferences .description2
+    {
+        font-size: 16px;
+
+        width: 520px;
+        margin-top: 20px;
+        margin-left: 52px;
+    }
+
+    .page_about_v2 .conferences .description2
+    {
+        margin-top: 28px;
+    }
+
+
+    .page_about_v2 .conferences .items
+    {
+        font-size: 16px;
+
+        width: 520px;
+        margin-top: 20px;
+        margin-left: 52px;
+    }
+
+    .page_about_v2 .conferences .items > *
+    {
+        padding-left: 52px;
+    }
+
+    .page_about_v2 .conferences .items > * + *
+    {
+        margin-top: 8px;
+    }
+
+    .page_about_v2 .conferences .items > *:before
+    {
+        top: 11px;
+
+        width: 32px;
+    }
+
+
+    .page_about_v2 .conferences .diplom
+    {
+        top: 52px;
+        right: 160px;
+    }
+
+    .page_about_v2 .conferences .diplom img
+    {
+        width: 320px;
+    }
+
+    .page_about_v2 .conferences .diplom .name
+    {
+        font-size: 15px;
+
+        top: -40px;
+        right: -40px;
+
+        width: 100px;
+        height: 100px;
+    }
+
+
+    .page_about_v2 .conferences .swiper-container
+    {
+        margin-top: 80px;
+    }
+
+
+    .page_about_v2 .conferences .gallery .item img
+    {
+        height: 218px;
+    }
+
+
+
+    .page_about_v2 .diploms .block_title
+    {
+        font-size: 17px;
+
+        min-height: 64px;
+        margin-left: 20px;
+        padding-left: 32px;
+    }
+
+    .page_about_v2 .diploms .block_title:before
+    {
+        width: 64px;
+        height: 64px;
+    }
+
+
+    .page_about_v2 .diploms .description
+    {
+        font-size: 16px;
+
+        width: 496px;
+        margin-top: 20px;
+        margin-left: 52px;
+    }
+
+
+    .page_about_v2 .diploms .swiper-container
+    {
+        width: calc(100% - 52px);
+        margin-top: 40px;
+        margin-right: 0;
+        margin-left: 52px;
+    }
+
+    .page_about_v2 .diploms .swiper-button-prev
+    {
+        left: -48px;
+    }
+
+    .page_about_v2 .diploms .swiper-button-next
+    {
+        right: 0;
+    }
+
+
+    .page_about_v2 .diploms .item
+    {
+        height: 313px;
+    }
+
+    .page_about_v2 .diploms .item img
+    {
+        max-width: 324px;
+        max-height: 300px;
+    }
+
+    .page_about_v2 .diploms .item .year
+    {
+        font-size: 16px;
+
+        width: 72px;
+        height: 72px;
+    }
+
+
+    .page_about_v2 .diploms .line
+    {
+        margin-top: 52px;
+    }
+
+
+
+    .page_about_v2 .licenses
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .page_about_v2 .licenses .block_title
+    {
+        font-size: 17px;
+
+        min-height: 64px;
+        margin-left: 20px;
+        padding-left: 32px;
+    }
+
+    .page_about_v2 .licenses .block_title:before
+    {
+        width: 64px;
+        height: 64px;
+    }
+
+
+    .page_about_v2 .licenses .swiper-container
+    {
+        width: calc(100% - 52px);
+        margin-top: 40px;
+        margin-right: 0;
+        margin-left: 52px;
+    }
+
+    .page_about_v2 .licenses .swiper-button-prev
+    {
+        left: -48px;
+    }
+
+    .page_about_v2 .licenses .swiper-button-next
+    {
+        right: 0;
+    }
+
+
+    .page_about_v2 .licenses .item
+    {
+        height: 300px;
+    }
+
+    .page_about_v2 .licenses .item img
+    {
+        max-width: 324px;
+        max-height: 300px;
+    }
+
+
+
+    .page_about_v2 .get_discount
+    {
+        padding: 60px 0;
+    }
+
+
+    .page_about_v2 .get_discount .block_title
+    {
+        font-size: 17px;
+
+        min-height: 64px;
+        margin-left: 20px;
+        padding-left: 32px;
+    }
+
+    .page_about_v2 .get_discount .block_title:before
+    {
+        width: 64px;
+        height: 64px;
+    }
+
+
+    .page_about_v2 .get_discount .description
+    {
+        font-size: 16px;
+
+        width: 424px;
+        margin-top: 20px;
+        margin-left: 52px;
+    }
+
+
+    .page_about_v2 .get_discount form
+    {
+        margin-left: 52px;
+        padding-top: 12px;
+    }
+
+    .page_about_v2 .get_discount form .line
+    {
+        margin-bottom: 8px;
+    }
+
+    .page_about_v2 .get_discount form .input
+    {
+        font-size: 16px;
+
+        height: 52px;
+    }
+
+    .page_about_v2 .get_discount form .submit_btn
+    {
+        font-size: 16px;
+
+        height: 52px;
+    }
+
+    .page_about_v2 .get_discount form .agree
+    {
+        bottom: 16px;
+
+        width: 424px;
+        margin-right: 52px;
+    }
+
+
+    .page_about_v2 .get_discount .bg
+    {
+        margin-right: -748px;
+    }
+
+
+
     /*---------------
         Footer
     ---------------*/
