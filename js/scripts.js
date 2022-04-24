@@ -763,6 +763,68 @@ $(() => {
 			}
 		})
 	}
+
+
+	// Конфигуратор
+	$('.configurator_ec .block .title').click(function (e) {
+		e.preventDefault()
+
+		$(this).toggleClass('active').next().slideToggle(300)
+	})
+
+
+	const performance = $('.configurator_ec #performance_range').ionRangeSlider({
+		min: 0,
+		max: 20,
+		from: 16,
+		step: 1,
+		onChange: data => {
+			$('.configurator_ec .performance_input').val(data.from)
+		}
+	}).data('ionRangeSlider')
+
+	$('.configurator_ec .performance_input').keyup(function () {
+		performance.update({
+			from: parseFloat($(this).val()),
+		})
+	})
+
+	const performance2 = $('.configurator_ec #performance2_range').ionRangeSlider({
+		min: 0,
+		max: 10,
+		from: 7,
+		step: 1,
+		onChange: data => {
+			$('.configurator_ec .performance2_input').val(data.from)
+		}
+	}).data('ionRangeSlider')
+
+	$('.configurator_ec .performance2_input').keyup(function () {
+		performance2.update({
+			from: parseFloat($(this).val()),
+		})
+	})
+
+
+	$('.configurator_ec .spec_prices .spoler_btn').click(function (e) {
+		e.preventDefault()
+
+		$(this).toggleClass('active')
+		$('.configurator_ec .spec_prices .data').slideToggle(300)
+	})
+
+
+	$('.configurator_ec .col_right .mob_btn, .configurator_ec .col_right .mob_close_btn').click(function (e) {
+		e.preventDefault()
+
+		$('.configurator_ec .col_right').toggleClass('show')
+	})
+
+
+	$('.configurator_ec form').reset(function () {
+		performance.reset()
+		performance2.reset()
+	})
 })
 
 

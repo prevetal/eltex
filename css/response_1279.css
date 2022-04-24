@@ -478,19 +478,19 @@
 
 
 
-    .page_about_v2 .get_price_list .title
+    .get_price_list .title
     {
         width: 100%;
         margin-top: 0;
         margin-bottom: 15px;
     }
 
-    .page_about_v2 .get_price_list .form
+    .get_price_list .form
     {
         width: 100%;
     }
 
-    .page_about_v2 .get_price_list .form .agree
+    .get_price_list .form .agree
     {
         position: relative;
         right: 0;
@@ -1289,8 +1289,7 @@
         column-gap: 30px;
     }
 
-    .repair_service_type .form input[type=radio] + label
-    .repair_delivery .form input[type=radio] + label
+    .repair_service_type .form input[type=radio] + label .repair_delivery .form input[type=radio] + label
     {
         font-size: 14px;
         line-height: 18px;
@@ -2612,6 +2611,295 @@
 
         width: 372px;
         margin-right: 44px;
+    }
+
+
+
+    /*-----------------
+       Configurator
+    -----------------*/
+    .configurator_ec .head
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .configurator_type .name
+    {
+        font-size: 18px;
+
+        margin-right: 8px;
+    }
+
+
+    .configurator_ready_network
+    {
+        width: calc(100% - 580px);
+    }
+
+    .configurator_ec .nice-select .current
+    {
+        font-size: 15px;
+
+        padding: 0 55px 0 15px;
+    }
+
+    .configurator_ec .nice-select .list
+    {
+        padding: 0 15px;
+    }
+
+    .configurator_ec .nice-select .list .list_item
+    {
+        padding: 11px 0;
+    }
+
+
+    .configurator_reset_btn .icon
+    {
+        width: 32px;
+        margin-left: 8px;
+    }
+
+
+    .configurator_ec .tabs
+    {
+        margin-bottom: 30px;
+    }
+
+    .configurator_ec .tabs button
+    {
+        font-size: 20px;
+
+        padding: 4px 16px;
+    }
+
+
+    .configurator_ec .block + .block
+    {
+        margin-top: 40px;
+    }
+
+    .configurator_ec .block .title
+    {
+        font-size: 20px;
+
+        padding: 4px 20px;
+    }
+
+    .configurator_ec .block .name
+    {
+        font-size: 15px;
+    }
+
+    .configurator_ec .block .padding_left
+    {
+        padding-left: 57px;
+    }
+
+
+    .configurator_ec .notice
+    {
+        font-size: 15px;
+    }
+
+
+    .configurator_ec .amount
+    {
+        width: 304px;
+    }
+
+    .configurator_ec .amount button.minus
+    {
+        margin-right: 16px;
+    }
+
+    .configurator_ec .amount .input
+    {
+        font-size: 15px;
+    }
+
+
+    .configurator_ec input[type=radio] + label
+    {
+        font-size: 15px;
+    }
+
+    .configurator_ec input[type=checkbox] + label
+    {
+        font-size: 15px;
+
+        padding-left: 44px;
+    }
+
+
+    .configurator_ec .checkbox_sub .row > *
+    {
+        width: calc(33.333% - 12px);
+    }
+
+
+    .configurator_ec .col_right
+    {
+        width: 440px;
+    }
+
+
+    .configurator_ec .spec_prices .spoler_btn
+    {
+        font-size: 20px;
+        line-height: 36px;
+    }
+
+
+    .configurator_ec .block .data > .flex > *
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .configurator_ec .block .data > .flex > * + *
+    {
+        margin-top: 40px;
+    }
+
+
+    .configurator_ec .range .input
+    {
+        font-size: 15px;
+    }
+
+
+    .configurator_ec .spec_prices .data
+    {
+        padding-top: 30px;
+        padding-bottom: 16px;
+    }
+
+    .configurator_ec .spec_prices .columns
+    {
+        --form_columns_offset: 20px;
+    }
+
+    .configurator_ec .spec_prices .line
+    {
+        margin-bottom: 12px;
+    }
+
+    .configurator_ec .spec_prices .input,
+    .configurator_ec .spec_prices textarea
+    {
+        font-size: 15px;
+    }
+
+
+    .configurator_ec .specification
+    {
+        margin-top: 40px;
+    }
+
+
+    .configurator_ec .specification .title
+    {
+        font-size: 20px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .configurator_ec .specification .download img
+    {
+        max-width: 26px;
+        max-height: 26px;
+    }
+
+
+    .configurator_ec .specification .titles
+    {
+        display: none;
+    }
+
+
+    .configurator_ec .specification .product
+    {
+        font-size: 15px;
+
+        padding: 15px 0;
+
+        border-top: 1px solid #bdc6d1;
+    }
+
+    .configurator_ec .specification .product + .product
+    {
+        margin-top: -1px;
+    }
+
+
+    .configurator_ec .specification .product .type
+    {
+        font-size: 18px;
+
+        margin-bottom: 12px;
+    }
+
+    .configurator_ec .specification .product .col_name
+    {
+        margin-left: auto;
+    }
+
+    .configurator_ec .specification .product .col_articul,
+    .configurator_ec .specification .product .col_amount
+    {
+        position: relative;
+
+        padding-top: 23px;
+    }
+
+    .configurator_ec .specification .product .col_articul
+    {
+        margin-left: auto;
+    }
+
+    .configurator_ec .specification .product .col_articul:before,
+    .configurator_ec .specification .product .col_amount:before
+    {
+        color: #000;
+        font-size: 13px;
+        font-weight: normal;
+        line-height: 15px;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        display: block;
+
+        width: 100%;
+
+        content: attr(data-column);
+        text-align: left;
+        white-space: nowrap;
+        letter-spacing: 0;
+        text-transform: none;
+
+        opacity: .75;
+    }
+
+
+    .configurator_ec .specification .col_thumb
+    {
+        width: 140px;
+    }
+
+    .configurator_ec .specification .col_name
+    {
+        width: calc(100% - 160px);
+    }
+
+    .configurator_ec .specification .col_articul,
+    .configurator_ec .specification .col_amount
+    {
+        width: calc(50% - 80px);
     }
 
 

@@ -2366,6 +2366,145 @@
 
 
 
+    /*-----------------
+       Configurator
+    -----------------*/
+    .configurator_ec .head
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .configurator_type,
+    .configurator_reset_btn
+    {
+        order: 2;
+    }
+
+
+    .configurator_ready_network
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    .configurator_ec .col_left
+    {
+        width: 100%;
+    }
+
+
+    .configurator_ec .tabs
+    {
+        margin-bottom: 24px;
+    }
+
+    .configurator_ec .tabs button
+    {
+        font-size: 18px;
+    }
+
+
+    .configurator_ec .block
+    {
+        width: 100%;
+    }
+
+
+    .configurator_ec .col_right
+    {
+        position: absolute;
+        top: 483px;
+        left: calc(100% + 24px);
+
+        width: 360px;
+        padding: 80px 20px 20px;
+
+        transition: .2s linear;
+
+        border: 1px solid #00abdf;
+        background: #f7f7f7;
+    }
+
+    .configurator_ec .col_right.show
+    {
+        transform: translateX(-100%);
+
+        box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+    }
+
+
+    .configurator_ec .col_right .mob_btn,
+    .configurator_ec .col_right .mob_close_btn
+    {
+        display: block;
+    }
+
+
+    .configurator_ec .spec_prices
+    {
+        margin-bottom: 24px;
+    }
+
+    .configurator_ec .spec_prices .spoler_btn
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .configurator_ec .spec_prices .data
+    {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .configurator_ec .spec_prices .columns > *
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+    .configurator_ec .specification .product .col_articul,
+    .configurator_ec .specification .product .col_amount
+    {
+        margin-top: 12px;
+    }
+
+
+    .configurator_ec .specification .col_thumb
+    {
+        width: 120px;
+    }
+
+    .configurator_ec .specification .col_name
+    {
+        width: calc(100% - 140px);
+    }
+
+    .configurator_ec .specification .col_articul,
+    .configurator_ec .specification .col_amount
+    {
+        width: calc(50% - 70px);
+    }
+
+
+    .configurator_ec .specification .title
+    {
+        font-size: 19px;
+
+        text-align: left;
+    }
+
+
+    .configurator_ec .specification .download img
+    {
+        max-width: 24px;
+        max-height: 24px;
+    }
+
+
+
     /*---------------
         Footer
     ---------------*/

@@ -477,13 +477,13 @@
 
 
 
-    .page_about_v2 .get_price_list .cont
+    .get_price_list .cont
     {
         padding: 0 20px;
     }
 
-    .page_about_v2 .get_price_list .form .line,
-    .page_about_v2 .get_price_list .form .submit
+    .get_price_list .form .line,
+    .get_price_list .form .submit
     {
         width: 100%;
         margin-bottom: 10px;
@@ -1476,9 +1476,37 @@
 
 
 
-    /*---------------
-        Footer
-    ---------------*/
+    /*-----------------
+       Configurator
+    -----------------*/
+    .configurator_ec form
+    {
+        padding: 24px 20px 4px;
+    }
+
+
+    .configurator_type .name
+    {
+        font-size: 16px;
+    }
+
+
+    .configurator_ec .block .title
+    {
+        font-size: 18px;
+    }
+
+
+    .configurator_ec .amount
+    {
+        width: 320px;
+    }
+
+
+    .configurator_ec .col_right
+    {
+        left: 100%;
+    }
 
 
 

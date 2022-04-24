@@ -359,31 +359,31 @@
 
 
 
-    .page_about_v2 .get_price_list .mob_form_btn
+    .get_price_list .mob_form_btn
     {
         display: block;
     }
 
-    .page_about_v2 .get_price_list .data
+    .get_price_list .data
     {
         display: none;
 
         margin-top: 10px;
     }
 
-    .page_about_v2 .get_price_list .form .line
+    .get_price_list .form .line
     {
         width: calc(50% - 5px);
         margin: 0 0 10px;
     }
 
-    .page_about_v2 .get_price_list .form .line.agree
+    .get_price_list .form .line.agree
     {
         width: 100%;
         margin-bottom: 0;
     }
 
-    .page_about_v2 .get_price_list .form .submit
+    .get_price_list .form .submit
     {
         width: calc(50% - 5px);
     }
@@ -2219,6 +2219,49 @@
         width: 100%;
         margin-right: 0;
         padding: 8px 0 16px;
+    }
+
+
+
+    /*-----------------
+       Configurator
+    -----------------*/
+    .configurator_type .name
+    {
+        font-size: 17px;
+    }
+
+
+    .configurator_ready_network
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .configurator_reset_btn
+    {
+        width: auto;
+        margin-top: 16px;
+        margin-left: auto;
+    }
+
+
+    .configurator_ec .tabs
+    {
+        justify-content: space-between;
+    }
+
+    .configurator_ec .tabs button
+    {
+        font-size: 17px;
+
+        margin-left: 0;
+    }
+
+
+    .configurator_ec .block .title
+    {
+        font-size: 19px;
     }
 
 

@@ -1347,13 +1347,23 @@
 
 
 
-    /*---------------
-        Footer
-    ---------------*/
+    /*-----------------
+       Configurator
+    -----------------*/
+    .configurator_ready_network
+    {
+        width: 480px;
+    }
 
 
+    .configurator_ec .col_right
+    {
+        width: 664px;
+    }
 
-    /*---------------
-        PopUp
-    ---------------*/
+
+    .configurator_ec .block
+    {
+        width: 400px;
+    }
 }
