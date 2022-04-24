@@ -821,6 +821,17 @@ $(() => {
 	})
 
 
+	$('.configurator_ec label.with_children').click(function () {
+		if ($(this).prev().prop('checked')) {
+			$(this).closest('.field').find('.checkbox_sub input').prop('checked', false)
+		}
+	})
+
+	$('.configurator_ec .checkbox_sub label').click(function () {
+		$(this).closest('.field').find('> input').prop('checked', true)
+	})
+
+
 	$('.configurator_ec form').reset(function () {
 		performance.reset()
 		performance2.reset()

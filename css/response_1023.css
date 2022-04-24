@@ -2414,14 +2414,16 @@
 
     .configurator_ec .col_right
     {
-        position: absolute;
-        top: 483px;
-        left: calc(100% + 24px);
+        position: fixed;
+        z-index: 999;
+        top: 50%;
+        left: 100%;
 
         width: 360px;
         padding: 80px 20px 20px;
 
         transition: .2s linear;
+        transform: translate(0, -50%);
 
         border: 1px solid #00abdf;
         background: #f7f7f7;
@@ -2429,7 +2431,16 @@
 
     .configurator_ec .col_right.show
     {
-        transform: translateX(-100%);
+        top: 0;
+
+        overflow: auto;
+
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+
+        transform: translate(-100%, 0%);
 
         box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
     }
@@ -2437,6 +2448,17 @@
 
     .configurator_ec .col_right .mob_btn,
     .configurator_ec .col_right .mob_close_btn
+    {
+        display: block;
+    }
+
+
+    .configurator_ec .col_right .mob_block
+    {
+        display: none;
+    }
+
+    .configurator_ec .col_right.show .mob_block
     {
         display: block;
     }

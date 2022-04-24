@@ -22129,6 +22129,7 @@ aside .page_links .items a.active
     height: 29px;
 
     content: '';
+    transition: .2s linear;
 
     border: 1px solid #bdc6d1;
     border-radius: 3px;
@@ -22163,14 +22164,20 @@ aside .page_links .items a.active
 
 .configurator_ec input[type=checkbox] + label.circle:before
 {
-    border: 1px solid #999;
+    border: 1px solid #bdc6d1;
     border-radius: 50%;
-    background: #999;
+    background: #ededed;
 }
 
 .configurator_ec input[type=checkbox] + label.circle:after
 {
     border-color: #fff;
+}
+
+.configurator_ec input[type=checkbox]:checked + label.circle:before
+{
+    border: 1px solid #999;
+    background: #999;
 }
 
 
@@ -22179,14 +22186,6 @@ aside .page_links .items a.active
 {
     margin-top: 8px;
     padding-left: 47px;
-
-    cursor: default;
-    pointer-events: none;
-}
-
-.configurator_ec input[type=checkbox]:checked + label + .checkbox_sub
-{
-    pointer-events: auto;
 }
 
 
@@ -22728,8 +22727,7 @@ aside .page_links .items a.active
 }
 
 
-.configurator_ec .power_type input[type=radio] + label,
-.configurator_ec .power_type input[type=checkbox] + label
+.configurator_ec .power_type input[type=radio] + label
 {
     color: #999;
     line-height: 25px;
@@ -22744,25 +22742,23 @@ aside .page_links .items a.active
     transition: .2s linear;
     text-align: center;
 
-    border: 1px solid #999;
+    border: 1px solid #c4c4c4;
     border-radius: 2px;
-    background: #ededed;
+    background: #f7f7f7;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
 }
 
 .configurator_ec .power_type input[type=radio] + label:before,
-.configurator_ec .power_type input[type=radio] + label:after,
-.configurator_ec .power_type input[type=checkbox] + label:before,
-.configurator_ec .power_type input[type=checkbox] + label:after
+.configurator_ec .power_type input[type=radio] + label:after
 {
     display: none;
 }
 
-.configurator_ec .power_type input[type=radio]:checked + label,
-.configurator_ec .power_type input[type=checkbox]:checked + label
+.configurator_ec .power_type input[type=radio]:checked + label
 {
-    border-color: #c4c4c4;
-    background: #f7f7f7;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+    border-color: #999;
+    background: #ededed;
+    box-shadow: none;
 }
 
 
