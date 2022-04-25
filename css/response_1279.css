@@ -2733,6 +2733,11 @@
     }
 
 
+    .configurator_ec .checkbox_sub
+    {
+        padding-left: 44px;
+    }
+
     .configurator_ec .checkbox_sub .row > *
     {
         width: calc(33.333% - 12px);

@@ -2375,17 +2375,10 @@
     }
 
 
-    .configurator_type,
-    .configurator_reset_btn
-    {
-        order: 2;
-    }
-
-
     .configurator_ready_network
     {
         width: 100%;
-        margin-bottom: 20px;
+        margin-top: 20px;
     }
 
 

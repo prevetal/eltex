@@ -1491,9 +1491,18 @@
     }
 
 
+    .configurator_ec .block
+    {
+        width: calc(100% - 48px);
+    }
+
     .configurator_ec .block .title
     {
-        font-size: 18px;
+        font-size: 17px;
+
+        padding: 4px 16px;
+
+        text-align: left;
     }
 
 
@@ -1502,10 +1511,44 @@
         width: 320px;
     }
 
+    .configurator_ec .amount button.minus
+    {
+        margin-right: 10px;
+    }
+
+    .configurator_ec .amount .exp
+    {
+        font-size: 15px;
+    }
+
+    .configurator_ec .amount .input + .exp
+    {
+        width: 124px;
+        padding-left: 10px;
+    }
+
+    .configurator_ec .amount button.plus
+    {
+        margin-left: 10px;
+    }
+
 
     .configurator_ec .col_right
     {
         left: 100%;
+    }
+
+
+    .configurator_ec .checkbox_sub .row
+    {
+        margin-left: -8px;
+    }
+
+    .configurator_ec .checkbox_sub .row > *
+    {
+        width: auto;
+        min-width: 75px;
+        margin-left: 8px;
     }
 
 
