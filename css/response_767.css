@@ -2248,6 +2248,8 @@
 
     .configurator_ec .tabs
     {
+        margin-left: 0;
+
         justify-content: space-between;
     }
 
