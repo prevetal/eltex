@@ -1493,7 +1493,7 @@
 
     .configurator_ec .block
     {
-        width: calc(100% - 48px);
+        width: calc(100% - 36px);
     }
 
     .configurator_ec .block .title
