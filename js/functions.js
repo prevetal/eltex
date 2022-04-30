@@ -294,10 +294,12 @@ $(function () {
 
 
 	// Моб. версия
-	if ($(window).width() < 360) {
-		$('meta[name=viewport]').attr('content', 'width=360px, user-scalable=no')
-	} else {
-		$('meta[name=viewport]').attr('content', 'width=device-width, initial-scale=1, maximum-scale=1')
+	firstResize = false
+
+	if (document.body.clientWidth < 360) {
+		document.getElementsByTagName('meta')['viewport'].content = 'width=360, user-scalable=no'
+
+		firstResize = true
 	}
 
 
@@ -355,6 +357,21 @@ $(function () {
 				// Свайп слева на право
 			}
 		})
+	}
+})
+
+
+
+
+$(window).on('resize', () => {
+	// Моб. версия
+	if (!firstResize) {
+		$('meta[name=viewport]').attr('content', 'width=device-width, initial-scale=1, maximum-scale=1')
+		if ($(window).width() < 360) $('meta[name=viewport]').attr('content', 'width=360, user-scalable=no')
+
+		firstResize = true
+	} else {
+		firstResize = false
 	}
 })
 
