@@ -22834,7 +22834,7 @@ aside .page_links .items a.active
 .configurator_ec .col_right .mob_btn
 {
     color: #fff;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 130%;
 
     position: absolute;
@@ -22843,8 +22843,8 @@ aside .page_links .items a.active
 
     display: none;
 
-    width: 57px;
-    padding: 12px 10px;
+    width: 50px;
+    padding: 12px 8px;
 
     white-space: nowrap;
 
@@ -22862,16 +22862,16 @@ aside .page_links .items a.active
 {
     display: block;
 
-    width: 23px;
-    height: 29px;
+    width: 20px;
+    height: 26px;
 }
 
 .configurator_ec .col_right .mob_btn .icon2
 {
     display: block;
 
-    width: 25px;
-    height: 25px;
+    width: 22px;
+    height: 22px;
 }
 
 .configurator_ec .col_right.show .mob_btn
