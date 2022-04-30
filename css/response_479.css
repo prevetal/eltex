@@ -1527,9 +1527,16 @@
         padding-left: 10px;
     }
 
+    .configurator_ec .amount .unit
+    {
+        font-size: 15px;
+
+        margin-left: 6px;
+    }
+
     .configurator_ec .amount button.plus
     {
-        margin-left: 10px;
+        margin-left: 8px;
     }
 
 
