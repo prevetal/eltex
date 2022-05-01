@@ -22748,6 +22748,11 @@ aside .page_links .items a.active
     box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
 }
 
+.configurator_ec .power_type.dark input[type=radio] + label
+{
+    color: #000;
+}
+
 .configurator_ec .power_type input[type=radio] + label:before,
 .configurator_ec .power_type input[type=radio] + label:after
 {

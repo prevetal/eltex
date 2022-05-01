@@ -227,6 +227,10 @@ $(function () {
 		if ($(this).hasClass('update_price')) {
 			updateProductPrice($(this).closest('.amount'))
 		}
+
+		if ($(this).closest('.block')) {
+			$(this).closest('.block').find('.power_type').addClass('dark')
+		}
 	})
 
 	$('body').on('click', '.amount .plus', function (e) {
@@ -245,6 +249,10 @@ $(function () {
 
 		if ($(this).hasClass('update_price')) {
 			updateProductPrice($(this).closest('.amount'))
+		}
+
+		if ($(this).closest('.block')) {
+			$(this).closest('.block').find('.power_type').addClass('dark')
 		}
 	})
 

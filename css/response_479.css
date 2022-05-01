@@ -1485,9 +1485,44 @@
     }
 
 
+    .configurator_ec .head
+    {
+        width: calc(100% - 36px);
+    }
+
+
     .configurator_type .name
     {
         font-size: 16px;
+    }
+
+    .configurator_type label
+    {
+        margin-left: 8px;
+    }
+
+
+    .configurator_ec .nice-select .current
+    {
+        font-size: 14px;
+
+        padding: 0 43px 0 15px;
+    }
+
+    .configurator_ec .nice-select .current:after
+    {
+        right: 15px;
+    }
+
+
+    .configurator_ec .tabs
+    {
+        width: calc(100% - 36px);
+    }
+
+    .configurator_ec .tabs button
+    {
+        padding: 4px 12px 3px;
     }
 
 
@@ -1506,9 +1541,15 @@
     }
 
 
+    .configurator_ec .block .padding_left
+    {
+        padding-left: 52px;
+    }
+
+
     .configurator_ec .amount
     {
-        width: 320px;
+        width: 279px;
     }
 
     .configurator_ec .amount button.minus
@@ -1518,12 +1559,17 @@
 
     .configurator_ec .amount .exp
     {
+        width: 72px;
+    }
+
+    .configurator_ec .amount .exp
+    {
         font-size: 15px;
     }
 
     .configurator_ec .amount .input + .exp
     {
-        width: 124px;
+        width: 121px;
         padding-left: 10px;
     }
 

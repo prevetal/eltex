@@ -832,7 +832,7 @@ $(() => {
 	})
 
 
-	$('.configurator_ec form').reset(function () {
+	$('.configurator_ec .configurator_reset_btn').click(function () {
 		performance.reset()
 		performance2.reset()
 	})
