@@ -267,6 +267,10 @@ $(function () {
 			if (_self.hasClass('update_price')) {
 				updateProductPrice(_self.closest('.amount'))
 			}
+
+			if (_self.closest('.block')) {
+				_self.closest('.block').find('.power_type').addClass('dark')
+			}
 		}, 10)
 	})
 
