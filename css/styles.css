@@ -22714,6 +22714,19 @@ aside .page_links .items a.active
 }
 
 
+.configurator_ec .power_type .name
+{
+    color: #999;
+
+    transition: color .2s linear;
+}
+
+.configurator_ec .power_type.dark .name
+{
+    color: #000;
+}
+
+
 .configurator_ec .power_type .flex
 {
     margin-bottom: -8px;
