@@ -2910,6 +2910,400 @@
 
 
     /*---------------
+       Photo hunting
+    ---------------*/
+    .photo_hunting .competition
+    {
+        margin-bottom: 60px;
+        padding: 60px 0 68px;
+    }
+
+
+    .photo_hunting .competition .data
+    {
+        width: 392px;
+    }
+
+
+    .photo_hunting .competition .pre_title
+    {
+        font-size: 20px;
+        line-height: 130%;
+    }
+
+
+    .photo_hunting .competition .title
+    {
+        font-size: 56px;
+    }
+
+
+    .photo_hunting .competition .items
+    {
+        font-size: 16px;
+
+        margin-top: 40px;
+    }
+
+    .photo_hunting .competition .items > * + *
+    {
+        margin-top: 24px;
+    }
+
+
+    .photo_hunting .competition .btn
+    {
+        font-size: 17px;
+
+        width: 224px;
+        height: 56px;
+        margin-top: 36px;
+    }
+
+
+    .photo_hunting .competition .exp
+    {
+        right: -172px;
+        bottom: -36px;
+    }
+
+
+    .photo_hunting .competition .bg
+    {
+        margin-left: -44px;
+    }
+
+
+
+    .photo_hunting .prizes
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .photo_hunting .prizes .block_title
+    {
+        font-size: 48px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .photo_hunting .prizes .thumb
+    {
+        height: 196px;
+        margin-bottom: 20px;
+    }
+
+    .photo_hunting .prizes .thumb:before
+    {
+        width: 195px;
+        height: 188px;
+    }
+
+    .photo_hunting .prizes .thumb img
+    {
+        zoom: .8;
+    }
+
+
+    .photo_hunting .prizes .place
+    {
+        font-size: 22px;
+        line-height: 140%;
+    }
+
+
+    .photo_hunting .prizes .prize
+    {
+        font-size: 16px;
+
+        width: 200px;
+    }
+
+
+    .photo_hunting .prizes .exp
+    {
+        margin-top: 36px;
+    }
+
+
+
+    .photo_hunting .models
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .photo_hunting .models .data
+    {
+        width: 408px;
+    }
+
+
+    .photo_hunting .models .title
+    {
+        font-size: 48px;
+    }
+
+
+    .photo_hunting .models .desc
+    {
+        font-size: 16px;
+
+        margin-top: 28px;
+    }
+
+
+    .photo_hunting .models .btn
+    {
+        font-size: 16px;
+
+        margin-top: 20px;
+    }
+
+
+    .photo_hunting .models .image
+    {
+        width: 520px;
+        height: 360px;
+    }
+
+
+
+    .photo_hunting .requirements
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .photo_hunting .requirements .block_title
+    {
+        font-size: 48px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .photo_hunting .requirements .data
+    {
+        width: 648px;
+    }
+
+
+    .photo_hunting .requirements .items
+    {
+        font-size: 16px;
+
+        column-gap: 40px;
+    }
+
+
+    .photo_hunting .requirements .items > *
+    {
+        padding-left: 64px;
+    }
+
+    .photo_hunting .requirements .items > * + *
+    {
+        margin-top: 40px;
+    }
+
+
+    .photo_hunting .requirements .items img
+    {
+        zoom: .8;
+
+        margin-right: -56px;
+    }
+
+
+    .photo_hunting .requirements .where
+    {
+        width: 350px;
+        height: auto;
+        margin-top: 36px;
+        margin-right: -32px;
+        padding: 48px 48px 0;
+    }
+
+    .photo_hunting .requirements .where:before
+    {
+        top: -12px;
+        left: -60px;
+
+        width: 495px;
+        height: 512px;
+    }
+
+
+    .photo_hunting .requirements .where .title
+    {
+        font-size: 27px;
+
+        margin-bottom: 28px;
+    }
+
+
+    .photo_hunting .requirements .where .item
+    {
+        font-size: 16px;
+    }
+
+    .photo_hunting .requirements .where .item + .item
+    {
+        margin-top: 16px;
+    }
+
+    .photo_hunting .requirements .where .item:before
+    {
+        font-size: 44px;
+
+        top: -7px;
+        left: -6px;
+    }
+
+
+    .photo_hunting .requirements .where .img
+    {
+        display: none;
+    }
+
+
+
+    .photo_hunting .how_take .block_title
+    {
+        font-size: 48px;
+
+        margin-bottom: 32px;
+    }
+
+
+    .photo_hunting .how_take .image .icon
+    {
+        bottom: -36px;
+
+        width: 72px;
+        height: 72px;
+    }
+
+    .photo_hunting .how_take .image .exp
+    {
+        font-size: 14px;
+
+        margin-top: 52px;
+    }
+
+
+    .photo_hunting .how_take .bottom
+    {
+        margin-top: 48px;
+    }
+
+
+    .photo_hunting .how_take .bottom .title
+    {
+        font-size: 28px;
+
+        width: 716px;
+    }
+
+    .photo_hunting .how_take .bottom .desc
+    {
+        font-size: 16px;
+
+        width: 540px;
+        margin-top: 20px;
+    }
+
+    .photo_hunting .how_take .bottom img
+    {
+        margin-top: 20px;
+    }
+
+
+
+    .photo_hunting .add_photo
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .photo_hunting .add_photo .block_title
+    {
+        font-size: 48px;
+
+        margin-bottom: 36px;
+    }
+
+
+    .photo_hunting .add_photo form .input
+    {
+        font-size: 16px;
+
+        height: 64px;
+        padding: 0 24px;
+
+        border-width: 4px;
+    }
+
+
+    .photo_hunting .add_photo form .file
+    {
+        padding-top: 16px;
+    }
+
+
+    .photo_hunting .add_photo form .agree
+    {
+        margin-top: 24px;
+        padding-left: 28px;
+    }
+
+
+    .photo_hunting .add_photo form .file label
+    {
+        padding: 0 28px;
+    }
+
+
+    .photo_hunting .add_photo form .submit_btn
+    {
+        font-size: 18px;
+
+        padding: 18px;
+    }
+
+
+    .photo_hunting .add_photo form .required
+    {
+        font-size: 26px;
+
+        top: 80px;
+
+        margin-left: 44px;
+    }
+
+
+
+    .photo_hunting .pre_footer
+    {
+        padding: 28px 0;
+
+        border-width: 4px;
+    }
+
+
+    .photo_hunting .pre_footer .bg_right
+    {
+        right: 24px;
+
+        margin-right: 0;
+    }
+
+
+
+    /*---------------
         Footer
     ---------------*/
     footer .info

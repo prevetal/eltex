@@ -2269,6 +2269,286 @@
 
 
     /*---------------
+       Photo hunting
+    ---------------*/
+    .photo_hunting .competition
+    {
+        padding: 52px 0 60px;
+    }
+
+
+    .photo_hunting .competition .data
+    {
+        width: 75%;
+    }
+
+
+    .photo_hunting .competition .pre_title
+    {
+        font-size: 18px;
+    }
+
+
+    .photo_hunting .competition .title
+    {
+        font-size: 44px;
+    }
+
+
+    .photo_hunting .competition .exp
+    {
+        right: auto;
+        bottom: -32px;
+        left: 100%;
+
+        zoom: .8;
+
+        margin-left: -44px;
+    }
+
+
+    .photo_hunting .competition .bg
+    {
+        top: -60px;
+        left: 75%;
+    }
+
+
+
+    .photo_hunting .prizes .block_title
+    {
+        font-size: 40px;
+
+        margin-bottom: 32px;
+    }
+
+
+    .photo_hunting .prizes .flex > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .photo_hunting .prizes .exp
+    {
+        font-size: 16px;
+    }
+
+    .photo_hunting .prizes .exp br
+    {
+        display: none;
+    }
+
+
+
+    .photo_hunting .models
+    {
+        margin-bottom: 72px;
+    }
+
+
+    .photo_hunting .models .data
+    {
+        width: 100%;
+    }
+
+
+    .photo_hunting .models .title
+    {
+        font-size: 40px;
+    }
+
+
+    .photo_hunting .models .desc
+    {
+        margin-top: 20px;
+    }
+
+
+    .photo_hunting .models .image
+    {
+        width: 100%;
+        height: auto;
+        margin-top: 32px;
+        padding-bottom: 65%;
+    }
+
+
+
+    .photo_hunting .requirements
+    {
+        margin-bottom: 72px;
+    }
+
+
+    .photo_hunting .requirements .block_title
+    {
+        font-size: 40px;
+
+        margin-bottom: 32px;
+    }
+
+
+    .photo_hunting .requirements .items
+    {
+        column-gap: 0;
+        column-count: 1;
+    }
+
+
+    .photo_hunting .requirements .items > *
+    {
+        padding-left: 56px;
+    }
+
+    .photo_hunting .requirements .items > * + *
+    {
+        margin-top: 36px;
+    }
+
+
+    .photo_hunting .requirements .items img
+    {
+        zoom: .7;
+    }
+
+
+    .photo_hunting .requirements .where
+    {
+        width: 440px;
+        height: 424px;
+        margin-top: 0;
+        padding: 48px 72px;
+    }
+
+
+    .photo_hunting .requirements .where .title
+    {
+        font-size: 26px;
+    }
+
+
+
+    .photo_hunting .how_take
+    {
+        margin-bottom: 72px;
+    }
+
+
+    .photo_hunting .how_take .block_title
+    {
+        font-size: 38px;
+    }
+
+
+    .photo_hunting .how_take .images
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .photo_hunting .how_take .image
+    {
+        width: calc(50% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+    .photo_hunting .how_take .image .icon
+    {
+        bottom: -30px;
+
+        width: 60px;
+        height: 60px;
+    }
+
+    .photo_hunting .how_take .image .icon.green svg
+    {
+        width: 26px;
+        height: 19px;
+    }
+
+    .photo_hunting .how_take .image .icon.red svg
+    {
+        width: 22px;
+        height: 22px;
+    }
+
+
+    .photo_hunting .how_take .image .exp
+    {
+        margin-top: 44px;
+    }
+
+    .photo_hunting .how_take .image .exp br
+    {
+        display: none;
+    }
+
+
+    .photo_hunting .how_take .bottom
+    {
+        margin-top: 40px;
+    }
+
+
+    .photo_hunting .how_take .bottom .title
+    {
+        font-size: 24px;
+
+        width: 100%;
+    }
+
+
+
+    .photo_hunting .add_photo
+    {
+        margin-bottom: 72px;
+    }
+
+
+    .photo_hunting .add_photo .block_title
+    {
+        font-size: 40px;
+    }
+
+
+    .photo_hunting .add_photo form
+    {
+        width: 100%;
+    }
+
+
+    .photo_hunting .add_photo form .required
+    {
+        font-size: 20px;
+
+        position: relative;
+        top: 0;
+        left: 0;
+
+        margin-top: 28px;
+        margin-left: 0;
+
+        white-space: normal;
+    }
+
+    .photo_hunting .add_photo form .required br
+    {
+        display: none;
+    }
+
+
+
+    .photo_hunting .pre_footer .bg_right
+    {
+        zoom: .7;
+    }
+
+
+
+    /*---------------
         Footer
     ---------------*/
     footer .bottom

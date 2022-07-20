@@ -1360,4 +1360,167 @@
     {
         width: 664px;
     }
+
+
+
+    /*---------------
+       Photo hunting
+    ---------------*/
+    .photo_hunting .competition
+    {
+        margin-bottom: 64px;
+        padding: 80px 0 88px;
+    }
+
+
+    .photo_hunting .competition .data
+    {
+        width: 416px;
+    }
+
+
+    .photo_hunting .competition .pre_title
+    {
+        font-size: 22px;
+        line-height: 140%;
+
+        margin-bottom: 8px;
+    }
+
+
+    .photo_hunting .competition .title
+    {
+        font-size: 64px;
+    }
+
+
+    .photo_hunting .competition .items
+    {
+        font-size: 17px;
+
+        margin-top: 48px;
+        padding-left: 40px;
+    }
+
+    .photo_hunting .competition .items > * + *
+    {
+        margin-top: 28px;
+    }
+
+
+    .photo_hunting .competition .btn
+    {
+        font-size: 18px;
+        line-height: 140%;
+
+        width: 264px;
+        height: 60px;
+        margin-top: 40px;
+    }
+
+
+    .photo_hunting .competition .exp
+    {
+        right: -176px;
+        bottom: -48px;
+    }
+
+
+    .photo_hunting .competition .bg
+    {
+        right: auto;
+        left: 50%;
+
+        margin-right: 0;
+        margin-left: -100px;
+    }
+
+
+
+    .photo_hunting .prizes
+    {
+        margin-bottom: 88px;
+    }
+
+
+    .photo_hunting .prizes .block_title
+    {
+        font-size: 56px;
+
+        margin-bottom: 48px;
+    }
+
+
+
+    .photo_hunting .models
+    {
+        margin-bottom: 88px;
+    }
+
+
+    .photo_hunting .models .title
+    {
+        font-size: 56px;
+    }
+
+
+
+    .photo_hunting .requirements
+    {
+        margin-bottom: 68px;
+    }
+
+    .photo_hunting .requirements .block_title
+    {
+        font-size: 56px;
+
+        margin-bottom: 48px;
+    }
+
+
+
+    .photo_hunting .how_take
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .photo_hunting .how_take .block_title
+    {
+        font-size: 56px;
+    }
+
+
+
+    .photo_hunting .add_photo
+    {
+        margin-bottom: 88px;
+    }
+
+
+    .photo_hunting .add_photo .block_title
+    {
+        font-size: 56px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .photo_hunting .add_photo form .agree
+    {
+        margin-top: 28px;
+    }
+
+
+
+    .photo_hunting .pre_footer
+    {
+        padding: 34px 0;
+    }
+
+
+    .photo_hunting .pre_footer .bg_right
+    {
+        margin-right: -608px;
+    }
 }

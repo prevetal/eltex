@@ -172,6 +172,8 @@ html.custom_scroll
     --font_size_title: 20px;
     --font_family: 'HelveticaNeueCyr', 'Arial', sans-serif;
     --font_family2: 'Exo 2', 'Arial', sans-serif;
+    --font_family3: 'Montserrat', 'Arial', sans-serif;
+    --font_family4: 'Bad Script', 'Arial', sans-serif;
     --color_white: #fff;
     --color_black: #000;
     --color_blue: #00abdf;
@@ -2224,6 +2226,11 @@ header
     margin-bottom: 20px;
 
     background: var(--color_white);
+}
+
+header.no_margin
+{
+    margin-bottom: 0;
 }
 
 
@@ -23408,6 +23415,1273 @@ aside .page_links .items a.active
 .configurator_ec .specification .col_amount
 {
     width: 101px;
+}
+
+
+
+/*---------------
+   Photo hunting
+---------------*/
+.photo_hunting
+{
+    padding-bottom: 1px;
+
+    background: #fff;
+}
+
+
+.photo_hunting .cont
+{
+    max-width: 1228px;
+}
+
+
+
+.photo_hunting .competition
+{
+    position: relative;
+    z-index: 3;
+
+    margin-bottom: 67px;
+    padding: 82px 0 103px;
+
+    background: #2c2c2c;
+}
+
+
+.photo_hunting .competition .data
+{
+    position: relative;
+
+    width: 424px;
+    max-width: 100%;
+}
+
+
+.photo_hunting .competition .pre_title
+{
+    color: #fff;
+    font-family: var(--font_family3);
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 150%;
+
+    margin-bottom: 9px;
+}
+
+
+.photo_hunting .competition .title
+{
+    color: #ffa51c;
+    font-family: var(--font_family3);
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 110%;
+}
+
+
+.photo_hunting .competition .items
+{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 150%;
+
+    margin-top: 60px;
+}
+
+
+.photo_hunting .competition .items > *
+{
+    position: relative;
+}
+
+.photo_hunting .competition .items > * + *
+{
+    margin-top: 32px;
+}
+
+.photo_hunting .competition .items > *:nth-child(2)
+{
+    margin-left: 40px;
+}
+
+.photo_hunting .competition .items > *:nth-child(3)
+{
+    margin-left: 75px;
+}
+
+
+.photo_hunting .competition .items img
+{
+    position: absolute;
+    right: 100%;
+
+    display: block;
+}
+
+.photo_hunting .competition .items > *:nth-child(1) img
+{
+    top: 0;
+
+    margin-right: 25px;
+}
+
+.photo_hunting .competition .items > *:nth-child(2) img
+{
+    top: 6px;
+
+    margin-right: 22px;
+}
+
+.photo_hunting .competition .items > *:nth-child(3) img
+{
+    top: -13px;
+
+    margin-right: 18px;
+}
+
+
+.photo_hunting .competition .items b
+{
+    font-weight: 900;
+}
+
+
+.photo_hunting .competition .btn
+{
+    color: #fff;
+    font-family: var(--font_family);
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 150%;
+
+    display: inline-block;
+
+    width: 281px;
+    max-width: 100%;
+    height: 60px;
+    margin-top: 45px;
+
+    cursor: pointer;
+    vertical-align: top;
+
+    border: none;
+    border-radius: 30px;
+    background: #ff4e51;
+}
+
+
+.photo_hunting .competition .exp
+{
+    color: #000;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 140%;
+
+    position: absolute;
+    z-index: 3;
+    right: -185px;
+    bottom: -53px;
+
+    display: flex;
+
+    width: 219px;
+    height: 211px;
+    padding: 56px 34px 33px 31px;
+
+    text-align: center;
+
+    background: url(../images/bg_photo_hunting_competition_exp.png) 0 0/100% 100% no-repeat;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.photo_hunting .competition .exp:before
+{
+    color: #ffa51c;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 110%;
+
+    position: absolute;
+    top: 16px;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    padding-left: 1px;
+
+    content: '*';
+    text-align: center;
+}
+
+
+.photo_hunting .competition .bg
+{
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    right: 50%;
+
+    display: block;
+
+    width: auto;
+    min-width: 300px;
+    height: 100%;
+    margin-right: -960px;
+
+    pointer-events: none;
+}
+
+
+.photo_hunting .competition .bg_left
+{
+    position: absolute;
+    z-index: -1;
+    top: 38px;
+    left: 50%;
+
+    display: block;
+
+    width: 298px;
+    height: 734px;
+    margin-left: -1060px;
+
+    pointer-events: none;
+}
+
+
+.photo_hunting .competition .bg_right
+{
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: 50%;
+
+    display: block;
+
+    width: 140px;
+    height: 799px;
+    margin-right: -1007px;
+
+    pointer-events: none;
+}
+
+
+
+.photo_hunting .prizes
+{
+    position: relative;
+    z-index: 3;
+
+    margin-bottom: 96px;
+}
+
+
+.photo_hunting .prizes .block_title
+{
+    color: #ffa51c;
+    font-family: var(--font_family3);
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 110%;
+
+    margin-bottom: 51px;
+}
+
+
+.photo_hunting .prizes .flex
+{
+    margin-bottom: -40px;
+    margin-left: -20px;
+}
+
+.photo_hunting .prizes .flex > *
+{
+    width: calc(25% - 20px);
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+
+.photo_hunting .prizes .item
+{
+    text-align: center;
+}
+
+
+.photo_hunting .prizes .thumb
+{
+    position: relative;
+    z-index: 3;
+
+    display: flex;
+
+    height: 247px;
+    margin-bottom: 10px;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.photo_hunting .prizes .thumb:before
+{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: block;
+
+    width: 219px;
+    height: 211px;
+    margin: auto;
+
+    content: '';
+
+    background: url(../images/bg_photo_hunting_prize_thumb.svg) 0 0/100% 100% no-repeat;
+}
+
+.photo_hunting .prizes .thumb img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.photo_hunting .prizes .place
+{
+    color: #ffa51c;
+    font-family: var(--font_family3);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 150%;
+}
+
+
+.photo_hunting .prizes .prize
+{
+    color: #000;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 140%;
+
+    width: 237px;
+    max-width: 100%;
+    margin: 12px auto 0;
+}
+
+
+.photo_hunting .prizes .exp
+{
+    color: #9e9e9e;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 140%;
+
+    margin-top: 36px;
+
+    text-align: center;
+}
+
+
+.photo_hunting .prizes .bg_left
+{
+    position: absolute;
+    z-index: -1;
+    bottom: 31px;
+    left: 50%;
+
+    display: block;
+
+    width: 128px;
+    height: 235px;
+    margin-left: -945px;
+
+    pointer-events: none;
+}
+
+
+.photo_hunting .prizes .bg_right
+{
+    position: absolute;
+    z-index: -1;
+    right: 50%;
+    bottom: 71px;
+
+    display: block;
+
+    width: 205px;
+    height: 187px;
+    margin-right: -1030px;
+
+    pointer-events: none;
+}
+
+
+
+.photo_hunting .models
+{
+    position: relative;
+    z-index: 3;
+
+    margin-bottom: 96px;
+}
+
+
+.photo_hunting .models .data
+{
+    width: 436px;
+    max-width: 100%;
+
+    align-self: center;
+}
+
+
+.photo_hunting .models .title
+{
+    color: #ffa51c;
+    font-family: var(--font_family3);
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 110%;
+}
+
+
+.photo_hunting .models .desc
+{
+    color: #000;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 140%;
+
+    margin-top: 36px;
+}
+
+
+.photo_hunting .models .btn
+{
+    color: #ffa51c;
+    font-family: var(--font_family);
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 140%;
+
+    display: flex;
+
+    margin-top: 24px;
+
+    cursor: pointer;
+
+    border: none;
+    background: none;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    text-decoration-line: underline;
+}
+
+.photo_hunting .models .btn .icon
+{
+    display: block;
+
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+}
+
+.photo_hunting .models .btn:hover
+{
+    text-decoration: none;
+}
+
+
+.photo_hunting .models .image
+{
+    position: relative;
+
+    overflow: hidden;
+
+    width: 579px;
+    height: 438px;
+    margin-left: auto;
+
+    background: #ddd;
+}
+
+.photo_hunting .models .image img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+.photo_hunting .models .bg
+{
+    position: absolute;
+    z-index: -1;
+    right: 50%;
+    bottom: -55px;
+
+    display: block;
+
+    width: 75px;
+    height: 157px;
+    margin-right: -653px;
+
+    pointer-events: none;
+}
+
+
+
+.photo_hunting .requirements
+{
+    position: relative;
+    z-index: 3;
+
+    margin-bottom: 60px;
+}
+
+
+.photo_hunting .requirements .data
+{
+    position: relative;
+    z-index: 5;
+
+    width: 700px;
+    max-width: 100%;
+}
+
+
+.photo_hunting .requirements .block_title
+{
+    color: #ffa51c;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 110%;
+
+    margin-bottom: 55px;
+}
+
+
+.photo_hunting .requirements .items
+{
+    color: #000;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 140%;
+
+    column-gap: 44px;
+    column-count: 2;
+}
+
+.photo_hunting .requirements .items > *
+{
+    position: relative;
+
+    padding-left: 79px;
+
+    transform: translateZ(0);
+
+    --webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+.photo_hunting .requirements .items img
+{
+    position: absolute;
+    top: 50%;
+    right: 100%;
+
+    display: block;
+
+    margin-right: -60px;
+
+    transform: translateY(-50%);
+}
+
+.photo_hunting .requirements .items > * + *
+{
+    margin-top: 48px;
+}
+
+
+.photo_hunting .requirements .where
+{
+    position: relative;
+    z-index: 3;
+
+    width: 495px;
+    height: 512px;
+    margin-right: -14px;
+    margin-left: auto;
+    padding: 55px 55px 55px 80px;
+}
+
+.photo_hunting .requirements .where:before
+{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    content: '';
+
+    background: url(../images/bg_photo_hunting_requirements_where.svg) 0 0/100% 100% no-repeat;
+}
+
+
+.photo_hunting .requirements .where .title
+{
+    color: #000;
+    font-family: var(--font_family3);
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 110%;
+
+    margin-bottom: 32px;
+}
+
+
+.photo_hunting .requirements .where .item
+{
+    color: #000;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 140%;
+
+    position: relative;
+    z-index: 3;
+}
+
+.photo_hunting .requirements .where .item:before
+{
+    color: #ffa51c;
+    font-family: var(--font_family3);
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 110%;
+
+    position: absolute;
+    z-index: -1;
+    top: -8px;
+    left: -7px;
+
+    display: block;
+
+    content: '*';
+}
+
+.photo_hunting .requirements .where .item + .item
+{
+    margin-top: 24px;
+}
+
+
+.photo_hunting .requirements .where .img
+{
+    position: absolute;
+    z-index: 3;
+    right: 46px;
+    bottom: 38px;
+
+    display: block;
+
+    pointer-events: none;
+}
+
+
+.photo_hunting .requirements .bg_left
+{
+    position: absolute;
+    z-index: -1;
+    bottom: 32px;
+    left: 50%;
+
+    display: block;
+
+    width: 245px;
+    height: 200px;
+    margin-left: -1070px;
+
+    pointer-events: none;
+}
+
+
+.photo_hunting .requirements .bg_right
+{
+    position: absolute;
+    z-index: -1;
+    top: 57px;
+    right: 50%;
+
+    display: block;
+
+    width: 185px;
+    height: 117px;
+    margin-right: -1008px;
+
+    pointer-events: none;
+}
+
+
+
+.photo_hunting .how_take
+{
+    position: relative;
+    z-index: 3;
+
+    margin-bottom: 52px;
+}
+
+
+.photo_hunting .how_take .block_title
+{
+    color: #ffa51c;
+    font-family: var(--font_family3);
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 110%;
+
+    margin-bottom: 36px;
+}
+
+
+.photo_hunting .how_take .flex
+{
+    margin-bottom: -20px;
+    margin-left: -20px;
+}
+
+.photo_hunting .how_take .flex > *
+{
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+
+.photo_hunting .how_take .item .title
+{
+    color: #737373;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 140%;
+
+    margin-bottom: 13px;
+}
+
+
+.photo_hunting .how_take .images
+{
+    display: flex;
+
+    margin-bottom: -20px;
+    margin-left: -20px;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.photo_hunting .how_take .image
+{
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+
+.photo_hunting .how_take .image .thumb
+{
+    position: relative;
+
+    padding-bottom: 164.28%;
+
+    background: #ddd;
+}
+
+.photo_hunting .how_take .image .thumb img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+.photo_hunting .how_take .image .icon
+{
+    color: #fff;
+
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    left: 0;
+
+    display: flex;
+
+    width: 80px;
+    height: 80px;
+    margin: auto;
+
+    border-radius: 50%;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.photo_hunting .how_take .image .icon.green
+{
+    background: #6ebf48;
+}
+
+.photo_hunting .how_take .image .icon.red
+{
+    background: #ff4e51;
+}
+
+
+.photo_hunting .how_take .image .icon svg
+{
+    display: block;
+}
+
+.photo_hunting .how_take .image .icon.green svg
+{
+    width: 30px;
+    height: 22px;
+}
+
+.photo_hunting .how_take .image .icon.red svg
+{
+    width: 26px;
+    height: 26px;
+}
+
+
+.photo_hunting .how_take .image .exp
+{
+    color: #000;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 140%;
+
+    margin-top: 58px;
+
+    text-align: center;
+}
+
+
+.photo_hunting .how_take .bottom
+{
+    position: relative;
+    z-index: 3;
+
+    margin-top: 52px;
+
+    text-align: center;
+}
+
+
+.photo_hunting .how_take .bottom .title
+{
+    color: #000;
+    font-family: var(--font_family3);
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 110%;
+
+    width: 780px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+.photo_hunting .how_take .bottom .desc
+{
+    color: #000;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 140%;
+
+    width: 580px;
+    max-width: 100%;
+    margin: 22px auto 0;
+}
+
+
+.photo_hunting .how_take .bottom img
+{
+    display: block;
+
+    max-width: 100%;
+    margin: 23px auto 0;
+}
+
+
+.photo_hunting .how_take .bg
+{
+    position: absolute;
+    z-index: -1;
+    bottom: 354px;
+    left: 50%;
+
+    display: block;
+
+    width: 75px;
+    height: 157px;
+    margin-left: -853px;
+
+    pointer-events: none;
+}
+
+
+
+.photo_hunting .add_photo
+{
+    margin-bottom: 98px;
+}
+
+
+.photo_hunting .add_photo .block_title
+{
+    color: #ffa51c;
+    font-family: var(--font_family3);
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 110%;
+
+    margin-bottom: 47px;
+}
+
+
+.photo_hunting .add_photo form
+{
+    position: relative;
+
+    width: 480px;
+    max-width: 100%;
+
+    --form_border_color: #e8e8e8;
+    --form_focus_color: #e8e8e8;
+    --form_error_color: #ef4836;
+    --form_success_color: green;
+    --form_border_radius: 35px;
+    --form_bg_color: none;
+    --form_placeholder_color: #000;
+}
+
+
+.photo_hunting .add_photo form ::-webkit-input-placeholder
+{
+    color: var(--form_placeholder_color);
+}
+
+.photo_hunting .add_photo form :-moz-placeholder
+{
+    color: var(--form_placeholder_color);
+}
+
+.photo_hunting .add_photo form :-ms-input-placeholder
+{
+    color: var(--form_placeholder_color);
+}
+
+
+.photo_hunting .add_photo form .line
+{
+    margin-bottom: 10px;
+}
+
+
+.photo_hunting .add_photo form .field
+{
+    position: relative;
+}
+
+.photo_hunting .add_photo form .field + .field
+{
+    margin-top: 10px;
+}
+
+
+.photo_hunting .add_photo form .input
+{
+    color: var(--color_black);
+    font: 300 17px var(--font_family);
+
+    display: block;
+
+    width: 100%;
+    height: 70px;
+    padding: 0 29px;
+
+    transition: .2s linear;
+
+    border: 6px solid var(--form_border_color);
+    border-radius: var(--form_border_radius);
+    background: var(--form_bg_color);
+
+    -webkit-touch-callout: text;
+}
+
+
+.photo_hunting .add_photo form .file
+{
+    padding-top: 19px;
+}
+
+
+.photo_hunting .add_photo form .file label
+{
+    display: block;
+
+    padding: 0 35px;
+
+    cursor: pointer;
+}
+
+
+.photo_hunting .add_photo form .file input
+{
+    display: none;
+}
+
+
+.photo_hunting .add_photo form .file .btn
+{
+    color: #ffa51c;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 140%;
+
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    text-decoration-line: underline;
+}
+
+.photo_hunting .add_photo form .file .btn .icon
+{
+    display: block;
+
+    width: 24px;
+    height: 24px;
+    margin-right: 11px;
+}
+
+.photo_hunting .add_photo form .file .btn span
+{
+    width: calc(100% - 35px);
+}
+
+
+.photo_hunting .add_photo form .submit
+{
+    padding-top: 17px;
+}
+
+.photo_hunting .add_photo form .submit_btn
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 150%;
+
+    display: block;
+
+    width: 100%;
+    padding: 20px;
+
+    cursor: pointer;
+
+    border: none;
+    border-radius: 35px;
+    background: #ff4e51;
+}
+
+
+.photo_hunting .add_photo form .agree
+{
+    margin-top: 30px;
+    padding-left: 35px;
+}
+
+
+.photo_hunting .add_photo form .agree label
+{
+    color: #8b8b8b;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 140%;
+
+    position: relative;
+
+    display: flex;
+
+    min-height: 24px;
+    padding: 0 0 0 34px;
+
+    cursor: pointer;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.photo_hunting .add_photo form .agree input
+{
+    display: none;
+}
+
+
+.photo_hunting .add_photo form .agree label .check
+{
+    color: #000;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+
+    width: 24px;
+    height: 24px;
+
+    border: 2px solid #e8e8e8;
+    border-radius: 5px 5px 5px 3px;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.photo_hunting .add_photo form .agree label .check svg
+{
+    display: block;
+
+    width: 14px;
+    height: 11px;
+}
+
+
+.photo_hunting .add_photo form .agree label a
+{
+    color: #000;
+}
+
+
+.photo_hunting .add_photo form .required
+{
+    color: #ffb300;
+    font-family: var(--font_family4);
+    font-size: 28px;
+    line-height: 110%;
+
+    position: absolute;
+    top: 90px;
+    left: 100%;
+
+    margin-left: 49px;
+
+    text-align: center;
+    white-space: nowrap;
+}
+
+
+
+.photo_hunting .pre_footer
+{
+    position: relative;
+    z-index: 3;
+
+    padding: 35px 0 41px;
+
+    border-top: 6px solid #e8e8e8;
+}
+
+
+.photo_hunting .pre_footer .logo img
+{
+    display: block;
+
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+.photo_hunting .pre_footer .bg_left
+{
+    position: absolute;
+    top: -94px;
+    left: 50%;
+
+    display: block;
+
+    width: 82px;
+    height: 155px;
+    margin-left: -846px;
+
+    pointer-events: none;
+}
+
+
+.photo_hunting .pre_footer .bg_right
+{
+    position: absolute;
+    top: -139px;
+    right: 50%;
+
+    display: block;
+
+    width: 151px;
+    height: 178px;
+    margin-right: -707px;
+
+    pointer-events: none;
 }
 
 

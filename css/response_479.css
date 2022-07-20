@@ -1607,6 +1607,232 @@
 
 
     /*---------------
+       Photo hunting
+    ---------------*/
+    .photo_hunting .competition .data
+    {
+        width: 100%;
+    }
+
+
+    .photo_hunting .competition .pre_title
+    {
+        font-size: 17px;
+    }
+
+
+    .photo_hunting .competition .title
+    {
+        font-size: 40px;
+    }
+
+
+    .photo_hunting .competition .items
+    {
+        font-size: 15px;
+    }
+
+    .photo_hunting .competition .items > *:nth-child(2)
+    {
+        margin-left: 24px;
+    }
+
+    .photo_hunting .competition .items > *:nth-child(3)
+    {
+        margin-left: 48px;
+    }
+
+
+    .photo_hunting .competition .btn
+    {
+        font-size: 16px;
+
+        width: 196px;
+        height: 52px;
+        margin-top: 36px;
+    }
+
+
+    .photo_hunting .competition .exp
+    {
+        right: -56px;
+        bottom: -52px;
+        left: auto;
+
+        zoom: .65;
+
+        margin-left: 0;
+    }
+
+
+    .photo_hunting .competition .bg
+    {
+        display: none;
+    }
+
+
+
+    .photo_hunting .prizes .block_title
+    {
+        font-size: 36px;
+    }
+
+
+    .photo_hunting .prizes .thumb
+    {
+        height: 140px;
+    }
+
+    .photo_hunting .prizes .thumb:before
+    {
+        width: 144px;
+        height: 136px;
+    }
+
+
+    .photo_hunting .prizes .place
+    {
+        font-size: 18px;
+    }
+
+    .photo_hunting .prizes .prize
+    {
+        font-size: 14px;
+    }
+
+
+    .photo_hunting .prizes .exp
+    {
+        font-size: 15px;
+    }
+
+
+
+    .photo_hunting .models .title
+    {
+        font-size: 36px;
+    }
+
+
+
+    .photo_hunting .requirements .block_title
+    {
+        font-size: 36px;
+    }
+
+
+    .photo_hunting .requirements .items
+    {
+        font-size: 15px;
+    }
+
+
+    .photo_hunting .requirements .where
+    {
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        padding: 40px 40px 40px 0;
+    }
+
+    .photo_hunting .requirements .where:before
+    {
+        top: -12px;
+        left: -64px;
+
+        width: calc(100% + 76px);
+        height: calc(100% + 40px);
+    }
+
+
+    .photo_hunting .requirements .where .title
+    {
+        font-size: 25px;
+    }
+
+    .photo_hunting .requirements .where .item
+    {
+        font-size: 15px;
+    }
+
+
+
+    .photo_hunting .how_take .block_title
+    {
+        font-size: 28px;
+    }
+
+
+    .photo_hunting .how_take .images
+    {
+        margin-bottom: -8px;
+        margin-left: -8px;
+    }
+
+    .photo_hunting .how_take .image
+    {
+        width: calc(50% - 8px);
+        margin-bottom: 8px;
+        margin-left: 8px;
+    }
+
+
+    .photo_hunting .how_take .image .icon
+    {
+        bottom: -26px;
+
+        width: 52px;
+        height: 52px;
+    }
+
+    .photo_hunting .how_take .image .icon.green svg
+    {
+        width: 23px;
+        height: 17px;
+    }
+
+    .photo_hunting .how_take .image .icon.red svg
+    {
+        width: 19px;
+        height: 19px;
+    }
+
+
+    .photo_hunting .how_take .image .exp
+    {
+        margin-top: 38px;
+    }
+
+
+    .photo_hunting .how_take .bottom .title
+    {
+        font-size: 22px;
+    }
+
+    .photo_hunting .how_take .bottom .desc
+    {
+        font-size: 15px;
+
+        width: 100%;
+    }
+
+
+
+    .photo_hunting .add_photo .block_title
+    {
+        font-size: 36px;
+    }
+
+
+
+    .photo_hunting .pre_footer .bg_right
+    {
+        zoom: .5;
+    }
+
+
+
+    /*---------------
         PopUp
     ---------------*/
     .fancybox-slide--html .fancybox-close-small
