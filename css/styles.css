@@ -24687,6 +24687,1271 @@ aside .page_links .items a.active
 
 
 /*---------------
+   Vacancy
+---------------*/
+.vacancy
+{
+    padding-top: 36px;
+}
+
+
+.vacancy .vacancies_head
+{
+    position: relative;
+    z-index: 3;
+
+    margin-bottom: 64px;
+    padding: 40px 0 132px;
+}
+
+
+.vacancy .vacancies_head .img
+{
+    position: absolute;
+    top: 45px;
+    left: 50%;
+
+    display: block;
+
+    width: 292px;
+    height: 393px;
+    margin-left: -905px;
+
+    pointer-events: none;
+}
+
+.vacancy .vacancies_head .img2
+{
+    position: absolute;
+    top: -26px;
+    right: 50%;
+
+    display: block;
+
+    width: 902px;
+    height: 509px;
+    margin-right: -912px;
+
+    pointer-events: none;
+}
+
+
+.vacancy .vacancies_head .data
+{
+    width: 660px;
+    max-width: 100%;
+    margin-left: 115px;
+}
+
+
+.vacancy .vacancies_head .title
+{
+    color: #000;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+
+.vacancy .vacancies_head .desc
+{
+    color: #000;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 140%;
+
+    width: 562px;
+    max-width: 100%;
+    margin-top: 26px;
+}
+
+
+.vacancy .vacancies_head .link
+{
+    position: relative;
+    z-index: 3;
+
+    display: flex;
+
+    margin-top: 40px;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.vacancy .vacancies_head .link a
+{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 64px;
+
+    position: relative;
+
+    display: flex;
+
+    width: 328px;
+    height: 64px;
+
+    transition: background .2s linear;
+    text-decoration: none;
+
+    border-radius: 0 35px;
+    background: #ffa51c;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.vacancy .vacancies_head .link a:before
+{
+    position: absolute;
+    z-index: -1;
+    top: 10px;
+    left: 10px;
+
+    width: 100%;
+    height: 100%;
+
+    content: '';
+
+    border: 1px solid #000;
+    border-radius: inherit;
+}
+
+
+.vacancy .vacancies_head .link .icon
+{
+    display: block;
+
+    width: 41px;
+    height: 9px;
+    margin-left: 16px;
+}
+
+
+.vacancy .vacancies_head .link a:hover
+{
+    background: #ff9a00;
+}
+
+
+
+.vacancy .vacancies
+{
+    margin-bottom: 92px;
+}
+
+
+.vacancy .vacancies .block_title
+{
+    color: #000;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 130%;
+
+    margin-bottom: 52px;
+    padding: 0 113px;
+}
+
+
+.vacancy .vacancies .row
+{
+    display: flex;
+
+    margin-bottom: -50px;
+    margin-left: -50px;
+
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+.vacancy .vacancies .row > *
+{
+    width: calc(50% - 50px);
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+
+.vacancy .vacancies .item
+{
+    padding: 0 44px 35px;
+
+    border-radius: 0 35px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+
+.vacancy .vacancies .item .name
+{
+    color: #00abdf;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 130%;
+
+    position: relative;
+
+    display: flex;
+
+    min-height: 120px;
+    margin-bottom: 12px;
+    padding: 18px 0 15px;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.vacancy .vacancies .item .name:before
+{
+    position: absolute;
+    top: 0;
+    left: -44px;
+
+    display: block;
+
+    width: 7px;
+    height: 100%;
+
+    content: '';
+
+    background: #2aa8cf;
+}
+
+
+.vacancy .vacancies .item .name a
+{
+    color: currentColor;
+
+    width: 459px;
+    max-width: 100%;
+
+    text-decoration: none;
+}
+
+.vacancy .vacancies .item .name a:hover
+{
+    text-decoration: underline;
+}
+
+
+.vacancy .vacancies .item .info
+{
+    color: #737373;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+
+    display: flex;
+
+    margin-bottom: -10px;
+    margin-left: -10px;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.vacancy .vacancies .item .info > *
+{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 0 14px;
+
+    white-space: normal;
+}
+
+.vacancy .vacancies .item .info .city
+{
+    background: #fffdca;
+}
+
+.vacancy .vacancies .item .info .type
+{
+    background: #f9eeff;
+}
+
+.vacancy .vacancies .item .info .salary
+{
+    background: #daffd9;
+}
+
+
+.vacancy .vacancies .item .requirements
+{
+    color: #737373;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 140%;
+
+    margin-top: 28px;
+}
+
+.vacancy .vacancies .item .requirements .label
+{
+    color: #000;
+}
+
+.vacancy .vacancies .item .requirements .val > *
+{
+    position: relative;
+
+    padding-left: 24px;
+}
+
+.vacancy .vacancies .item .requirements .val > *:before
+{
+    position: absolute;
+    top: 12px;
+    left: 0;
+
+    display: block;
+
+    width: 10px;
+    height: 1px;
+
+    content: '';
+
+    background: currentColor;
+}
+
+
+.vacancy .vacancies .item .link
+{
+    margin-top: 22px;
+}
+
+
+.vacancy .vacancies .item .link a
+{
+    color: #2aa8cf;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 140%;
+
+    display: inline-block;
+
+    padding: 5px 33px;
+
+    transition: .2s linear;
+    vertical-align: top;
+    text-decoration: none;
+
+    border: 1px solid;
+    border-radius: 25px;
+}
+
+.vacancy .vacancies .item .link a:hover
+{
+    color: #fff;
+
+    border-color: #2aa8cf;
+    background: #00abdf;
+}
+
+
+.vacancy .vacancies .load_more
+{
+    margin-top: 50px;
+}
+
+.vacancy .vacancies .load_more .btn
+{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 130%;
+
+    width: 117px;
+    height: 117px;
+    padding: 24px;
+
+    border-radius: 50%;
+}
+
+
+
+.vacancy .causes
+{
+    position: relative;
+    z-index: 3;
+
+    margin-bottom: 175px;
+}
+
+
+.vacancy .causes .img
+{
+    position: absolute;
+    z-index: -1;
+    bottom: -15px;
+    left: 50%;
+
+    display: block;
+
+    margin-left: -879px;
+
+    pointer-events: none;
+}
+
+.vacancy .causes .img2
+{
+    position: absolute;
+    z-index: -1;
+    top: 100%;
+    right: 50%;
+
+    display: block;
+
+    margin-top: 52px;
+    margin-right: -804px;
+
+    pointer-events: none;
+}
+
+
+.vacancy .causes .data
+{
+    position: relative;
+
+    height: 526px;
+}
+
+
+.vacancy .causes .block_title
+{
+    color: #000;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 130%;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    width: 377px;
+    max-width: 100%;
+    margin: auto;
+}
+
+
+.vacancy .causes .item
+{
+    color: #000;
+
+    position: absolute;
+    z-index: 3;
+
+    width: 350px;
+    max-width: 100%;
+    padding: 24px 40px 44px;
+
+    border-radius: 65px 0 65px 65px;
+}
+
+
+.vacancy .causes .item1
+{
+    top: 8px;
+    left: 0;
+
+    width: 396px;
+
+    background: #fffdca;
+}
+
+.vacancy .causes .item2
+{
+    top: 258px;
+    left: 248px;
+
+    background: #f8eaff;
+}
+
+.vacancy .causes .item3
+{
+    top: 184px;
+    left: 628px;
+
+    border-radius: 0 65px 65px 65px;
+    background: #d7ffe7;
+}
+
+.vacancy .causes .item4
+{
+    right: 51px;
+    bottom: 0;
+
+    background: #fffaed;
+}
+
+.vacancy .causes .item5
+{
+    top: 8px;
+    right: 0;
+
+    border-radius: 0 65px 65px 65px;
+    background: #f2feff;
+}
+
+
+.vacancy .causes .item .name
+{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 140%;
+
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+}
+
+
+.vacancy .causes .item .number
+{
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 100%;
+
+    position: relative;
+    top: 6px;
+
+    margin-right: 12px;
+}
+
+
+.vacancy .causes .item .icon
+{
+    position: absolute;
+    z-index: -1;
+    top: 20px;
+    right: 20px;
+
+    display: block;
+}
+
+
+.vacancy .causes .item .desc
+{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 140%;
+
+    margin-top: 12px;
+}
+
+
+
+.vacancy .conditions
+{
+    position: relative;
+    z-index: 3;
+
+    margin-bottom: 56px;
+}
+
+
+.vacancy .conditions .block_title
+{
+    color: #000;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 130%;
+
+    margin-bottom: 39px;
+    padding: 0 113px;
+}
+
+
+.vacancy .conditions .items
+{
+    color: #000;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 140%;
+
+    display: flex;
+
+    margin-bottom: -20px;
+    margin-left: -68px;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.vacancy .conditions .items > *
+{
+    position: relative;
+
+    width: calc(50% - 68px);
+    margin-bottom: 20px;
+    margin-left: 68px;
+    padding-left: 58px;
+}
+
+
+.vacancy .conditions .items .icon
+{
+    position: absolute;
+    top: 7px;
+    left: 0;
+
+    display: block;
+
+    width: 41px;
+    height: 9px;
+}
+
+
+.vacancy .conditions .video
+{
+    width: 792px;
+    max-width: 100%;
+    height: 447px;
+    margin: 83px auto 0;
+
+    background: #ddd;
+}
+
+
+.vacancy .conditions .video iframe
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+}
+
+
+.vacancy .conditions .not_found
+{
+    position: relative;
+    z-index: 3;
+
+    margin-top: 72px;
+    padding-bottom: 91px;
+
+    border-bottom: 1px solid #eee;
+}
+
+
+.vacancy .conditions .not_found .title
+{
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 140%;
+
+    margin-bottom: 29px;
+
+    text-align: center;
+}
+
+
+.vacancy .conditions .not_found .btn
+{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 140%;
+
+    position: relative;
+
+    display: flex;
+
+    width: 360px;
+    max-width: 100%;
+    height: 60px;
+    margin-right: auto;
+    margin-left: auto;
+
+    cursor: pointer;
+    transition: background .2s linear;
+
+    border: none;
+    border-radius: 35px 0;
+    background: #ffb300;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.vacancy .conditions .not_found .btn .icon
+{
+    display: block;
+
+    width: 41px;
+    height: 9px;
+    margin-left: 16px;
+}
+
+.vacancy .conditions .not_found .btn:before
+{
+    position: absolute;
+    z-index: -1;
+    top: 10px;
+    left: 10px;
+
+    width: 100%;
+    height: 100%;
+
+    content: '';
+
+    border: 1px solid #000;
+    border-radius: inherit;
+}
+
+.vacancy .conditions .not_found .btn:hover
+{
+    background: #ff9a00;
+}
+
+
+.vacancy .conditions .bg
+{
+    position: absolute;
+    z-index: -1;
+    top: 40px;
+    left: 50%;
+
+    display: block;
+
+    margin-left: -724px;
+}
+
+
+
+.vacancy .stats
+{
+    margin-bottom: 80px;
+}
+
+
+.vacancy .stats .row
+{
+    display: flex;
+
+    margin-bottom: -40px;
+    margin-left: -24px;
+
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.vacancy .stats .row > *
+{
+    width: calc(25% - 24px);
+    margin-bottom: 40px;
+    margin-left: 24px;
+}
+
+
+.vacancy .stats .val
+{
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 140%;
+
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+}
+
+.vacancy .stats .val b
+{
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 100%;
+
+    position: relative;
+    z-index: 3;
+    top: 4px;
+
+    margin-right: 12px;
+}
+
+.vacancy .stats .val b:before
+{
+    position: absolute;
+    z-index: -1;
+
+    display: block;
+
+    width: 52px;
+    height: 52px;
+
+    content: '';
+
+    border-radius: 50%;
+    background: #b8f8fc;
+}
+
+.vacancy .stats .item:nth-child(1) .val b:before
+{
+    top: 4px;
+    left: 8px;
+}
+
+.vacancy .stats .item:nth-child(2) .val b:before
+{
+    top: 20px;
+    left: 50px;
+}
+
+.vacancy .stats .item:nth-child(3) .val b:before
+{
+    bottom: 4px;
+    left: -7px;
+}
+
+.vacancy .stats .item:nth-child(4) .val b:before
+{
+    top: 18px;
+    left: 0;
+}
+
+
+.vacancy .stats .desc
+{
+    color: #000;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 140%;
+
+    margin-top: 9px;
+}
+
+
+
+.vacancy .vacancy_info
+{
+    margin-bottom: 56px;
+    padding-top: 29px;
+}
+
+
+.vacancy .vacancy_info .cont
+{
+    display: flex;
+
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.vacancy .vacancy_info .col_left
+{
+    position: relative;
+    z-index: 3;
+
+    width: 313px;
+    max-width: 100%;
+}
+
+
+.vacancy .vacancy_info .col_left .bg
+{
+    position: absolute;
+    z-index: -1;
+    top: -20px;
+    right: -20px;
+
+    display: block;
+
+    pointer-events: none;
+}
+
+
+.vacancy .vacancy_info .col_main
+{
+    position: relative;
+    z-index: 3;
+
+    width: calc(100% - 353px);
+    margin-left: auto;
+}
+
+
+.vacancy .vacancy_info .col_main .bg
+{
+    position: absolute;
+    z-index: -1;
+    top: -60px;
+    right: -253px;
+
+    display: block;
+
+    width: 327px;
+    height: 451px;
+
+    pointer-events: none;
+}
+
+.vacancy .vacancy_info .col_main .bg2
+{
+    position: absolute;
+    z-index: -1;
+    right: -147px;
+    bottom: 0;
+
+    display: block;
+
+    width: 110px;
+    height: 212px;
+
+    pointer-events: none;
+}
+
+
+.vacancy .vacancy_info .thumb
+{
+    position: relative;
+
+    overflow: hidden;
+
+    padding-bottom: 106%;
+
+    border-radius: 35px 35px 35px 0;
+    background: #ddd;
+}
+
+.vacancy .vacancy_info .thumb img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
+}
+
+
+.vacancy .vacancy_info .vacancies_list
+{
+    margin-top: 124px;
+}
+
+.vacancy .vacancy_info .vacancies_list .item .name
+{
+    margin: 0;
+}
+
+
+.vacancy .vacancy_info .col_main .thumb
+{
+    position: relative;
+
+    display: none;
+    overflow: hidden;
+
+    margin-bottom: 40px;
+    padding-bottom: 106%;
+
+    border-radius: 35px 35px 35px 0;
+    background: #ddd;
+}
+
+.vacancy .vacancy_info .col_main .thumb img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
+}
+
+
+.vacancy .vacancy_info .vacancy_name
+{
+    color: #000;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 130%;
+
+    display: block;
+
+    width: 889px;
+    max-width: 100%;
+}
+
+
+.vacancy .vacancy_info .salary
+{
+    color: #000;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 130%;
+
+    display: inline-block;
+
+    margin-top: 32px;
+    padding: 3px 15px 2px 14px;
+
+    vertical-align: top;
+
+    background: #daffd9;
+}
+
+
+.vacancy .vacancy_info .features
+{
+    color: #000;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 140%;
+
+    margin-top: 26px;
+}
+
+.vacancy .vacancy_info .features > * + *
+{
+    margin-top: 11px;
+}
+
+
+.vacancy .vacancy_info .info
+{
+    color: #000;
+    font-size: 19px;
+    line-height: 140%;
+
+    margin-top: 50px;
+}
+
+
+.vacancy .vacancy_info .info .label
+{
+    font-weight: 700;
+
+    margin-bottom: 18px;
+}
+
+
+.vacancy .vacancy_info .info ul
+{
+    font-weight: 300;
+
+    padding-left: 18px;
+}
+
+
+.vacancy .vacancy_info .info ul li
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    padding-left: 36px;
+
+    list-style-type: none;
+}
+
+.vacancy .vacancy_info .info ul li + li
+{
+    margin-top: 8px;
+}
+
+.vacancy .vacancy_info .info ul li:before
+{
+    position: absolute;
+    top: 10px;
+    left: 19px;
+
+    display: block;
+
+    width: 6px;
+    height: 6px;
+
+    content: '';
+
+    border-radius: 50%;
+    background: currentColor;
+}
+
+
+.vacancy .vacancy_info .btn
+{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 140%;
+
+    position: relative;
+
+    display: flex;
+
+    width: 328px;
+    max-width: 100%;
+    height: 64px;
+    margin-top: 51px;
+
+    cursor: pointer;
+    transition: background .2s linear;
+
+    border: none;
+    border-radius: 35px 0;
+    background: #ffb300;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.vacancy .vacancy_info .btn .icon
+{
+    display: block;
+
+    width: 41px;
+    height: 9px;
+    margin-left: 16px;
+}
+
+.vacancy .vacancy_info .btn:before
+{
+    position: absolute;
+    z-index: -1;
+    top: 10px;
+    left: 10px;
+
+    width: 100%;
+    height: 100%;
+
+    content: '';
+
+    border: 1px solid #000;
+    border-radius: inherit;
+}
+
+.vacancy .vacancy_info .btn:hover
+{
+    background: #ff9a00;
+}
+
+
+.vacancy .vacancy_info .line
+{
+    width: 100%;
+    height: 1px;
+    margin-top: 101px;
+
+    background: #eee;
+}
+
+
+
+.vacancy .vacancies_list > * + *
+{
+    margin-top: 11px;
+}
+
+
+.vacancy .vacancies_list .item
+{
+    overflow: hidden;
+
+    border-radius: 0 35px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+
+.vacancy .vacancies_list .item .name
+{
+    color: #00abdf;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 130%;
+
+    position: relative;
+
+    display: flex;
+
+    min-height: 120px;
+    margin-bottom: 12px;
+    padding: 23px 32px 19px 27px;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.vacancy .vacancies_list .item .name:before
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 7px;
+    height: 100%;
+
+    content: '';
+
+    background: #2aa8cf;
+}
+
+
+.vacancy .vacancies_list .item .name a
+{
+    color: currentColor;
+
+    width: 459px;
+    max-width: 100%;
+
+    text-decoration: none;
+}
+
+.vacancy .vacancies_list .item .name a:hover
+{
+    text-decoration: underline;
+}
+
+
+
+/*---------------
    Footer
 ---------------*/
 footer

@@ -1833,6 +1833,140 @@
 
 
     /*---------------
+       Vacancy
+    ---------------*/
+    .vacancy
+    {
+        padding-top: 20px;
+    }
+
+
+    .vacancy .vacancies_head .title
+    {
+        font-size: 28px;
+    }
+
+    .vacancy .vacancies_head .desc
+    {
+        font-size: 15px;
+    }
+
+
+
+    .vacancy .vacancies .block_title
+    {
+        font-size: 28px;
+    }
+
+
+
+    .vacancy .causes .block_title
+    {
+        font-size: 28px;
+    }
+
+
+
+    .vacancy .conditions .block_title
+    {
+        font-size: 28px;
+    }
+
+
+
+    .vacancy .conditions .not_found .title
+    {
+        font-size: 24px;
+    }
+
+
+    .vacancy .vacancy_info .col_main .thumb
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .vacancy .vacancy_info .vacancy_name
+    {
+        font-size: 26px;
+    }
+
+
+    .vacancy .vacancy_info .salary
+    {
+        font-size: 19px;
+    }
+
+
+    .vacancy .vacancy_info .features,
+    .vacancy .vacancy_info .info
+    {
+        font-size: 15px;
+    }
+
+
+    .vacancy .vacancy_info .btn
+    {
+        width: 100%;
+    }
+
+
+
+    .vacancy .vacancies_list .item .name
+    {
+        font-size: 16px;
+
+        min-height: 80px;
+        padding: 20px 24px;
+    }
+
+
+
+    .vacancy .stats .row
+    {
+        margin-left: -24px;
+    }
+
+    .vacancy .stats .row > *
+    {
+        width: calc(50% - 24px);
+        margin-left: 24px;
+    }
+
+
+    .vacancy .stats .val b
+    {
+        font-size: 50px;
+
+        top: 6px;
+    }
+
+    .vacancy .stats .val b:before
+    {
+        width: 30px;
+        height: 30px;
+    }
+
+    .vacancy .stats .item:nth-child(1) .val b:before
+    {
+        top: 0;
+        left: 4px;
+    }
+
+    .vacancy .stats .item:nth-child(2) .val b:before
+    {
+        top: 9px;
+        left: 28px;
+    }
+
+    .vacancy .stats .item:nth-child(4) .val b:before
+    {
+        top: 9px;
+    }
+
+
+
+    /*---------------
         PopUp
     ---------------*/
     .fancybox-slide--html .fancybox-close-small

@@ -2811,6 +2811,294 @@
 
 
     /*---------------
+       Vacancy
+    ---------------*/
+    .vacancy .vacancies_head
+    {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+
+    .vacancy .vacancies_head .data
+    {
+        width: 380px;
+        margin-left: 0;
+    }
+
+
+    .vacancy .vacancies_head .title
+    {
+        font-size: 32px;
+    }
+
+
+    .vacancy .vacancies_head .desc
+    {
+        font-size: 16px;
+    }
+
+
+    .vacancy .vacancies_head .img2
+    {
+        top: -22px;
+
+        width: 600px;
+        height: 339px;
+        margin-right: -558px;
+    }
+
+
+
+    .vacancy .vacancies
+    {
+        margin-bottom: 64px;
+    }
+
+
+    .vacancy .vacancies .block_title
+    {
+        font-size: 32px;
+
+        margin-bottom: 28px;
+    }
+
+
+    .vacancy .vacancies .item
+    {
+        padding: 0 24px 24px;
+    }
+
+
+    .vacancy .vacancies .item .name
+    {
+        font-size: 18px;
+    }
+
+    .vacancy .vacancies .item .name:before
+    {
+        left: -24px;
+    }
+
+
+    .vacancy .vacancies .item .requirements
+    {
+        font-size: 15px;
+    }
+
+
+
+    .vacancy .causes
+    {
+        margin-bottom: 64px;
+    }
+
+
+    .vacancy .causes .block_title
+    {
+        font-size: 32px;
+
+        margin-bottom: 28px;
+    }
+
+
+    .vacancy .causes .item
+    {
+        padding: 20px 28px 28px;
+
+        border-radius: 40px 0 40px 40px;
+    }
+
+    .vacancy .causes .item .icon
+    {
+        max-width: 64px;
+        max-height: 64px;
+    }
+
+    .vacancy .causes .item .name
+    {
+        font-size: 18px;
+    }
+
+    .vacancy .causes .item .number
+    {
+        font-size: 60px;
+
+        top: 4px;
+    }
+
+    .vacancy .causes .item .desc
+    {
+        font-size: 15px;
+    }
+
+
+
+    .vacancy .conditions .block_title
+    {
+        font-size: 32px;
+
+        margin-bottom: 28px;
+    }
+
+
+    .vacancy .conditions .items
+    {
+        margin-left: -28px;
+    }
+
+    .vacancy .conditions .items > *
+    {
+        width: calc(50% - 28px);
+        margin-left: 28px;
+    }
+
+
+    .vacancy .conditions .video
+    {
+        margin-top: 40px;
+    }
+
+
+
+    .vacancy .conditions .not_found
+    {
+        margin-top: 48px;
+        padding-bottom: 59px;
+    }
+
+
+    .vacancy .conditions .not_found .title
+    {
+        font-size: 28px;
+    }
+
+
+
+    .vacancy .vacancy_info
+    {
+        padding-top: 0;
+    }
+
+
+    .vacancy .vacancy_info .col_left
+    {
+        width: 100%;
+        margin-top: 48px;
+
+        order: 2;
+    }
+
+    .vacancy .vacancy_info .col_main
+    {
+        width: 100%;
+    }
+
+
+    .vacancy .vacancy_info .thumb
+    {
+        display: none;
+    }
+
+
+    .vacancy .vacancy_info .col_main .thumb
+    {
+        display: block;
+    }
+
+
+    .vacancy .vacancy_info .vacancy_name
+    {
+        font-size: 32px;
+    }
+
+
+    .vacancy .vacancy_info .salary
+    {
+        font-size: 24px;
+    }
+
+
+    .vacancy .vacancy_info .features,
+    .vacancy .vacancy_info .info
+    {
+        font-size: 16px;
+    }
+
+
+    .vacancy .vacancy_info .info ul li
+    {
+        padding-left: 24px;
+    }
+
+    .vacancy .vacancy_info .info ul li:before
+    {
+        top: 7px;
+        left: 4px;
+    }
+
+
+
+    .vacancy .vacancy_info .vacancies_list
+    {
+        margin-top: 0;
+    }
+
+    .vacancy .vacancies_list .item .name
+    {
+        min-height: 92px;
+        padding: 20px 28px;
+    }
+
+
+
+    .vacancy .stats
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .vacancy .stats .val
+    {
+        font-size: 15px;
+    }
+
+    .vacancy .stats .val b
+    {
+        font-size: 56px;
+
+        top: 4px;
+
+        margin-right: 4px;
+    }
+
+    .vacancy .stats .val b:before
+    {
+        width: 34px;
+        height: 34px;
+    }
+
+    .vacancy .stats .item:nth-child(2) .val b:before
+    {
+        top: 10px;
+        left: 32px;
+    }
+
+    .vacancy .stats .item:nth-child(4) .val b:before
+    {
+        top: 10px;
+        left: 0;
+    }
+
+
+    .vacancy .stats .desc
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*---------------
         Footer
     ---------------*/
     footer .menu

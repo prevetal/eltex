@@ -1523,4 +1523,397 @@
     {
         margin-right: -608px;
     }
+
+
+
+    /*---------------
+       Vacancy
+    ---------------*/
+    .vacancy .vacancies_head
+    {
+        padding-bottom: 100px;
+    }
+
+
+    .vacancy .vacancies_head .data
+    {
+        width: 580px;
+        margin-left: 28px;
+    }
+
+
+    .vacancy .vacancies_head .title
+    {
+        font-size: 40px;
+        line-height: 120%;
+    }
+
+
+    .vacancy .vacancies_head .desc
+    {
+        font-size: 18px;
+
+        width: 424px;
+        margin-top: 24px;
+    }
+
+
+    .vacancy .vacancies_head .link a
+    {
+        font-size: 20px;
+
+        width: 300px;
+        height: 60px;
+    }
+
+
+    .vacancy .vacancies_head .img2
+    {
+        top: -48px;
+
+        margin-right: -728px;
+    }
+
+
+
+    .vacancy .vacancies .block_title
+    {
+        font-size: 40px;
+        line-height: 120%;
+
+        margin-bottom: 40px;
+        padding: 0 80px;
+    }
+
+
+    .vacancy .vacancies .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .vacancy .vacancies .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .vacancy .vacancies .item
+    {
+        padding: 0 32px 32px;
+    }
+
+
+    .vacancy .vacancies .item .name
+    {
+        font-size: 20px;
+
+        padding: 16px 0;
+    }
+
+    .vacancy .vacancies .item .name:before
+    {
+        left: -32px;
+    }
+
+
+    .vacancy .vacancies .item .requirements
+    {
+        font-size: 17px;
+    }
+
+
+    .vacancy .vacancies .item .link a
+    {
+        font-size: 17px;
+
+        padding: 7px 31px;
+    }
+
+
+    .vacancy .vacancies .load_more
+    {
+        margin-top: 40px;
+    }
+
+    .vacancy .vacancies .load_more .btn
+    {
+        font-size: 15px;
+
+        width: 100px;
+        height: 100px;
+        padding: 15px;
+    }
+
+
+
+    .vacancy .causes
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .vacancy .causes .block_title
+    {
+        font-size: 40px;
+        line-height: 120%;
+
+        width: 328px;
+    }
+
+
+    .vacancy .causes .data
+    {
+        height: 500px;
+    }
+
+
+    .vacancy .causes .item
+    {
+        width: 340px;
+        padding: 24px 32px 40px;
+    }
+
+    .vacancy .causes .item1
+    {
+        top: 0;
+
+        width: 368px;
+    }
+
+    .vacancy .causes .item2
+    {
+        top: 248px;
+        left: 212px;
+    }
+
+    .vacancy .causes .item3
+    {
+        top: 140px;
+        left: 540px;
+    }
+
+    .vacancy .causes .item4
+    {
+        right: 48px;
+    }
+
+
+    .vacancy .causes .item .icon
+    {
+        max-width: 80px;
+        max-height: 80px;
+    }
+
+
+    .vacancy .causes .item .name
+    {
+        font-size: 20px;
+    }
+
+    .vacancy .causes .item .number
+    {
+        font-size: 80px;
+
+        top: 7px;
+    }
+
+    .vacancy .causes .item .desc
+    {
+        font-size: 17px;
+    }
+
+
+
+    .vacancy .conditions .block_title
+    {
+        font-size: 40px;
+        line-height: 120%;
+
+        margin-bottom: 40px;
+        padding: 0 80px;
+    }
+
+
+    .vacancy .conditions .items
+    {
+        font-size: 17px;
+
+        margin-left: -48px;
+    }
+
+    .vacancy .conditions .items > *
+    {
+        width: calc(50% - 48px);
+        margin-left: 48px;
+    }
+
+
+    .vacancy .conditions .video
+    {
+        width: 780px;
+        height: 440px;
+        margin-top: 60px;
+    }
+
+
+
+    .vacancy .conditions .not_found
+    {
+        margin-top: 64px;
+        padding-bottom: 79px;
+    }
+
+
+    .vacancy .conditions .not_found .title
+    {
+        font-size: 32px;
+
+        margin-bottom: 28px;
+    }
+
+
+    .vacancy .conditions .not_found .btn
+    {
+        font-size: 20px;
+
+        width: 340px;
+    }
+
+
+
+    .vacancy .vacancy_info .vacancy_name
+    {
+        font-size: 40px;
+    }
+
+
+    .vacancy .vacancy_info .salary
+    {
+        font-size: 28px;
+
+        margin-top: 28px;
+        padding: 4px 16px;
+    }
+
+
+    .vacancy .vacancy_info .features
+    {
+        font-size: 18px;
+        line-height: 130%;
+
+        margin-top: 28px;
+    }
+
+
+    .vacancy .vacancy_info .info
+    {
+        font-size: 18px;
+    }
+
+
+    .vacancy .vacancy_info .info ul li
+    {
+        padding-left: 32px;
+    }
+
+    .vacancy .vacancy_info .info ul li:before
+    {
+        top: 9px;
+        left: 12px;
+    }
+
+
+    .vacancy .vacancy_info .btn
+    {
+        font-size: 20px;
+
+        width: 300px;
+        height: 60px;
+        margin-top: 48px;
+    }
+
+
+    .vacancy .vacancy_info .line
+    {
+        margin-top: 79px;
+    }
+
+
+
+    .vacancy .stats .val
+    {
+        font-size: 21px;
+    }
+
+
+    .vacancy .stats .val b
+    {
+        font-size: 80px;
+
+        top: 6px;
+    }
+
+    .vacancy .stats .val b:before
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+    .vacancy .stats .item:nth-child(1) .val b:before
+    {
+        top: 2px;
+        left: 6px;
+    }
+
+    .vacancy .stats .item:nth-child(2) .val b:before
+    {
+        top: 16px;
+        left: 44px;
+    }
+
+    .vacancy .stats .item:nth-child(3) .val b:before
+    {
+        bottom: 4px;
+        left: -8px;
+    }
+
+    .vacancy .stats .item:nth-child(4) .val b:before
+    {
+        top: 16px;
+        left: 0;
+    }
+
+
+    .vacancy .stats .desc
+    {
+        font-size: 17px;
+
+        margin-top: 12px;
+    }
+
+
+
+    .vacancy .vacancy_info .vacancies_list
+    {
+        margin-top: 104px;
+    }
+
+
+
+    .vacancy .vacancies_list > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+    .vacancy .vacancies_list .item .name
+    {
+        font-size: 18px;
+
+        min-height: 100px;
+        padding: 24px 28px;
+    }
 }

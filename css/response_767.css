@@ -2549,6 +2549,193 @@
 
 
     /*---------------
+       Vacancy
+    ---------------*/
+    .vacancy .vacancies_head
+    {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+
+    .vacancy .vacancies_head .data
+    {
+        width: 100%;
+    }
+
+
+    .vacancy .vacancies_head .title
+    {
+        font-size: 30px;
+    }
+
+
+    .vacancy .vacancies_head .link
+    {
+        margin-top: 28px;
+    }
+
+    .vacancy .vacancies_head .link a
+    {
+        width: 100%;
+    }
+
+
+    .vacancy .vacancies_head .img2
+    {
+        position: relative;
+        top: 0;
+        right: 0;
+
+        width: calc(100% + 18px);
+        height: auto;
+        margin-top: 0;
+        margin-right: 24px;
+        margin-left: 24px;
+    }
+
+
+
+    .vacancy .vacancies .block_title
+    {
+        font-size: 30px;
+    }
+
+
+    .vacancy .vacancies .row
+    {
+        margin-left: 0;
+    }
+
+    .vacancy .vacancies .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    .vacancy .causes .block_title
+    {
+        font-size: 30px;
+
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .vacancy .causes .data
+    {
+        margin-left: 0;
+    }
+
+
+    .vacancy .causes .item
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    .vacancy .conditions .block_title
+    {
+        font-size: 30px;
+    }
+
+
+    .vacancy .conditions .items
+    {
+        margin-left: 0;
+    }
+
+    .vacancy .conditions .items > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .vacancy .conditions .items .icon
+    {
+        top: 6px;
+    }
+
+
+
+    .vacancy .conditions .video
+    {
+        position: relative;
+
+        width: 100%;
+        height: auto;
+        padding-bottom: 56%;
+    }
+
+    .vacancy .conditions .video iframe
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+
+    .vacancy .conditions .not_found
+    {
+        margin-top: 40px;
+    }
+
+
+    .vacancy .conditions .not_found .title
+    {
+        font-size: 26px;
+    }
+
+    .vacancy .conditions .not_found .btn
+    {
+        font-size: 18px;
+
+        width: 100%;
+    }
+
+
+
+    .vacancy .vacancy_info .vacancy_name
+    {
+        font-size: 28px;
+    }
+
+
+    .vacancy .vacancy_info .salary
+    {
+        font-size: 20px;
+
+        margin-top: 24px;
+    }
+
+
+
+    .vacancy .vacancies_list .item .name
+    {
+        font-size: 17px;
+    }
+
+
+
+    .vacancy .stats .row
+    {
+        margin-left: -40px;
+    }
+
+    .vacancy .stats .row > *
+    {
+        width: calc(50% - 40px);
+        margin-left: 40px;
+    }
+
+
+
+    /*---------------
         Footer
     ---------------*/
     footer .bottom
