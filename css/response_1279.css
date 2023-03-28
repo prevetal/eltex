@@ -3667,6 +3667,363 @@
 
 
     /*---------------
+       Courses
+    ---------------*/
+    .courses
+    {
+        margin-bottom: 68px;
+    }
+
+
+    .courses .col_main,
+    .courses .col_right
+    {
+        width: calc(100% - 308px);
+    }
+
+    .courses .col_right
+    {
+        margin-top: 40px;
+        margin-left: auto;
+    }
+
+    .courses .col_left
+    {
+        width: 280px;
+    }
+
+
+    .courses .links
+    {
+        font-size: 15px;
+    }
+
+
+    .courses .has_question_btn,
+    .courses .order_btn
+    {
+        font-size: 16px;
+
+        height: 60px;
+    }
+
+
+
+    .courses .couse_name,
+    .courses .courses_title,
+    .courses .block_title
+    {
+        font-size: 36px;
+
+        margin-bottom: 32px;
+    }
+
+    .courses .couse_name:before,
+    .courses .courses_title:before,
+    .courses .block_title:before
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+
+
+    .courses .text_block
+    {
+        font-size: 15px;
+    }
+
+
+    .courses .text_block h2
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .courses .text_block h2,
+    .courses .text_block * + h3,
+    .courses .text_block * + h4
+    {
+        margin-top: 40px;
+    }
+
+
+    .courses .text_block ul
+    {
+        padding-left: 0;
+    }
+
+
+
+    .courses .wheelSlider-container
+    {
+        width: 600px;
+        margin-top: 40px;
+    }
+
+
+    .wheelSlider-container .slide.next,
+    .wheelSlider-container .slide.prev
+    {
+        top: 29%;
+    }
+
+
+    .wheelSlider-container .wheelSlider-arrow
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+    .wheelSlider-container .wheelSlider-arrow:after
+    {
+        left: 7px;
+
+        width: 14px;
+        height: 14px;
+    }
+
+    .wheelSlider-container .wheelSlider-arrow[data-action='next']:after
+    {
+        left: -7px;
+    }
+
+
+    .courses .wheelSlider-container figcaption
+    {
+        font-size: 15px;
+    }
+
+    .courses .wheelSlider-container figcaption:before
+    {
+        top: 10px;
+    }
+
+
+
+    .courses .teaching_staff
+    {
+        margin-top: 68px;
+        padding: 68px 0;
+    }
+
+
+    .courses .teaching_staff .person > div
+    {
+        width: 280px;
+    }
+
+
+    .courses .teaching_staff .photo
+    {
+        width: 280px;
+        height: 280px;
+    }
+
+
+    .courses .teaching_staff .youtube_link
+    {
+        right: 20px;
+
+        width: 52px;
+        height: 52px;
+    }
+
+    .courses .teaching_staff .youtube_link .icon
+    {
+        width: 23px;
+        height: 16px;
+    }
+
+
+    .courses .teaching_staff .name
+    {
+        font-size: 20px;
+    }
+
+
+    .courses .teaching_staff .experience
+    {
+        font-size: 15px;
+    }
+
+
+    .courses .teaching_staff .post
+    {
+        font-size: 14px;
+    }
+
+
+
+    .courses .available
+    {
+        margin-top: 68px;
+    }
+
+
+    .courses .available .name
+    {
+        font-size: 20px;
+    }
+
+
+    .courses .available .desc
+    {
+        font-size: 14px;
+
+        padding-bottom: 8px;
+    }
+
+
+    .courses .available .duration,
+    .courses .available .amount
+    {
+        width: 100%;
+        margin-top: 12px;
+    }
+
+
+    .courses .available .date
+    {
+        width: 100%;
+
+        order: 2;
+    }
+
+    .courses .available .date br
+    {
+        display: none;
+    }
+
+
+    .courses .available .order_btn
+    {
+        width: 100%;
+        margin-top: 12px;
+
+        order: 3;
+    }
+
+
+
+    .courses .schedule
+    {
+        margin-top: 68px;
+        padding: 68px 0;
+    }
+
+
+    .courses .schedule .table_wrap
+    {
+        padding: 0;
+
+        border: none;
+    }
+
+
+    .courses .schedule table
+    {
+        width: 824px;
+    }
+
+    .courses .schedule table td.action .exp
+    {
+        font-size: 13px;
+    }
+
+
+
+    .courses .academy_address
+    {
+        margin-top: 68px;
+    }
+
+
+    .courses .academy_address .data
+    {
+        font-size: 16px;
+
+        width: 340px;
+        padding: 40px;
+    }
+
+
+    .courses .academy_address .phone,
+    .courses .academy_address .email
+    {
+        margin-top: 24px;
+    }
+
+
+    .courses .academy_address .icon
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+    .courses .academy_address .email .icon
+    {
+        width: 58px;
+        height: 58px;
+    }
+
+
+    .courses .academy_address .icon + *
+    {
+        width: calc(100% - 76px);
+    }
+
+
+    .courses .academy_address .callback_btn
+    {
+        font-size: 15px;
+
+        width: 220px;
+        margin-top: 28px;
+    }
+
+
+    .courses .academy_address .map
+    {
+        width: calc(100% - 343px);
+        min-height: 400px;
+    }
+
+
+
+    .course_info .info
+    {
+        display: flex;
+
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    .course_info .info .date
+    {
+        width: 100%;
+    }
+
+
+    .course_info .info .amount
+    {
+        margin-left: 28px;
+    }
+
+
+    .course_info .info .duration .icon + *,
+    .course_info .info .amount .icon + *
+    {
+        width: auto;
+        margin-left: 20px;
+    }
+
+
+
+    /*---------------
         Footer
     ---------------*/
     footer .info

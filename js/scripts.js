@@ -836,23 +836,38 @@ $(() => {
 		performance.reset()
 		performance2.reset()
 	})
-})
 
 
-
-$(window).load(() => {
-	// Выравнивание элементов в сетке
-	$('.products .flex').each(function () {
-		productHeight($(this), parseInt($(this).css('--products_count')))
+	// Официальные курсы
+	$('.courses .wheelSlider-container').wheelSlider({
+		controls: true,
+		dots: false
 	})
 })
 
 
 
-$(window).resize(() => {
+window.addEventListener('load', function () {
 	// Выравнивание элементов в сетке
 	$('.products .flex').each(function () {
 		productHeight($(this), parseInt($(this).css('--products_count')))
+	})
+
+	$('.courses .available .flex').each(function () {
+		coursesHeight($(this), parseInt($(this).css('--courses_count')))
+	})
+})
+
+
+
+window.addEventListener('resize', function () {
+	// Выравнивание элементов в сетке
+	$('.products .flex').each(function () {
+		productHeight($(this), parseInt($(this).css('--products_count')))
+	})
+
+	$('.courses .available .flex').each(function () {
+		coursesHeight($(this), parseInt($(this).css('--courses_count')))
 	})
 })
 
@@ -860,7 +875,7 @@ $(window).resize(() => {
 
 var scrollTimer
 
-$(window).scroll(() => {
+window.addEventListener('scroll', function () {
 	if (scrollTimer) clearTimeout(scrollTimer)
 	$('.table_wrap').addClass('disable_hover')
 
@@ -883,6 +898,24 @@ function productHeight(context, step) {
 		setHeight(products.slice(start, finish).find('.name'))
 		setHeight(products.slice(start, finish).find('.desc'))
 		setHeight(products.slice(start, finish))
+
+		start = start + step
+		finish = finish + step
+	}
+}
+
+
+// Выравнивание курсов
+function coursesHeight(context, step) {
+	let start = 0
+	let finish = step
+	let courses = context.find('.course')
+
+	courses.height('auto').find('.name, .desc').height('auto')
+
+	for (let i = 0; i < courses.length; i++) {
+		setHeight(courses.slice(start, finish).find('.name'))
+		setHeight(courses.slice(start, finish).find('.desc'))
 
 		start = start + step
 		finish = finish + step

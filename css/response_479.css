@@ -1967,6 +1967,78 @@
 
 
     /*---------------
+       Courses
+    ---------------*/
+    .courses .couse_name,
+    .courses .courses_title,
+    .courses .block_title
+    {
+        font-size: 28px;
+    }
+
+
+    .courses .text_block h2
+    {
+        font-size: 17px;
+    }
+
+
+
+    .courses .teaching_staff .flex
+    {
+        margin-left: 0;
+    }
+
+    .courses .teaching_staff .flex > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    .courses .available .duration,
+    .courses .available .amount
+    {
+        width: 100%;
+    }
+
+
+
+    .course_info .info
+    {
+        display: block;
+    }
+
+
+    .course_info .info .date .val
+    {
+        font-size: 20px;
+    }
+
+
+    .course_info .info .amount
+    {
+        margin-left: 0;
+    }
+
+    .course_info .info .duration .icon,
+    .course_info .info .amount .icon
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+    .course_info .info .duration .icon + *,
+    .course_info .info .amount .icon + *
+    {
+        width: calc(100% - 80px);
+        margin-left: 0;
+    }
+
+
+
+    /*---------------
         PopUp
     ---------------*/
     .fancybox-slide--html .fancybox-close-small

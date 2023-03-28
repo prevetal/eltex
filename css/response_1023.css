@@ -3099,6 +3099,132 @@
 
 
     /*---------------
+       Courses
+    ---------------*/
+    .courses
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .courses .col_main,
+    .courses .col_right,
+    .courses .col_main.big
+    {
+        width: 100%;
+    }
+
+    .courses .col_left
+    {
+        width: 100%;
+        margin-top: 40px;
+
+        order: 3;
+    }
+
+
+
+    .courses .links a
+    {
+        padding: 6px 0;
+    }
+
+
+
+    .courses .couse_name,
+    .courses .courses_title,
+    .courses .block_title
+    {
+        font-size: 34px;
+
+        margin-bottom: 28px;
+    }
+
+    .courses .couse_name:before,
+    .courses .courses_title:before,
+    .courses .block_title:before
+    {
+        width: 56px;
+        height: 56px;
+    }
+
+
+
+    .courses .text_block h2
+    {
+        font-size: 19px;
+    }
+
+
+
+    .courses .teaching_staff
+    {
+        margin-top: 60px;
+        padding: 60px 0;
+    }
+
+
+
+    .courses .teaching_staff .person > div
+    {
+        width: 300px;
+    }
+
+
+
+    .courses .available
+    {
+        margin-top: 60px;
+    }
+
+
+
+    .courses .schedule
+    {
+        margin-top: 60px;
+        padding: 60px 0;
+    }
+
+
+    .courses .schedule .table_wrap
+    {
+        width: calc(100% + 40px);
+        max-width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+    }
+
+
+
+    .courses .academy_address
+    {
+        margin-top: 60px;
+    }
+
+
+    .courses .academy_address .data
+    {
+        width: 316px;
+        padding: 28px;
+    }
+
+
+    .courses .academy_address .map
+    {
+        width: calc(100% - 319px);
+        min-height: 360px;
+    }
+
+
+
+    .course_info .info .date .val
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*---------------
         Footer
     ---------------*/
     footer .menu

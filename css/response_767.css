@@ -2736,6 +2736,287 @@
 
 
     /*---------------
+       Courses
+    ---------------*/
+    .courses .has_question_btn,
+    .courses .order_btn
+    {
+        font-size: 15px;
+
+        height: 56px;
+    }
+
+
+
+    .courses .couse_name,
+    .courses .courses_title,
+    .courses .block_title
+    {
+        font-size: 30px;
+    }
+
+    .courses .courses_title,
+    .courses .block_title
+    {
+        margin-left: 0;
+    }
+
+    .courses .couse_name:before,
+    .courses .courses_title:before,
+    .courses .block_title:before
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+
+
+    .courses .courses_desc
+    {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    .courses .text_block
+    {
+        font-size: 14px;
+    }
+
+
+    .courses .text_block h2
+    {
+        font-size: 18px;
+    }
+
+
+    .courses .text_block ul li:before
+    {
+        top: 5px;
+    }
+
+
+
+    .courses .wheelSlider-container
+    {
+        width: 100%;
+    }
+
+
+    .wheelSlider-container .slide.next,
+    .wheelSlider-container .slide.prev
+    {
+        top: 0;
+
+        transform: scale(.1);
+
+        opacity: 0;
+    }
+
+    .wheelSlider-container .slide.prev
+    {
+        left: -100%;
+    }
+
+    .wheelSlider-container .slide.next
+    {
+        right: -100%;
+    }
+
+
+    .wheelSlider-container .wheelSlider-arrow
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+    .wheelSlider-container .wheelSlider-arrow:after
+    {
+        left: 6px;
+
+        width: 12px;
+        height: 12px;
+    }
+
+    .wheelSlider-container .wheelSlider-arrow[data-action='next']:after
+    {
+        left: -6px;
+    }
+
+
+    .courses .wheelSlider-container figcaption
+    {
+        font-size: 14px;
+
+        margin-top: 12px;
+    }
+
+    .courses .wheelSlider-container figcaption:before
+    {
+        display: none;
+    }
+
+
+
+    .courses .teaching_staff
+    {
+        margin-top: 48px;
+        padding: 48px 0;
+    }
+
+
+
+    .courses .teaching_staff .person > div
+    {
+        width: 100%;
+    }
+
+
+    .courses .teaching_staff .photo
+    {
+        width: 180px;
+        height: 180px;
+    }
+
+
+    .courses .teaching_staff .youtube_link
+    {
+        right: 8px;
+
+        width: 44px;
+        height: 44px;
+    }
+
+    .courses .teaching_staff .youtube_link .icon
+    {
+        width: 20px;
+        height: 14px;
+    }
+
+
+    .courses .teaching_staff .name
+    {
+        font-size: 18px;
+    }
+
+
+    .courses .teaching_staff .experience
+    {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
+    .courses .teaching_staff .post
+    {
+        font-size: 13px;
+    }
+
+
+
+    .courses .available
+    {
+        margin-top: 48px;
+    }
+
+
+    .courses .available .flex
+    {
+        margin-left: 0;
+    }
+
+    .courses .available .flex > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .courses .available .duration,
+    .courses .available .amount
+    {
+        width: calc(50% - 12px);
+    }
+
+
+
+    .courses .schedule
+    {
+        margin-top: 48px;
+        padding: 48px 0;
+    }
+
+
+    .courses .schedule table
+    {
+        width: 760px;
+    }
+
+    .courses .schedule table td
+    {
+        font-size: 14px;
+
+        height: 80px;
+        padding: 12px 20px;
+    }
+
+
+
+    .courses .academy_address
+    {
+        margin-top: 48px;
+    }
+
+
+    .courses .academy_address .data
+    {
+        font-size: 15px;
+
+        width: 100%;
+        padding: 28px;
+    }
+
+
+    .courses .academy_address .map
+    {
+        width: 100%;
+        min-height: 320px;
+        margin-top: 4px;
+    }
+
+
+
+    .course_info .info
+    {
+        padding: 24px;
+
+        border-width: 4px;
+    }
+
+
+    .course_info .info .date .val
+    {
+        font-size: 19px;
+    }
+
+
+    .course_info .info .duration .icon,
+    .course_info .info .amount .icon
+    {
+        width: 56px;
+        height: 56px;
+    }
+
+    .course_info .info .duration .icon + *,
+    .course_info .info .amount .icon + *
+    {
+        margin-left: 16px;
+    }
+
+
+
+    /*---------------
         Footer
     ---------------*/
     footer .bottom

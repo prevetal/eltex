@@ -1916,4 +1916,429 @@
         min-height: 100px;
         padding: 24px 28px;
     }
+
+
+
+    /*---------------
+       Courses
+    ---------------*/
+    .courses
+    {
+        margin-bottom: 80px;
+        padding-top: 32px;
+    }
+
+
+    .courses .col_main
+    {
+        width: calc(100% - 624px);
+    }
+
+    .courses .col_main.big
+    {
+        width: calc(100% - 312px);
+    }
+
+
+    .courses .col_left,
+    .courses .col_right
+    {
+        width: 280px;
+    }
+
+
+    .courses .links
+    {
+        font-size: 16px;
+
+        padding: 24px;
+    }
+
+
+    .courses .links a:before
+    {
+        left: -24px;
+
+        width: 6px;
+    }
+
+
+    .courses .has_question_btn,
+    .courses .order_btn
+    {
+        font-size: 17px;
+
+        height: 64px;
+
+        border-radius: 0 0 28px 28px;
+    }
+
+
+
+    .courses .couse_name,
+    .courses .courses_title,
+    .courses .block_title
+    {
+        font-size: 40px;
+
+        margin-bottom: 36px;
+        padding-top: 12px;
+    }
+
+    .courses .courses_title,
+    .courses .block_title
+    {
+        margin-left: 16px;
+    }
+
+    .courses .couse_name:before,
+    .courses .courses_title:before,
+    .courses .block_title:before
+    {
+        top: 0;
+        left: -16px;
+
+        width: 64px;
+        height: 64px;
+    }
+
+
+
+    .courses .courses_desc
+    {
+        max-width: calc(100% - 16px);
+        margin-left: 16px;
+    }
+
+
+
+    .courses .text_block
+    {
+        font-size: 16px;
+    }
+
+
+    .courses .text_block h2
+    {
+        font-size: 20px;
+        line-height: 140%;
+
+        margin-bottom: 20px;
+    }
+
+
+    .courses .text_block h2,
+    .courses .text_block * + h3,
+    .courses .text_block * + h4
+    {
+        margin-top: 48px;
+    }
+
+
+    .courses .text_block ul
+    {
+        padding-left: 8px;
+    }
+
+
+    .courses .text_block ul li
+    {
+        padding-left: 28px;
+    }
+
+    .courses .text_block ul li:before
+    {
+        top: 6px;
+
+        width: 12px;
+        height: 12px;
+    }
+
+
+
+    .courses .teaching_staff
+    {
+        margin-top: 72px;
+        padding: 72px 0;
+    }
+
+    .courses .teaching_staff:before
+    {
+        right: -24px;
+
+        width: 100vw;
+        margin: 0;
+    }
+
+
+    .courses .teaching_staff .flex
+    {
+        margin-bottom: -40px;
+        margin-left: -24px;
+    }
+
+    .courses .teaching_staff .flex > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 40px;
+        margin-left: 24px;
+    }
+
+
+    .courses .teaching_staff .person > div
+    {
+        width: 320px;
+    }
+
+
+    .courses .teaching_staff .photo
+    {
+        width: 320px;
+        height: 320px;
+        margin-bottom: 20px;
+    }
+
+
+    .courses .teaching_staff .youtube_link
+    {
+        right: 24px;
+
+        width: 56px;
+        height: 56px;
+    }
+
+
+    .courses .teaching_staff .name
+    {
+        font-size: 22px;
+    }
+
+
+    .courses .teaching_staff .experience
+    {
+        font-size: 16px;
+
+        margin-top: 12px;
+    }
+
+
+    .courses .teaching_staff .post
+    {
+        font-size: 15px;
+
+        margin-top: 12px;
+    }
+
+
+
+    .courses .available
+    {
+        margin-top: 72px;
+    }
+
+
+    .courses .available .flex
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .courses .available .flex > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .courses .available .places
+    {
+        font-size: 14px;
+
+        bottom: -13px;
+        left: 24px;
+
+        padding: 5px 16px;
+    }
+
+
+    .courses .available .info
+    {
+        padding: 28px 24px 24px;
+    }
+
+
+    .courses .available .name
+    {
+        font-size: 22px;
+    }
+
+
+    .courses .available .desc
+    {
+        font-size: 15px;
+
+        margin-top: 12px;
+        padding-bottom: 4px;
+    }
+
+
+    .courses .available .duration,
+    .courses .available .amount
+    {
+        font-size: 14px;
+
+        width: calc(100% - 176px);
+    }
+
+    .courses .available .duration .icon,
+    .courses .available .amount .icon
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+    .courses .available .duration .icon + *,
+    .courses .available .amount .icon + *
+    {
+        width: calc(100% - 76px);
+    }
+
+
+    .courses .available .date
+    {
+        font-size: 14px;
+
+        width: 152px;
+    }
+
+
+    .courses .available .order_btn
+    {
+        font-size: 16px;
+
+        width: 152px;
+        height: 52px;
+    }
+
+
+
+    .courses .schedule
+    {
+        margin-top: 72px;
+        padding: 72px 0;
+    }
+
+    .courses .schedule:before
+    {
+        right: -24px;
+
+        width: 100vw;
+        margin: 0;
+    }
+
+
+    .courses .schedule table td
+    {
+        font-size: 15px;
+
+        height: 92px;
+        padding: 12px 24px;
+    }
+
+
+    .courses .schedule table td.action .exp
+    {
+        font-size: 14px;
+
+        margin-top: 4px;
+    }
+
+
+
+    .courses .academy_address
+    {
+        margin-top: 72px;
+    }
+
+
+    .courses .academy_address .data
+    {
+        font-size: 17px;
+
+        width: 380px;
+        padding: 52px 40px;
+    }
+
+
+    .courses .academy_address .callback_btn
+    {
+        font-size: 16px;
+
+        width: 240px;
+        height: 52px;
+        margin-top: 32px;
+    }
+
+
+    .courses .academy_address .map
+    {
+        width: calc(100% - 383px);
+        min-height: 440px;
+    }
+
+
+
+    .course_info .info
+    {
+        padding: 26px;
+
+        border-width: 6px;
+    }
+
+
+    .course_info .info .date .label
+    {
+        font-size: 14px;
+
+        margin-bottom: 8px;
+    }
+
+    .course_info .info .date .val
+    {
+        font-size: 22px;
+    }
+
+
+    .course_info .info .duration,
+    .course_info .info .amount
+    {
+        font-size: 14px;
+        line-height: 130%;
+    }
+
+
+    .course_info .info .duration .icon,
+    .course_info .info .amount .icon
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+    .course_info .info .duration .icon + *,
+    .course_info .info .amount .icon + *
+    {
+        width: calc(100% - 80px);
+    }
+
+
+    .course_info .info .order_btn
+    {
+        font-size: 16px;
+
+        height: 52px;
+        margin-top: 28px;
+
+        border-radius: 12px;
+    }
 }
