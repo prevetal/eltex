@@ -3225,6 +3225,310 @@
 
 
     /*---------------
+       Specifier
+    ---------------*/
+    .specifier .data
+    {
+        padding: 20px;
+    }
+
+
+    .specifier .top
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .specifier .top .title
+    {
+        font-size: 22px;
+    }
+
+
+    .specifier .top .add_new > .btn
+    {
+        font-size: 14px;
+
+        width: 200px;
+        height: 40px;
+    }
+
+
+    .specifier .top .add_new .form
+    {
+        width: 497px;
+    }
+
+    .specifier .top .add_new .form .input
+    {
+        font-size: 14px;
+
+        height: 40px;
+        padding-left: 15px;
+    }
+
+
+    .specifier .top .add_new .tips
+    {
+        padding: 8px 0;
+    }
+
+
+    .specifier .top .add_new .tip
+    {
+        font-size: 15px;
+
+        padding: 6px 15px;
+    }
+
+
+    .specifier .top .add_new .tip .add_btn
+    {
+        font-size: 12px;
+
+        padding: 6px 15px;
+
+        opacity: 1;
+    }
+
+
+    .specifier .item .head
+    {
+        padding: 10px 20px;
+    }
+
+
+    .specifier .item .head .title
+    {
+        font-size: 16px;
+    }
+
+
+    .specifier .category > .name
+    {
+        padding: 12px  20px;
+    }
+
+    .specifier .level2 > .category > .name
+    {
+        padding-left: 48px;
+    }
+
+    .specifier .level3 > .category > .name
+    {
+        padding-left: 76px;
+    }
+
+
+    .specifier .category > .name .plus,
+    .specifier .category > .name .minus
+    {
+        margin-right: 12px;
+    }
+
+
+
+    .specifier .product
+    {
+        padding: 4px 20px 4px 76px;
+    }
+
+
+    .specifier .product .thumb
+    {
+        margin-right: 16px;
+    }
+
+
+    .specifier .product .name
+    {
+        font-size: 14px;
+
+        width: calc(100% - 350px);
+    }
+
+
+    .specifier .product .articul
+    {
+        font-size: 14px;
+
+        width: 160px;
+        margin-left: 20px;
+    }
+
+
+    .specifier .product .btns > * + *
+    {
+        margin-left: 12px;
+    }
+
+
+    .specifier .product .btns .btn.tooltip .text
+    {
+        white-space: normal;
+    }
+
+
+
+    /*-----------------------
+       Specification info
+    -----------------------*/
+    .specification_info .data
+    {
+        padding: 30px 20px;
+    }
+
+
+    .specification_info .top .title
+    {
+        font-size: 22px;
+    }
+
+
+    .specification_info .top .links .link
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+    .specification_info .top .links > * + *
+    {
+        margin-left: 10px;
+    }
+
+    .specification_info .top .links .link .icon
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+    .specification_info .top .add_new
+    {
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0;
+
+        order: 3;
+    }
+
+
+    .specification_info .top .add_new > .btn
+    {
+        font-size: 14px;
+
+        width: 200px;
+        height: 40px;
+    }
+
+
+    .specification_info .top .add_new .form
+    {
+        width: 100%;
+    }
+
+    .specification_info .top .add_new .form .input
+    {
+        font-size: 14px;
+
+        height: 40px;
+        padding-left: 15px;
+    }
+
+
+    .specification_info .top .add_new .tips
+    {
+        padding: 8px 0;
+    }
+
+
+    .specification_info .top .add_new .tip
+    {
+        font-size: 15px;
+
+        padding: 6px 15px;
+    }
+
+
+    .specification_info .top .add_new .tip .add_btn
+    {
+        font-size: 12px;
+
+        padding: 6px 15px;
+
+        opacity: 1;
+    }
+
+
+    .specification_info .item > .head > * + *,
+    .specification_info .item .product > * + *
+    {
+        margin-left: 15px;
+    }
+
+
+    .specification_info .item .col_name .duration
+    {
+        font-size: 12px;
+        line-height: 120%;
+
+        padding: 8px;
+    }
+
+
+    .specification_info .item .option .head
+    {
+        padding-left: 24px;
+    }
+
+
+    .specification_info .col_articul
+    {
+        width: 124px;
+        min-width: 124px;
+    }
+
+
+    .specification_info .col_amount
+    {
+        width: 110px;
+        min-width: 110px;
+    }
+
+
+
+    .specification_info .get_prices
+    {
+        padding: 30px 20px;
+    }
+
+
+    .specification_info .get_prices .form .input
+    {
+        font-size: 15px;
+
+        height: 48px;
+        padding: 0 15px;
+    }
+
+    .specification_info .get_prices .form textarea
+    {
+        font-size: 15px;
+
+        height: 124px;
+        padding: 15px;
+    }
+
+    .specification_info .get_prices .form .submit_btn
+    {
+        font-size: 16px;
+
+        height: 48px;
+    }
+
+
+
+    /*---------------
         Footer
     ---------------*/
     footer .menu

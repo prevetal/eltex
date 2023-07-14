@@ -4024,6 +4024,142 @@
 
 
     /*---------------
+       Specifier
+    ---------------*/
+    .specifier .data
+    {
+        padding: 24px;
+    }
+
+
+    .specifier .top .title
+    {
+        font-size: 24px;
+    }
+
+
+    .specifier .top .add_new > .btn
+    {
+        font-size: 15px;
+
+        width: 220px;
+    }
+
+
+    .specifier .top .add_new .form .input
+    {
+        font-size: 15px;
+    }
+
+
+    .specifier .item .head
+    {
+        padding: 12px 24px;
+    }
+
+
+    .specifier .item .head .title
+    {
+        font-size: 17px;
+    }
+
+
+    .specifier .category > .name
+    {
+        padding: 16px 24px;
+    }
+
+    .specifier .level2 > .category > .name
+    {
+        padding-left: 60px;
+    }
+
+    .specifier .level3 > .category > .name
+    {
+        padding-left: 96px;
+    }
+
+
+
+    .specifier .product
+    {
+        padding: 4px 24px 4px 96px;
+    }
+
+
+    .specifier .product .name
+    {
+        font-size: 15px;
+
+        width: calc(100% - 394px);
+    }
+
+
+    .specifier .product .articul
+    {
+        font-size: 15px;
+
+        width: 192px;
+        margin-left: 24px;
+    }
+
+
+    .specifier .product .btns > * + *
+    {
+        margin-left: 16px;
+    }
+
+
+
+    /*-----------------------
+       Specification info
+    -----------------------*/
+    .specification_info.content_flex .content
+    {
+        width: 100%;
+    }
+
+
+    .specification_info aside
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    .specification_info .top .title
+    {
+        font-size: 24px;
+    }
+
+
+    .specification_info .top .add_new > .btn
+    {
+        font-size: 15px;
+
+        width: 220px;
+    }
+
+
+    .specification_info .top .add_new .form
+    {
+        width: 440px;
+    }
+
+    .specification_info .top .add_new .form .input
+    {
+        font-size: 15px;
+    }
+
+
+    .specification_info .get_prices
+    {
+        padding: 30px;
+    }
+
+
+
+    /*---------------
         Footer
     ---------------*/
     footer .info

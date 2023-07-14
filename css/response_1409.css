@@ -2341,4 +2341,66 @@
 
         border-radius: 12px;
     }
+
+
+
+    /*---------------
+       Specifier
+    ---------------*/
+    .specifier .data
+    {
+        padding: 30px;
+    }
+
+
+    .specifier .item .head .title
+    {
+        font-size: 18px;
+    }
+
+
+    .specifier .category > .name
+    {
+        font-size: 16px;
+
+        padding: 16px 30px;
+    }
+
+
+
+    /*-----------------------
+       Specification info
+    -----------------------*/
+    .specification_info .item
+    {
+        padding: 19px;
+    }
+
+
+    .specification_info .item .option + .option
+    {
+        margin-top: 10px;
+    }
+
+
+    .specification_info .item .option .head
+    {
+        padding-left: 30px;
+    }
+
+
+    .specification_info .item .col_name,
+    .specification_info .item .options .spoler_btn,
+    .specification_info .item .option .head .name
+    {
+        font-size: 15px;
+    }
+
+
+    .specification_info .item .col_name .duration
+    {
+        font-size: 13px;
+
+        padding: 4px 16px 3px;
+    }
 }

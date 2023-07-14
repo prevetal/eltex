@@ -843,6 +843,76 @@ $(() => {
 		controls: true,
 		dots: false
 	})
+
+
+	// Спецификатор
+	$('.specifier .top .add_new > .btn').click(function (e) {
+		e.preventDefault()
+
+		$(this).hide()
+		$('.specifier .top .add_new .form').fadeIn(300)
+		$('.specifier .top .add_new .form .input').focus()
+	})
+
+	$('.specifier .top .add_new .form .clear_btn').click(function (e) {
+		e.preventDefault()
+
+		$('.specifier .top .add_new .form').hide()
+		$('.specifier .top .add_new .form .input').val('')
+		$('.specifier .top .add_new > .btn').fadeIn(300)
+	})
+
+
+	$('.specifier .item .head').click(function (e) {
+		e.preventDefault()
+
+		$(this).toggleClass('active').next().slideToggle(300)
+	})
+
+	$('.specifier .category > .name').click(function (e) {
+		e.preventDefault()
+
+		$(this).toggleClass('active').next().slideToggle(300)
+	})
+
+
+	// Спецификация
+	$('.specification_info .top .add_new > .btn').click(function (e) {
+		e.preventDefault()
+
+		$(this).hide()
+		$('.specification_info .top .add_new .form').fadeIn(300)
+		$('.specification_info .top .add_new .form .input').focus()
+	})
+
+	$('.specification_info .top .add_new .form .clear_btn').click(function (e) {
+		e.preventDefault()
+
+		$('.specification_info .top .add_new .form').hide()
+		$('.specification_info .top .add_new .form .input').val('')
+		$('.specification_info .top .add_new > .btn').fadeIn(300)
+	})
+
+
+	// Спецификация
+	$('.specification_info .get_prices .more_data .spoler_btn').click(function (e) {
+		e.preventDefault()
+
+		$(this).toggleClass('active')
+		$('.specification_info .get_prices .form .additional_fields').slideToggle(300)
+	})
+
+	$('.specification_info .item .options .spoler_btn').click(function (e) {
+		e.preventDefault()
+
+		$(this).toggleClass('active').next().slideToggle(300)
+	})
+
+	$('.specification_info .item .option .head').click(function (e) {
+		e.preventDefault()
+
+		$(this).toggleClass('active').next().slideToggle(300)
+	})
 })
 
 

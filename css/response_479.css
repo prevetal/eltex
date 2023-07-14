@@ -2039,6 +2039,215 @@
 
 
     /*---------------
+       Specifier
+    ---------------*/
+    .specifier .data
+    {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        padding: 20px 0;
+    }
+
+
+    .specifier .top
+    {
+        padding: 0 20px;
+    }
+
+
+    .specifier .top .add_new .tip
+    {
+        font-size: 14px;
+
+        padding: 5px 11px;
+    }
+
+
+    .specifier .top .add_new .tip .name
+    {
+        margin-right: 16px;
+    }
+
+
+    .specifier .top .add_new .tip .add_btn
+    {
+        font-size: 11px;
+
+        padding: 6px 11px;
+    }
+
+
+    .specifier .item .head .plus
+    {
+        margin-right: 12px;
+    }
+
+
+    .specifier .item .head .title
+    {
+        font-size: 15px;
+    }
+
+
+    .specifier .category > .name
+    {
+        font-size: 15px;
+    }
+
+
+
+    .specifier .product .thumb
+    {
+        width: 60px;
+        height: 44px;
+    }
+
+
+    .specifier .product .name
+    {
+        font-size: 13px;
+
+        width: calc(100% - 154px);
+    }
+
+
+    .specifier .product .articul
+    {
+        font-size: 13px;
+
+        padding-left: 72px;
+    }
+
+
+    .specifier .product .btns .btn
+    {
+        width: 28px;
+        height: 28px;
+    }
+
+
+    .specifier .product .btns .btn .icon
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+    .specifier .product .btns .compare_btn .icon
+    {
+        width: 16px;
+        height: 15px;
+    }
+
+
+
+    /*-----------------------
+       Specification info
+    -----------------------*/
+    .specification_info .data
+    {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
+    .specification_info .top .links
+    {
+        margin-left: auto;
+    }
+
+
+    .specification_info .top .add_new .tip
+    {
+        font-size: 14px;
+        line-height: 18px;
+
+        padding: 5px 11px;
+    }
+
+
+    .specification_info .top .add_new .tip .name
+    {
+        margin-right: 16px;
+    }
+
+
+    .specification_info .top .add_new .tip .add_btn
+    {
+        font-size: 11px;
+
+        padding: 6px 11px;
+    }
+
+
+    .specification_info .need_help
+    {
+        width: 100%;
+        margin-top: 16px;
+        margin-left: 0;
+
+        order: 4;
+    }
+
+
+    .specification_info .item
+    {
+        padding: 15px;
+    }
+
+
+    .specification_info .item .col_name,
+    .specification_info .item .options .spoler_btn,
+    .specification_info .item .option .head .name
+    {
+        font-size: 14px;
+        line-height: 130%;
+    }
+
+
+    .specification_info .item > .head .col_articul
+    {
+        width: 100%;
+        min-width: 0;
+        margin-bottom: 16px;
+        padding-left: 86px;
+    }
+
+
+    .specification_info .item > .head > * + *,
+    .specification_info .item .product > * + *
+    {
+        margin-left: 0;
+    }
+
+
+    .specification_info .item .options
+    {
+        margin-top: 20px;
+    }
+
+
+    .specification_info .item .option + .option
+    {
+        margin-top: 10px;
+    }
+
+
+    .specification_info .item .product > * + *.col_name
+    {
+        margin-bottom: 10px;
+    }
+
+
+    .specification_info .item .product .col_articul
+    {
+        width: 100%;
+    }
+
+
+
+    /*---------------
         PopUp
     ---------------*/
     .fancybox-slide--html .fancybox-close-small

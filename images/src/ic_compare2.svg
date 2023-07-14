@@ -1,7 +1,6 @@
-<svg
- xmlns="http://www.w3.org/2000/svg"
- xmlns:xlink="http://www.w3.org/1999/xlink"
- width="25px" height="24px">
-<path fill-rule="evenodd"  fill="currentColor"
- d="M21.500,24.000 L21.500,10.167 L25.000,10.167 L25.000,24.000 L21.500,24.000 ZM14.333,-0.000 L17.833,-0.000 L17.833,24.000 L14.333,24.000 L14.333,-0.000 ZM7.167,7.000 L10.667,7.000 L10.667,24.000 L7.167,24.000 L7.167,7.000 ZM-0.000,17.000 L3.500,17.000 L3.500,24.000 L-0.000,24.000 L-0.000,17.000 Z"/>
+<svg width="16" height="15" viewBox="0 0 16 15" xmlns="http://www.w3.org/2000/svg">
+<rect id="Rectangle 119" x="1" y="11" width="2" height="4" fill="currentColor"/>
+<rect id="Rectangle 120" x="5" y="4" width="2" height="11" fill="currentColor"/>
+<rect id="Rectangle 121" x="9" width="2" height="15" fill="currentColor"/>
+<rect id="Rectangle 122" x="13" y="6" width="2" height="9" fill="currentColor"/>
 </svg>

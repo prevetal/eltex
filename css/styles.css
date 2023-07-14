@@ -27079,6 +27079,1567 @@ aside .page_links .items a.active
 
 
 /*---------------
+   Specifier
+---------------*/
+.specifier .data
+{
+    padding: 30px 40px 40px;
+
+    background: #fff;
+}
+
+
+.specifier .top
+{
+    display: flex;
+
+    margin-bottom: 24px;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+.specifier .top .title
+{
+    color: #000;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+
+.specifier .top .add_new
+{
+    margin-left: 28px;
+}
+
+
+.specifier .top .add_new > .btn
+{
+    color: #00abdf;
+    font-family: var(--font_family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 160%;
+
+    display: flex;
+
+    width: 248px;
+    max-width: 100%;
+    height: 46px;
+
+    cursor: pointer;
+    transition: .2s linear;
+
+    border: 1px solid #00abdf;
+    border-radius: 5px;
+    background: none;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.specifier .top .add_new > .btn .icon
+{
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.specifier .top .add_new > .btn:hover
+{
+    color: #fff;
+
+    background: #00abdf;
+}
+
+
+.specifier .top .add_new .form
+{
+    position: relative;
+
+    display: none;
+
+    width: 646px;
+    max-width: 100%;
+
+    --form_border_color: #c5c2c2;
+    --form_focus_color: #c5c2c2;
+    --form_bg_color: #fff;
+    --form_placeholder_color: #737373;
+}
+
+
+.specifier .top .add_new .form .input
+{
+    color: #000;
+    font-size: 16px;
+    font-weight: 550;
+    line-height: 160%;
+
+    height: 46px;
+    padding: 0 56px 0 20px;
+
+    border-radius: 5px;
+}
+
+.specifier .top .add_new .form .input:not(:placeholder-shown)
+{
+    border-radius: 5px 5px 0 0;
+}
+
+
+.specifier .top .add_new .form .clear_btn
+{
+    color: #00abdf;
+
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    right: 15px;
+    bottom: 0;
+
+    display: flex;
+
+    width: 22px;
+    height: 22px;
+    margin: auto;
+
+    cursor: pointer;
+
+    border: none;
+    background: none;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.specifier .top .add_new .form .clear_btn .icon
+{
+    display: block;
+
+    width: 22px;
+    height: 22px;
+}
+
+
+.specifier .top .add_new .tips
+{
+    position: absolute;
+    z-index: 3;
+    top: 100%;
+    left: 0;
+
+    display: none;
+
+    width: 100%;
+    margin-top: -1px;
+    padding: 14px 0;
+
+    border: 1px solid #c5c2c2;
+    border-radius: 0 0 5px 5px;
+    background: #fff;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .25);
+}
+
+.specifier .top .add_new .form .input:not(:placeholder-shown) ~ .tips
+{
+    display: block;
+}
+
+
+.specifier .top .add_new .tip
+{
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 100%;
+
+    display: flex;
+
+    padding: 2px 20px;
+
+    cursor: pointer;
+    transition: color .2s linear;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+
+.specifier .top .add_new .tip .name
+{
+    width: 100%;
+    margin-right: 20px;
+}
+
+
+.specifier .top .add_new .tip .add_btn
+{
+    color: #00abdf;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 160%;
+
+    display: block;
+
+    margin-left: auto;
+    padding: 6px 19px;
+
+    cursor: pointer;
+    transition: .2s linear;
+    white-space: nowrap;
+
+    opacity: 0;
+    border: 1px solid #00abdf;
+    border-radius: 5px;
+    background: none;
+    background: #fff;
+}
+
+
+.specifier .top .add_new .tip:hover
+{
+    color: #00abdf;
+}
+
+.specifier .top .add_new .tip:hover .add_btn
+{
+    color: #fff;
+
+    opacity: 1;
+    background: #00abdf;
+}
+
+
+.specifier .item + .item
+{
+    margin-top: 1px;
+}
+
+
+.specifier .item .head
+{
+    color: #fff;
+
+    display: flex;
+
+    padding: 14px 30px;
+
+    cursor: pointer;
+
+    background: #00abdf;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+
+.specifier .item .head .plus
+{
+    display: block;
+
+    width: 20px;
+    min-width: 20px;
+    height: 20px;
+    margin-right: 19px;
+}
+
+.specifier .item .head .minus
+{
+    display: none;
+
+    width: 20px;
+    min-width: 20px;
+    height: 20px;
+    margin-right: 19px;
+}
+
+
+.specifier .item .head .icon
+{
+    display: flex;
+
+    width: 20px;
+    min-width: 20px;
+    height: 20px;
+    margin-right: 16px;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.specifier .item .head .icon img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.specifier .item .head .title
+{
+    font-size: 20px;
+    line-height: 160%;
+
+    width: 100%;
+}
+
+
+.specifier .item .head.active .plus
+{
+    display: none;
+}
+
+.specifier .item .head.active .minus
+{
+    display: block;
+}
+
+
+
+.specifier .categories
+{
+    display: none;
+}
+
+
+.specifier .level2,
+.specifier .level3,
+.specifier .category + .category
+{
+    border-top: 1px solid #fff;
+}
+
+
+.specifier .category > .name
+{
+    color: #000;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 100%;
+
+    display: flex;
+
+    padding: 22px 30px 21px;
+
+    cursor: pointer;
+
+    background: #eee;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.specifier .level2 > .category > .name
+{
+    padding-left: 81px;
+}
+
+.specifier .level3 > .category > .name
+{
+    padding-left: 132px;
+}
+
+
+.specifier .category > .name .plus
+{
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    margin-right: 19px;
+}
+
+.specifier .category > .name .minus
+{
+    display: none;
+
+    width: 20px;
+    height: 20px;
+    margin-right: 19px;
+}
+
+
+.specifier .category > .name.active .plus
+{
+    display: none;
+}
+
+.specifier .category > .name.active .minus
+{
+    display: block;
+}
+
+
+
+.specifier .products_list
+{
+    display: none;
+}
+
+
+.specifier .product
+{
+    display: flex;
+
+    padding: 6px 71px 6px 132px;
+
+    background: #fbfbfb;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.specifier .product + .product
+{
+    border-top: 1px solid #eee;
+}
+
+
+.specifier .product .thumb
+{
+    display: flex;
+
+    width: 70px;
+    height: 50px;
+    margin-right: 20px;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.specifier .product .thumb img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.specifier .product .name
+{
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 100%;
+
+    width: 455px;
+    max-width: 100%;
+}
+
+
+.specifier .product .articul
+{
+    color: #00abdf;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 100%;
+
+    width: 193px;
+    max-width: 100%;
+    margin-left: 40px;
+}
+
+
+.specifier .product .btns
+{
+    display: flex;
+
+    margin-left: auto;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.specifier .product .btns > * + *
+{
+    margin-left: 20px;
+}
+
+
+.specifier .product .btns .btn
+{
+    color: #00abdf;
+
+    display: flex;
+
+    width: 36px;
+    height: 36px;
+
+    cursor: pointer;
+    transition: .2s linear;
+
+    border: 1px solid #00abdf;
+    border-radius: 50%;
+    background: none;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+.specifier .product .btns .btn .icon
+{
+    display: block;
+
+    width: 24px;
+    height: 24px;
+}
+
+.specifier .product .btns .compare_btn .icon
+{
+    width: 16px;
+    height: 15px;
+}
+
+
+.specifier .product .btns .btn.tooltip .text
+{
+    width: auto;
+    margin-left: 0;
+
+    transform: translateX(-50%);
+    white-space: nowrap;
+    pointer-events: none;
+}
+
+
+.specifier .product .btns .btn:hover,
+.specifier .product .btns .btn.active
+{
+    color: #fff;
+
+    background: #00abdf;
+}
+
+
+
+/*-----------------------
+   Specification info
+-----------------------*/
+.specification_info
+{
+    --aside_width: 352px;
+}
+
+
+.specification_info .data
+{
+    padding: 28px 20px;
+
+    background: #fff;
+}
+
+
+.specification_info .top
+{
+    display: flex;
+
+    margin-bottom: 29px;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+.specification_info .top .title
+{
+    color: #000;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+
+.specification_info .top .links
+{
+    display: flex;
+
+    margin-left: 20px;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.specification_info .top .links > * + *
+{
+    margin-left: 20px;
+}
+
+
+.specification_info .top .links .link
+{
+    color: #777;
+
+    display: flex;
+
+    width: 46px;
+    height: 46px;
+
+    text-decoration: none;
+
+    border-radius: 50%;
+    background: #f4f4f4;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.specification_info .top .links .link .icon
+{
+    display: block;
+
+    width: 24px;
+    height: 24px;
+}
+
+
+.specification_info .top .add_new
+{
+    margin-left: 20px;
+}
+
+
+.specification_info .top .add_new > .btn
+{
+    color: #00abdf;
+    font-family: var(--font_family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 160%;
+
+    display: flex;
+
+    width: 248px;
+    max-width: 100%;
+    height: 46px;
+
+    cursor: pointer;
+    transition: .2s linear;
+
+    border: 1px solid #00abdf;
+    border-radius: 5px;
+    background: none;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.specification_info .top .add_new > .btn .icon
+{
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.specification_info .top .add_new > .btn:hover
+{
+    color: #fff;
+
+    background: #00abdf;
+}
+
+
+.specification_info .top .add_new .form
+{
+    position: relative;
+
+    display: none;
+
+    width: 456px;
+    max-width: 100%;
+
+    --form_border_color: #c5c2c2;
+    --form_focus_color: #c5c2c2;
+    --form_bg_color: #fff;
+    --form_placeholder_color: #737373;
+}
+
+
+.specification_info .top .add_new .form .input
+{
+    color: #000;
+    font-size: 16px;
+    font-weight: 550;
+    line-height: 160%;
+
+    height: 46px;
+    padding: 0 56px 0 20px;
+
+    border-radius: 5px;
+}
+
+.specification_info .top .add_new .form .input:not(:placeholder-shown)
+{
+    border-radius: 5px 5px 0 0;
+}
+
+
+.specification_info .top .add_new .form .clear_btn
+{
+    color: #00abdf;
+
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    right: 15px;
+    bottom: 0;
+
+    display: flex;
+
+    width: 22px;
+    height: 22px;
+    margin: auto;
+
+    cursor: pointer;
+
+    border: none;
+    background: none;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.specification_info .top .add_new .form .clear_btn .icon
+{
+    display: block;
+
+    width: 22px;
+    height: 22px;
+}
+
+
+.specification_info .top .add_new .tips
+{
+    position: absolute;
+    z-index: 3;
+    top: 100%;
+    left: 0;
+
+    display: none;
+
+    width: 100%;
+    margin-top: -1px;
+    padding: 14px 0;
+
+    border: 1px solid #c5c2c2;
+    border-radius: 0 0 5px 5px;
+    background: #fff;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .25);
+}
+
+.specification_info .top .add_new .form .input:not(:placeholder-shown) ~ .tips
+{
+    display: block;
+}
+
+
+.specification_info .top .add_new .tip
+{
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+
+    display: flex;
+
+    padding: 6px 20px;
+
+    cursor: pointer;
+    transition: color .2s linear;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+
+.specification_info .top .add_new .tip .name
+{
+    width: 100%;
+    margin-right: 14px;
+}
+
+
+.specification_info .top .add_new .tip .add_btn
+{
+    color: #00abdf;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 160%;
+
+    display: block;
+
+    margin-left: auto;
+    padding: 6px 11px;
+
+    cursor: pointer;
+    transition: .2s linear;
+    white-space: nowrap;
+
+    opacity: 0;
+    border: 1px solid #00abdf;
+    border-radius: 5px;
+    background: none;
+    background: #fff;
+}
+
+
+.specification_info .top .add_new .tip:hover
+{
+    color: #00abdf;
+}
+
+.specification_info .top .add_new .tip:hover .add_btn
+{
+    color: #fff;
+
+    opacity: 1;
+    background: #00abdf;
+}
+
+
+
+.specification_info .need_help
+{
+    color: #b4b4b4;
+
+    display: flex;
+
+    margin-left: auto;
+
+    cursor: pointer;
+    transition: color .2s linear;
+
+    border: none;
+    background: none;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+.specification_info .need_help .icon
+{
+    display: block;
+
+    width: 21px;
+    height: 20px;
+    margin-right: 5px;
+
+    fill: currentColor;
+}
+
+
+.specification_info .need_help span
+{
+    transition: border-color .2s linear;
+
+    border-bottom: 1px dashed currentColor;
+}
+
+
+.specification_info .need_help:hover
+{
+    color: #00abdf;
+}
+
+.specification_info .need_help:hover span
+{
+    border-color: transparent;
+}
+
+
+
+.specification_info .titles
+{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 100%;
+
+    display: flex;
+
+    margin-bottom: 6px;
+    padding: 0 20px 0 30px;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.specification_info .titles > * + *
+{
+    margin-left: 20px;
+}
+
+.specification_info .titles > * + *.col_info
+{
+    margin-left: 15px;
+}
+
+
+.specification_info .item
+{
+    padding: 19px 19px 19px 29px;
+
+    border: 1px solid #cbcbcb;
+    background: #fff;
+}
+
+.specification_info .item + .item
+{
+    margin-top: 10px;
+}
+
+
+.specification_info .item .hide
+{
+    display: none;
+
+    padding-bottom: 15px;
+}
+
+
+.specification_info .item > .head,
+.specification_info .item .product
+{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 100%;
+
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+.specification_info .item .product
+{
+    margin-top: 15px;
+
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.specification_info .item .product + .product
+{
+    margin-top: 26px;
+}
+
+
+.specification_info .item > .head > * + *,
+.specification_info .item .product > * + *
+{
+    margin-left: 20px;
+}
+
+.specification_info .item > .head > * + *.col_name,
+.specification_info .item .product > * + *.col_name
+{
+    margin-left: 15px;
+}
+
+
+.specification_info .item .col_thumb img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.specification_info .item .col_name
+{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.specification_info .item .col_name.aligncenter
+{
+    align-self: center;
+}
+
+
+.specification_info .item .col_name .desc
+{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+
+.specification_info .item .col_name .duration
+{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+
+    display: inline-block;
+
+    margin-top: 8px;
+    padding: 4px 18px 3px;
+
+    vertical-align: top;
+
+    background: #43a846;
+}
+
+
+.specification_info .item .product .col_articul
+{
+    line-height: 36px;
+}
+
+
+.specification_info .item .amount
+{
+    position: relative;
+
+    width: 110px;
+}
+
+.specification_info .item .amount button
+{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 36px;
+    height: 36px;
+
+    cursor: pointer;
+
+    border: none;
+    background: none;
+}
+
+.specification_info .item .amount button:before,
+.specification_info .item .amount button:after
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: block;
+
+    width: 12px;
+    height: 2px;
+    margin: auto;
+
+    content: '';
+
+    background: #000;
+}
+
+.specification_info .item .amount button:after
+{
+    width: 2px;
+    height: 12px;
+}
+
+.specification_info .item .amount button.plus
+{
+    right: 0;
+    left: auto;
+}
+
+.specification_info .item .amount button.minus:after
+{
+    opacity: 0;
+}
+
+.specification_info .item .amount .input
+{
+    color: #000;
+    font-family: var(--font_family);
+    font-size: 16px;
+    font-weight: 300;
+
+    display: block;
+
+    width: 100%;
+    height: 36px;
+    padding: 0 31px;
+
+    text-align: center;
+
+    border: 1px solid #cbcbcb;
+    border-radius: 5px;
+    background: #fff;
+}
+
+
+.specification_info .item .compare_btn
+{
+    color: #00abdf;
+
+    display: flex;
+
+    width: 36px;
+    height: 36px;
+
+    cursor: pointer;
+    transition: .2s linear;
+
+    border: 1px solid #00abdf;
+    border-radius: 50%;
+    background: none;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.specification_info .item .compare_btn .icon
+{
+    display: block;
+
+    width: 16px;
+    height: 15px;
+}
+
+.specification_info .item .compare_btn:hover,
+.specification_info .item .compare_btn.active
+{
+    color: #fff;
+
+    background: #00abdf;
+}
+
+
+.specification_info .item .delete_btn
+{
+    color: #000;
+
+    display: flex;
+
+    width: 22px;
+    height: 36px;
+
+    cursor: pointer;
+    transition: color .2s linear;
+
+    border: none;
+    background: none;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.specification_info .item .delete_btn .icon
+{
+    display: block;
+
+    width: 22px;
+    height: 22px;
+}
+
+.specification_info .item .delete_btn:hover
+{
+    color: #00abdf;
+}
+
+
+.specification_info .item .options
+{
+    margin-top: 23px;
+}
+
+
+.specification_info .item .options.separately
+{
+    margin: 0;
+}
+
+.specification_info .item .options.separately .option .head
+{
+    padding: 0;
+}
+
+.specification_info .item .options.separately .list
+{
+    display: block;
+
+    padding: 0;
+}
+
+
+.specification_info .item .options .list
+{
+    display: none;
+
+    padding-top: 18px;
+}
+
+
+.specification_info .item .options .spoler_btn
+{
+    color: #777;
+    font-family: var(--font_family);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 100%;
+
+    display: flex;
+
+    cursor: pointer;
+
+    border: none;
+    background: none;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.specification_info .item .options .spoler_btn .icon
+{
+    color: #777;
+
+    display: block;
+
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+
+    transition: transform .2s linear;
+    transform: rotate(180deg);
+}
+
+.specification_info .item .options .spoler_btn.active .icon
+{
+    transform: rotate(0);
+}
+
+
+.specification_info .item .option + .option
+{
+    margin-top: 15px;
+}
+
+
+.specification_info .item .option .head
+{
+    display: flex;
+
+    padding-left: 40px;
+
+    cursor: pointer;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+.specification_info .item .option .head .name
+{
+    color: #00abdf;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 160%;
+
+    max-width: calc(100% - 26px);
+}
+
+.specification_info .item .option .head .name span
+{
+    color: #777;
+}
+
+
+.specification_info .item .option .head .arr
+{
+    color: #777;
+
+    display: flex;
+
+    width: 18px;
+    height: 18px;
+    margin-left: 8px;
+
+    transition: .2s linear;
+    transform: rotate(180deg);
+
+    border-radius: 50%;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.specification_info .item .option .head .arr svg
+{
+    display: block;
+
+    width: 16px;
+    height: 16px;
+}
+
+
+.specification_info .item .option .head.active .arr
+{
+    transform: rotate(0);
+}
+
+.specification_info .item .option .head:hover .arr
+{
+    color: #fff;
+
+    background: #00abdf;
+}
+
+
+.specification_info .col_thumb
+{
+    width: 70px;
+    min-width: 70px;
+}
+
+.specification_info .col_info,
+.specification_info .col_name
+{
+    width: 100%;
+}
+
+.specification_info .col_articul
+{
+    width: 142px;
+    min-width: 142px;
+}
+
+.specification_info .col_amount
+{
+    width: 131px;
+    min-width: 131px;
+}
+
+.specification_info .col_compare
+{
+    width: 61px;
+    min-width: 61px;
+}
+
+.specification_info .col_delete
+{
+    width: 22px;
+    min-width: 22px;
+}
+
+
+
+.specification_info .get_prices
+{
+    padding: 30px 20px;
+
+    background: #fff;
+}
+
+
+.specification_info .get_prices .title
+{
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 160%;
+
+    margin-bottom: 20px;
+}
+
+
+.specification_info .get_prices .form
+{
+    --form_border_radius: 5px;
+}
+
+
+.specification_info .get_prices .form .additional_fields
+{
+    display: none;
+}
+
+
+.specification_info .get_prices .form .line
+{
+    margin-bottom: 10px;
+}
+
+
+.specification_info .get_prices .form .input
+{
+    font-size: 17px;
+
+    height: 55px;
+    padding: 0 17px;
+}
+
+
+.specification_info .get_prices .form textarea
+{
+    font-size: 17px;
+
+    height: 140px;
+    padding: 15px 17px;
+}
+
+
+.specification_info .get_prices .more_data
+{
+    color: #000;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 150%;
+
+    margin-bottom: 15px;
+
+    text-align: center;
+}
+
+
+.specification_info .get_prices .more_data .spoler_btn
+{
+    color: #00abdf;
+
+    display: inline-block;
+
+    cursor: pointer;
+    vertical-align: top;
+    text-decoration: underline;
+
+    border: none;
+    background: none;
+}
+
+
+.specification_info .get_prices .more_data .spoler_btn .icon
+{
+    position: relative;
+    top: -1px;
+
+    display: inline-block;
+
+    width: 12px;
+    height: 12px;
+
+    transform: rotate(180deg);
+    vertical-align: middle;
+}
+
+
+.specification_info .get_prices .form input[type=checkbox] + label
+{
+    color: #737373;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 130%;
+
+    padding-left: 24px;
+}
+
+.specification_info .get_prices .form input[type=checkbox] + label a
+{
+    color: #2aa8cf;
+
+    text-decoration: none;
+}
+
+.specification_info .get_prices .form input[type=checkbox] + label a:hover
+{
+    text-decoration: underline;
+}
+
+.specification_info .get_prices .form input[type=checkbox] + label:before
+{
+    top: 1px;
+}
+
+.specification_info .get_prices .form input[type=checkbox] + label:after
+{
+    top: 5px;
+}
+
+
+.specification_info .get_prices .form .submit_btn
+{
+    color: #eee;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 150%;
+
+    width: 100%;
+    height: 55px;
+
+    border: none;
+    border-radius: 5px;
+    background: #ff9511;
+}
+
+
+
+/*---------------
    Footer
 ---------------*/
 footer

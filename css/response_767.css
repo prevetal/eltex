@@ -3017,6 +3017,251 @@
 
 
     /*---------------
+       Specifier
+    ---------------*/
+    .specifier .data
+    {
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+    }
+
+
+    .specifier .top .add_new
+    {
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+
+    .specifier .top .add_new > .btn
+    {
+        width: 220px;
+    }
+
+
+    .specifier .top .add_new .form
+    {
+        width: 100%;
+    }
+
+
+    .specifier .top .add_new .tip .add_btn span
+    {
+        display: none;
+    }
+
+
+    .specifier .item .head
+    {
+        padding: 10px;
+    }
+
+
+    .specifier .item .head .title
+    {
+        font-size: 16px;
+    }
+
+
+    .specifier .category > .name
+    {
+        padding: 10px;
+    }
+
+    .specifier .level2 > .category > .name
+    {
+        padding-left: 30px;
+    }
+
+    .specifier .level3 > .category > .name
+    {
+        padding-left: 50px;
+    }
+
+
+
+    .specifier .product
+    {
+        padding: 4px 10px 10px;
+    }
+
+
+    .specifier .product .thumb
+    {
+        margin-right: 12px;
+    }
+
+
+    .specifier .product .name
+    {
+        width: calc(100% - 176px);
+    }
+
+
+    .specifier .product .articul
+    {
+        width: 100%;
+        margin-left: 0;
+        padding-left: 82px;
+
+        order: 3;
+    }
+
+
+    .specifier .product .btns > * + *
+    {
+        margin-left: 10px;
+    }
+
+
+    .specifier .product .btns .btn
+    {
+        width: 32px;
+        height: 32px;
+    }
+
+
+
+    /*-----------------------
+       Specification info
+    -----------------------*/
+    .specification_info .data
+    {
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+        padding: 20px;
+    }
+
+
+    .specification_info .top .add_new > .btn
+    {
+        width: 220px;
+    }
+
+
+    .specification_info .top .links .link
+    {
+        width: 36px;
+        height: 36px;
+    }
+
+    .specification_info .top .links .link .icon
+    {
+        width: 18px;
+        height: 18px;
+    }
+
+
+    .specification_info .titles
+    {
+        display: none;
+    }
+
+
+    .specification_info .item .options .list
+    {
+        padding-top: 12px;
+    }
+
+
+    .specification_info .item .option + .option
+    {
+        margin-top: 5px;
+    }
+
+    .specification_info .item .option .head
+    {
+        padding-left: 0;
+    }
+
+
+    .specification_info .item > .head,
+    .specification_info .item .product
+    {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .specification_info .item .product + .product
+    {
+        margin-top: 20px;
+    }
+
+
+    .specification_info .item .product .col_thumb
+    {
+        display: none;
+    }
+
+
+    .specification_info .item > .head .col_thumb
+    {
+        margin-bottom: 16px;
+    }
+
+    .specification_info .item > .head > * + *.col_name
+    {
+        width: calc(100% - 86px);
+        margin-bottom: 16px;
+        margin-left: auto;
+    }
+
+
+    .specification_info .item .product > * + *.col_name
+    {
+        margin-bottom: 16px;
+        margin-left: 0;
+    }
+
+
+    .specification_info .item > .head .col_articul,
+    .specification_info .item .product .col_articul
+    {
+        width: 160px;
+        min-width: 160px;
+        margin-left: 0;
+    }
+
+
+    .specification_info .col_compare
+    {
+        width: 36px;
+        min-width: 36px;
+    }
+
+
+    .specification_info .item .product .col_delete
+    {
+        margin-left: auto;
+    }
+
+
+    .specification_info .get_prices
+    {
+        padding: 20px;
+    }
+
+
+    .specification_info .get_prices .form .input
+    {
+        font-size: 14px;
+
+        height: 44px;
+    }
+
+    .specification_info .get_prices .form textarea
+    {
+        font-size: 14px;
+
+        height: 120px;
+    }
+
+
+
+    /*---------------
         Footer
     ---------------*/
     footer .bottom
