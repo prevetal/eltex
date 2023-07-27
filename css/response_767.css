@@ -3266,7 +3266,7 @@
     ---------------*/
     footer .bottom
     {
-        padding-bottom: 15px;
+        padding-bottom: 92px;
     }
 
 
@@ -3449,8 +3449,89 @@
 
 
 
-    #cart_widget
+    #cart_widget .cont
+    {
+        padding: 0;
+    }
+
+
+    #cart_widget .bottom
+    {
+        height: 72px;
+        padding: 15px 20px;
+    }
+
+
+    #cart_widget .bottom .cart
+    {
+        padding-left: 60px;
+    }
+
+
+    #cart_widget .bottom .cart .icon
+    {
+        bottom: -8px;
+        left: -10px;
+    }
+
+    #cart_widget .bottom .cart .icon:before
     {
         display: none;
+    }
+
+    #cart_widget .bottom .cart .icon > *
+    {
+        width: 60px;
+        height: 55px;
+    }
+
+    #cart_widget .bottom .cart .icon > * + *
+    {
+        left: 0;
+    }
+
+
+    #cart_widget .bottom .cart .count,
+    #cart_widget .bottom .cart .price
+    {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
+    #cart_widget .bottom .cart .toggle_btn
+    {
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+    }
+
+
+    #cart_widget .bottom .checkout_link
+    {
+        line-height: 40px;
+
+        height: 40px;
+        margin-left: 20px;
+        padding: 0 20px;
+    }
+
+
+    .cart_info .cart_total
+    {
+        font-size: 15px;
+    }
+
+
+    .cart_info .cart_total .val
+    {
+        margin-left: 8px;
+    }
+
+
+    .cart_info .cart_total .get_corp_price
+    {
+        margin-right: auto;
+        padding: 0 15px;
     }
 }

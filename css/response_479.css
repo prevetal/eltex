@@ -2389,6 +2389,68 @@
     {
         margin-bottom: 10px;
     }
+
+
+
+    #cart_widget .cart_info
+    {
+        padding-right: 5px;
+    }
+
+
+    #cart_widget .cart_info .table_scroll
+    {
+        max-height: calc(100vh - 320px);
+    }
+
+
+    #cart_widget .cart_info .need_help
+    {
+        top: 22px;
+        right: 60px;
+        left: auto;
+
+        transform: none;
+    }
+
+
+    .cart_info .cart_total
+    {
+        text-align: center;
+
+        justify-content: center;
+    }
+
+
+    .cart_info .cart_total .get_corp_price
+    {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+
+    .cart_info .cart_total .checkout_link
+    {
+        display: block;
+    }
+
+
+    #cart_widget .bottom .cart
+    {
+        width: 100%;
+    }
+
+    #cart_widget .bottom .cart .toggle_btn
+    {
+        margin-left: auto;
+    }
+
+
+    #cart_widget .bottom .checkout_link
+    {
+        display: none;
+    }
 }
 
 
