@@ -1,0 +1,3884 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<!-- Переключение IE в последнию версию, на случай если в настройках пользователя стоит меньшая -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="images/favicon.ico">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#00abdf">
+		<meta name="theme-color" content="#00abdf">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/datepicker.min.css">
+		<link rel="stylesheet" href="css/ion.rangeSlider.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1409.css" media="(max-width: 1409px)">
+		<link rel="stylesheet" href="css/response_1279.css" media="(max-width: 1279px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="(max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="(max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<!-- Шапка -->
+				<header>
+					<button class="close">
+						<span></span>
+						<span></span>
+					</button>
+
+
+					<div class="mob_scroll">
+						<div class="info">
+							<div class="cont flex">
+
+								<div class="logo">
+									<a href="/">
+										<img src="images/logo.png" alt="">
+									</a>
+								</div>
+
+
+								<div class="search modal_cont">
+									<button class="link mini_modal_link" data-modal-id="#search_modal">
+										<svg class="icon">
+											<use xlink:href="images/sprite.svg#ic_search"></use>
+										</svg>
+									</button>
+
+									<div class="mini_modal" id="search_modal">
+										<form action="">
+											<input type="text" name="" value="" class="input" placeholder="Поиск по каталогу">
+
+											<button type="submit" class="submit_btn">
+												<svg class="icon">
+													<use xlink:href="images/sprite.svg#ic_search"></use>
+												</svg>
+											</button>
+										</form>
+									</div>
+								</div>
+
+
+								<div class="location modal_cont">
+									<button class="link mini_modal_link" data-modal-id="#location_modal">
+										<svg class="icon">
+											<use xlink:href="images/sprite.svg#ic_location"></use>
+										</svg>
+										<span>Нижний Новгород</span>
+									</button>
+
+									<div class="mini_modal" id="location_modal">
+										<div class="list">
+											<div><a class="active">Нижний Новгород</a></div>
+											<div><a href="/">Новосибирск</a></div>
+											<div><a href="/">Москва</a></div>
+											<div><a href="/">Казать</a></div>
+											<div><a href="/">Самара</a></div>
+											<div><a href="/">Челябинск</a></div>
+											<div><a href="/">Екатеринбург</a></div>
+											<div><a href="/">Ростов-на-Дону</a></div>
+											<div><a href="/">Симферополь</a></div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="phone">
+									<a href="tel:+74996475048">+7 (499) 647 50 48</a>
+								</div>
+
+								<button class="callback_link modal_link" data-content="#callback_modal">Заказать звонок</button>
+
+
+								<button class="theme">
+									<svg class="icon">
+										<use xlink:href="images/sprite.svg#ic_theme"></use>
+									</svg>
+								</button>
+
+							</div>
+						</div>
+
+
+						<div class="bottom">
+							<div class="cont flex">
+
+								<div class="catalog modal_cont">
+									<button class="link mini_modal_link" data-modal-id="#catalog_modal">
+										Каталог
+										<div class="icon">
+											<span></span>
+											<span></span>
+											<span></span>
+										</div>
+									</button>
+
+									<div class="mini_modal catalog_info" id="catalog_modal">
+										<div class="cols">
+											<div class="col">
+												<div class="cat">
+													<a href="/">
+														<div class="icon icon1">
+															<svg><use xlink:href="images/cats.svg#ic_cat1"></use></svg>
+														</div>
+														<div>Оборудование xPON</div>
+													</a>
+
+													<div class="sub_cats">
+														<div>
+															<a href="#" class="sub_link">GPON</a>
+
+															<div class="sub_cats level2">
+																<dov><a href="/">Субмодули</a></dov>
+															</div>
+														</div>
+
+														<div>
+															<a href="#" class="sub_link">TurboGEPON</a>
+
+															<div class="sub_cats level2">
+																<dov><a href="/">Субмодули</a></dov>
+															</div>
+														</div>
+
+														<div><a href="/">SFP модули PON</a></div>
+
+														<div>
+															<a href="#" class="sub_link">Сплиттеры</a>
+
+															<div class="sub_cats level2">
+																<dov><a href="/">Субмодули</a></dov>
+															</div>
+														</div>
+
+														<div><a href="/">Пассивное оборудование PON</a></div>
+													</div>
+												</div>
+
+
+												<div class="cat">
+													<a href="/">
+														<div class="icon icon2">
+															<svg><use xlink:href="images/cats.svg#ic_cat2"></use></svg>
+														</div>
+														<div>Ethernet коммутаторы</div>
+													</a>
+
+													<div class="sub_cats">
+														<div><a href="/">Коммутаторы доступа 100M</a></div>
+														<div><a href="/">Коммутаторы доступа 1G / 10G</a></div>
+														<div><a href="/">Коммутаторы доступа PoE</a></div>
+														<div><a href="/">Коммутаторы агрегации 1G/10G</a></div>
+														<div><a href="/">Коммутаторы агрегации 10G/40G/100G</a></div>
+														<div><a href="/">Промышленные коммутаторы</a></div>
+														<div><a href="/">Модули питания</a></div>
+														<div><a href="/">Снятые с производства</a></div>
+													</div>
+												</div>
+
+
+												<div class="cat"><a href="/">
+													<div class="icon icon3">
+														<svg><use xlink:href="images/cats.svg#ic_cat3"></use></svg>
+													</div>
+													<div>Сервисные маршрутизаторы</div>
+												</a></div>
+											</div>
+
+
+											<div class="col">
+												<div class="cat">
+													<a href="/">
+														<div class="icon icon4">
+															<svg><use xlink:href="images/cats.svg#ic_cat4"></use></svg>
+														</div>
+														<div>Беспроводной доступ</div>
+													</a>
+
+													<div class="sub_cats">
+														<div><a href="/">Wi-Fi контроллер</a></div>
+														<div><a href="/">Enterprise Wi-Fi точки доступа</a></div>
+														<div><a href="/">Абонентские Wi-Fi точки доступа</a></div>
+														<div><a href="/">Wi-Fi антенны</a></div>
+														<div><a href="/">Терминалы 2G/3G/4G</a></div>
+													</div>
+												</div>
+
+
+												<div class="cat">
+													<a href="/">
+														<div class="icon icon5">
+															<svg><use xlink:href="images/cats.svg#ic_cat5"></use></svg>
+														</div>
+														<div>VoIP телефония</div>
+													</a>
+
+													<div class="sub_cats">
+														<div><a href="/">IP телефоны</a></div>
+														<div><a href="/">IP-АТС</a></div>
+														<div><a href="/">Абонентские шлюзы</a></div>
+
+														<div>
+															<a href="#" class="sub_link">Транковые шлюзы</a>
+
+															<div class="sub_cats level2">
+																<dov><a href="/">Субмодули</a></dov>
+															</div>
+														</div>
+
+														<div>
+															<a href="#" class="sub_link">Аналоговые телефоны</a>
+
+															<div class="sub_cats level2">
+																<dov><a href="/">Субмодули</a></dov>
+															</div>
+														</div>
+
+														<div><a href="/">Softswitch</a></div>
+														<div><a href="/">Пограничные контроллеры сессий</a></div>
+
+														<div>
+															<a href="#" class="sub_link">Программные опции</a>
+
+															<div class="sub_cats level2">
+																<dov><a href="/">Субмодули</a></dov>
+															</div>
+														</div>
+
+														<div>
+															<a href="#" class="sub_link">Кроссовое оборудование</a>
+
+															<div class="sub_cats level2">
+																<dov><a href="/">Субмодули</a></dov>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="col">
+												<div class="cat">
+													<a href="/">
+														<div class="icon icon6">
+															<svg><use xlink:href="images/cats.svg#ic_cat6"></use></svg>
+														</div>
+														<div>Умный дом</div>
+													</a>
+
+													<div class="sub_cats">
+														<div><a href="/">Датчики</a></div>
+														<div><a href="/">Регистраторы</a></div>
+														<div><a href="/">Конвертеры</a></div>
+													</div>
+												</div>
+
+
+												<div class="cat">
+													<a href="/">
+														<div class="icon icon7">
+															<svg><use xlink:href="images/cats.svg#ic_cat7"></use></svg>
+														</div>
+														<div>SFP модули</div>
+													</a>
+
+													<div class="sub_cats">
+														<div><a href="/">SFP 155 Мбит/с</a></div>
+
+														<div>
+															<a href="#" class="sub_link">SFP 1 Gb | 1 волокно</a>
+
+															<div class="sub_cats level2">
+																<dov><a href="/">Субмодули</a></dov>
+															</div>
+														</div>
+
+														<div><a href="/">SFP 1 Gb | 2 волокна</a></div>
+														<div><a href="/">SFP+ 10 Gb | 1 волокно</a></div>
+														<div><a href="/">SFP+ 10 Gb | 2 волокна</a></div>
+														<div><a href="/">QSFP+</a></div>
+														<div><a href="/">Медные SFP | RJ-45</a></div>
+														<div><a href="/">Direct Attach</a></div>
+													</div>
+												</div>
+
+
+												<div class="cat">
+													<a href="/">
+														<div class="icon icon8">
+															<svg><use xlink:href="images/cats.svg#ic_cat8"></use></svg>
+														</div>
+														<div>Домашние роутеры</div>
+													</a>
+
+													<div class="sub_cats">
+														<div><a href="/">Абонентские маршрутизаторы</a></div>
+														<div><a href="/">Репитеры</a></div>
+														<div><a href="/">Абонентские маршрутизаторы с поддержкой VoIP</a></div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="col">
+												<div class="cat">
+													<a href="/">
+														<div class="icon icon9">
+															<svg><use xlink:href="images/cats.svg#ic_cat9"></use></svg>
+														</div>
+														<div>IPTV медиацентры</div>
+													</a>
+
+													<div class="sub_cats">
+														<div><a href="/">Android</a></div>
+														<div><a href="/">Linux</a></div>
+														<div><a href="/">Пульты</a></div>
+													</div>
+												</div>
+
+
+												<div class="cat">
+													<a href="/">
+														<div class="icon icon10">
+															<svg><use xlink:href="images/cats.svg#ic_cat10"></use></svg>
+														</div>
+														<div>Оборудование TDM</div>
+													</a>
+
+													<div class="sub_cats">
+														<div><a href="/">АТС МС240</a></div>
+														<div><a href="/">Гибкий мультиплексор Маком-МХ</a></div>
+														<div><a href="/">Оптические мультиплексоры ToPGATE</a></div>
+														<div><a href="/">Оборудование DSL</a></div>
+													</div>
+												</div>
+
+
+												<div class="cat"><a href="/">
+													<div class="icon icon11">
+														<svg><use xlink:href="images/cats.svg#ic_cat11"></use></svg>
+													</div>
+													<div>Устройства электропитания</div>
+												</a></div>
+
+
+												<div class="cat"><a href="/">
+													<div class="icon icon12">
+														<svg><use xlink:href="images/cats.svg#ic_cat12"></use></svg>
+													</div>
+													<div>Системы управления и ПО</div>
+												</a></div>
+
+
+												<div class="cat"><a href="/">
+													<div class="icon icon13">
+														<svg><use xlink:href="images/cats.svg#ic_cat13"></use></svg>
+													</div>
+													<div>Тонкие клиенты</div>
+												</a></div>
+
+
+												<div class="cat"><a href="/">
+													<div class="icon icon14">
+														<svg><use xlink:href="images/cats.svg#ic_cat14"></use></svg>
+													</div>
+													<div>Антивандальные шкафы</div>
+												</a></div>
+
+
+												<div class="cat"><a href="/">
+													<div class="icon icon15">
+														<svg><use xlink:href="images/cats.svg#ic_cat15"></use></svg>
+													</div>
+													<div>Промышленные контроллеры</div>
+												</a></div>
+											</div>
+										</div>
+
+
+										<div class="get_price_list">
+											<div class="data">
+												<div class="title">Закажите полный прайс-лист</div>
+
+												<form action="" class="form">
+													<div class="line">
+														<div class="field">
+															<input type="text" name="" value="" class="input">
+															<div class="label">Ваше имя*</div>
+														</div>
+													</div>
+
+													<div class="line">
+														<div class="field">
+															<input type="tel" name="" value="" class="input">
+															<div class="label">Номер телефона*</div>
+														</div>
+													</div>
+
+													<div class="line">
+														<div class="field">
+															<input type="text" name="" value="" class="input">
+															<div class="label">Електронная почта</div>
+														</div>
+													</div>
+
+													<div class="line agree">
+														<div class="field">
+															<input type="checkbox" name="agree" id="agree_check" checked>
+															<label for="agree_check">Я ознакомлен и согласен с <a href="/" target="_blank">Политикой конфиденциальности</a></label>
+														</div>
+													</div>
+
+
+													<div class="submit">
+														<button type="submit" class="submit_btn">Отправить</button>
+													</div>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<nav class="menu flex">
+									<div class="item">
+										<a href="/" class="sub_link">
+											База знаний<span class="arr"></span>
+										</a>
+
+										<div class="sub_menu">
+											<div><a href="/">Техническая поддержка</a></div>
+											<div><a href="/">Сдать в ремонт</a></div>
+											<div><a href="/">Помощь в сдаче COMP</a></div>
+											<div><a href="/">Проектирование сети GPON</a></div>
+											<div><a href="/">Заказать настройку оборудования</a></div>
+											<div><a href="/">Вызвать курьера</a></div>
+											<div><a href="/">Обучение</a></div>
+											<div><a class="active">Платные сервисы</a></div>
+										</div>
+									</div>
+
+									<div class="item">
+										<a href="/" class="sub_link">
+											Сервис<span class="arr"></span>
+										</a>
+
+										<div class="sub_menu">
+											<div><a href="/">Техническая поддержка</a></div>
+											<div><a href="/">Сдать в ремонт</a></div>
+											<div><a href="/">Помощь в сдаче COMP</a></div>
+											<div><a href="/">Проектирование сети GPON</a></div>
+											<div><a href="/">Заказать настройку оборудования</a></div>
+											<div><a href="/">Вызвать курьера</a></div>
+											<div><a href="/">Обучение</a></div>
+											<div><a class="active">Платные сервисы</a></div>
+										</div>
+									</div>
+
+									<div class="item">
+										<a href="/" class="sub_link">
+											Мероприятия<span class="arr"></span>
+										</a>
+
+										<div class="sub_menu">
+											<div><a href="/">Техническая поддержка</a></div>
+											<div><a href="/">Сдать в ремонт</a></div>
+											<div><a href="/">Помощь в сдаче COMP</a></div>
+											<div><a href="/">Проектирование сети GPON</a></div>
+											<div><a href="/">Заказать настройку оборудования</a></div>
+											<div><a href="/">Вызвать курьера</a></div>
+											<div><a href="/">Обучение</a></div>
+											<div><a class="active">Платные сервисы</a></div>
+										</div>
+									</div>
+
+									<div class="item">
+										<a href="/" class="sub_link">
+											Компания<span class="arr"></span>
+										</a>
+
+										<div class="sub_menu">
+											<div><a href="/">Техническая поддержка</a></div>
+											<div><a href="/">Сдать в ремонт</a></div>
+											<div><a href="/">Помощь в сдаче COMP</a></div>
+											<div><a href="/">Проектирование сети GPON</a></div>
+											<div><a href="/">Заказать настройку оборудования</a></div>
+											<div><a href="/">Вызвать курьера</a></div>
+											<div><a href="/">Обучение</a></div>
+											<div><a class="active">Платные сервисы</a></div>
+										</div>
+									</div>
+
+									<div class="item">
+										<a href="/">Контакты</a>
+									</div>
+								</nav>
+
+
+								<div class="links">
+									<div class="compare_link">
+										<a href="/">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare2"></use></svg>
+										</a>
+									</div>
+
+									<div class="favorite_link">
+										<a href="/">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+										</a>
+									</div>
+
+									<div class="visited modal_cont">
+										<button class="link mini_modal_link" data-modal-id="#visited_modal">
+											<span class="count">25</span>
+											<svg class="icon">
+												<use xlink:href="images/sprite.svg#ic_visited"></use>
+											</svg>
+										</button>
+
+										<div class="mini_modal" id="visited_modal">
+											<div class="list">
+												<a href="/" class="item">
+													<b>MES1124M Eltex</b> <span class="sep">|</span> Коммутатор 24 порта 100M с грозозащитой
+
+													<span class="date">01.05.2020</span>
+													<span class="time">14:49</span>
+												</a>
+
+												<a href="/" class="item">
+													<b>MES1124M_DC Eltex</b> <span class="sep">|</span> Коммутатор 24 порта 100M с грозозащитой
+
+													<span class="date">01.05.2020</span>
+													<span class="time">14:48</span>
+												</a>
+
+												<a href="/" class="item">
+													<b>MES1124M Eltex</b> <span class="sep">|</span> Коммутатор 24 порта 100M с грозозащитой
+
+													<span class="date">01.05.2020</span>
+													<span class="time">14:47</span>
+												</a>
+
+												<a href="/" class="item">
+													<b>MES1124M Eltex</b> <span class="sep">|</span> Коммутатор 24 порта 100M с грозозащитой
+
+													<span class="date">01.05.2020</span>
+													<span class="time">14:45</span>
+												</a>
+											</div>
+
+											<div class="all_link">
+												<a href="/">Вся история</a>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<a href="/" class="cart_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_buy"></use></svg>
+									<span>Корзина</span>
+								</a>
+
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<div class="mob_header">
+					<div class="cont">
+
+						<div class="logo">
+							<img src="images/logo.png" alt="">
+						</div>
+
+
+						<div class="contacts">
+							<div class="phone">
+								<a href="tel:+74996475048">+7 (499) 647 50 48</a>
+							</div>
+
+							<button class="callback_link modal_link" data-content="#callback_modal">Заказать звонок</button>
+						</div>
+
+
+						<div class="links">
+							<div class="search modal_cont">
+								<button class="link mini_modal_link" data-modal-id="#mob_search_modal">
+									<svg class="icon">
+										<use xlink:href="images/sprite.svg#ic_search"></use>
+									</svg>
+								</button>
+
+								<div class="mini_modal" id="mob_search_modal">
+									<form action="">
+										<input type="text" name="" value="" class="input" placeholder="Поиск по каталогу">
+
+										<button type="submit" class="submit_btn">
+											<svg class="icon">
+												<use xlink:href="images/sprite.svg#ic_search"></use>
+											</svg>
+										</button>
+									</form>
+								</div>
+							</div>
+
+
+							<div class="compare_link">
+								<a href="/">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare2"></use></svg>
+								</a>
+							</div>
+
+							<div class="favorite_link">
+								<a href="/">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+								</a>
+							</div>
+
+
+							<div class="visited modal_cont">
+								<button class="link mini_modal_link" data-modal-id="#mob_visited_modal">
+									<span class="count">25</span>
+									<svg class="icon">
+										<use xlink:href="images/sprite.svg#ic_visited"></use>
+									</svg>
+								</button>
+
+								<div class="mini_modal" id="mob_visited_modal">
+									<div class="list">
+										<a href="/" class="item">
+											<b>MES1124M Eltex</b> <span class="sep">|</span> Коммутатор 24 порта 100M с грозозащитой
+
+											<span class="date">01.05.2020</span>
+											<span class="time">14:49</span>
+										</a>
+
+										<a href="/" class="item">
+											<b>MES1124M_DC Eltex</b> <span class="sep">|</span> Коммутатор 24 порта 100M с грозозащитой
+
+											<span class="date">01.05.2020</span>
+											<span class="time">14:48</span>
+										</a>
+
+										<a href="/" class="item">
+											<b>MES1124M Eltex</b> <span class="sep">|</span> Коммутатор 24 порта 100M с грозозащитой
+
+											<span class="date">01.05.2020</span>
+											<span class="time">14:47</span>
+										</a>
+
+										<a href="/" class="item">
+											<b>MES1124M Eltex</b> <span class="sep">|</span> Коммутатор 24 порта 100M с грозозащитой
+
+											<span class="date">01.05.2020</span>
+											<span class="time">14:45</span>
+										</a>
+									</div>
+
+									<div class="all_link">
+										<a href="/">Вся история</a>
+									</div>
+								</div>
+							</div>
+
+
+							<a href="/" class="cart_link">
+								<div class="count">
+									<span>0</span>
+									<svg class="icon">
+										<use xlink:href="images/sprite.svg#ic_cart"></use>
+									</svg>
+								</div>
+							</a>
+
+
+							<button class="mob_menu_link">
+								<span></span>
+								<span></span>
+								<span></span>
+							</button>
+						</div>
+
+					</div>
+				</div>
+				<!-- End Шапка -->
+
+
+				<!-- Основная часть -->
+				<section class="get_price_list block">
+					<div class="cont">
+
+						<button class="mob_form_btn">Полный прайс-лист</button>
+
+						<div class="data">
+							<div class="title">Закажите полный прайс-лист</div>
+
+							<form action="" class="form">
+								<div class="line">
+									<div class="field">
+										<input type="text" name="" value="" class="input">
+										<div class="label">Ваше имя*</div>
+									</div>
+								</div>
+
+								<div class="line">
+									<div class="field">
+										<input type="tel" name="" value="" class="input">
+										<div class="label">Номер телефона*</div>
+									</div>
+								</div>
+
+								<div class="line">
+									<div class="field">
+										<input type="text" name="" value="" class="input">
+										<div class="label">Електронная почта</div>
+									</div>
+								</div>
+
+								<div class="line agree">
+									<div class="field">
+										<input type="checkbox" name="agree" id="agree2_check" checked>
+										<label for="agree2_check">Я ознакомлен и согласен с <a href="/" target="_blank">Политикой конфиденциальности</a></label>
+									</div>
+								</div>
+
+
+								<div class="submit">
+									<button type="submit" class="submit_btn">Отправить</button>
+								</div>
+							</form>
+						</div>
+
+					</div>
+				</section>
+
+
+				<section class="page_head block">
+					<div class="cont">
+
+						<div class="breadcrumbs">
+							<a href="/">
+								<svg class="home_icon">
+									<use xlink:href="images/sprite.svg#ic_home"></use>
+								</svg>
+							</a> <span class="sep"></span>
+
+							<a href="/">Каталог</a>
+							<span class="sep"></span>
+
+							<a href="/">Ethernet коммутаторы</a>
+							<span class="sep"></span>
+
+							<a href="/">Коммутаторы доступа 1G / 10G</a>
+							<span class="sep"></span>
+
+							MES1124M Eltex | Коммутатор 24 порта 100M с грозозащитой
+						</div>
+
+					</div>
+				</section>
+
+
+				<section class="product_page content_flex block">
+					<div class="cont flex">
+
+						<aside class="mini">
+							<div class="compare_informer">
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+								</div>
+
+								<div>
+									<div class="count">5 товаров</div>
+									<div><a href="/">Перейти к сравнению</a></div>
+								</div>
+							</div>
+
+
+							<div class="products_list">
+								<div class="main_cat">Ethernet коммутаторы</div>
+
+								<div class="item">
+									<div class="cat">Коммутаторы доступа 100M</div>
+
+									<div class="list">
+										<div><a class="active">MES1124M</a></div>
+										<div><a href="/">MES1124M_DC</a></div>
+										<div><a href="/">MES1124MB</a></div>
+										<div><a href="/" class="new">MES1428</a></div>
+										<div><a href="/" class="dev">MES1428B</a></div>
+									</div>
+								</div>
+
+
+								<div class="item">
+									<div class="cat">Коммутаторы доступа PoE</div>
+
+									<div class="list">
+										<div><a href="/">MES2308P</a></div>
+										<div><a href="/">MES2308P_DC</a></div>
+										<div><a href="/">MES2324P</a></div>
+										<div><a href="/">MES2348P</a></div>
+										<div><a href="/" class="new">MES2408P</a></div>
+										<div><a href="/" class="new">MES2408CP</a></div>
+										<div><a href="/" class="dev">MES2408P_DC</a></div>
+										<div><a href="/" class="new">MES2408PL</a></div>
+										<div><a href="/" class="new">MES2428P</a></div>
+										<div><a href="/" class="dev">MES2428P_DC</a></div>
+									</div>
+								</div>
+
+
+								<div class="item">
+									<div class="cat">Коммутаторы доступа 1G/10G</div>
+
+									<div class="list">
+										<div><a href="/">MES2308R</a></div>
+										<div><a href="/">MES2408_DC</a></div>
+										<div><a href="/">MES2408B</a></div>
+										<div><a href="/">MES2408</a></div>
+										<div><a href="/">MES2408C</a></div>
+										<div><a href="/">MES2324</a></div>
+										<div><a href="/">MES232B</a></div>
+										<div><a href="/">MES2324F_DC</a></div>
+										<div><a href="/">MES2324FB</a></div>
+										<div><a href="/">MES2348B</a></div>
+										<div><a href="/">MES2428</a></div>
+										<div><a href="/">MES2428_DC</a></div>
+										<div><a href="/">MES2428B</a></div>
+										<div><a href="/">MES2428T</a></div>
+									</div>
+								</div>
+
+
+								<div class="item">
+									<div class="cat">Коммутаторы агрегации 1G/10G</div>
+
+									<div class="list">
+										<div><a href="/">MES3308F</a></div>
+										<div><a href="/">MES3316F</a></div>
+										<div><a href="/">MES3324</a></div>
+										<div><a href="/">MES3324F</a></div>
+										<div><a href="/">MES3348</a></div>
+										<div><a href="/">MES3348F</a></div>
+									</div>
+								</div>
+
+
+								<div class="item">
+									<div class="cat">Коммутаторы агрегации 10G/40G/100G</div>
+
+									<div class="list">
+										<div><a href="/" class="removed">MES5312</a></div>
+										<div><a href="/">MES5324</a></div>
+										<div><a href="/">MES5448</a></div>
+										<div><a href="/" class="new">MES5316A</a></div>
+										<div><a href="/" class="new">MES5324A</a></div>
+										<div><a href="/" class="new">MES5332A</a></div>
+										<div><a href="/" class="new">MES7048</a></div>
+										<div><a href="/" class="dev">MES9032</a></div>
+									</div>
+								</div>
+
+
+								<div class="item">
+									<div class="cat">Промышленные коммутаторы</div>
+
+									<div class="list">
+										<div><a href="/">MES3508P в корпусе IP66</a></div>
+										<div><a href="/">MES3508</a></div>
+										<div><a href="/">MES3508P</a></div>
+										<div><a href="/" class="new">MES3510P</a></div>
+									</div>
+								</div>
+
+
+								<div class="item">
+									<div class="cat">Модули питания</div>
+
+									<div class="list">
+										<div><a href="/">PM160-220/12</a></div>
+										<div><a href="/">PM100-48/12</a></div>
+										<div><a href="/">PM35-220/12</a></div>
+										<div><a href="/">PM350-220/12</a></div>
+										<div><a href="/">PM350-48/12</a></div>
+										<div><a href="/">PM950-220/56</a></div>
+										<div><a href="/">DRS-270-56</a></div>
+										<div><a href="/" class="dev">PM380</a></div>
+										<div><a href="/" class="removed">PM75-48/12</a></div>
+										<div><a href="/">SPM35-220/12</a></div>
+										<div><a href="/">SPM35-48/12</a></div>
+										<div><a href="/">SPM45B-220/12</a></div>
+										<div><a href="/">SPM120B-220/12</a></div>
+										<div><a href="/">SPM160-220/12</a></div>
+										<div><a href="/">SPM160-220/48</a></div>
+										<div><a href="/">SPM270-220/56</a></div>
+										<div><a href="/">SPM350-220/48</a></div>
+										<div><a href="/">SPM380-220/56</a></div>
+										<div><a href="/">PM-DC12</a></div>
+									</div>
+								</div>
+
+
+								<div class="item">
+									<div class="cat">Снятые с производства</div>
+
+									<div class="list">
+										<div><a href="/" class="removed">MES1024</a></div>
+										<div><a href="/" class="removed">MES1124</a></div>
+										<div><a href="/" class="removed">MES2308</a></div>
+										<div><a href="/" class="removed">MES2124</a></div>
+										<div><a href="/" class="removed">MES2124M</a></div>
+										<div><a href="/" class="removed">MES2124MB</a></div>
+										<div><a href="/" class="removed">MES3124P</a></div>
+										<div><a href="/" class="removed">MES2124P</a></div>
+										<div><a href="/" class="removed">MES2124F</a></div>
+										<div><a href="/" class="removed">MES2326</a></div>
+										<div><a href="/" class="removed">MES2208P</a></div>
+										<div><a href="/" class="removed">MES3108F</a></div>
+										<div><a href="/" class="removed">MES3116F</a></div>
+										<div><a href="/" class="removed">MES3124</a></div>
+										<div><a href="/" class="removed">MES3124F</a></div>
+										<div><a href="/" class="removed">MES5248</a></div>
+									</div>
+								</div>
+							</div>
+						</aside>
+
+
+						<section class="content">
+							<section class="product_info block">
+								<div class="data flex">
+									<h1 class="product_name">MES1124M Eltex | Коммутатор 24 порта 100M с грозозащитой</h1>
+
+
+									<div class="images">
+										<div class="big">
+											<div class="slider owl-carousel">
+												<div class="slide">
+													<a href="images/tmp/product_img.jpg" class="fancy_img" data-fancybox="product">
+														<img src="images/tmp/product_img.jpg" alt="">
+													</a>
+												</div>
+
+												<div class="slide">
+													<a href="images/tmp/product_img.jpg" class="fancy_img" data-fancybox="product">
+														<img src="images/tmp/product_img.jpg" alt="">
+													</a>
+												</div>
+
+												<div class="slide">
+													<a href="images/tmp/product_img.jpg" class="fancy_img" data-fancybox="product">
+														<img src="images/tmp/product_img.jpg" alt="">
+													</a>
+												</div>
+
+												<div class="slide">
+													<a href="images/tmp/product_img.jpg" class="fancy_img" data-fancybox="product">
+														<img src="images/tmp/product_img.jpg" alt="">
+													</a>
+												</div>
+
+												<div class="slide">
+													<a href="images/tmp/product_img.jpg" class="fancy_img" data-fancybox="product">
+														<img src="images/tmp/product_img.jpg" alt="">
+													</a>
+												</div>
+
+												<div class="slide">
+													<a href="images/tmp/product_img.jpg" class="fancy_img" data-fancybox="product">
+														<img src="images/tmp/product_img.jpg" alt="">
+													</a>
+												</div>
+
+												<div class="slide">
+													<a href="images/tmp/product_img.jpg" class="fancy_img" data-fancybox="product">
+														<img src="images/tmp/product_img.jpg" alt="">
+													</a>
+												</div>
+
+												<div class="slide">
+													<a href="images/tmp/product_img.jpg" class="fancy_img" data-fancybox="product">
+														<img src="images/tmp/product_img.jpg" alt="">
+													</a>
+												</div>
+
+												<div class="slide">
+													<a href="#ProdIMG_modal" class="Magic360 fancy_img" data-fancybox="product" data-options="
+														filepath: https://eltexcm.ru/assets/images/360/861/;
+														large-filepath: https://eltexcm.ru/assets/images/360/861/;
+														filename: photo_{col}.jpg;
+														large-filename: photo_{col}.jpg;
+														autospin:infinite;
+														columns:49;
+														magnify: true;
+														magnifier-shape: square;">
+															<img src="images/tmp/product_360_img.jpg" alt="">
+													</a>
+												</div>
+											</div>
+										</div>
+
+
+										<section class="modal" id="ProdIMG_modal">
+											<a class="Magic360" data-options="
+												filepath: https://eltexcm.ru/assets/images/360/861/;
+												large-filepath: https://eltexcm.ru/assets/images/360/861/;
+												filename: photo_{col}.jpg;
+												large-filename: photo_{col}.jpg;
+												autospin:infinite;
+												columns:49;
+												magnify: true;
+												magnifier-shape: square;">
+													<img src="images/tmp/product_360_img.jpg" alt="">
+											</a>
+										</section>
+
+										<link rel="stylesheet" href="css/magic360.css">
+										<script src="js/magic360.js"></script>
+										<script>
+											var Magic360Lang = {
+												'hint-text'        : 'Вращайте',
+												'mobile-hint-text' : 'Вращайте'
+											}
+										</script>
+
+
+										<div class="thumbs">
+											<button data-slide-index="0" class="active">
+												<img data-src="images/tmp/product_thumbs_img.jpg" alt="" class="lozad">
+											</button>
+
+											<button data-slide-index="1">
+												<img data-src="images/tmp/product_thumbs_img2.jpg" alt="" class="lozad">
+											</button>
+
+											<button data-slide-index="2">
+												<img data-src="images/tmp/product_thumbs_img3.jpg" alt="" class="lozad">
+											</button>
+
+											<button data-slide-index="3">
+												<img data-src="images/tmp/product_thumbs_img4.jpg" alt="" class="lozad">
+											</button>
+
+											<button data-slide-index="4">
+												<img data-src="images/tmp/product_thumbs_img.jpg" alt="" class="lozad">
+											</button>
+
+											<button data-slide-index="5">
+												<img data-src="images/tmp/product_thumbs_img2.jpg" alt="" class="lozad">
+											</button>
+
+											<button data-slide-index="6">
+												<img data-src="images/tmp/product_thumbs_img3.jpg" alt="" class="lozad">
+											</button>
+
+											<button data-slide-index="7">
+												<img data-src="images/tmp/product_thumbs_img4.jpg" alt="" class="lozad">
+											</button>
+										</div>
+
+										<button data-slide-index="8" class="view360">
+											<svg class="icon">
+												<use xlink:href="images/sprite.svg#ic_view360"></use>
+											</svg>
+										</button>
+									</div>
+
+
+									<div class="info flex">
+										<div class="description text_block">
+											<p>24 порта 10/100Base-T, 4 комбо-порта 10/100/1000Base-T/1000Base-X, встроенная грозозащита на портах. Управляемый коммутатор MES1124M является обновленной версией MES1124. Особенность коммутатора: защита от скачков напряжения до 6 кВ (в соответствии со стандартом IEC61000-4-5).</p>
+										</div>
+
+										<div class="brand">
+											<img data-src="images/tmp/brand_logo.png" alt="" class="lozad">
+										</div>
+
+
+										<div class="articul">
+											Артикул: <b>SMG-3015</b>
+
+											<button class="copy_link tooltip" data-clipboard-text="SMG-3015">
+												<svg class="icon">
+													<use xlink:href="images/sprite.svg#ic_copy"></use>
+												</svg>
+
+												<div class="text">
+													<span>Скопировать артикул в буфер</span>
+													<span>Скопировано</span>
+												</div>
+											</button>
+										</div>
+
+										<div class="rating">
+											<div class="stars">
+												<div class="active"></div>
+												<div class="active"></div>
+												<div class="active"></div>
+												<div class="active"></div>
+												<div class="middle"></div>
+											</div>
+
+											Оценка 4,6 из 5. Отзывов
+											<button class="scroll_link" data-anchor="#product_tab6">245</button>
+										</div>
+
+
+										<div class="buy_info">
+											<div class="col_left">
+												<div class="price_block">
+													Цена GPL
+
+													<div class="val">
+														<div class="price down">
+															<span>34 454</span> <sup>руб</sup>
+														</div>
+
+														<!-- <div class="garanti_price"></div>
+
+														<div>
+															<button class="get_corp_price modal_link" data-content="#best_price_modal">Запросить корп. цену</button>
+														</div> -->
+													</div>
+												</div>
+
+												<div class="status">
+													<div class="val green">В наличии</div>
+
+													<div class="cities">
+														<div>Москва 164 шт</b></div>
+														<div>Новосибирск 164 шт</b></div>
+														<div>Транзит с завода 500 шт</b></div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="col_right">
+												<button class="reduce_price_btn">Снизить цену</button>
+
+												<div class="garanti">
+													<div class="val">Гарантия 12 мес</div>
+												</div>
+
+												<div class="links">
+													<button class="add_link modal_link" data-content="#add_garanti_modal">
+														<span>Добавить <b>“гарантию+”</b></span>
+													</button>
+
+													<div><button>
+														<span>Рассчитать цену доставки</span>
+													</button></div>
+												</div>
+											</div>
+
+
+											<div class="buy_links">
+												<button class="quike_buy_link modal_link" data-content="#quike_buy_modal">Быстрая заявка</button>
+
+												<button class="issue_invoice modal_link" data-content="#invoice_modal">
+													<img data-src="images/ic_doc_blue.svg" alt="" class="lozad">
+													Выставить счет <small>(для юр. лица)</small>
+												</button>
+
+												<button class="buy_link">
+													<div class="icon">
+														<svg><use xlink:href="images/sprite.svg#ic_buy2"></use></svg>
+													</div>
+												</button>
+
+												<div class="amount">
+													<button type="button" class="minus"></button>
+
+													<input type="text" value="1" class="input"
+													  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+													<button type="button" class="plus"></button>
+												</div>
+
+												<div class="compare">
+													<!-- <button class="compare_link show_tooltip"> -->
+													<button class="compare_link">
+														<div class="icon">
+															<svg><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+														</div>
+													</button>
+												</div>
+											</div>
+
+
+											<div class="desktop_hide mob_show">
+												<div class="garanti">
+													<div class="val">Гарантия 12 мес</div>
+												</div>
+
+												<div class="links">
+													<button class="add_link modal_link" data-content="#add_garanti_modal">
+														<span>Добавить <b>“гарантию+”</b></span>
+													</button>
+
+													<div><button>
+														<span>Рассчитать цену доставки</span>
+													</button></div>
+												</div>
+											</div>
+										</div>
+
+
+										<div class="bottom">
+											<div class="manager">
+												<div class="photo online">
+													<img data-src="images/tmp/manager_photo.jpg" alt="" class="lozad">
+												</div>
+
+												<div>
+													<div class="name">Акименко Евгений</div>
+													<div class="post">специалист GPON</div>
+
+													<div class="email">
+														<a href="mailto:e.akimenko@eltexcm.ru">e.akimenko@eltexcm.ru</a>
+													</div>
+
+													<button class="chat_btn">Написать в чат</button>
+
+													<div class="messengers">
+														<a href="/" target="_blank" rel="noopener nofollow">
+															<svg class="icon icon1">
+																<use xlink:href="images/sprite.svg#ic_messenger1"></use>
+															</svg>
+														</a>
+
+														<a href="/" target="_blank" rel="noopener nofollow">
+															<svg class="icon icon2">
+																<use xlink:href="images/sprite.svg#ic_messenger2"></use>
+															</svg>
+														</a>
+													</div>
+												</div>
+											</div>
+
+											<div class="col_right">
+												<div class="pluses">
+													<div>
+														Скидка с первого заказа!
+														<svg class="icon icon1"><use xlink:href="images/sprite.svg#ic_pluses1"></use></svg>
+													</div>
+
+													<div>
+														Мы диллер №1 Eltex
+														<svg class="icon icon2"><use xlink:href="images/sprite.svg#ic_pluses2"></use></svg>
+													</div>
+												</div>
+
+												<button class="similar_link">
+													<span>Аналогичные устройства</span>
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="similar_products products products_block">
+									<div class="flex">
+										<div class="product_wrap">
+											<div class="product">
+												<a href="/" class="thumb">
+													<div class="img">
+														<img data-src="images/tmp/product_thumb.jpg" alt="" class="lozad">
+													</div>
+												</a>
+
+												<div class="name">
+													<a href="/">MES3508P в корпусе IP66 (третья строка заголовок Н3)</a>
+												</div>
+
+												<div class="desc">8x1G Poe/Poe+<br> 2x1G Eth/SFP Combo<br> 48V DC<br> IP66</div>
+
+												<div class="bottom">
+													<div class="price">45 011</div>
+
+													<button class="to_cart">В корзину</button>
+												</div>
+											</div>
+										</div>
+
+
+										<div class="product_wrap">
+											<div class="product">
+												<a href="/" class="thumb">
+													<div class="img">
+														<img data-src="images/tmp/product_thumb2.jpg" alt="" class="lozad">
+													</div>
+												</a>
+
+												<div class="name">
+													<a href="/">RR-10 Репитер</a>
+												</div>
+
+												<div class="desc">RR-10 – универсальный повторитель беспроводного сигнала, предназначен для расширения зоны покрытия...</div>
+
+												<div class="bottom">
+													<div class="price">45 011</div>
+
+													<button class="to_cart">В корзину</button>
+												</div>
+											</div>
+										</div>
+
+
+										<div class="product_wrap">
+											<div class="product">
+												<a href="/" class="thumb">
+													<div class="img">
+														<img data-src="images/tmp/product_thumb3.jpg" alt="" class="lozad">
+													</div>
+												</a>
+
+												<div class="name">
+													<a href="/">WOP-2ac-LR2 Базовая станция</a>
+												</div>
+
+												<div class="desc">Combo-порт 10/100/1000Base-T (Ethernet) / 100/1000Base-X (SFP)<br> 2 разъема SMA-типа (female) ...</div>
+
+												<div class="bottom">
+													<div class="price">45 011</div>
+
+													<button class="to_cart">В корзину</button>
+												</div>
+											</div>
+										</div>
+
+
+										<div class="product_wrap">
+											<div class="product">
+												<a href="/" class="thumb">
+													<div class="img">
+														<img data-src="images/tmp/product_thumb4.jpg" alt="" class="lozad">
+													</div>
+												</a>
+
+												<div class="name">
+													<a href="/">MES3510P Eltex | Промышленный коммутатор 8 портов ...</a>
+												</div>
+
+												<div class="desc">8x1G Poe/Poe+<br> 4x1G SFP<br> 48V DC</div>
+
+												<div class="bottom">
+													<div class="price">45 011</div>
+
+													<button class="to_cart">В корзину</button>
+												</div>
+											</div>
+										</div>
+
+
+										<div class="product_wrap">
+											<div class="product">
+												<a href="/" class="thumb">
+													<div class="img">
+														<img data-src="images/tmp/product_thumb5.jpg" alt="" class="lozad">
+													</div>
+												</a>
+
+												<div class="name">
+													<a href="/">SMG-3016 Eltex | Транковый шлюз E1, SIP</a>
+												</div>
+
+												<div class="desc">от 4 до 16 потоков Е1<br> до 768 каналов VoIP<br> 3000 SIP регистраций<br> 120 cps</div>
+
+												<div class="bottom">
+													<div class="price">45 011</div>
+
+													<button class="to_cart">В корзину</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+
+
+							<section class="product_tabs tabs_container block">
+								<div class="data">
+									<div class="tabs">
+										<div>
+											<button data-content="#product_tab1" data-level="level1" class="active">Описание</button>
+										</div>
+
+										<div>
+											<button data-content="#product_tab2" data-level="level1">Тех. характеристики</button>
+										</div>
+
+										<div>
+											<button data-content="#product_tab3" data-level="level1">Файлы</button>
+										</div>
+
+										<div>
+											<button data-content="#product_tab4" data-level="level1">Спецификация</button>
+										</div>
+
+										<div>
+											<button data-content="#product_tab5" data-level="level1">Комплектация</button>
+										</div>
+
+										<div>
+											<button data-content="#product_tab6" data-level="level1">Отзывы <b>245</b></button>
+										</div>
+
+										<div>
+											<button data-content="#product_tab7" data-level="level1">Настройка</button>
+										</div>
+
+										<div>
+											<button data-content="#product_tab8" data-level="level1">Доставка</button>
+										</div>
+									</div>
+
+
+									<div class="tab_content level1 active" id="product_tab1">
+										<div class="prod_description">
+											<div class="text_block mini">
+												<div class="iframe">
+													<iframe data-src="https://www.youtube.com/embed/ut0djb4Zv2Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="lozad"></iframe>
+												</div>
+											</div>
+
+
+											<div class="features">
+												<table>
+													<tbody>
+														<tr>
+															<td class="name">Уровень коммутатора</td>
+															<td class="val">L2</td>
+														</tr>
+
+														<tr>
+															<td class="name">Количество портов</td>
+															<td class="val">24</td>
+														</tr>
+
+														<tr>
+															<td class="name">Скорость портов</td>
+															<td class="val">100M</td>
+														</tr>
+
+														<tr>
+															<td class="name">Установка в стойку</td>
+															<td class="val">1U</td>
+														</tr>
+
+														<tr>
+															<td class="name">Возможность подключения АКБ</td>
+															<td class="val">Нет</td>
+														</tr>
+
+														<tr>
+															<td class="name">POE</td>
+															<td class="val">Нет</td>
+														</tr>
+
+														<tr>
+															<td class="name">Кол-во устройств в стеке</td>
+															<td class="val">4</td>
+														</tr>
+
+														<tr>
+															<td class="name">Питание</td>
+															<td class="val">AC</td>
+														</tr>
+
+														<tr>
+															<td class="name">Размер коробки ШхВхГ, см</td>
+															<td class="val">52 x 8,5 x 27</td>
+														</tr>
+
+														<tr>
+															<td class="name">Вес брутто, кг</td>
+															<td class="val">3,05</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+
+
+											<div class="text_block">
+												<h3>MES1124M – управляемый коммутатор уровня доступа (L2) Заголовок Н3</h3>
+
+												<p>
+													В качестве центрального процессора разработчиками Eltex выбран Marvell 98DX1035. Основные характеристики:
+												</p>
+
+												<ul>
+													<li>Производительность центрального процессора 12,8 Гбит/с.</li>
+													<li>Таблица MAC-адресов – 16К</li>
+													<li>Количество активных VLAN – 4К</li>
+													<li>Потреблямая мощность – не более 25 Вт</li>
+													<li>Электропитание – 220V AC / 48V DC</li>
+													<li>На портах установлена грозозащита 6кВ.</li>
+												</ul>
+
+
+												<h3>Преимущества MES1124M Н3</h3>
+
+												<ul>
+													<li>Конкурентная цена</li>
+													<li>Встроенная грозозащита</li>
+													<li>Развитый функционал в части Multicast</li>
+													<li>Версии с питанием AC \ DC</li>
+												</ul>
+
+
+												<h3>Обновленная версия MES1124</h3>
+
+												<p>
+													MES1124M - это обновленная версия MES1124: установлена новая версия чипа Marvell и встроенна грозозащита на портах. Также, снижена цена коммутатора в сравнении с MES1124
+												</p>
+
+
+												<h3>Тестирование коммутатора Eltex 1124M.</h3>
+
+												<p>
+													<b style="color: #00abdf;">Пример тестирования в сравнении с коммутатором QSW-2800-28T-AC.</b><br>
+
+													<span style="color: #9a9a9a;">(автор: специалисты компании «КР+»).</span>
+												</p>
+
+												<ol>
+													<li>Количество портов и их назначение полностью совпадает с QSW-2800-28T-AC.</li>
+
+													<li>Коммутатор на 2-см короче чем QSW-2800-28T-AC, что является большим плюсом.</li>
+
+													<li>Задняя стенка коммутатор перфорирована, что обеспечит более лучшее кондиционирование воздуха и как следствие его охлаждения.</li>
+
+													<li>Нумерация портов отличается от той что используется у qtech, как следствие монтажники могут по началу путоца.</li>
+
+													<li>На комбо-портах присутствует отдельно индикация для медных и оптических портов.</li>
+
+													<li>Веб-интерфей коммутатора гораздо лучше и понятней того что идет в комплекте с QSW-2800-28T-AC.</li>
+
+													<li>Cli схоже с тем что у qtech, но при этом ближе к CISCO. Так что разобраться в нем труда не составит. С небольшой помощью смог без проблем адаптировать под синтаксис Eltex.</li>
+
+													<li>
+														У коммутатора очень хороший мануал, полностью на русском языке что позволяет разобраться в большинстве настроек без обращение в службу технической поддержки.<br><br>
+
+														<span style="color: #9a9a9a;">(у qtech с мануалами совсем беда.)</span>
+													</li>
+
+													<li>Единый мануал для Fast и Gigabit серий коммутаторов eltex, обеспечивает легкую миграцию при необходимости с 100 на 1000 коммутаторы без необходимости разбератся в особенностях конфигурации коммутаторов. ( у qtech бываю различия в конфигурация в разных сериях, от незначительных в 3400 до серьезных в 3300 по сравнению с 2800).</li>
+
+													<li>Поддержка более широкого списка возможностей работы с кольцами, поддерживает работу с ERPS ( Есть аналог MRPP).</li>
+
+													<li>При узучение мануала обнаружил несколько интересных функций, которые нет в  QSW-2800-28T-AC. (show system defaults , default interface GigabitEthernet 1/0/1 , backup server ). В QSW-2800-28T-AC данные функции реализовывать компания отказалась, т. к. они на данный момент больше не вносят новых функций в данную серию, только правка ошибок.</li>
+
+													<li>Наличие склада в г.Новосибирск обеспечивает кратчайшие сроки получение товара, по сравнению с Qtech. А так же возможность закупки коммутаторов через компанию Фортрон и Омикон.(Можно и напрямую у Eltex).</li>
+
+													<li>Платная система тикетов, является главным минусом данного коммутатора.</li>
+
+													<li>Отсутствие регионального представительства, то же является минусом, не таким критичным.</li>
+
+													<li>Цена коммутатора находится на уровне QSW-2800-28T-AC.</li>
+												</ol>
+
+												<p>
+													<b>Заключение</b><br>
+													Коммутатор Eltex 1124M является достойной альтернативой коммутатору QSW-2800-28T-AC.
+												</p>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="tab_content level1" id="product_tab2">
+										<div class="prod_features">
+											<div class="text_block">
+												<h3>Интерфейсы</h3>
+
+												<ul>
+													<li>24 х 10/100 Base-T (RJ-45)</li>
+													<li>4 x 10/100/1000 Base-T/1000 Base-X (SFP)</li>
+													<li>Консольный портRS-232/RJ-45</li>
+												</ul>
+
+
+												<h3>Производительность</h3>
+
+												<ul>
+													<li>Пропускная способность - 12,8 Гбит/с</li>
+													<li>Производительность на пакетах длиной 64 байта - 9 MPPS</li>
+													<li>Таблица MAC-адресов - 16K</li>
+													<li>Количество активных VLAN - 4K</li>
+													<li>Таблица ACL - 512</li>
+													<li>Размер Jumbo-фрейма - максимальный размер пакетов 10240 байт</li>
+												</ul>
+
+
+												<h3>Функции интерфейсов</h3>
+
+												<ul>
+													<li>Защита от блокировки очереди (HOL)</li>
+													<li>Поддержка обратного давления (Back pressure)</li>
+													<li>Поддержка Auto MDI/MDIX</li>
+													<li>Поддержка сверхдлинных кадров (Jumbo frames)</li>
+													<li>Управление потоком (IEEE 802.3X)</li>
+													<li>Зеркалирование портов (Port mirroring)</li>
+													<li>Функция зеркалирования VLAN</li>
+												</ul>
+
+
+												<h3>Функции при работе с МAC-адресами</h3>
+
+												<ul>
+													<li>Независимый режим обучения в каждой VLAN</li>
+													<li>Поддержка многоадресной рассылки (MAC Multicast Support)</li>
+													<li>Регулируемое время хранения MAC-адресов глобально и для каждой VLAN</li>
+													<li>Статические записи MAC (Static MAC Entries)</li>
+													<li>Отслеживание событий MAC change на портах</li>
+													<li>Отслеживание событий MAC flapping на портах</li>
+												</ul>
+
+
+												<h3>Функции L2 Multicast</h3>
+
+												<ul>
+													<li>Поддержка профилей Multicast</li>
+													<li>Поддержка статических Mullticast-групп</li>
+													<li>Поддержка IGMP Snooping v1,2,3</li>
+													<li>Поддержка IGMP snooping Fast Leave на основе порта/хоста</li>
+													<li>Поддержка авторизации IGMP через RADIUS</li>
+													<li>Поддержка MLD Snooping v1,2</li>
+													<li>Поддержка IGMP Querier</li>
+													<li>Поддержка MVR</li>
+												</ul>
+
+
+												<h3>Функции L2</h3>
+
+												<ul>
+													<li>Поддержка протокола STP (Spanning Tree Protocol, IEEE 802.1d)</li>
+													<li>Поддержка протокола RSTP (Rapid Spanning Tree Protocol, IEEE 802.1d)</li>
+													<li>Поддержка протокола MSTP (Multiple Spanning Tree Protocol, IEEE 802.1s)</li>
+													<li>Поддержка STP Multiprocess</li>
+													<li>Поддержка STP Root Guard</li>
+													<li>Поддержка STP Loop Guard</li>
+													<li>Поддержка STP BPDU Guard</li>
+													<li>Поддержка BPDU Filtering</li>
+													<li>Поддержка Spanning Tree Fast Link option</li>
+													<li>Поддержка Layer 2 Protocol Tunneling</li>
+													<li>Поддержка Private VLAN</li>
+													<li>Поддержка ERPS (G.8032v2)</li>
+													<li>Поддержка EAPS</li>
+													<li>Поддержка Loopback Detection (LBD) на основе VLAN</li>
+													<li>Изоляция портов</li>
+													<li>Поддержка Flex Link (Dual homing)</li>
+													<li>Поддержка Storm Control для различного трафика (broadcast, multicast, unknown unicast)</li>
+												</ul>
+
+
+												<h3>Функции Link Aggregation</h3>
+
+												<ul>
+													<li>Создание групп LAG</li>
+													<li>Объединение каналов с использованием LACP</li>
+													<li>Поддержка LAG Balancing Algorithm</li>
+												</ul>
+
+
+												<h3>Поддержка IPv6 </h3>
+
+												<ul>
+													<li>Функциональность IPv6 Host</li>
+													<li>Совместное использование IPv4, IPv6</li>
+												</ul>
+
+
+												<h3>Функции обеспечения безопасности</h3>
+
+												<ul>
+													<li>DHCP snooping</li>
+													<li>Опция 82 протокола DHCP</li>
+													<li>IP Source Guard</li>
+													<li>Dynamic ARP Inspection (Protection)</li>
+													<li>Поддержка sFlow</li>
+													<li>Проверка подлинности на основе MAC-адреса, ограничение количества MAC-адресов, статические MAC-адреса</li>
+													<li>Проверка подлинности по портам на основе 802.1x</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="tab_content level1" id="product_tab3">
+										<div class="prod_files">
+											<div class="item">
+												<div class="title">Описание</div>
+
+												<div class="list">
+													<div><a href="/" class="pdf">
+														<div class="name">
+															<span>Краткая техническая информация</span>
+														</div>
+														<span>PDF / 2 Mb</span>
+													</a></div>
+												</div>
+											</div>
+
+
+											<div class="item">
+												<div class="title">Описание</div>
+
+												<div class="list">
+													<div><a href="/" class="pdf">
+														<div class="name">
+															<span>Руководство по эксплуатации 1.1.48.7</span>
+														</div>
+														<div class="info">PDF / 6 Mb</div>
+													</a></div>
+
+													<div><a href="/" class="pdf">
+														<div class="name">
+															<span>Мониторинг и управление Ethernet коммутаторами MES по SNMP</span>
+														</div>
+														<div class="info">PDF / 956 Kb</div>
+													</a></div>
+												</div>
+											</div>
+
+
+											<div class="item">
+												<div class="title">Программное обеспечение</div>
+
+												<div class="list">
+													<div><a href="/" class="zip">
+														<div class="name">
+															<span>Версия ПО 1.1.48.7</span>
+														</div>
+														<div class="info">ZIP / 6 Mb</div>
+													</a></div>
+
+													<div><a href="/" class="rfb">
+														<div class="name">
+															<span>Начальный загрузчик</span>
+														</div>
+														<div class="info">RFB / 2 Mb</div>
+													</a></div>
+
+													<div><a href="/" class="pdf">
+														<div class="name">
+															<span>Инструкция по обновлению версии начального загрузчика</span>
+														</div>
+														<div class="info">PDF / 214 Kb</div>
+													</a></div>
+
+													<div><a href="/" class="pdf">
+														<div class="name">
+															<span>Инструкция по обновлению версии ПО в сетевых коммутаторах</span>
+														</div>
+														<div class="info">PDF / 219 Kb</div>
+													</a></div>
+
+													<div><a href="/" class="pdf">
+														<div class="name">
+															<span>Инструкция по обновлению версии ПО MES1024 и MES1124 при переходе с версии 1.1.14 и ранних на 1.1.18 и более поздние</span>
+														</div>
+														<div class="info">PDF / 290 Kb</div>
+													</a></div>
+
+													<div><a href="/" class="zip">
+														<div class="name">
+															<span>mib_1.1.48.7</span>
+														</div>
+														<div class="info">ZIP / 1 Mb</div>
+													</a></div>
+												</div>
+											</div>
+
+
+											<div class="item">
+												<div class="title">Сертификаты</div>
+
+												<div class="list">
+													<div><a href="/" class="pdf">
+														<div class="name">
+															<span>Декларация TP TC</span>
+														</div>
+														<div class="info">PDF / 450 Kb</div>
+													</a></div>
+
+													<div><a href="/" class="pdf">
+														<div class="name">
+															<span>Сертификат связи</span>
+														</div>
+														<div class="info">PDF / 2 Mb</div>
+													</a></div>
+
+													<div><a href="/" class="pdf">
+														<div class="name">
+															<span>Приказ Минпромторга РФ №2251 о присвоении статуса ТКО отечественного производства</span>
+														</div>
+														<div class="info">PDF / 496 Kb</div>
+													</a></div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="tab_content level1" id="product_tab4">
+										<div class="prod_specification">
+											<div class="product">
+												<a href="/" class="thumb">
+													<img data-src="images/tmp/prod_specification_thumb.jpg" alt="" class="lozad">
+												</a>
+
+												<div class="info">
+													<div class="name">
+														<a href="/">Плата питания SPM35-220/12</a>
+													</div>
+
+													<div class="desc">Ethernet-коммутатор MES1124M,24 порта 10/100 Base-T,4 порта 10/100/1000 Base-T/1000Base-X (SFP),L2, 220V AC</div>
+												</div>
+
+												<button class="buy_link">
+													<svg class="icon">
+														<use xlink:href="images/sprite.svg#ic_cart"></use>
+													</svg>
+													<span>Добавить</span>
+												</button>
+											</div>
+
+
+											<div class="product">
+												<a href="/" class="thumb">
+													<img data-src="images/tmp/prod_specification_thumb2.jpg" alt="" class="lozad">
+												</a>
+
+												<div class="info">
+													<div class="name">
+														<a href="/">SPM35-220/12</a>
+													</div>
+
+													<div class="desc">Плата питания SPM35-220/12, 220V AC, 35W</div>
+												</div>
+
+												<button class="buy_link">
+													<svg class="icon">
+														<use xlink:href="images/sprite.svg#ic_cart"></use>
+													</svg>
+													<span>Добавить</span>
+												</button>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="tab_content level1" id="product_tab5">
+										<div class="prod_equipment">
+											<div class="item">
+												<div class="thumb">
+													<img data-src="images/tmp/prod_equipment_thumb.jpg" alt="" class="lozad">
+												</div>
+
+												<div class="name">Шнур питания 220В</div>
+											</div>
+
+
+											<div class="item">
+												<div class="thumb">
+													<img data-src="images/tmp/prod_equipment_thumb2.jpg" alt="" class="lozad">
+												</div>
+
+												<div class="name">Комплект крепления в 19"стойку</div>
+											</div>
+
+
+											<div class="item">
+												<div class="thumb">
+													<img data-src="images/tmp/prod_equipment_thumb3.jpg" alt="" class="lozad">
+												</div>
+
+												<div class="name">Руководство по эксплуатации (поставляется на CD-диске)</div>
+											</div>
+
+
+											<div class="item">
+												<div class="thumb">
+													<img data-src="images/tmp/prod_equipment_thumb4.jpg" alt="" class="lozad">
+												</div>
+
+												<div class="name">Сертификат</div>
+											</div>
+
+
+											<div class="item">
+												<div class="thumb">
+													<img data-src="images/tmp/prod_equipment_thumb5.jpg" alt="" class="lozad">
+												</div>
+
+												<div class="name">Паспорт</div>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="tab_content level1" id="product_tab6">
+										<div class="prod_reviews reviews">
+											<div class="head">
+												<div class="title">Оценка товара <span>( 245 )</span></div>
+
+												<div class="rating">
+													<div class="stars">
+														<div class="active"></div>
+														<div class="active"></div>
+														<div class="active"></div>
+														<div class="active"></div>
+														<div class="active"></div>
+													</div>
+													5.0
+												</div>
+
+												<button class="add_review_link modal_link" data-content="#add_review_modal">Написать отзыв</button>
+											</div>
+
+
+											<div class="list">
+												<div class="review">
+													<div class="author">
+														<div class="name">Надежда</div>
+
+														<div class="company">Название компании</div>
+
+														<div class="date">
+															19-11-2019 <span class="sep">I</span> 17:30:39
+														</div>
+													</div>
+
+													<div class="info">
+														<div class="rating">
+															<div class="active"></div>
+															<div class="active"></div>
+															<div class="active"></div>
+															<div class="active"></div>
+															<div class="active"></div>
+														</div>
+
+														<div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+													</div>
+												</div>
+
+
+												<div class="review">
+													<div class="author">
+														<div class="name">Влерий</div>
+
+														<div class="company">Название компании</div>
+
+														<div class="date">
+															19-11-2019 <span class="sep">I</span> 17:30:39
+														</div>
+													</div>
+
+													<div class="info">
+														<div class="rating">
+															<div class="active"></div>
+															<div class="active"></div>
+															<div class="active"></div>
+															<div class="active"></div>
+															<div></div>
+														</div>
+
+														<div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+													</div>
+												</div>
+
+
+												<div class="review">
+													<div class="author">
+														<div class="name">Надежда</div>
+
+														<div class="company">Название компании</div>
+
+														<div class="date">
+															19-11-2019 <span class="sep">I</span> 17:30:39
+														</div>
+													</div>
+
+													<div class="info">
+														<div class="rating">
+															<div class="active"></div>
+															<div class="active"></div>
+															<div class="active"></div>
+															<div class="active"></div>
+															<div class="active"></div>
+														</div>
+
+														<div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+													</div>
+												</div>
+
+
+												<div class="review">
+													<div class="author">
+														<div class="name">Влерий</div>
+
+														<div class="company">Название компании</div>
+
+														<div class="date">
+															19-11-2019 <span class="sep">I</span> 17:30:39
+														</div>
+													</div>
+
+													<div class="info">
+														<div class="rating">
+															<div class="active"></div>
+															<div class="active"></div>
+															<div class="active"></div>
+															<div class="active"></div>
+															<div></div>
+														</div>
+
+														<div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="tab_content level1" id="product_tab7">
+										<div class="prod_settings">
+											<div class="accordion">
+												<div class="item">
+													<div class="title">
+														<svg class="icon">
+															<use xlink:href="images/sprite.svg#ic_settings"></use>
+														</svg>
+														<span>[MES] Сброс настроек интерфейса в default</span>
+													</div>
+
+													<div class="exp">
+														Пример:<br>
+														<span>2324B(config)#default interface gig0/10</span>
+													</div>
+
+													<div class="arr"></div>
+
+													<div class="data text_block">
+
+													</div>
+												</div>
+
+
+												<div class="item">
+													<div class="title">
+														<svg class="icon">
+															<use xlink:href="images/sprite.svg#ic_settings"></use>
+														</svg>
+														<span>[MES] SNMP. Как включить/выключить порт?</span>
+													</div>
+
+													<div class="exp">
+														Следующим snmpset можно включить или выключить порт:<br>
+
+														<ul>
+															<li><code>snmpset -v2c -c &lt;community&gt; &lt;ip&gt; 1.3.6.1.2.1.2.2.1.7.&lt;ifindex&gt; i &lt;value&gt;</code></li>
+														</ul>
+													</div>
+
+													<div class="arr"></div>
+
+													<div class="data text_block">
+
+													</div>
+												</div>
+
+
+												<div class="item">
+													<div class="title">
+														<svg class="icon">
+															<use xlink:href="images/sprite.svg#ic_settings"></use>
+														</svg>
+														<span>[MES] SNMP. Как на коммутаторе MES добавить порты в VLAN?</span>
+													</div>
+
+													<div class="exp">
+														Пример:<br>
+														<span>Добавить в VLAN100 порт как untagged.</span>
+													</div>
+
+													<div class="arr"></div>
+
+													<div class="data text_block">
+
+													</div>
+												</div>
+
+
+												<div class="item">
+													<div class="title">
+														<svg class="icon">
+															<use xlink:href="images/sprite.svg#ic_settings"></use>
+														</svg>
+														<span>[MES] Настройка radius-сервера на коммутаторах MES</span>
+													</div>
+
+													<div class="exp">
+														<span>Настройка radius-сервера доступна для коммутаторов серий MES2300/3300/5300.</span>
+													</div>
+
+													<div class="arr"></div>
+
+													<div class="data text_block">
+
+													</div>
+												</div>
+
+
+												<div class="item">
+													<div class="title">
+														<svg class="icon">
+															<use xlink:href="images/sprite.svg#ic_settings"></use>
+														</svg>
+														<span>[MES] Настройка TACACS на коммутаторах MES</span>
+													</div>
+
+													<div class="arr"></div>
+
+													<div class="data text_block">
+														<p>
+															Протокол TACACS+ обеспечивает централизованную систему безопасности для проверки пользователей, получающих доступ к устройству, при этом поддерживая совместимость с RADIUS и другими процессами проверки подлинности.<br> Конфигурацию будем выполнять на базе коммутатора MES2324.
+														</p>
+
+														<ol>
+															<li>
+																<p>
+																	Для начала необходимо указать ip-адрес tacacs-сервера и указать key:<br>
+																	<span>MES2324B(config)#tacacs-server host 192.168.10.5 key secret</span>
+																</p>
+															</li>
+
+															<li>
+																<p>
+																	Далее установить способ аутентификации для входа в систему по протоколу tacacs+:<br>
+																	<span>MES2324B(config)#aaa authentication login authorization default tacacs local</span>
+																</p>
+
+																<div class="note">
+																	<span>Примечание:</span> На коммутаторах серии 23xx, 33xx, 53xx используется алгоритм опроса метода аутентификации break (после неудачной аутентификации по первому методу процесс аутентификации останавливается). Начиная с версии 4.0.6 доступна настройка метода опроса аутентификации break/chain. Алгоритм работы метода chain - после неудачной попытки аутентификации по первому методу в списке следует попытка аутентификации по следующему методу в цепочке. На коммутаторах серии 1000, 2000, 3000 уже имеется этот функционал.
+																</div>
+															</li>
+
+															<li>
+																<p>
+																	Установить способ аутентификации при повышении уровня привилегий:<br>
+																	<span>MES2324B(config)#aaa authentication enable authorization default tacacs enable</span>
+																</p>
+
+																<p>
+																	Чтобы не потерять доступ до коммутатора (в случае  недоступности radius-сервера), рекомендуется создать учетную запись в локальной базе данных, и задать пароль на привилегированный режим.
+																</p>
+															</li>
+
+															<li>
+																<p>
+																	Создать учетную запись:<br>
+																	<span>MES2324B(config)#username tester password eltex privilege 15</span>
+																</p>
+															</li>
+
+															<li>
+																<p>
+																	Задать пароль на доступ в привилегированный режим:<br>
+																	<span>MES2324B(config)#enable password eltex</span>
+																</p>
+															</li>
+
+															<li>
+																<p>
+																	Разрешить ведение учета (аккаунта) для сессий управления.<br>
+																	<span>MES2324B(config)#aaa accounting login start-stop group tacacs+</span>
+																</p>
+															</li>
+
+															<li>
+																<p>
+																	Включить ведение учета введенных в CLI команд по протоколу tacacs+.<br>
+																	<span>MES2324B(config)#aaa accounting commands stop-only group tacacs+</span>
+																</p>
+
+																<div class="note">
+																	<span>Примечание:</span> По умолчанию используется проверка по локальной базе данных (aaa authentication login default local).
+																</div>
+															</li>
+														</ol>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="tab_content level1" id="product_tab8">
+										<div class="prod_delivery">
+											<div class="block_head center">
+												<div class="title">Рассчитать стоимость доставки MES1124M Eltex</div>
+
+												<div class="desc">Данный сервис поможет Вам узнать ориентировочную стоимость доставки Вашего товара</div>
+											</div>
+
+
+											<div class="flex">
+												<div class="route">
+													<div class="title">Выберите МАРШРУТ</div>
+
+													<div class="item">
+														<div class="label">Страна назначения</div>
+
+														<select name="" id="country">
+															<option value="1" selected>Россия</option>
+															<option value="2">Россия</option>
+															<option value="3">Россия</option>
+														</select>
+													</div>
+
+													<div class="item">
+														<div class="label">Населенный пункт</div>
+
+														<select name="" id="city">
+															<option value="1" selected>Нижний Новгород</option>
+															<option value="2">Нижний Новгород</option>
+															<option value="3">Нижний Новгород</option>
+															<option value="4">Нижний Новгород</option>
+															<option value="5">Нижний Новгород</option>
+															<option value="6">Нижний Новгород</option>
+															<option value="7">Нижний Новгород</option>
+															<option value="8">Нижний Новгород</option>
+															<option value="9">Нижний Новгород</option>
+															<option value="10">Нижний Новгород</option>
+															<option value="11">Нижний Новгород</option>
+														</select>
+													</div>
+												</div>
+
+
+												<div class="info">
+													<div class="path">
+														<div class="from"><b>Новосибирск</b><br> Россия</div>
+
+														<div class="to"><b>Нижний новгород</b><br> Россия</div>
+													</div>
+
+													<div class="time">
+														Срок доставки:
+														<span class="val">2-4 рабочих дня</span>
+													</div>
+
+													<div class="price">
+														<span class="val">2 303,05</span>
+														<sup>руб</sup>
+														<div class="exp">( стоимость с учетом НДС )</div>
+													</div>
+
+													<svg class="icon">
+														<use xlink:href="images/sprite.svg#ic_delivery"></use>
+													</svg>
+												</div>
+											</div>
+										</div>
+
+
+										<div class="prod_order">
+											<div class="block_head center">
+												<div class="title">Оформить заявку</div>
+
+												<div class="desc">Вы можете прямо сейчас заказать доставку оборудования</div>
+											</div>
+
+											<form action="" class="form">
+												<div class="columns flex">
+													<div class="line width1of3">
+														<div class="field">
+															<input type="email" name="" value="" class="input">
+															<div class="label">Email</div>
+														</div>
+													</div>
+
+													<div class="line width1of3">
+														<div class="label">Телефон</div>
+
+														<div class="field">
+															<input type="tel" name="" value="" class="input">
+															<div class="label">Телефон</div>
+														</div>
+													</div>
+
+													<div class="line width1of3">
+														<div class="field">
+															<input type="text" name="" value="" class="input">
+															<div class="label">Компания</div>
+														</div>
+													</div>
+												</div>
+
+												<div class="line agree">
+													<div class="field">
+														<input type="checkbox" name="agree" id="prod_order_agree_check" checked>
+														<label for="prod_order_agree_check">Я ознакомлен и согласен с <a href="/" target="_blank">Политикой конфиденциальности</a></label>
+													</div>
+												</div>
+
+
+												<div class="submit">
+													<button type="submit" class="submit_btn">Отправить заявку</button>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</section>
+
+
+							<section class="related_products products products_block block">
+								<div class="block_data">
+									<div class="block_head center">
+										<div class="title">Сопутствующее оборудование</div>
+									</div>
+
+
+									<div class="flex center">
+										<div class="product_wrap">
+											<div class="product">
+												<a href="/" class="thumb">
+													<div class="img">
+														<img data-src="images/tmp/product_thumb.jpg" alt="" class="lozad">
+													</div>
+												</a>
+
+												<div class="name">
+													<a href="/">MES3508P в корпусе IP66 (третья строка заголовок Н3)</a>
+												</div>
+
+												<div class="inline">
+													<div class="desc">8x1G Poe/Poe+<br> 2x1G Eth/SFP Combo<br> 48V DC<br> IP66</div>
+
+													<button class="compare_btn">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+													</button>
+												</div>
+
+												<div class="bottom">
+													<div class="price">45 011</div>
+
+													<button class="to_cart">В корзину</button>
+												</div>
+											</div>
+										</div>
+
+
+										<div class="product_wrap">
+											<div class="product">
+												<a href="/" class="thumb">
+													<div class="img">
+														<img data-src="images/tmp/product_thumb2.jpg" alt="" class="lozad">
+													</div>
+												</a>
+
+												<div class="name">
+													<a href="/">RR-10 Репитер</a>
+												</div>
+
+												<div class="inline">
+													<div class="desc">RR-10 – универсальный повторитель беспроводного сигнала, предназначен для расширения зоны покрытия...</div>
+
+													<button class="compare_btn">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+													</button>
+												</div>
+
+												<div class="bottom">
+													<div class="price">45 011</div>
+
+													<button class="to_cart">В корзину</button>
+												</div>
+											</div>
+										</div>
+
+
+										<div class="product_wrap">
+											<div class="product">
+												<a href="/" class="thumb">
+													<div class="img">
+														<img data-src="images/tmp/product_thumb3.jpg" alt="" class="lozad">
+													</div>
+												</a>
+
+												<div class="name">
+													<a href="/">WOP-2ac-LR2 Базовая станция</a>
+												</div>
+
+												<div class="inline">
+													<div class="desc">Combo-порт 10/100/1000Base-T (Ethernet) / 100/1000Base-X (SFP)<br> 2 разъема SMA-типа (female) ...</div>
+
+													<button class="compare_btn">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+													</button>
+												</div>
+
+												<div class="bottom">
+													<div class="price">45 011</div>
+
+													<button class="to_cart">В корзину</button>
+												</div>
+											</div>
+										</div>
+
+
+										<div class="product_wrap">
+											<div class="product">
+												<a href="/" class="thumb">
+													<div class="img">
+														<img data-src="images/tmp/product_thumb4.jpg" alt="" class="lozad">
+													</div>
+												</a>
+
+												<div class="name">
+													<a href="/">MES3510P Eltex | Промышленный коммутатор 8 портов ...</a>
+												</div>
+
+												<div class="inline">
+													<div class="desc">8x1G Poe/Poe+<br> 4x1G SFP<br> 48V DC</div>
+
+													<button class="compare_btn">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+													</button>
+												</div>
+
+												<div class="bottom">
+													<div class="price">45 011</div>
+
+													<button class="to_cart">В корзину</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+						</section>
+
+					</div>
+				</section>
+				<!-- End Основная часть -->
+			</div>
+
+
+			<!-- Подвал -->
+			<footer>
+				<div class="info">
+					<div class="cont flex">
+
+						<div class="col_left">
+							<div class="logo">
+								<img src="images/logo2.png" alt="">
+							</div>
+
+							<a href="/" class="price_list">Скачать прайс-лист</a>
+
+							<div class="messengers">
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<svg class="icon icon1">
+										<use xlink:href="images/sprite.svg#ic_messenger1"></use>
+									</svg>
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<svg class="icon icon2">
+										<use xlink:href="images/sprite.svg#ic_messenger2"></use>
+									</svg>
+								</a>
+							</div>
+						</div>
+
+
+						<div class="contacts">
+							<div class="phone">
+								<a href="tel:+73832278940">+7 (383) 227-89-40</a>
+							</div>
+
+							<div class="phone">
+								<a href="tel:+74996475048">+7 (499) 647 50 48</a>
+							</div>
+
+							<button class="callback_link modal_link" data-content="#callback_modal">Заказать звонок</button>
+						</div>
+
+
+						<div class="contacts">
+							<div class="time">Пн-пт с 10:00 до 20:00</div>
+
+							<div class="email">
+								<a href="mailto:mail@eltexcm.ru">mail@eltexcm.ru</a>
+							</div>
+
+							<button class="feedback_link modal_link" data-content="#feedback_modal">Написать нам</button>
+						</div>
+
+
+						<div class="menu">
+							<div class="col">
+								<div><a href="/">База знаний</a></div>
+								<div><a href="/">Сервис</a></div>
+								<div><a href="/">Мероприятия</a></div>
+								<div><a href="/">Компания</a></div>
+								<div><a href="/">Контакты</a></div>
+							</div>
+
+							<div class="col">
+								<div><a href="/">Каталог</a></div>
+								<div><a href="/">Оплата, доставка, возврат</a></div>
+								<div><a href="/">GPON-2020</a></div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+
+				<div class="bottom">
+					<div class="cont">
+
+						<div class="copyright">
+							«Элтекс Коммуникации» - оборудование связи. &copy; 2013-2020 Политика конфиденциальности
+						</div>
+
+					</div>
+				</div>
+			</footer>
+			<!-- End Подвал -->
+		</div>
+
+
+		<div class="overlay"></div>
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section id="cart_widget">
+			<div class="cont">
+
+				<div class="data_wrap">
+					<div class="data">
+						<div class="cart_info">
+							<button class="close"></button>
+
+							<div class="block_title">Ваш заказ</div>
+
+							<button class="need_help">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_help"></use></svg>
+								<span>Требуется помощь?</span>
+							</button>
+
+
+							<div class="table_scroll">
+								<table>
+									<thead>
+										<tr>
+											<th colspan="2">Наименование</th>
+											<th>Цена</th>
+											<th>Количество</th>
+											<th>Итого</th>
+											<th></th>
+										</tr>
+									</thead>
+
+									<tbody>
+										<tr class="part_title">
+											<td colspan="6">Часть 1</td>
+										</tr>
+
+										<tr>
+											<td class="thumb">
+												<a href="/" target="_blank">
+													<img data-src="images/tmp/cart_product_thumb.jpg" alt="" class="lozad">
+												</a>
+											</td>
+
+											<td class="info">
+												<div class="name">
+													<a href="/" target="_blank">MES1124M Eltex | Коммутатор 24 порта 100M с грозозащитой</a>
+												</div>
+
+												<div class="available">
+													<div>Москва: <span>1 шт</span></div>
+													<div>Новосибирск: <span>55 шт</span></div>
+													<div>Производство: <span>500 шт</span></div>
+												</div>
+											</td>
+
+											<td class="price" data-column="Цена">34 946 руб</td>
+
+											<td class="amount" data-column="Количество">
+												<div class="box">
+													<button type="button" class="minus"></button>
+
+												    <input type="text" value="2" class="input"
+												      data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+												    <button type="button" class="plus"></button>
+												</div>
+											</td>
+
+											<td class="price total" data-column="Итого">69 892 руб</td>
+
+											<td class="delete">
+												<button></button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="thumb">
+												<a href="/" target="_blank">
+													<img data-src="images/tmp/cart_product_thumb2.jpg" alt="" class="lozad">
+												</a>
+											</td>
+
+											<td class="info">
+												<div class="name">
+													<a href="/" target="_blank">PM160-220/12 Модуль питания</a>
+												</div>
+
+												<div class="available">
+													<div>Москва: <span>4 шт</span></div>
+													<div>Новосибирск: <span>25 шт</span></div>
+													<div>Производство: <span>50 шт</span></div>
+												</div>
+											</td>
+
+											<td class="price" data-column="Цена">14 444 руб</td>
+
+											<td class="amount" data-column="Количество">
+												<div class="box">
+													<button type="button" class="minus"></button>
+
+												    <input type="text" value="31" class="input"
+												      data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+												    <button type="button" class="plus"></button>
+												</div>
+											</td>
+
+											<td class="price total" data-column="Итого">447 764 руб</td>
+
+											<td class="delete">
+												<button></button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="thumb">
+												<a href="/" target="_blank">
+													<img data-src="images/tmp/cart_product_thumb.jpg" alt="" class="lozad">
+												</a>
+											</td>
+
+											<td class="info">
+												<div class="name">
+													<a href="/" target="_blank">MES1124M Eltex | Коммутатор 24 порта 100M с грозозащитой</a>
+												</div>
+
+												<div class="available">
+													<div>Москва: <span>1 шт</span></div>
+													<div>Новосибирск: <span>55 шт</span></div>
+													<div>Производство: <span>500 шт</span></div>
+												</div>
+											</td>
+
+											<td class="price" data-column="Цена">34 946 руб</td>
+
+											<td class="amount" data-column="Количество">
+												<div class="box">
+													<button type="button" class="minus"></button>
+
+												    <input type="text" value="2" class="input"
+												      data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+												    <button type="button" class="plus"></button>
+												</div>
+											</td>
+
+											<td class="price total" data-column="Итого">69 892 руб</td>
+
+											<td class="delete">
+												<button></button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="thumb">
+												<a href="/" target="_blank">
+													<img data-src="images/tmp/cart_product_thumb2.jpg" alt="" class="lozad">
+												</a>
+											</td>
+
+											<td class="info">
+												<div class="name">
+													<a href="/" target="_blank">PM160-220/12 Модуль питания</a>
+												</div>
+
+												<div class="available">
+													<div>Москва: <span>4 шт</span></div>
+													<div>Новосибирск: <span>25 шт</span></div>
+													<div>Производство: <span>50 шт</span></div>
+												</div>
+											</td>
+
+											<td class="price" data-column="Цена">14 444 руб</td>
+
+											<td class="amount" data-column="Количество">
+												<div class="box">
+													<button type="button" class="minus"></button>
+
+												    <input type="text" value="31" class="input"
+												      data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+												    <button type="button" class="plus"></button>
+												</div>
+											</td>
+
+											<td class="price total" data-column="Итого">447 764 руб</td>
+
+											<td class="delete">
+												<button></button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="thumb">
+												<a href="/" target="_blank">
+													<img data-src="images/tmp/cart_product_thumb.jpg" alt="" class="lozad">
+												</a>
+											</td>
+
+											<td class="info">
+												<div class="name">
+													<a href="/" target="_blank">MES1124M Eltex | Коммутатор 24 порта 100M с грозозащитой</a>
+												</div>
+
+												<div class="available">
+													<div>Москва: <span>1 шт</span></div>
+													<div>Новосибирск: <span>55 шт</span></div>
+													<div>Производство: <span>500 шт</span></div>
+												</div>
+											</td>
+
+											<td class="price" data-column="Цена">34 946 руб</td>
+
+											<td class="amount" data-column="Количество">
+												<div class="box">
+													<button type="button" class="minus"></button>
+
+												    <input type="text" value="2" class="input"
+												      data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+												    <button type="button" class="plus"></button>
+												</div>
+											</td>
+
+											<td class="price total" data-column="Итого">69 892 руб</td>
+
+											<td class="delete">
+												<button></button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="thumb">
+												<a href="/" target="_blank">
+													<img data-src="images/tmp/cart_product_thumb2.jpg" alt="" class="lozad">
+												</a>
+											</td>
+
+											<td class="info">
+												<div class="name">
+													<a href="/" target="_blank">PM160-220/12 Модуль питания</a>
+												</div>
+
+												<div class="available">
+													<div>Москва: <span>4 шт</span></div>
+													<div>Новосибирск: <span>25 шт</span></div>
+													<div>Производство: <span>50 шт</span></div>
+												</div>
+											</td>
+
+											<td class="price" data-column="Цена">14 444 руб</td>
+
+											<td class="amount" data-column="Количество">
+												<div class="box">
+													<button type="button" class="minus"></button>
+
+												    <input type="text" value="31" class="input"
+												      data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+												    <button type="button" class="plus"></button>
+												</div>
+											</td>
+
+											<td class="price total" data-column="Итого">447 764 руб</td>
+
+											<td class="delete">
+												<button></button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="thumb">
+												<a href="/" target="_blank">
+													<img data-src="images/tmp/cart_product_thumb.jpg" alt="" class="lozad">
+												</a>
+											</td>
+
+											<td class="info">
+												<div class="name">
+													<a href="/" target="_blank">MES1124M Eltex | Коммутатор 24 порта 100M с грозозащитой</a>
+												</div>
+
+												<div class="available">
+													<div>Москва: <span>1 шт</span></div>
+													<div>Новосибирск: <span>55 шт</span></div>
+													<div>Производство: <span>500 шт</span></div>
+												</div>
+											</td>
+
+											<td class="price" data-column="Цена">34 946 руб</td>
+
+											<td class="amount" data-column="Количество">
+												<div class="box">
+													<button type="button" class="minus"></button>
+
+												    <input type="text" value="2" class="input"
+												      data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+												    <button type="button" class="plus"></button>
+												</div>
+											</td>
+
+											<td class="price total" data-column="Итого">69 892 руб</td>
+
+											<td class="delete">
+												<button></button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="thumb">
+												<a href="/" target="_blank">
+													<img data-src="images/tmp/cart_product_thumb2.jpg" alt="" class="lozad">
+												</a>
+											</td>
+
+											<td class="info">
+												<div class="name">
+													<a href="/" target="_blank">PM160-220/12 Модуль питания</a>
+												</div>
+
+												<div class="available">
+													<div>Москва: <span>4 шт</span></div>
+													<div>Новосибирск: <span>25 шт</span></div>
+													<div>Производство: <span>50 шт</span></div>
+												</div>
+											</td>
+
+											<td class="price" data-column="Цена">14 444 руб</td>
+
+											<td class="amount" data-column="Количество">
+												<div class="box">
+													<button type="button" class="minus"></button>
+
+												    <input type="text" value="31" class="input"
+												      data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+												    <button type="button" class="plus"></button>
+												</div>
+											</td>
+
+											<td class="price total" data-column="Итого">447 764 руб</td>
+
+											<td class="delete">
+												<button></button>
+											</td>
+										</tr>
+
+
+										<tr class="part_title">
+											<td colspan="6">Часть 2</td>
+										</tr>
+
+										<tr>
+											<td class="thumb">
+												<a href="/" target="_blank">
+													<img data-src="images/tmp/cart_product_thumb3.jpg" alt="" class="lozad">
+												</a>
+											</td>
+
+											<td class="info">
+												<div class="name">
+													<a href="/" target="_blank">Напольный серверный шкаф Metal Box 48U 600х1000</a>
+												</div>
+
+												<div class="under_order">Под заказ</div>
+											</td>
+
+											<td class="price" data-column="Цена">21 414 руб</td>
+
+											<td class="amount" data-column="Количество">
+												<div class="box">
+													<button type="button" class="minus"></button>
+
+												    <input type="text" value="4" class="input"
+												      data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+												    <button type="button" class="plus"></button>
+												</div>
+											</td>
+
+											<td class="price total" data-column="Итого">97 656 руб</td>
+
+											<td class="delete">
+												<button></button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="thumb">
+												<a href="/" target="_blank">
+													<img data-src="images/tmp/cart_product_thumb3.jpg" alt="" class="lozad">
+												</a>
+											</td>
+
+											<td class="info">
+												<div class="name">
+													<a href="/" target="_blank">Напольный серверный шкаф Metal Box 48U 600х1000</a>
+												</div>
+
+												<div class="under_order">Под заказ</div>
+											</td>
+
+											<td class="price" data-column="Цена">21 414 руб</td>
+
+											<td class="amount" data-column="Количество">
+												<div class="box">
+													<button type="button" class="minus"></button>
+
+												    <input type="text" value="4" class="input"
+												      data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+												    <button type="button" class="plus"></button>
+												</div>
+											</td>
+
+											<td class="price total" data-column="Итого">97 656 руб</td>
+
+											<td class="delete">
+												<button></button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="thumb">
+												<a href="/" target="_blank">
+													<img data-src="images/tmp/cart_product_thumb3.jpg" alt="" class="lozad">
+												</a>
+											</td>
+
+											<td class="info">
+												<div class="name">
+													<a href="/" target="_blank">Напольный серверный шкаф Metal Box 48U 600х1000</a>
+												</div>
+
+												<div class="under_order">Под заказ</div>
+											</td>
+
+											<td class="price" data-column="Цена">21 414 руб</td>
+
+											<td class="amount" data-column="Количество">
+												<div class="box">
+													<button type="button" class="minus"></button>
+
+												    <input type="text" value="4" class="input"
+												      data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+												    <button type="button" class="plus"></button>
+												</div>
+											</td>
+
+											<td class="price total" data-column="Итого">97 656 руб</td>
+
+											<td class="delete">
+												<button></button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="thumb">
+												<a href="/" target="_blank">
+													<img data-src="images/tmp/cart_product_thumb3.jpg" alt="" class="lozad">
+												</a>
+											</td>
+
+											<td class="info">
+												<div class="name">
+													<a href="/" target="_blank">Напольный серверный шкаф Metal Box 48U 600х1000</a>
+												</div>
+
+												<div class="under_order">Под заказ</div>
+											</td>
+
+											<td class="price" data-column="Цена">21 414 руб</td>
+
+											<td class="amount" data-column="Количество">
+												<div class="box">
+													<button type="button" class="minus"></button>
+
+												    <input type="text" value="4" class="input"
+												      data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+												    <button type="button" class="plus"></button>
+												</div>
+											</td>
+
+											<td class="price total" data-column="Итого">97 656 руб</td>
+
+											<td class="delete">
+												<button></button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="thumb">
+												<a href="/" target="_blank">
+													<img data-src="images/tmp/cart_product_thumb3.jpg" alt="" class="lozad">
+												</a>
+											</td>
+
+											<td class="info">
+												<div class="name">
+													<a href="/" target="_blank">Напольный серверный шкаф Metal Box 48U 600х1000</a>
+												</div>
+
+												<div class="under_order">Под заказ</div>
+											</td>
+
+											<td class="price" data-column="Цена">21 414 руб</td>
+
+											<td class="amount" data-column="Количество">
+												<div class="box">
+													<button type="button" class="minus"></button>
+
+												    <input type="text" value="4" class="input"
+												      data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+												    <button type="button" class="plus"></button>
+												</div>
+											</td>
+
+											<td class="price total" data-column="Итого">97 656 руб</td>
+
+											<td class="delete">
+												<button></button>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+
+							<div class="cart_total">
+								<button class="get_corp_price modal_link" data-content="#best_price_modal">Запросить снижение цены</button>
+
+								Сумма заказа: <div class="val">615 312 руб</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="bottom">
+						<div class="cart">
+							<div class="icon">
+								<svg><use xlink:href="images/sprite.svg#ic_buy"></use></svg>
+								<img src="images/ic_buy_open.svg" alt="">
+							</div>
+
+							<div>
+								<div class="count">В заказе 27 позиций</div>
+								<div class="price">На сумму 615 312 руб</div>
+							</div>
+
+							<button class="toggle_btn"></button>
+						</div>
+
+
+						<div class="links">
+							<div><a href="/">
+								<svg class="icon" width="18px" height="22px">
+									<use xlink:href="images/sprite.svg#ic_payment_method1"></use>
+								</svg>
+								Выставление счета
+							</a></div>
+
+							<div><a href="/">
+								<svg class="icon" width="24px" height="18px">
+									<use xlink:href="images/sprite.svg#ic_payment_method2"></use>
+								</svg>
+								Оплата онлайн
+							</a></div>
+						</div>
+
+						<a href="/" class="checkout_link">Оформить заказ</a>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+
+		<section class="modal" id="add_garanti_modal">
+			<div class="modal_title">Расширенная гарантия</div>
+
+			<div class="list">
+				<input type="radio" name="garanti" id="garanti_check1">
+				<label for="garanti_check1" data-price="5168" data-duration="24">
+					<svg class="icon">
+						<use xlink:href="images/sprite.svg#ic_garanti"></use>
+					</svg>
+
+					<svg class="icon icon_active">
+						<use xlink:href="images/sprite.svg#ic_garanti_active"></use>
+					</svg>
+
+					<div class="name">Увеличение гарантийного обслуживания на 2 года</div>
+
+					<div class="price">5 168 <sup>руб</sup></div>
+				</label>
+
+
+				<input type="radio" name="garanti" id="garanti_check2">
+				<label for="garanti_check2" data-price="8613" data-duration="36">
+					<svg class="icon">
+						<use xlink:href="images/sprite.svg#ic_garanti"></use>
+					</svg>
+
+					<svg class="icon icon_active">
+						<use xlink:href="images/sprite.svg#ic_garanti_active"></use>
+					</svg>
+
+					<div class="name">Увеличение гарантийного обслуживания на 3 года</div>
+
+					<div class="price">8 613 <sup>руб</sup></div>
+				</label>
+
+
+				<input type="radio" name="garanti" id="garanti_check3">
+				<label for="garanti_check3" data-price="13781" data-duration="60">
+					<svg class="icon">
+						<use xlink:href="images/sprite.svg#ic_garanti"></use>
+					</svg>
+
+					<svg class="icon icon_active">
+						<use xlink:href="images/sprite.svg#ic_garanti_active"></use>
+					</svg>
+
+					<div class="name">Увеличение гарантийного обслуживания на 5 лет</div>
+
+					<div class="price">13 781 <sup>руб</sup></div>
+				</label>
+			</div>
+
+
+			<div class="bottom">
+				<div class="extended">
+					<a href="/"><span>Преимущества расширенной гарантии</span></a>
+				</div>
+
+				<button class="send_link close">Выбрать</button>
+			</div>
+		</section>
+
+
+		<section class="modal" id="add_review_modal">
+			<div class="modal_title">Написать отзыв</div>
+
+			<form action="" class="form">
+				<div class="columns flex">
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input">
+							<div class="label">Ф.И.О.</div>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input">
+							<div class="label">Компания</div>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="email" name="" value="" class="input">
+							<div class="label">Email</div>
+						</div>
+					</div>
+
+					<div class="line rate">
+						<div class="label">Оценка</div>
+
+						<div class="field stars">
+							<input type="radio" name="rating" id="rating-5">
+							<label for="rating-5"><span></span></label>
+							<input type="radio" name="rating" id="rating-4">
+							<label for="rating-4"><span></span></label>
+							<input type="radio" name="rating" id="rating-3">
+							<label for="rating-3"><span></span></label>
+							<input type="radio" name="rating" id="rating-2">
+							<label for="rating-2"><span></span></label>
+							<input type="radio" name="rating" id="rating-1">
+							<label for="rating-1"><span></span></label>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="line">
+					<div class="field">
+						<textarea name=""></textarea>
+						<div class="label">Отзыв</div>
+					</div>
+				</div>
+
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Отправить</button>
+				</div>
+			</form>
+		</section>
+
+
+		<section class="modal" id="test_modal">
+			<div class="modal_title">Заказать тест</div>
+
+			<div class="modal_desc text_block">
+				<p>
+					Вы можете получить для бесплатного тестирования любое оборудование из нашего каталога. Для этого Вам необходимо заполнить данную форму.
+				</p>
+
+				<p>
+					<b>Оборудование в тестирование предоставляется абсолютно бесплатно!</b>
+				</p>
+
+				<p>
+					Стандартный срок предоставления оборудования в тестирование –<br> 1 календарный месяц.
+				</p>
+
+				<div class="warning">
+					<svg class="icon">
+						<use xlink:href="images/sprite.svg#ic_warning"></use>
+					</svg>
+
+					<div><b>Внимание!</b> Данным предложением могут воспользоваться только представители юридических лиц.</div>
+				</div>
+			</div>
+
+
+			<div class="product">
+				<div class="thumb">
+					<img data-src="images/tmp/test_product_thumb.jpg" alt="" class="lozad">
+				</div>
+
+				<div class="info">
+					<div class="name">MES1124M Eltex | Коммутатор 24 порта 100M с грозозащитой</div>
+
+					<div class="desc">24 порта 10/100Base-T, 4 комбо-порта 10/100/1000Base-T/1000Base-X, встроенная ...</div>
+				</div>
+			</div>
+
+
+			<form action="" class="form">
+				<div class="line type">
+					<div class="field">
+						<input type="radio" name="type" id="test_type_check1" checked>
+						<label for="test_type_check1" data-content=".for_type1">Компания</label>
+
+						<input type="radio" name="type" id="test_type_check2">
+						<label for="test_type_check2" data-content=".for_type2">Частное лицо</label>
+					</div>
+				</div>
+
+
+				<div class="columns flex">
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input">
+							<div class="label">Ф.И.О.</div>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="tel" name="" value="" class="input">
+						<div class="label">Телефон</div>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="email" name="" value="" class="input">
+							<div class="label">Email</div>
+						</div>
+					</div>
+
+					<div class="line for_type for_type1" style="display: block;">
+						<div class="field">
+							<input type="text" name="" value="" class="input">
+							<div class="label">Название компании</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="line agree">
+					<div class="field">
+						<input type="checkbox" name="agree" id="test_agree_check" checked>
+						<label for="test_agree_check">Я ознакомлен и согласен с <a href="/" target="_blank">Политикой конфиденциальности</a></label>
+					</div>
+				</div>
+
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Заказать тест</button>
+				</div>
+			</form>
+		</section>
+
+
+		<section class="modal" id="best_price_modal">
+			<div class="modal_title">Получите лучшую цену!</div>
+
+			<div class="modal_desc text_block">
+				<p>
+					Мы умеем делать большие скидки. В 95%<br> случаев мы предлагаем своим клиентам лучшую цену.
+				</p>
+			</div>
+
+
+			<div class="product">
+				<div class="thumb">
+					<img data-src="images/tmp/test_product_thumb.jpg" alt="" class="lozad">
+				</div>
+
+				<div class="info">
+					<div class="name">MES1124M Eltex | Коммутатор 24 порта 100M с грозозащитой</div>
+
+					<div class="desc">24 порта 10/100Base-T, 4 комбо-порта 10/100/1000Base-T/1000Base-X, встроенная ...</div>
+				</div>
+			</div>
+
+
+			<form action="" class="form">
+				<div class="line type">
+					<div class="field">
+						<input type="radio" name="type" id="best_price_type_check1" checked>
+						<label for="best_price_type_check1" data-content=".for_type1">Компания</label>
+
+						<input type="radio" name="type" id="best_price_type_check2">
+						<label for="best_price_type_check2" data-content=".for_type2">Частное лицо</label>
+					</div>
+				</div>
+
+
+				<div class="columns flex">
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input">
+							<div class="label">Ф.И.О.</div>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="tel" name="" value="" class="input">
+						<div class="label">Телефон</div>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="email" name="" value="" class="input">
+							<div class="label">Email</div>
+						</div>
+					</div>
+
+					<div class="line for_type for_type1" style="display: block;">
+						<div class="field">
+							<input type="text" name="" value="" class="input">
+							<div class="label">Название компании</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="line agree">
+					<div class="field">
+						<input type="checkbox" name="agree" id="best_price_agree_check" checked>
+						<label for="best_price_agree_check">Я ознакомлен и согласен с <a href="/" target="_blank">Политикой конфиденциальности</a></label>
+					</div>
+				</div>
+
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Снизить цену!</button>
+				</div>
+			</form>
+		</section>
+
+
+		<section class="modal success_modal" id="success_best_price_modal">
+			<div class="modal_title">Получите лучшую цену!</div>
+
+			<div class="title">
+				<div>
+					<svg class="icon">
+						<use xlink:href="images/sprite.svg#ic_success"></use>
+					</svg>
+
+					<div>Спасибо! Ваша заявка принята!</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="modal" id="quike_buy_modal">
+			<div class="modal_title">Быстрая заявка</div>
+
+			<div class="product">
+				<div class="thumb">
+					<img data-src="images/tmp/test_product_thumb.jpg" alt="" class="lozad">
+				</div>
+
+				<div class="info">
+					<div class="name">MES1124M Eltex | Коммутатор 24 порта 100M с грозозащитой</div>
+
+					<div class="desc">24 порта 10/100Base-T, 4 комбо-порта 10/100/1000Base-T/1000Base-X, встроенная ...</div>
+
+					<div class="garanti">
+						<svg class="icon">
+							<use xlink:href="images/sprite.svg#ic_garanti"></use>
+						</svg>
+
+						<div class="name"></div>
+					</div>
+				</div>
+			</div>
+
+			<form action="" class="form">
+				<div class="line type">
+					<div class="field">
+						<input type="radio" name="type" id="quike_buy_type_check1" checked>
+						<label for="quike_buy_type_check1" data-content=".for_type1">Компания</label>
+
+						<input type="radio" name="type" id="quike_buy_type_check2">
+						<label for="quike_buy_type_check2" data-content=".for_type2">Частное лицо</label>
+					</div>
+				</div>
+
+
+				<div class="columns flex">
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input">
+							<div class="label">Ф.И.О.</div>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="tel" name="" value="" class="input">
+						<div class="label">Телефон</div>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="email" name="" value="" class="input">
+							<div class="label">Email</div>
+						</div>
+					</div>
+
+					<div class="line for_type for_type1" style="display: block;">
+						<div class="field">
+							<input type="text" name="" value="" class="input">
+							<div class="label">Название компании</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="line fast">
+					<div class="field">
+						<input type="checkbox" name="fast" id="fast_check" checked>
+						<label for="fast_check">Я хочу получить ответ за 300 секунд</label>
+					</div>
+				</div>
+
+
+				<div class="line agree">
+					<div class="field">
+						<input type="checkbox" name="agree" id="quike_buy_agree_check" checked>
+						<label for="quike_buy_agree_check">Я ознакомлен и согласен с <a href="/" target="_blank">Политикой конфиденциальности</a></label>
+					</div>
+				</div>
+
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Снизить цену!</button>
+				</div>
+			</form>
+		</section>
+
+
+		<section class="modal" id="invoice_modal">
+			<div class="modal_title">
+				Формирование счета
+				<small>( юридическим лицам )</small>
+			</div>
+
+
+			<div class="product">
+				<div class="thumb">
+					<img data-src="images/tmp/test_product_thumb.jpg" alt="" class="lozad">
+				</div>
+
+				<div class="info">
+					<div class="name">MES1124M Eltex | Коммутатор 24 порта 100M с грозозащитой</div>
+
+					<div class="desc">24 порта 10/100Base-T, 4 комбо-порта 10/100/1000Base-T/1000Base-X, встроенная ...</div>
+				</div>
+
+				<div class="amount">
+					<div class="title">Укажите необходимое кол-во товара</div>
+
+					<div class="box">
+					    <button type="button" class="minus update_price"></button>
+
+					    <input type="text" value="2" class="input update_price"
+					      data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+					    <button type="button" class="plus update_price"></button>
+					</div>
+
+					<div class="vals">
+						<div>
+							(<span class="amount_val">2</span> шт. x <span class="price" data-price="35931">35 931</span> р.) =
+						</div>
+
+						<div class="total_price"><span>71 862</span> <sup>руб</sup></div>
+					</div>
+				</div>
+			</div>
+
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+						<div class="label">Название компании, ИНН или ОГРН</div>
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+						<div class="label">Краткое наименование</div>
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="field with_tip">
+						<input type="text" name="" value="" class="input">
+						<div class="label">Полное наименование</div>
+
+						<div class="datalist">
+							<div class="title">Выберите вариант или продолжите ввод</div>
+
+							<div class="tip">
+								<div class="name">ООО “<span>ИННОГЕО</span>”</div>
+								<div class="address">77 18 73194 7 г. Москва, ул. Сокольническая 4-я, д 1 к 1</div>
+							</div>
+
+							<div class="tip">
+								<div class="name crossout">ООО “<span>ИННОГЕО</span>”</div>
+								<div class="address">77 03 80434 3 г. Москва, Леонтьевский пер, д 21/1 стр 1</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+					<div class="label">ИНН</div>
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+					<div class="label">КПП</div>
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+					<div class="label">Адрес</div>
+					</div>
+				</div>
+
+
+				<div class="line">
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+					<div class="label">Имя контактного лица</div>
+					</div>
+				</div>
+
+
+				<div class="line">
+
+					<div class="field">
+						<input type="tel" name="" value="" class="input">
+					<div class="label">Телефон</div>
+					</div>
+				</div>
+
+
+				<div class="line">
+					<div class="field">
+						<input type="email" name="" value="" class="input">
+					<div class="label">Email</div>
+					</div>
+				</div>
+
+
+				<div class="line agree">
+					<div class="field">
+						<input type="checkbox" name="agree" id="invoice_agree_check">
+						<label for="invoice_agree_check">Я ознакомлен и согласен с условиями<br> <a href="/" target="_blank">Политикой конфиденциальности</a></label>
+					</div>
+				</div>
+
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Получить счет</button>
+				</div>
+			</form>
+		</section>
+
+
+		<section class="modal success_modal" id="success_invoice_modal">
+			<div class="modal_title">
+				Формирование счета
+				<small>( юридическим лицам )</small>
+			</div>
+
+			<div class="title">
+				<div>
+					<svg class="icon">
+						<use xlink:href="images/sprite.svg#ic_success"></use>
+					</svg>
+
+					<div>Спасибо!</div>
+				</div>
+			</div>
+
+			<div class="modal_desc text_block">
+				<p>Ваш счет сформирован и отправлен на указаный Email адрес.</p>
+
+				<p>Так же, Вы можете скачать его пройдя по этой ссылке:</p>
+			</div>
+
+			<div class="file">
+				<div><a href="/" class="pdf">
+					<div class="name">
+						<span>Счет на оплату № 101443</span>
+					</div>
+					<div class="info">PDF / 2 Mb</div>
+				</a></div>
+			</div>
+		</section>
+
+
+		<section class="modal" id="callback_modal">
+			<div class="modal_title">Заказать звонок</div>
+
+			<form action="" class="form">
+				<div class="line type">
+					<div class="field">
+						<input type="radio" name="type" id="callback_type_check1" checked>
+						<label for="callback_type_check1" data-content=".for_type1">Компания</label>
+
+						<input type="radio" name="type" id="callback_type_check2">
+						<label for="callback_type_check2" data-content=".for_type2">Частное лицо</label>
+					</div>
+				</div>
+
+
+				<div class="columns flex">
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input">
+							<div class="label">Ф.И.О.</div>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="tel" name="" value="" class="input">
+						<div class="label">Телефон</div>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="email" name="" value="" class="input">
+							<div class="label">Email</div>
+						</div>
+					</div>
+
+					<div class="line for_type for_type1" style="display: block;">
+						<div class="field">
+							<input type="text" name="" value="" class="input">
+							<div class="label">Название компании</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="line agree">
+					<div class="field">
+						<input type="checkbox" name="agree" id="callback_agree_check" checked>
+						<label for="callback_agree_check">Я ознакомлен и согласен с <a href="/" target="_blank">Политикой конфиденциальности</a></label>
+					</div>
+				</div>
+
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Получить консультацию</button>
+				</div>
+			</form>
+		</section>
+
+
+		<section class="modal" id="feedback_modal">
+			<div class="modal_title">Написать нам</div>
+
+			<div class="modal_desc">Заполните форму и наш специалист свяжется с<br> Вами в ближайшее время</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+						<div class="label">Ваше имя</div>
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="field">
+						<input type="tel" name="" value="" class="input">
+					<div class="label">Телефон</div>
+					</div>
+				</div>
+
+				<div class="line for_type for_type1" style="display: block;">
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+						<div class="label">Название компании</div>
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="field">
+						<textarea name=""></textarea>
+						<div class="label">Ваш вопрос</div>
+					</div>
+				</div>
+
+				<div class="line exp">
+					<div class="field">* Все поля обязательны для заполнения</div>
+				</div>
+
+				<div class="line agree">
+					<div class="field">
+						<input type="checkbox" name="agree" id="feedback_agree_check" checked>
+						<label for="feedback_agree_check">Я ознакомлен и согласен с условиями<br> <a href="/" target="_blank">Политики конфиденциальности</a></label>
+					</div>
+				</div>
+
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Отправить</button>
+				</div>
+			</form>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/jquery-migrate-1.4.1.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/clipboard.min.js"></script>
+		<script src="js/sticky-kit.min.js"></script>
+		<script src="js/datepicker.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/ion.rangeSlider.min.js"></script>
+		<script src="js/wheelSlider.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

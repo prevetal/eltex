@@ -1,0 +1,3028 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<!-- Переключение IE в последнию версию, на случай если в настройках пользователя стоит меньшая -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="images/favicon.ico">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#00abdf">
+		<meta name="theme-color" content="#00abdf">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/datepicker.min.css">
+		<link rel="stylesheet" href="css/ion.rangeSlider.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1409.css" media="(max-width: 1409px)">
+		<link rel="stylesheet" href="css/response_1279.css" media="(max-width: 1279px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="(max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="(max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap bg2">
+			<div class="main">
+				<!-- Шапка -->
+				<header>
+					<button class="close">
+						<span></span>
+						<span></span>
+					</button>
+
+
+					<div class="mob_scroll">
+						<div class="info">
+							<div class="cont flex">
+
+								<div class="logo">
+									<a href="/">
+										<img src="images/logo.png" alt="">
+									</a>
+								</div>
+
+
+								<div class="search modal_cont">
+									<button class="link mini_modal_link" data-modal-id="#search_modal">
+										<svg class="icon">
+											<use xlink:href="images/sprite.svg#ic_search"></use>
+										</svg>
+									</button>
+
+									<div class="mini_modal" id="search_modal">
+										<form action="">
+											<input type="text" name="" value="" class="input" placeholder="Поиск по каталогу">
+
+											<button type="submit" class="submit_btn">
+												<svg class="icon">
+													<use xlink:href="images/sprite.svg#ic_search"></use>
+												</svg>
+											</button>
+										</form>
+									</div>
+								</div>
+
+
+								<div class="location modal_cont">
+									<button class="link mini_modal_link" data-modal-id="#location_modal">
+										<svg class="icon">
+											<use xlink:href="images/sprite.svg#ic_location"></use>
+										</svg>
+										<span>Нижний Новгород</span>
+									</button>
+
+									<div class="mini_modal" id="location_modal">
+										<div class="list">
+											<div><a class="active">Нижний Новгород</a></div>
+											<div><a href="/">Новосибирск</a></div>
+											<div><a href="/">Москва</a></div>
+											<div><a href="/">Казать</a></div>
+											<div><a href="/">Самара</a></div>
+											<div><a href="/">Челябинск</a></div>
+											<div><a href="/">Екатеринбург</a></div>
+											<div><a href="/">Ростов-на-Дону</a></div>
+											<div><a href="/">Симферополь</a></div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="phone">
+									<a href="tel:+74996475048">+7 (499) 647 50 48</a>
+								</div>
+
+								<button class="callback_link modal_link" data-content="#callback_modal">Заказать звонок</button>
+
+
+								<button class="theme">
+									<svg class="icon">
+										<use xlink:href="images/sprite.svg#ic_theme"></use>
+									</svg>
+								</button>
+
+							</div>
+						</div>
+
+
+						<div class="bottom">
+							<div class="cont flex">
+
+								<div class="catalog modal_cont">
+									<button class="link mini_modal_link" data-modal-id="#catalog_modal">
+										Каталог
+										<div class="icon">
+											<span></span>
+											<span></span>
+											<span></span>
+										</div>
+									</button>
+
+									<div class="mini_modal catalog_info" id="catalog_modal">
+										<div class="cols">
+											<div class="col">
+												<div class="cat">
+													<a href="/">
+														<div class="icon icon1">
+															<svg><use xlink:href="images/cats.svg#ic_cat1"></use></svg>
+														</div>
+														<div>Оборудование xPON</div>
+													</a>
+
+													<div class="sub_cats">
+														<div>
+															<a href="#" class="sub_link">GPON</a>
+
+															<div class="sub_cats level2">
+																<dov><a href="/">Субмодули</a></dov>
+															</div>
+														</div>
+
+														<div>
+															<a href="#" class="sub_link">TurboGEPON</a>
+
+															<div class="sub_cats level2">
+																<dov><a href="/">Субмодули</a></dov>
+															</div>
+														</div>
+
+														<div><a href="/">SFP модули PON</a></div>
+
+														<div>
+															<a href="#" class="sub_link">Сплиттеры</a>
+
+															<div class="sub_cats level2">
+																<dov><a href="/">Субмодули</a></dov>
+															</div>
+														</div>
+
+														<div><a href="/">Пассивное оборудование PON</a></div>
+													</div>
+												</div>
+
+
+												<div class="cat">
+													<a href="/">
+														<div class="icon icon2">
+															<svg><use xlink:href="images/cats.svg#ic_cat2"></use></svg>
+														</div>
+														<div>Ethernet коммутаторы</div>
+													</a>
+
+													<div class="sub_cats">
+														<div><a href="/">Коммутаторы доступа 100M</a></div>
+														<div><a href="/">Коммутаторы доступа 1G / 10G</a></div>
+														<div><a href="/">Коммутаторы доступа PoE</a></div>
+														<div><a href="/">Коммутаторы агрегации 1G/10G</a></div>
+														<div><a href="/">Коммутаторы агрегации 10G/40G/100G</a></div>
+														<div><a href="/">Промышленные коммутаторы</a></div>
+														<div><a href="/">Модули питания</a></div>
+														<div><a href="/">Снятые с производства</a></div>
+													</div>
+												</div>
+
+
+												<div class="cat"><a href="/">
+													<div class="icon icon3">
+														<svg><use xlink:href="images/cats.svg#ic_cat3"></use></svg>
+													</div>
+													<div>Сервисные маршрутизаторы</div>
+												</a></div>
+											</div>
+
+
+											<div class="col">
+												<div class="cat">
+													<a href="/">
+														<div class="icon icon4">
+															<svg><use xlink:href="images/cats.svg#ic_cat4"></use></svg>
+														</div>
+														<div>Беспроводной доступ</div>
+													</a>
+
+													<div class="sub_cats">
+														<div><a href="/">Wi-Fi контроллер</a></div>
+														<div><a href="/">Enterprise Wi-Fi точки доступа</a></div>
+														<div><a href="/">Абонентские Wi-Fi точки доступа</a></div>
+														<div><a href="/">Wi-Fi антенны</a></div>
+														<div><a href="/">Терминалы 2G/3G/4G</a></div>
+													</div>
+												</div>
+
+
+												<div class="cat">
+													<a href="/">
+														<div class="icon icon5">
+															<svg><use xlink:href="images/cats.svg#ic_cat5"></use></svg>
+														</div>
+														<div>VoIP телефония</div>
+													</a>
+
+													<div class="sub_cats">
+														<div><a href="/">IP телефоны</a></div>
+														<div><a href="/">IP-АТС</a></div>
+														<div><a href="/">Абонентские шлюзы</a></div>
+
+														<div>
+															<a href="#" class="sub_link">Транковые шлюзы</a>
+
+															<div class="sub_cats level2">
+																<dov><a href="/">Субмодули</a></dov>
+															</div>
+														</div>
+
+														<div>
+															<a href="#" class="sub_link">Аналоговые телефоны</a>
+
+															<div class="sub_cats level2">
+																<dov><a href="/">Субмодули</a></dov>
+															</div>
+														</div>
+
+														<div><a href="/">Softswitch</a></div>
+														<div><a href="/">Пограничные контроллеры сессий</a></div>
+
+														<div>
+															<a href="#" class="sub_link">Программные опции</a>
+
+															<div class="sub_cats level2">
+																<dov><a href="/">Субмодули</a></dov>
+															</div>
+														</div>
+
+														<div>
+															<a href="#" class="sub_link">Кроссовое оборудование</a>
+
+															<div class="sub_cats level2">
+																<dov><a href="/">Субмодули</a></dov>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="col">
+												<div class="cat">
+													<a href="/">
+														<div class="icon icon6">
+															<svg><use xlink:href="images/cats.svg#ic_cat6"></use></svg>
+														</div>
+														<div>Умный дом</div>
+													</a>
+
+													<div class="sub_cats">
+														<div><a href="/">Датчики</a></div>
+														<div><a href="/">Регистраторы</a></div>
+														<div><a href="/">Конвертеры</a></div>
+													</div>
+												</div>
+
+
+												<div class="cat">
+													<a href="/">
+														<div class="icon icon7">
+															<svg><use xlink:href="images/cats.svg#ic_cat7"></use></svg>
+														</div>
+														<div>SFP модули</div>
+													</a>
+
+													<div class="sub_cats">
+														<div><a href="/">SFP 155 Мбит/с</a></div>
+
+														<div>
+															<a href="#" class="sub_link">SFP 1 Gb | 1 волокно</a>
+
+															<div class="sub_cats level2">
+																<dov><a href="/">Субмодули</a></dov>
+															</div>
+														</div>
+
+														<div><a href="/">SFP 1 Gb | 2 волокна</a></div>
+														<div><a href="/">SFP+ 10 Gb | 1 волокно</a></div>
+														<div><a href="/">SFP+ 10 Gb | 2 волокна</a></div>
+														<div><a href="/">QSFP+</a></div>
+														<div><a href="/">Медные SFP | RJ-45</a></div>
+														<div><a href="/">Direct Attach</a></div>
+													</div>
+												</div>
+
+
+												<div class="cat">
+													<a href="/">
+														<div class="icon icon8">
+															<svg><use xlink:href="images/cats.svg#ic_cat8"></use></svg>
+														</div>
+														<div>Домашние роутеры</div>
+													</a>
+
+													<div class="sub_cats">
+														<div><a href="/">Абонентские маршрутизаторы</a></div>
+														<div><a href="/">Репитеры</a></div>
+														<div><a href="/">Абонентские маршрутизаторы с поддержкой VoIP</a></div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="col">
+												<div class="cat">
+													<a href="/">
+														<div class="icon icon9">
+															<svg><use xlink:href="images/cats.svg#ic_cat9"></use></svg>
+														</div>
+														<div>IPTV медиацентры</div>
+													</a>
+
+													<div class="sub_cats">
+														<div><a href="/">Android</a></div>
+														<div><a href="/">Linux</a></div>
+														<div><a href="/">Пульты</a></div>
+													</div>
+												</div>
+
+
+												<div class="cat">
+													<a href="/">
+														<div class="icon icon10">
+															<svg><use xlink:href="images/cats.svg#ic_cat10"></use></svg>
+														</div>
+														<div>Оборудование TDM</div>
+													</a>
+
+													<div class="sub_cats">
+														<div><a href="/">АТС МС240</a></div>
+														<div><a href="/">Гибкий мультиплексор Маком-МХ</a></div>
+														<div><a href="/">Оптические мультиплексоры ToPGATE</a></div>
+														<div><a href="/">Оборудование DSL</a></div>
+													</div>
+												</div>
+
+
+												<div class="cat"><a href="/">
+													<div class="icon icon11">
+														<svg><use xlink:href="images/cats.svg#ic_cat11"></use></svg>
+													</div>
+													<div>Устройства электропитания</div>
+												</a></div>
+
+
+												<div class="cat"><a href="/">
+													<div class="icon icon12">
+														<svg><use xlink:href="images/cats.svg#ic_cat12"></use></svg>
+													</div>
+													<div>Системы управления и ПО</div>
+												</a></div>
+
+
+												<div class="cat"><a href="/">
+													<div class="icon icon13">
+														<svg><use xlink:href="images/cats.svg#ic_cat13"></use></svg>
+													</div>
+													<div>Тонкие клиенты</div>
+												</a></div>
+
+
+												<div class="cat"><a href="/">
+													<div class="icon icon14">
+														<svg><use xlink:href="images/cats.svg#ic_cat14"></use></svg>
+													</div>
+													<div>Антивандальные шкафы</div>
+												</a></div>
+
+
+												<div class="cat"><a href="/">
+													<div class="icon icon15">
+														<svg><use xlink:href="images/cats.svg#ic_cat15"></use></svg>
+													</div>
+													<div>Промышленные контроллеры</div>
+												</a></div>
+											</div>
+										</div>
+
+
+										<div class="get_price_list">
+											<div class="data">
+												<div class="title">Закажите полный прайс-лист</div>
+
+												<form action="" class="form">
+													<div class="line">
+														<div class="field">
+															<input type="text" name="" value="" class="input">
+															<div class="label">Ваше имя*</div>
+														</div>
+													</div>
+
+													<div class="line">
+														<div class="field">
+															<input type="tel" name="" value="" class="input">
+															<div class="label">Номер телефона*</div>
+														</div>
+													</div>
+
+													<div class="line">
+														<div class="field">
+															<input type="text" name="" value="" class="input">
+															<div class="label">Електронная почта</div>
+														</div>
+													</div>
+
+													<div class="line agree">
+														<div class="field">
+															<input type="checkbox" name="agree" id="agree_check" checked>
+															<label for="agree_check">Я ознакомлен и согласен с <a href="/" target="_blank">Политикой конфиденциальности</a></label>
+														</div>
+													</div>
+
+
+													<div class="submit">
+														<button type="submit" class="submit_btn">Отправить</button>
+													</div>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<nav class="menu flex">
+									<div class="item">
+										<a href="/" class="sub_link">
+											База знаний<span class="arr"></span>
+										</a>
+
+										<div class="sub_menu">
+											<div><a href="/">Техническая поддержка</a></div>
+											<div><a href="/">Сдать в ремонт</a></div>
+											<div><a href="/">Помощь в сдаче COMP</a></div>
+											<div><a href="/">Проектирование сети GPON</a></div>
+											<div><a href="/">Заказать настройку оборудования</a></div>
+											<div><a href="/">Вызвать курьера</a></div>
+											<div><a href="/">Обучение</a></div>
+											<div><a class="active">Платные сервисы</a></div>
+										</div>
+									</div>
+
+									<div class="item">
+										<a href="/" class="sub_link">
+											Сервис<span class="arr"></span>
+										</a>
+
+										<div class="sub_menu">
+											<div><a href="/">Техническая поддержка</a></div>
+											<div><a href="/">Сдать в ремонт</a></div>
+											<div><a href="/">Помощь в сдаче COMP</a></div>
+											<div><a href="/">Проектирование сети GPON</a></div>
+											<div><a href="/">Заказать настройку оборудования</a></div>
+											<div><a href="/">Вызвать курьера</a></div>
+											<div><a href="/">Обучение</a></div>
+											<div><a class="active">Платные сервисы</a></div>
+										</div>
+									</div>
+
+									<div class="item">
+										<a href="/" class="sub_link">
+											Мероприятия<span class="arr"></span>
+										</a>
+
+										<div class="sub_menu">
+											<div><a href="/">Техническая поддержка</a></div>
+											<div><a href="/">Сдать в ремонт</a></div>
+											<div><a href="/">Помощь в сдаче COMP</a></div>
+											<div><a href="/">Проектирование сети GPON</a></div>
+											<div><a href="/">Заказать настройку оборудования</a></div>
+											<div><a href="/">Вызвать курьера</a></div>
+											<div><a href="/">Обучение</a></div>
+											<div><a class="active">Платные сервисы</a></div>
+										</div>
+									</div>
+
+									<div class="item">
+										<a href="/" class="sub_link">
+											Компания<span class="arr"></span>
+										</a>
+
+										<div class="sub_menu">
+											<div><a href="/">Техническая поддержка</a></div>
+											<div><a href="/">Сдать в ремонт</a></div>
+											<div><a href="/">Помощь в сдаче COMP</a></div>
+											<div><a href="/">Проектирование сети GPON</a></div>
+											<div><a href="/">Заказать настройку оборудования</a></div>
+											<div><a href="/">Вызвать курьера</a></div>
+											<div><a href="/">Обучение</a></div>
+											<div><a class="active">Платные сервисы</a></div>
+										</div>
+									</div>
+
+									<div class="item">
+										<a href="/">Контакты</a>
+									</div>
+								</nav>
+
+
+								<div class="links">
+									<div class="compare_link">
+										<a href="/">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare2"></use></svg>
+										</a>
+									</div>
+
+									<div class="favorite_link">
+										<a href="/">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+										</a>
+									</div>
+
+									<div class="visited modal_cont">
+										<button class="link mini_modal_link" data-modal-id="#visited_modal">
+											<span class="count">25</span>
+											<svg class="icon">
+												<use xlink:href="images/sprite.svg#ic_visited"></use>
+											</svg>
+										</button>
+
+										<div class="mini_modal" id="visited_modal">
+											<div class="list">
+												<a href="/" class="item">
+													<b>MES1124M Eltex</b> <span class="sep">|</span> Коммутатор 24 порта 100M с грозозащитой
+
+													<span class="date">01.05.2020</span>
+													<span class="time">14:49</span>
+												</a>
+
+												<a href="/" class="item">
+													<b>MES1124M_DC Eltex</b> <span class="sep">|</span> Коммутатор 24 порта 100M с грозозащитой
+
+													<span class="date">01.05.2020</span>
+													<span class="time">14:48</span>
+												</a>
+
+												<a href="/" class="item">
+													<b>MES1124M Eltex</b> <span class="sep">|</span> Коммутатор 24 порта 100M с грозозащитой
+
+													<span class="date">01.05.2020</span>
+													<span class="time">14:47</span>
+												</a>
+
+												<a href="/" class="item">
+													<b>MES1124M Eltex</b> <span class="sep">|</span> Коммутатор 24 порта 100M с грозозащитой
+
+													<span class="date">01.05.2020</span>
+													<span class="time">14:45</span>
+												</a>
+											</div>
+
+											<div class="all_link">
+												<a href="/">Вся история</a>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<a href="/" class="cart_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_buy"></use></svg>
+									<span>Корзина</span>
+								</a>
+
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<div class="mob_header">
+					<div class="cont">
+
+						<div class="logo">
+							<img src="images/logo.png" alt="">
+						</div>
+
+
+						<div class="contacts">
+							<div class="phone">
+								<a href="tel:+74996475048">+7 (499) 647 50 48</a>
+							</div>
+
+							<button class="callback_link modal_link" data-content="#callback_modal">Заказать звонок</button>
+						</div>
+
+
+						<div class="links">
+							<div class="search modal_cont">
+								<button class="link mini_modal_link" data-modal-id="#mob_search_modal">
+									<svg class="icon">
+										<use xlink:href="images/sprite.svg#ic_search"></use>
+									</svg>
+								</button>
+
+								<div class="mini_modal" id="mob_search_modal">
+									<form action="">
+										<input type="text" name="" value="" class="input" placeholder="Поиск по каталогу">
+
+										<button type="submit" class="submit_btn">
+											<svg class="icon">
+												<use xlink:href="images/sprite.svg#ic_search"></use>
+											</svg>
+										</button>
+									</form>
+								</div>
+							</div>
+
+
+							<div class="compare_link">
+								<a href="/">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare2"></use></svg>
+								</a>
+							</div>
+
+							<div class="favorite_link">
+								<a href="/">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+								</a>
+							</div>
+
+
+							<div class="visited modal_cont">
+								<button class="link mini_modal_link" data-modal-id="#mob_visited_modal">
+									<span class="count">25</span>
+									<svg class="icon">
+										<use xlink:href="images/sprite.svg#ic_visited"></use>
+									</svg>
+								</button>
+
+								<div class="mini_modal" id="mob_visited_modal">
+									<div class="list">
+										<a href="/" class="item">
+											<b>MES1124M Eltex</b> <span class="sep">|</span> Коммутатор 24 порта 100M с грозозащитой
+
+											<span class="date">01.05.2020</span>
+											<span class="time">14:49</span>
+										</a>
+
+										<a href="/" class="item">
+											<b>MES1124M_DC Eltex</b> <span class="sep">|</span> Коммутатор 24 порта 100M с грозозащитой
+
+											<span class="date">01.05.2020</span>
+											<span class="time">14:48</span>
+										</a>
+
+										<a href="/" class="item">
+											<b>MES1124M Eltex</b> <span class="sep">|</span> Коммутатор 24 порта 100M с грозозащитой
+
+											<span class="date">01.05.2020</span>
+											<span class="time">14:47</span>
+										</a>
+
+										<a href="/" class="item">
+											<b>MES1124M Eltex</b> <span class="sep">|</span> Коммутатор 24 порта 100M с грозозащитой
+
+											<span class="date">01.05.2020</span>
+											<span class="time">14:45</span>
+										</a>
+									</div>
+
+									<div class="all_link">
+										<a href="/">Вся история</a>
+									</div>
+								</div>
+							</div>
+
+
+							<a href="/" class="cart_link">
+								<div class="count">
+									<span>0</span>
+									<svg class="icon">
+										<use xlink:href="images/sprite.svg#ic_cart"></use>
+									</svg>
+								</div>
+							</a>
+
+
+							<button class="mob_menu_link">
+								<span></span>
+								<span></span>
+								<span></span>
+							</button>
+						</div>
+
+					</div>
+				</div>
+				<!-- End Шапка -->
+
+
+				<!-- Основная часть -->
+				<section class="page_head">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">
+								<svg class="home_icon">
+									<use xlink:href="images/sprite.svg#ic_home"></use>
+								</svg>
+							</a> <span class="sep"></span>
+							О компании
+						</div>
+					</div>
+				</section>
+
+
+				<section class="page_about_v2">
+					<section class="about_info_v2">
+						<div class="cont flex">
+							<div class="col_left">
+								<div class="years">2013-2022</div>
+
+								<div class="title">«Элтекс Коммуникации»</div>
+
+								<div class="description">крупнейший дилер завода Элтекс, российского производителя телекоммуникационного оборудования Eltex. Офисы компании располагаются в Москве и Новосибирске.</div>
+
+								<div class="slider_wrap">
+									<div class="slider owl-carousel">
+										<div class="slide">
+											<figure>
+												<div class="image">
+													<img data-src="images/tmp/about_info_v2_slider_img.jpg" alt="" class="lozad">
+												</div>
+
+												<figcaption>
+													<span>Офис Москва</span>
+												</figcaption>
+											</figure>
+										</div>
+
+										<div class="slide">
+											<figure>
+												<div class="image">
+													<img data-src="images/tmp/about_info_v2_slider_img2.jpg" alt="" class="lozad">
+												</div>
+
+												<figcaption>
+													<span>Офис Новосибирск</span>
+												</figcaption>
+											</figure>
+										</div>
+									</div>
+
+									<div class="thumbs">
+										<button class="btn active" data-slide-index="0">
+											<div class="image">
+												<img data-src="images/tmp/about_info_v2_slider_thumbs_img.jpg" alt="" class="lozad">
+											</div>
+										</button>
+
+										<button class="btn" data-slide-index="1">
+											<div class="image">
+												<img data-src="images/tmp/about_info_v2_slider_thumbs_img2.jpg" alt="" class="lozad">
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="col_right">
+								<div class="stats">
+									<div class="item">
+										<div class="val">10 820</div>
+										<div class="desc">единиц оборудования Eltex в наличии на складах в Москве и Новосибирске</div>
+									</div>
+
+									<div class="item">
+										<div class="val">2</div>
+										<div class="desc">офиса - Москва и Новосибирск</div>
+									</div>
+
+									<div class="item">
+										<div class="val">34</div>
+										<div class="desc">сотрудника</div>
+									</div>
+
+									<div class="item">
+										<div class="val">4 734</div>
+										<div class="desc">уникальных клиентов</div>
+									</div>
+
+									<div class="item">
+										<div class="val">40</div>
+										<div class="desc">офлайн мероприятий (конференции, воркшопы) мы провели с 2015 года</div>
+									</div>
+
+									<div class="item">
+										<div class="val">1 500</div>
+										<div class="desc">участников вебинаров</div>
+									</div>
+
+									<div class="item">
+										<div class="val">900</div>
+										<div class="desc">участников <a href="/">нашей группы Telegram</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<img data-src="images/bg_about_info_v2.png" alt="" class="lozad bg">
+						<img data-src="images/bg2_about_info_v2.png" alt="" class="lozad bg2">
+					</section>
+
+
+					<section class="employees">
+						<div class="cont flex">
+							<div class="col_left">
+								<div class="block_title">Сотруднки</div>
+
+								<div class="description">Оборудование Eltex - наш узкий профиль. Наши менеджеры по продажам ежегодно проходят обучение на заводе Eltex, знакомы с информацией о всех новых разработках.</div>
+
+								<div class="title">Главный принцип отдела продаж -<br> <span>быстрый ответ</span></div>
+
+								<div class="time">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_time"></use></svg>
+									<span>Мы отвечаем за 300 секунд с 6:00 до 18:00 (МСК) в рабочие дни. По выходным работают дежурные менеджеры.</span>
+								</div>
+							</div>
+
+
+							<div class="col_right">
+								<div class="title">Пришлем за считанные минуты:</div>
+
+								<div class="items">
+									<div>
+										<div class="number">1</div>
+										<div class="name">Коммерческое предложение и даташиты</div>
+									</div>
+
+									<div>
+										<div class="number">2</div>
+										<div class="name">Технические характеристики в соответствии с государственным КТРУ</div>
+									</div>
+
+									<div>
+										<div class="number">3</div>
+										<div class="name">Договор тестирования оборудования</div>
+									</div>
+
+									<div>
+										<div class="number">4</div>
+										<div class="name">Протоколы и методики испытаний (ПМИ)</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+
+					<section class="tech_support">
+						<div class="cont">
+							<div class="flex">
+								<div class="col_left">
+									<div class="block_title">Техническая поддержка</div>
+
+									<div class="description">В нашей компании собственный инженерный отдел.</div>
+
+									<div class="title">Мы предоставляем быструю техническую поддержку своим клиентам : <span>с 9-00 до 18-00 мск</span></div>
+
+									<div class="description">Обратиться в тех.поддержку можно через Telegram bot (ответит человек), Email или портал Okdesk.<br> Также, инженеры всегда доступны по телефону.</div>
+
+									<div class="contacts">
+										<div class="email">
+											<a href="mailto:eltexcm.okdesk.ru">eltexcm.okdesk.ru</a>
+										</div>
+
+										<div class="sep"></div>
+
+										<div class="phone">
+											<a href="tel:+74996475048">+7 (499) 647-50-48 доб. 204</a>
+										</div>
+									</div>
+
+									<div class="services">
+										<div class="title">Мы оказываем услуги:</div>
+
+										<div class="items">
+											<div>Проектирование Ethernet, VoIP, Wi-Fi, GPON сетей</div>
+											<div>Монтаж, настройка узлов коммутации и маршрутизации</div>
+											<div>Радиообследование объекта, настройка Wi-Fi контроллера, запуск captive портала</div>
+											<div>Выездная и удаленная настройка систем телефонии на базе Softswitch ECSS-10 и АТС серии Eltex SMG</div>
+											<div>Обучение в учебном класса в Москве (или выезд к Заказчику в любой регион РФ)</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="col_right">
+									<div class="boss">
+										<div class="photo">
+											<img data-src="images/tmp/boss_photo.jpg" alt="" class="lozad">
+
+											<div class="contacts">
+												<div><a href="/" class="telegram_link">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_messenger2"></use></svg>
+												</a></div>
+
+												<div><a href="/" class="email_link">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+												</a></div>
+											</div>
+										</div>
+
+										<div class="name">Алексей Листаров</div>
+										<div class="post">специалист отдела технической поддержки</div>
+									</div>
+
+									<div class="message">
+										<p>Наша техническая поддержка работает по московскому времени</p>
+										<p>Мы предоставляем прямые контакты инженеров для оперативной связи.</p>
+
+										<div class="icon"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="webinars">
+								<div class="title">Регулярно проводим вебинары по настройке оборудования</div>
+
+								<div class="flex">
+									<a href="/" class="webinar">
+										<div class="thumb">
+											<img data-src="images/tmp/webinar_thumb.jpg" alt="" class="lozad">
+										</div>
+									</a>
+
+									<a href="/" class="webinar">
+										<div class="thumb">
+											<img data-src="images/tmp/webinar_thumb.jpg" alt="" class="lozad">
+										</div>
+									</a>
+
+									<a href="/" class="webinar">
+										<div class="thumb">
+											<img data-src="images/tmp/webinar_thumb.jpg" alt="" class="lozad">
+										</div>
+									</a>
+
+									<div class="all_link">
+										<a href="/">все<br> вебинары</a>
+									</div>
+								</div>
+
+								<div class="mob_all_link">
+									<a href="/">все вебинары</a>
+								</div>
+							</div>
+
+							<div class="exp">
+								<div class="icon">*</div>
+
+								<span>Если вы ранее не работали с оборудованием Элтекс, мы бесплатно предоставим комплект оборудования на тестирование для того, чтобы вы могли оценить качество оборудования, удобство его использования и наш сервис.</span>
+							</div>
+						</div>
+
+						<img data-src="images/bg_tech_support.png" alt="" class="bg lozad">
+						<img data-src="images/bg2_tech_support.png" alt="" class="bg2 lozad">
+					</section>
+
+
+					<section class="warehouses">
+						<div class="cont">
+							<div class="head">
+								<div class="block_title">Склады</div>
+
+								<div class="col_left">
+									<div class="description">Наши склады располагаются в 2 городах России: Москва и Новосибирск.</div>
+
+									<div class="title">Наш принцип - <span>отгрузка</span><br> <span>оборудования в день заказа!</span></div>
+								</div>
+
+								<div class="col_right">
+									<div class="count">
+										<div class="val">10 000</div>
+										<div class="name">единиц оборудования в наличии</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="photos">
+								<div class="flex">
+									<div class="item">
+										<div class="thumb">
+											<img data-src="images/tmp/warehouses_photo1.jpg" alt="" class="lozad">
+										</div>
+
+										<div class="city">Москва</div>
+									</div>
+
+									<div class="item">
+										<div class="thumb">
+											<img data-src="images/tmp/warehouses_photo2.jpg" alt="" class="lozad">
+										</div>
+
+										<div class="city">Новосибирск</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+
+					<section class="clients">
+						<div class="cont">
+							<div class="block_title">Наши клиенты</div>
+
+							<div class="count">4 000+</div>
+
+							<div class="categories">
+								<div class="title">Нашему опыту доверились:</div>
+
+								<div class="items">
+									<div>операторы связи</div>
+									<div>производственные предприятия</div>
+									<div>гос.организации</div>
+									<div>корпоративные заказчики и др.</div>
+									<div>интеграторы</div>
+								</div>
+							</div>
+
+							<div class="slider owl-carousel">
+								<div class="slide">
+									<div class="item">
+										<img data-src="images/tmp/client_logo1.png" alt="" class="lozad">
+									</div>
+								</div>
+
+								<div class="slide">
+									<div class="item">
+										<img data-src="images/tmp/client_logo2.png" alt="" class="lozad">
+									</div>
+								</div>
+
+								<div class="slide">
+									<div class="item">
+										<img data-src="images/tmp/client_logo3.png" alt="" class="lozad">
+									</div>
+								</div>
+
+								<div class="slide">
+									<div class="item">
+										<img data-src="images/tmp/client_logo4.png" alt="" class="lozad">
+									</div>
+								</div>
+
+								<div class="slide">
+									<div class="item">
+										<img data-src="images/tmp/client_logo5.png" alt="" class="lozad">
+									</div>
+								</div>
+
+								<div class="slide">
+									<div class="item">
+										<img data-src="images/tmp/client_logo6.png" alt="" class="lozad">
+									</div>
+								</div>
+
+								<div class="slide">
+									<div class="item">
+										<img data-src="images/tmp/client_logo7.png" alt="" class="lozad">
+									</div>
+								</div>
+
+								<div class="slide">
+									<div class="item">
+										<img data-src="images/tmp/client_logo8.png" alt="" class="lozad">
+									</div>
+								</div>
+
+								<div class="slide">
+									<div class="item">
+										<img data-src="images/tmp/client_logo1.png" alt="" class="lozad">
+									</div>
+								</div>
+
+								<div class="slide">
+									<div class="item">
+										<img data-src="images/tmp/client_logo2.png" alt="" class="lozad">
+									</div>
+								</div>
+
+								<div class="slide">
+									<div class="item">
+										<img data-src="images/tmp/client_logo3.png" alt="" class="lozad">
+									</div>
+								</div>
+
+								<div class="slide">
+									<div class="item">
+										<img data-src="images/tmp/client_logo4.png" alt="" class="lozad">
+									</div>
+								</div>
+
+								<div class="slide">
+									<div class="item">
+										<img data-src="images/tmp/client_logo5.png" alt="" class="lozad">
+									</div>
+								</div>
+
+								<div class="slide">
+									<div class="item">
+										<img data-src="images/tmp/client_logo6.png" alt="" class="lozad">
+									</div>
+								</div>
+
+								<div class="slide">
+									<div class="item">
+										<img data-src="images/tmp/client_logo7.png" alt="" class="lozad">
+									</div>
+								</div>
+
+								<div class="slide">
+									<div class="item">
+										<img data-src="images/tmp/client_logo8.png" alt="" class="lozad">
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+
+					<section class="advantages">
+						<div class="cont">
+							<div class="data">
+								<div class="title">Плюсы работы с нами</div>
+
+								<div class="flex">
+									<div class="item">
+										<div class="icon">
+											<img data-src="images/ic_advantage1.svg" alt="" class="lozad">
+										</div>
+
+										<div>
+											<div class="name">Быстрая доставка</div>
+											<div class="desc">Мы отгружаем оборудование в течение 1-3 дней.</div>
+										</div>
+									</div>
+
+									<div class="item">
+										<div class="icon">
+											<img data-src="images/ic_advantage2.svg" alt="" class="lozad">
+										</div>
+
+										<div>
+											<div class="name">Экономия</div>
+											<div class="desc">Наши клиенты могут получить скидку уже при первом заказе</div>
+										</div>
+									</div>
+
+									<div class="item">
+										<div class="icon">
+											<img data-src="images/ic_advantage3.svg" alt="" class="lozad">
+										</div>
+
+										<div>
+											<div class="name">Техническая поддержка</div>
+											<div class="desc">Мы предоставляем прямые контакты инженеров для оперативной связи</div>
+										</div>
+									</div>
+								</div>
+
+								<img data-src="images/bg_advantages.png" alt="" class="bg lozad">
+								<img data-src="images/bg2_advantages.png" alt="" class="bg2 lozad">
+							</div>
+						</div>
+					</section>
+
+
+					<section class="reviews_v2">
+						<div class="cont">
+							<div class="block_title">наши отзывы на яндекс</div>
+
+							<div class="cols">
+								<div class="col_left">
+									<div class="head">
+										<div class="company">
+											<span>Элтекс Коммуникации</span>
+
+											<div class="check">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+											</div>
+										</div>
+
+										<div class="rating">
+											<div class="stars">
+												<div class="star"></div>
+												<div class="star"></div>
+												<div class="star"></div>
+												<div class="star"></div>
+												<div class="star"></div>
+											</div>
+
+											<div class="count">122 отзыва</div>
+											<div class="duration">2 года на Яндекс.Маркете</div>
+										</div>
+									</div>
+
+
+									<div class="swiper-container">
+										<div class="swiper-wrapper">
+											<div class="slide swiper-slide">
+												<div class="review">
+													<div class="author">
+														<span>Андрей Бондаренко</span>
+
+														<div class="status">
+															<img src="images/ic_review_status.png" alt="">
+															<span>1</span>
+														</div>
+													</div>
+
+													<div class="rating">
+														<div class="stars">
+															<div class="star"></div>
+															<div class="star"></div>
+															<div class="star"></div>
+															<div class="star"></div>
+															<div class="star"></div>
+														</div>
+
+														<span>Отличный магазин</span>
+													</div>
+
+													<div class="text">Кстати, вспомнил. Елтекс, помимо всего прочего, обеспечивает хорошую техподдержку, тут ничего не скажешь. Железо базово охвачено годовой гарантией, по серийному номеру. Вы всегда можете спросить у официальной техподдержки, Вам не откажут</div>
+
+													<div class="bottom">
+														<div class="date">Месяц назад</div>
+
+														<div class="likes">
+															<button class="like btn">
+																<svg class="icon"><use xlink:href="images/sprite.svg#ic_like"></use></svg>
+																<span>0</span>
+															</button>
+
+															<button class="dislike btn">
+																<svg class="icon"><use xlink:href="images/sprite.svg#ic_like"></use></svg>
+																<span>0</span>
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="slide swiper-slide">
+												<div class="review">
+													<div class="author">
+														<span>Олег Ч.</span>
+
+														<div class="status">
+															<img src="images/ic_review_status.png" alt="">
+															<span>1</span>
+														</div>
+													</div>
+
+													<div class="rating">
+														<div class="stars">
+															<div class="star"></div>
+															<div class="star"></div>
+															<div class="star"></div>
+															<div class="star"></div>
+															<div class="star"></div>
+														</div>
+
+														<span>Отличный магазин</span>
+													</div>
+
+													<div class="text">расставил около сотни коммутаторов элтекс на объекте от 2324B до 5324 , один раз только на одном 2324B пару портов странно мигали после включения, но перезагрузил и всё стало норм. все железки заказывали у этих ребят. рекомендую</div>
+
+													<div class="bottom">
+														<div class="date">11 месяцев назад</div>
+
+														<div class="likes">
+															<button class="like btn">
+																<svg class="icon"><use xlink:href="images/sprite.svg#ic_like"></use></svg>
+																<span>0</span>
+															</button>
+
+															<button class="dislike btn">
+																<svg class="icon"><use xlink:href="images/sprite.svg#ic_like"></use></svg>
+																<span>0</span>
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="slide swiper-slide">
+												<div class="review">
+													<div class="author">
+														<span>Владимир Космовин</span>
+
+														<div class="status">
+															<img src="images/ic_review_status.png" alt="">
+															<span>5</span>
+														</div>
+													</div>
+
+													<div class="rating">
+														<div class="stars">
+															<div class="star"></div>
+															<div class="star"></div>
+															<div class="star"></div>
+															<div class="star"></div>
+															<div class="star"></div>
+														</div>
+
+														<span>Отличный магазин</span>
+													</div>
+
+													<div class="text">Тестировали новые прошивки. Залили, работает. Единично абонентам прошивали терминалы, работает стабильней. Спасибо!</div>
+
+													<div class="bottom">
+														<div class="date">Год назад</div>
+
+														<div class="likes">
+															<button class="like btn">
+																<svg class="icon"><use xlink:href="images/sprite.svg#ic_like"></use></svg>
+																<span>0</span>
+															</button>
+
+															<button class="dislike btn">
+																<svg class="icon"><use xlink:href="images/sprite.svg#ic_like"></use></svg>
+																<span>0</span>
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="slide swiper-slide">
+												<div class="review">
+													<div class="author">
+														<span>Алексей Прокофьев</span>
+
+														<div class="status">
+															<img src="images/ic_review_status.png" alt="">
+															<span>1</span>
+														</div>
+													</div>
+
+													<div class="rating">
+														<div class="stars">
+															<div class="star"></div>
+															<div class="star"></div>
+															<div class="star"></div>
+															<div class="star"></div>
+															<div class="star"></div>
+														</div>
+
+														<span>Отличный магазин</span>
+													</div>
+
+													<div class="text">Имею опыт эксплуатации сети на десятки тысяч устройств. И могу вспомнить лишь несколько случаев затяжного траблшутинга, но во всех фигурировали абонентский l2 vpn с желанием собрать целые области с один бродкаст) Поэтому рекомендую eltex, а заказы лучше делать через этого дилера, проблем с доставкой и настройкой тогда точно не будет.</div>
+
+													<div class="bottom">
+														<div class="date">Год назад</div>
+
+														<div class="likes">
+															<button class="like btn">
+																<svg class="icon"><use xlink:href="images/sprite.svg#ic_like"></use></svg>
+																<span>0</span>
+															</button>
+
+															<button class="dislike btn">
+																<svg class="icon"><use xlink:href="images/sprite.svg#ic_like"></use></svg>
+																<span>0</span>
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="slide swiper-slide">
+												<div class="review">
+													<div class="author">
+														<span>Андрей Бондаренко</span>
+
+														<div class="status">
+															<img src="images/ic_review_status.png" alt="">
+															<span>1</span>
+														</div>
+													</div>
+
+													<div class="rating">
+														<div class="stars">
+															<div class="star"></div>
+															<div class="star"></div>
+															<div class="star"></div>
+															<div class="star"></div>
+															<div class="star"></div>
+														</div>
+
+														<span>Отличный магазин</span>
+													</div>
+
+													<div class="text">Кстати, вспомнил. Елтекс, помимо всего прочего, обеспечивает хорошую техподдержку, тут ничего не скажешь. Железо базово охвачено годовой гарантией, по серийному номеру. Вы всегда можете спросить у официальной техподдержки, Вам не откажут</div>
+
+													<div class="bottom">
+														<div class="date">Месяц назад</div>
+
+														<div class="likes">
+															<button class="like btn">
+																<svg class="icon"><use xlink:href="images/sprite.svg#ic_like"></use></svg>
+																<span>0</span>
+															</button>
+
+															<button class="dislike btn">
+																<svg class="icon"><use xlink:href="images/sprite.svg#ic_like"></use></svg>
+																<span>0</span>
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="slide swiper-slide">
+												<div class="review">
+													<div class="author">
+														<span>Олег Ч.</span>
+
+														<div class="status">
+															<img src="images/ic_review_status.png" alt="">
+															<span>1</span>
+														</div>
+													</div>
+
+													<div class="rating">
+														<div class="stars">
+															<div class="star"></div>
+															<div class="star"></div>
+															<div class="star"></div>
+															<div class="star"></div>
+															<div class="star"></div>
+														</div>
+
+														<span>Отличный магазин</span>
+													</div>
+
+													<div class="text">расставил около сотни коммутаторов элтекс на объекте от 2324B до 5324 , один раз только на одном 2324B пару портов странно мигали после включения, но перезагрузил и всё стало норм. все железки заказывали у этих ребят. рекомендую</div>
+
+													<div class="bottom">
+														<div class="date">11 месяцев назад</div>
+
+														<div class="likes">
+															<button class="like btn">
+																<svg class="icon"><use xlink:href="images/sprite.svg#ic_like"></use></svg>
+																<span>0</span>
+															</button>
+
+															<button class="dislike btn">
+																<svg class="icon"><use xlink:href="images/sprite.svg#ic_like"></use></svg>
+																<span>0</span>
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="slide swiper-slide">
+												<div class="review">
+													<div class="author">
+														<span>Владимир Космовин</span>
+
+														<div class="status">
+															<img src="images/ic_review_status.png" alt="">
+															<span>5</span>
+														</div>
+													</div>
+
+													<div class="rating">
+														<div class="stars">
+															<div class="star"></div>
+															<div class="star"></div>
+															<div class="star"></div>
+															<div class="star"></div>
+															<div class="star"></div>
+														</div>
+
+														<span>Отличный магазин</span>
+													</div>
+
+													<div class="text">Тестировали новые прошивки. Залили, работает. Единично абонентам прошивали терминалы, работает стабильней. Спасибо!</div>
+
+													<div class="bottom">
+														<div class="date">Год назад</div>
+
+														<div class="likes">
+															<button class="like btn">
+																<svg class="icon"><use xlink:href="images/sprite.svg#ic_like"></use></svg>
+																<span>0</span>
+															</button>
+
+															<button class="dislike btn">
+																<svg class="icon"><use xlink:href="images/sprite.svg#ic_like"></use></svg>
+																<span>0</span>
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="slide swiper-slide">
+												<div class="review">
+													<div class="author">
+														<span>Алексей Прокофьев</span>
+
+														<div class="status">
+															<img src="images/ic_review_status.png" alt="">
+															<span>1</span>
+														</div>
+													</div>
+
+													<div class="rating">
+														<div class="stars">
+															<div class="star"></div>
+															<div class="star"></div>
+															<div class="star"></div>
+															<div class="star"></div>
+															<div class="star"></div>
+														</div>
+
+														<span>Отличный магазин</span>
+													</div>
+
+													<div class="text">Имею опыт эксплуатации сети на десятки тысяч устройств. И могу вспомнить лишь несколько случаев затяжного траблшутинга, но во всех фигурировали абонентский l2 vpn с желанием собрать целые области с один бродкаст) Поэтому рекомендую eltex, а заказы лучше делать через этого дилера, проблем с доставкой и настройкой тогда точно не будет.</div>
+
+													<div class="bottom">
+														<div class="date">Год назад</div>
+
+														<div class="likes">
+															<button class="like btn">
+																<svg class="icon"><use xlink:href="images/sprite.svg#ic_like"></use></svg>
+																<span>0</span>
+															</button>
+
+															<button class="dislike btn">
+																<svg class="icon"><use xlink:href="images/sprite.svg#ic_like"></use></svg>
+																<span>0</span>
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="swiper-button-prev">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+										</div>
+
+										<div class="swiper-button-next">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="col_right">
+									<div class="buy_again">99% покупателей<br> купили бы здесь снова</div>
+
+									<div class="points">
+										<div class="item">
+											<div class="name">Скорость обработки заказа</div>
+											<div class="val">4.9</div>
+
+											<div class="progress"><div style="width: 100%;"></div></div>
+										</div>
+
+										<div class="item">
+											<div class="name">Качество доставки или выдачи товара</div>
+											<div class="val">4.9</div>
+
+											<div class="progress"><div style="width: 100%;"></div></div>
+										</div>
+
+										<div class="item">
+											<div class="name">Общение</div>
+											<div class="val">4.9</div>
+
+											<div class="progress"><div style="width: 100%;"></div></div>
+										</div>
+
+										<div class="item">
+											<div class="name">Соответствие товара описанию</div>
+											<div class="val">4.9</div>
+
+											<div class="progress"><div style="width: 100%;"></div></div>
+										</div>
+									</div>
+
+									<div class="rating">
+										<div class="title">Отзывы</div>
+
+										<div class="stars">
+											<div class="star"></div>
+											<div class="star"></div>
+											<div class="star"></div>
+											<div class="star"></div>
+											<div class="star"></div>
+										</div>
+
+										<div class="count">87 отзывов</div>
+									</div>
+
+									<div class="requisites">
+										<div>Продавец ООО ЭЛТЕКС<br> КОММУНИКАЦИИ</div>
+										<div>ОГРН 5167746501863</div>
+										<div>Юридический адрес: г. Москва, ул.<br> Правды, д. 8 корп. 27</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+
+					<section class="get_price_list">
+						<div class="cont flex">
+							<div class="block_title">Получить прайс-лист<br> в мессенджер</div>
+
+							<form action="">
+								<div class="field">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+									<input type="tel" name="" value="" class="input" placeholder="+7">
+								</div>
+
+								<button type="submit" class="submit_btn">Получить файл</button>
+
+								<div class="agree">
+									<input type="checkbox" name="agree" id="price_list_agree_check">
+									<label for="price_list_agree_check">
+										Я ознакомлен и согласен с <a href="/" target="_blank">Политикой конфиденциальности</a>
+									</label>
+								</div>
+							</form>
+						</div>
+
+						<img data-src="images/bg_get_price_list.png" alt="" class="bg lozad">
+					</section>
+
+
+					<section class="projects">
+						<div class="cont">
+							<div class="block_title">Наши проекты</div>
+
+							<div class="description">В этом разделе мы предлагаем вам посмотреть реальные проекты, схемы разработаны нами или сотрудниками Заказчика</div>
+
+							<div class="swiper-container">
+								<div class="swiper-wrapper">
+									<div class="slide swiper-slide">
+										<div class="project">
+											<a href="/" class="thumb">
+												<img data-src="images/tmp/project_thumb.jpg" alt="" class="lozad">
+											</a>
+
+											<div class="name">
+												<a href="/">Соколиный Центр Камчатка: построение локальной сети, покрытие Wi-Fi и ...</a>
+											</div>
+
+											<div class="desc">Построение локальной вычислительной сети, покрытие Wi-Fi всего периметра обьекта, телефонизация комплекса.</div>
+
+											<div class="cats">
+												<a href="/">Wi-Fi</a>
+												<div class="sep">|</div>
+												<a href="/">VoIP</a>
+												<div class="sep">|</div>
+												<a href="/">TAU</a>
+												<div class="sep">|</div>
+												<a href="/">MES</a>
+												<div class="sep">|</div>
+												<a href="/">ESR</a>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="slide swiper-slide">
+										<div class="project">
+											<a href="/" class="thumb">
+												<img data-src="images/tmp/project_thumb2.jpg" alt="" class="lozad">
+											</a>
+
+											<div class="name">
+												<a href="/">Создание сети передачи данных для ВУЗа в Нижнем Новгороде</a>
+											</div>
+
+											<div class="desc">Объединение в единую сеть нескольких территориально удаленных друг от друга корпусов ВУЗа и обеспечение ...</div>
+
+											<div class="cats">
+												<a href="/">WLC</a>
+												<div class="sep">|</div>
+												<a href="/">Wi-Fi</a>
+												<div class="sep">|</div>
+												<a href="/">MES</a>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="slide swiper-slide">
+										<div class="project">
+											<a href="/" class="thumb">
+												<img data-src="images/tmp/project_thumb3.jpg" alt="" class="lozad">
+											</a>
+
+											<div class="name">
+												<a href="/">Построение локальной сети нового блока больницы в Москве</a>
+											</div>
+
+											<div class="desc">Построение локальной сети, покрытия Wi-Fi и установка мультимедиа-системы в новом блоке и ее соединение ...</div>
+
+											<div class="cats">
+												<a href="/">WLC</a>
+												<div class="sep">|</div>
+												<a href="/">Wi-Fi</a>
+												<div class="sep">|</div>
+												<a href="/">MES</a>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="slide swiper-slide">
+										<div class="project">
+											<a href="/" class="thumb">
+												<img data-src="images/tmp/project_thumb4.jpg" alt="" class="lozad">
+											</a>
+
+											<div class="name">
+												<a href="/">Модернизация учрежденческой АТС Грязинской районной больницы Липецкой области</a>
+											</div>
+
+											<div class="desc">Создание единой территориально распределенной учрежденческой АТС на различных объектах ...</div>
+
+											<div class="cats">
+												<a href="/">VoIP</a>
+												<div class="sep">|</div>
+												<a href="/">TAU</a>
+												<div class="sep">|</div>
+												<a href="/">SMG</a>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="slide swiper-slide">
+										<div class="project">
+											<a href="/" class="thumb">
+												<img data-src="images/tmp/project_thumb.jpg" alt="" class="lozad">
+											</a>
+
+											<div class="name">
+												<a href="/">Соколиный Центр Камчатка: построение локальной сети, покрытие Wi-Fi и ...</a>
+											</div>
+
+											<div class="desc">Построение локальной вычислительной сети, покрытие Wi-Fi всего периметра обьекта, телефонизация комплекса.</div>
+
+											<div class="cats">
+												<a href="/">Wi-Fi</a>
+												<div class="sep">|</div>
+												<a href="/">VoIP</a>
+												<div class="sep">|</div>
+												<a href="/">TAU</a>
+												<div class="sep">|</div>
+												<a href="/">MES</a>
+												<div class="sep">|</div>
+												<a href="/">ESR</a>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="slide swiper-slide">
+										<div class="project">
+											<a href="/" class="thumb">
+												<img data-src="images/tmp/project_thumb2.jpg" alt="" class="lozad">
+											</a>
+
+											<div class="name">
+												<a href="/">Создание сети передачи данных для ВУЗа в Нижнем Новгороде</a>
+											</div>
+
+											<div class="desc">Объединение в единую сеть нескольких территориально удаленных друг от друга корпусов ВУЗа и обеспечение ...</div>
+
+											<div class="cats">
+												<a href="/">WLC</a>
+												<div class="sep">|</div>
+												<a href="/">Wi-Fi</a>
+												<div class="sep">|</div>
+												<a href="/">MES</a>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="slide swiper-slide">
+										<div class="project">
+											<a href="/" class="thumb">
+												<img data-src="images/tmp/project_thumb3.jpg" alt="" class="lozad">
+											</a>
+
+											<div class="name">
+												<a href="/">Построение локальной сети нового блока больницы в Москве</a>
+											</div>
+
+											<div class="desc">Построение локальной сети, покрытия Wi-Fi и установка мультимедиа-системы в новом блоке и ее соединение ...</div>
+
+											<div class="cats">
+												<a href="/">WLC</a>
+												<div class="sep">|</div>
+												<a href="/">Wi-Fi</a>
+												<div class="sep">|</div>
+												<a href="/">MES</a>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="slide swiper-slide">
+										<div class="project">
+											<a href="/" class="thumb">
+												<img data-src="images/tmp/project_thumb4.jpg" alt="" class="lozad">
+											</a>
+
+											<div class="name">
+												<a href="/">Модернизация учрежденческой АТС Грязинской районной больницы Липецкой области</a>
+											</div>
+
+											<div class="desc">Создание единой территориально распределенной учрежденческой АТС на различных объектах ...</div>
+
+											<div class="cats">
+												<a href="/">VoIP</a>
+												<div class="sep">|</div>
+												<a href="/">TAU</a>
+												<div class="sep">|</div>
+												<a href="/">SMG</a>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-button-prev">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+								</div>
+
+								<div class="swiper-button-next">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+								</div>
+							</div>
+						</div>
+					</section>
+
+
+					<section class="conferences">
+						<div class="cont">
+							<div class="block_title">Выставки, конференции</div>
+
+							<div class="description">Ежегодно мы участвуем в международной выставке Связь, а последние два года являемся организаторами конференции, посвященной опыту эксплуатации GPON, которая собирает более 100 крупнейших операторов связи со всей страны.</div>
+
+							<div class="description2">Материалы с конференций вы можете посмотреть по ссылкам:</div>
+
+							<div class="items">
+								<div><a href="/">Конференция GPON2016</a></div>
+								<div><a href="/">Конференция GPON2017</a></div>
+								<div><a href="/">Конференция GPON и сети доступа 2018</a></div>
+								<div><a href="/">Конференция GPON и сети доступа 2019</a></div>
+								<div><a href="/">Семинары по настройке оборудования на выставке Связь 2020</a></div>
+								<div><a href="/">Семинары по настройке оборудования на выставке Связь 2021</a></div>
+							</div>
+
+							<div class="diplom">
+								<div class="name">Дилер №1 Eltex</div>
+								<img data-src="images/tmp/diplom.jpg" alt="" class="lozad">
+							</div>
+
+							<div class="gallery swiper-container">
+								<div class="swiper-wrapper">
+									<div class="slide swiper-slide">
+										<a href="images/tmp/conferences_gallery_thumb.jpg" class="item fancy_img" data-fancybox="conferences">
+											<img src="images/tmp/conferences_gallery_thumb.jpg" alt="">
+										</a>
+									</div>
+
+									<div class="slide swiper-slide">
+										<a href="images/tmp/conferences_gallery_thumb2.jpg" class="item fancy_img" data-fancybox="conferences">
+											<img src="images/tmp/conferences_gallery_thumb2.jpg" alt="">
+										</a>
+									</div>
+
+									<div class="slide swiper-slide">
+										<a href="images/tmp/conferences_gallery_thumb3.jpg" class="item fancy_img" data-fancybox="conferences">
+											<img src="images/tmp/conferences_gallery_thumb3.jpg" alt="">
+										</a>
+									</div>
+
+									<div class="slide swiper-slide">
+										<a href="images/tmp/conferences_gallery_thumb4.jpg" class="item fancy_img" data-fancybox="conferences">
+											<img src="images/tmp/conferences_gallery_thumb4.jpg" alt="">
+										</a>
+									</div>
+
+									<div class="slide swiper-slide">
+										<a href="images/tmp/conferences_gallery_thumb5.jpg" class="item fancy_img" data-fancybox="conferences">
+											<img src="images/tmp/conferences_gallery_thumb5.jpg" alt="">
+										</a>
+									</div>
+
+									<div class="slide swiper-slide">
+										<a href="images/tmp/conferences_gallery_thumb.jpg" class="item fancy_img" data-fancybox="conferences">
+											<img src="images/tmp/conferences_gallery_thumb.jpg" alt="">
+										</a>
+									</div>
+
+									<div class="slide swiper-slide">
+										<a href="images/tmp/conferences_gallery_thumb2.jpg" class="item fancy_img" data-fancybox="conferences">
+											<img src="images/tmp/conferences_gallery_thumb2.jpg" alt="">
+										</a>
+									</div>
+
+									<div class="slide swiper-slide">
+										<a href="images/tmp/conferences_gallery_thumb3.jpg" class="item fancy_img" data-fancybox="conferences">
+											<img src="images/tmp/conferences_gallery_thumb3.jpg" alt="">
+										</a>
+									</div>
+
+									<div class="slide swiper-slide">
+										<a href="images/tmp/conferences_gallery_thumb4.jpg" class="item fancy_img" data-fancybox="conferences">
+											<img src="images/tmp/conferences_gallery_thumb4.jpg" alt="">
+										</a>
+									</div>
+
+									<div class="slide swiper-slide">
+										<a href="images/tmp/conferences_gallery_thumb5.jpg" class="item fancy_img" data-fancybox="conferences">
+											<img src="images/tmp/conferences_gallery_thumb5.jpg" alt="">
+										</a>
+									</div>
+								</div>
+
+								<div class="swiper-button-prev">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+								</div>
+
+								<div class="swiper-button-next">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+								</div>
+							</div>
+						</div>
+					</section>
+
+
+					<section class="diploms">
+						<div class="cont">
+							<div class="block_title">Дипломы</div>
+
+							<div class="description">За время нашей работы мы вышли на первое место среди дилеров оборудования Eltex, что подтверждается дипломами завода</div>
+
+							<div class="swiper-container">
+								<div class="swiper-wrapper">
+									<div class="slide swiper-slide">
+										<a href="images/tmp/diploms_thumb.jpg" class="item fancy_img" data-fancybox="diploms">
+											<img src="images/tmp/diploms_thumb.jpg" alt="">
+											<div class="year">2021г</div>
+										</a>
+									</div>
+
+									<div class="slide swiper-slide">
+										<a href="images/tmp/diploms_thumb.jpg" class="item fancy_img" data-fancybox="diploms">
+											<img src="images/tmp/diploms_thumb.jpg" alt="">
+											<div class="year">2020г</div>
+										</a>
+									</div>
+
+									<div class="slide swiper-slide">
+										<a href="images/tmp/diploms_thumb2.jpg" class="item fancy_img" data-fancybox="diploms">
+											<img src="images/tmp/diploms_thumb2.jpg" alt="">
+											<div class="year">2018г</div>
+										</a>
+									</div>
+
+									<div class="slide swiper-slide">
+										<a href="images/tmp/diploms_thumb.jpg" class="item fancy_img" data-fancybox="diploms">
+											<img src="images/tmp/diploms_thumb.jpg" alt="">
+											<div class="year">2021г</div>
+										</a>
+									</div>
+
+									<div class="slide swiper-slide">
+										<a href="images/tmp/diploms_thumb.jpg" class="item fancy_img" data-fancybox="diploms">
+											<img src="images/tmp/diploms_thumb.jpg" alt="">
+											<div class="year">2020г</div>
+										</a>
+									</div>
+
+									<div class="slide swiper-slide">
+										<a href="images/tmp/diploms_thumb2.jpg" class="item fancy_img" data-fancybox="diploms">
+											<img src="images/tmp/diploms_thumb2.jpg" alt="">
+											<div class="year">2018г</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="swiper-button-prev">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+								</div>
+
+								<div class="swiper-button-next">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+								</div>
+							</div>
+
+							<div class="line"></div>
+						</div>
+					</section>
+
+
+					<section class="licenses">
+						<div class="cont">
+							<div class="block_title">Лицензии</div>
+
+							<div class="swiper-container">
+								<div class="swiper-wrapper">
+									<div class="slide swiper-slide">
+										<a href="images/tmp/licenses_thumb.jpg" class="item fancy_img" data-fancybox="licenses">
+											<img src="images/tmp/licenses_thumb.jpg" alt="">
+										</a>
+									</div>
+
+									<div class="slide swiper-slide">
+										<a href="images/tmp/licenses_thumb2.jpg" class="item fancy_img" data-fancybox="licenses">
+											<img src="images/tmp/licenses_thumb2.jpg" alt="">
+										</a>
+									</div>
+								</div>
+
+								<div class="swiper-button-prev">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+								</div>
+
+								<div class="swiper-button-next">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+								</div>
+							</div>
+						</div>
+					</section>
+
+
+					<section class="get_discount">
+						<div class="cont flex">
+							<div class="col_left">
+								<div class="block_title">Запросить скидку %</div>
+
+								<div class="description">Мы умеем делать большие скидки. В 95% случаев мы предлагаем своим клиентам лучшую цену</div>
+							</div>
+
+							<form action="">
+								<div class="line">
+									<div class="field">
+										<input type="text" name="" value="" class="input" placeholder="Ф.И.О.">
+									</div>
+								</div>
+
+								<div class="line">
+									<div class="field">
+										<input type="tel" name="" value="" class="input" placeholder="Телефон*">
+									</div>
+								</div>
+
+								<div class="line">
+									<div class="field">
+										<input type="email" name="" value="" class="input" placeholder="Email*">
+									</div>
+								</div>
+
+								<div class="agree">
+									<input type="checkbox" name="agree" id="get_discount_agree_check" checked>
+									<label for="get_discount_agree_check">
+										Я ознакомлен и согласен с <a href="/" target="_blank">Политикой конфиденциальности</a>
+									</label>
+								</div>
+
+								<div class="submit">
+									<button type="submit" class="submit_btn">Запросить</button>
+								</div>
+							</form>
+						</div>
+
+						<img data-src="images/bg_get_discount.png" alt="" class="bg lozad">
+					</section>
+				</section>
+				<!-- End Основная часть -->
+			</div>
+
+
+			<!-- Подвал -->
+			<footer>
+				<div class="info">
+					<div class="cont flex">
+
+						<div class="col_left">
+							<div class="logo">
+								<img src="images/logo2.png" alt="">
+							</div>
+
+							<a href="/" class="price_list">Скачать прайс-лист</a>
+
+							<div class="messengers">
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<svg class="icon icon1">
+										<use xlink:href="images/sprite.svg#ic_messenger1"></use>
+									</svg>
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<svg class="icon icon2">
+										<use xlink:href="images/sprite.svg#ic_messenger2"></use>
+									</svg>
+								</a>
+							</div>
+						</div>
+
+
+						<div class="contacts">
+							<div class="phone">
+								<a href="tel:+73832278940">+7 (383) 227-89-40</a>
+							</div>
+
+							<div class="phone">
+								<a href="tel:+74996475048">+7 (499) 647 50 48</a>
+							</div>
+
+							<button class="callback_link modal_link" data-content="#callback_modal">Заказать звонок</button>
+						</div>
+
+
+						<div class="contacts">
+							<div class="time">Пн-пт с 10:00 до 20:00</div>
+
+							<div class="email">
+								<a href="mailto:mail@eltexcm.ru">mail@eltexcm.ru</a>
+							</div>
+
+							<button class="feedback_link modal_link" data-content="#feedback_modal">Написать нам</button>
+						</div>
+
+
+						<div class="menu">
+							<div class="col">
+								<div><a href="/">База знаний</a></div>
+								<div><a href="/">Сервис</a></div>
+								<div><a href="/">Мероприятия</a></div>
+								<div><a href="/">Компания</a></div>
+								<div><a href="/">Контакты</a></div>
+							</div>
+
+							<div class="col">
+								<div><a href="/">Каталог</a></div>
+								<div><a href="/">Оплата, доставка, возврат</a></div>
+								<div><a href="/">GPON-2020</a></div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+
+				<div class="bottom">
+					<div class="cont">
+
+						<div class="copyright">
+							«Элтекс Коммуникации» - оборудование связи. &copy; 2013-2020 Политика конфиденциальности
+						</div>
+
+					</div>
+				</div>
+			</footer>
+			<!-- End Подвал -->
+		</div>
+
+
+		<div class="overlay"></div>
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section id="cart_widget">
+			<div class="cont">
+
+				<div class="data_wrap">
+					<div class="data">
+						<div class="cart_info">
+							<button class="close"></button>
+
+							<div class="block_title">Ваш заказ</div>
+
+							<button class="need_help">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_help"></use></svg>
+								<span>Требуется помощь?</span>
+							</button>
+
+
+							<div class="table_scroll">
+								<table>
+									<thead>
+										<tr>
+											<th colspan="2">Наименование</th>
+											<th>Цена</th>
+											<th>Количество</th>
+											<th>Итого</th>
+											<th></th>
+										</tr>
+									</thead>
+
+									<tbody>
+										<tr class="part_title">
+											<td colspan="6">Часть 1</td>
+										</tr>
+
+										<tr>
+											<td class="thumb">
+												<a href="/" target="_blank">
+													<img data-src="images/tmp/cart_product_thumb.jpg" alt="" class="lozad">
+												</a>
+											</td>
+
+											<td class="info">
+												<div class="name">
+													<a href="/" target="_blank">MES1124M Eltex | Коммутатор 24 порта 100M с грозозащитой</a>
+												</div>
+
+												<div class="available">
+													<div>Москва: <span>1 шт</span></div>
+													<div>Новосибирск: <span>55 шт</span></div>
+													<div>Производство: <span>500 шт</span></div>
+												</div>
+											</td>
+
+											<td class="price" data-column="Цена">34 946 руб</td>
+
+											<td class="amount" data-column="Количество">
+												<div class="box">
+													<button type="button" class="minus"></button>
+
+												    <input type="text" value="2" class="input"
+												      data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+												    <button type="button" class="plus"></button>
+												</div>
+											</td>
+
+											<td class="price total" data-column="Итого">69 892 руб</td>
+
+											<td class="delete">
+												<button></button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="thumb">
+												<a href="/" target="_blank">
+													<img data-src="images/tmp/cart_product_thumb2.jpg" alt="" class="lozad">
+												</a>
+											</td>
+
+											<td class="info">
+												<div class="name">
+													<a href="/" target="_blank">PM160-220/12 Модуль питания</a>
+												</div>
+
+												<div class="available">
+													<div>Москва: <span>4 шт</span></div>
+													<div>Новосибирск: <span>25 шт</span></div>
+													<div>Производство: <span>50 шт</span></div>
+												</div>
+											</td>
+
+											<td class="price" data-column="Цена">14 444 руб</td>
+
+											<td class="amount" data-column="Количество">
+												<div class="box">
+													<button type="button" class="minus"></button>
+
+												    <input type="text" value="31" class="input"
+												      data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+												    <button type="button" class="plus"></button>
+												</div>
+											</td>
+
+											<td class="price total" data-column="Итого">447 764 руб</td>
+
+											<td class="delete">
+												<button></button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="thumb">
+												<a href="/" target="_blank">
+													<img data-src="images/tmp/cart_product_thumb.jpg" alt="" class="lozad">
+												</a>
+											</td>
+
+											<td class="info">
+												<div class="name">
+													<a href="/" target="_blank">MES1124M Eltex | Коммутатор 24 порта 100M с грозозащитой</a>
+												</div>
+
+												<div class="available">
+													<div>Москва: <span>1 шт</span></div>
+													<div>Новосибирск: <span>55 шт</span></div>
+													<div>Производство: <span>500 шт</span></div>
+												</div>
+											</td>
+
+											<td class="price" data-column="Цена">34 946 руб</td>
+
+											<td class="amount" data-column="Количество">
+												<div class="box">
+													<button type="button" class="minus"></button>
+
+												    <input type="text" value="2" class="input"
+												      data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+												    <button type="button" class="plus"></button>
+												</div>
+											</td>
+
+											<td class="price total" data-column="Итого">69 892 руб</td>
+
+											<td class="delete">
+												<button></button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="thumb">
+												<a href="/" target="_blank">
+													<img data-src="images/tmp/cart_product_thumb2.jpg" alt="" class="lozad">
+												</a>
+											</td>
+
+											<td class="info">
+												<div class="name">
+													<a href="/" target="_blank">PM160-220/12 Модуль питания</a>
+												</div>
+
+												<div class="available">
+													<div>Москва: <span>4 шт</span></div>
+													<div>Новосибирск: <span>25 шт</span></div>
+													<div>Производство: <span>50 шт</span></div>
+												</div>
+											</td>
+
+											<td class="price" data-column="Цена">14 444 руб</td>
+
+											<td class="amount" data-column="Количество">
+												<div class="box">
+													<button type="button" class="minus"></button>
+
+												    <input type="text" value="31" class="input"
+												      data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+												    <button type="button" class="plus"></button>
+												</div>
+											</td>
+
+											<td class="price total" data-column="Итого">447 764 руб</td>
+
+											<td class="delete">
+												<button></button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="thumb">
+												<a href="/" target="_blank">
+													<img data-src="images/tmp/cart_product_thumb.jpg" alt="" class="lozad">
+												</a>
+											</td>
+
+											<td class="info">
+												<div class="name">
+													<a href="/" target="_blank">MES1124M Eltex | Коммутатор 24 порта 100M с грозозащитой</a>
+												</div>
+
+												<div class="available">
+													<div>Москва: <span>1 шт</span></div>
+													<div>Новосибирск: <span>55 шт</span></div>
+													<div>Производство: <span>500 шт</span></div>
+												</div>
+											</td>
+
+											<td class="price" data-column="Цена">34 946 руб</td>
+
+											<td class="amount" data-column="Количество">
+												<div class="box">
+													<button type="button" class="minus"></button>
+
+												    <input type="text" value="2" class="input"
+												      data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+												    <button type="button" class="plus"></button>
+												</div>
+											</td>
+
+											<td class="price total" data-column="Итого">69 892 руб</td>
+
+											<td class="delete">
+												<button></button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="thumb">
+												<a href="/" target="_blank">
+													<img data-src="images/tmp/cart_product_thumb2.jpg" alt="" class="lozad">
+												</a>
+											</td>
+
+											<td class="info">
+												<div class="name">
+													<a href="/" target="_blank">PM160-220/12 Модуль питания</a>
+												</div>
+
+												<div class="available">
+													<div>Москва: <span>4 шт</span></div>
+													<div>Новосибирск: <span>25 шт</span></div>
+													<div>Производство: <span>50 шт</span></div>
+												</div>
+											</td>
+
+											<td class="price" data-column="Цена">14 444 руб</td>
+
+											<td class="amount" data-column="Количество">
+												<div class="box">
+													<button type="button" class="minus"></button>
+
+												    <input type="text" value="31" class="input"
+												      data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+												    <button type="button" class="plus"></button>
+												</div>
+											</td>
+
+											<td class="price total" data-column="Итого">447 764 руб</td>
+
+											<td class="delete">
+												<button></button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="thumb">
+												<a href="/" target="_blank">
+													<img data-src="images/tmp/cart_product_thumb.jpg" alt="" class="lozad">
+												</a>
+											</td>
+
+											<td class="info">
+												<div class="name">
+													<a href="/" target="_blank">MES1124M Eltex | Коммутатор 24 порта 100M с грозозащитой</a>
+												</div>
+
+												<div class="available">
+													<div>Москва: <span>1 шт</span></div>
+													<div>Новосибирск: <span>55 шт</span></div>
+													<div>Производство: <span>500 шт</span></div>
+												</div>
+											</td>
+
+											<td class="price" data-column="Цена">34 946 руб</td>
+
+											<td class="amount" data-column="Количество">
+												<div class="box">
+													<button type="button" class="minus"></button>
+
+												    <input type="text" value="2" class="input"
+												      data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+												    <button type="button" class="plus"></button>
+												</div>
+											</td>
+
+											<td class="price total" data-column="Итого">69 892 руб</td>
+
+											<td class="delete">
+												<button></button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="thumb">
+												<a href="/" target="_blank">
+													<img data-src="images/tmp/cart_product_thumb2.jpg" alt="" class="lozad">
+												</a>
+											</td>
+
+											<td class="info">
+												<div class="name">
+													<a href="/" target="_blank">PM160-220/12 Модуль питания</a>
+												</div>
+
+												<div class="available">
+													<div>Москва: <span>4 шт</span></div>
+													<div>Новосибирск: <span>25 шт</span></div>
+													<div>Производство: <span>50 шт</span></div>
+												</div>
+											</td>
+
+											<td class="price" data-column="Цена">14 444 руб</td>
+
+											<td class="amount" data-column="Количество">
+												<div class="box">
+													<button type="button" class="minus"></button>
+
+												    <input type="text" value="31" class="input"
+												      data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+												    <button type="button" class="plus"></button>
+												</div>
+											</td>
+
+											<td class="price total" data-column="Итого">447 764 руб</td>
+
+											<td class="delete">
+												<button></button>
+											</td>
+										</tr>
+
+
+										<tr class="part_title">
+											<td colspan="6">Часть 2</td>
+										</tr>
+
+										<tr>
+											<td class="thumb">
+												<a href="/" target="_blank">
+													<img data-src="images/tmp/cart_product_thumb3.jpg" alt="" class="lozad">
+												</a>
+											</td>
+
+											<td class="info">
+												<div class="name">
+													<a href="/" target="_blank">Напольный серверный шкаф Metal Box 48U 600х1000</a>
+												</div>
+
+												<div class="under_order">Под заказ</div>
+											</td>
+
+											<td class="price" data-column="Цена">21 414 руб</td>
+
+											<td class="amount" data-column="Количество">
+												<div class="box">
+													<button type="button" class="minus"></button>
+
+												    <input type="text" value="4" class="input"
+												      data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+												    <button type="button" class="plus"></button>
+												</div>
+											</td>
+
+											<td class="price total" data-column="Итого">97 656 руб</td>
+
+											<td class="delete">
+												<button></button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="thumb">
+												<a href="/" target="_blank">
+													<img data-src="images/tmp/cart_product_thumb3.jpg" alt="" class="lozad">
+												</a>
+											</td>
+
+											<td class="info">
+												<div class="name">
+													<a href="/" target="_blank">Напольный серверный шкаф Metal Box 48U 600х1000</a>
+												</div>
+
+												<div class="under_order">Под заказ</div>
+											</td>
+
+											<td class="price" data-column="Цена">21 414 руб</td>
+
+											<td class="amount" data-column="Количество">
+												<div class="box">
+													<button type="button" class="minus"></button>
+
+												    <input type="text" value="4" class="input"
+												      data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+												    <button type="button" class="plus"></button>
+												</div>
+											</td>
+
+											<td class="price total" data-column="Итого">97 656 руб</td>
+
+											<td class="delete">
+												<button></button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="thumb">
+												<a href="/" target="_blank">
+													<img data-src="images/tmp/cart_product_thumb3.jpg" alt="" class="lozad">
+												</a>
+											</td>
+
+											<td class="info">
+												<div class="name">
+													<a href="/" target="_blank">Напольный серверный шкаф Metal Box 48U 600х1000</a>
+												</div>
+
+												<div class="under_order">Под заказ</div>
+											</td>
+
+											<td class="price" data-column="Цена">21 414 руб</td>
+
+											<td class="amount" data-column="Количество">
+												<div class="box">
+													<button type="button" class="minus"></button>
+
+												    <input type="text" value="4" class="input"
+												      data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+												    <button type="button" class="plus"></button>
+												</div>
+											</td>
+
+											<td class="price total" data-column="Итого">97 656 руб</td>
+
+											<td class="delete">
+												<button></button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="thumb">
+												<a href="/" target="_blank">
+													<img data-src="images/tmp/cart_product_thumb3.jpg" alt="" class="lozad">
+												</a>
+											</td>
+
+											<td class="info">
+												<div class="name">
+													<a href="/" target="_blank">Напольный серверный шкаф Metal Box 48U 600х1000</a>
+												</div>
+
+												<div class="under_order">Под заказ</div>
+											</td>
+
+											<td class="price" data-column="Цена">21 414 руб</td>
+
+											<td class="amount" data-column="Количество">
+												<div class="box">
+													<button type="button" class="minus"></button>
+
+												    <input type="text" value="4" class="input"
+												      data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+												    <button type="button" class="plus"></button>
+												</div>
+											</td>
+
+											<td class="price total" data-column="Итого">97 656 руб</td>
+
+											<td class="delete">
+												<button></button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="thumb">
+												<a href="/" target="_blank">
+													<img data-src="images/tmp/cart_product_thumb3.jpg" alt="" class="lozad">
+												</a>
+											</td>
+
+											<td class="info">
+												<div class="name">
+													<a href="/" target="_blank">Напольный серверный шкаф Metal Box 48U 600х1000</a>
+												</div>
+
+												<div class="under_order">Под заказ</div>
+											</td>
+
+											<td class="price" data-column="Цена">21 414 руб</td>
+
+											<td class="amount" data-column="Количество">
+												<div class="box">
+													<button type="button" class="minus"></button>
+
+												    <input type="text" value="4" class="input"
+												      data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+												    <button type="button" class="plus"></button>
+												</div>
+											</td>
+
+											<td class="price total" data-column="Итого">97 656 руб</td>
+
+											<td class="delete">
+												<button></button>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+
+							<div class="cart_total">
+								<button class="get_corp_price modal_link" data-content="#best_price_modal">Запросить снижение цены</button>
+
+								Сумма заказа: <div class="val">615 312 руб</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="bottom">
+						<div class="cart">
+							<div class="icon">
+								<svg><use xlink:href="images/sprite.svg#ic_buy"></use></svg>
+								<img src="images/ic_buy_open.svg" alt="">
+							</div>
+
+							<div>
+								<div class="count">В заказе 27 позиций</div>
+								<div class="price">На сумму 615 312 руб</div>
+							</div>
+
+							<button class="toggle_btn"></button>
+						</div>
+
+
+						<div class="links">
+							<div><a href="/">
+								<svg class="icon" width="18px" height="22px">
+									<use xlink:href="images/sprite.svg#ic_payment_method1"></use>
+								</svg>
+								Выставление счета
+							</a></div>
+
+							<div><a href="/">
+								<svg class="icon" width="24px" height="18px">
+									<use xlink:href="images/sprite.svg#ic_payment_method2"></use>
+								</svg>
+								Оплата онлайн
+							</a></div>
+						</div>
+
+						<a href="/" class="checkout_link">Оформить заказ</a>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+
+		<section class="modal" id="best_price_modal">
+			<div class="modal_title">Получите лучшую цену!</div>
+
+			<div class="modal_desc text_block">
+				<p>
+					Мы умеем делать большие скидки. В 95%<br> случаев мы предлагаем своим клиентам лучшую цену.
+				</p>
+			</div>
+
+
+			<div class="product">
+				<div class="thumb">
+					<img data-src="images/tmp/test_product_thumb.jpg" alt="" class="lozad">
+				</div>
+
+				<div class="info">
+					<div class="name">MES1124M Eltex | Коммутатор 24 порта 100M с грозозащитой</div>
+
+					<div class="desc">24 порта 10/100Base-T, 4 комбо-порта 10/100/1000Base-T/1000Base-X, встроенная ...</div>
+				</div>
+			</div>
+
+
+			<form action="" class="form">
+				<div class="line type">
+					<div class="field">
+						<input type="radio" name="type" id="best_price_type_check1" checked>
+						<label for="best_price_type_check1" data-content=".for_type1">Компания</label>
+
+						<input type="radio" name="type" id="best_price_type_check2">
+						<label for="best_price_type_check2" data-content=".for_type2">Частное лицо</label>
+					</div>
+				</div>
+
+
+				<div class="columns flex">
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input">
+							<div class="label">Ф.И.О.</div>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="tel" name="" value="" class="input">
+						<div class="label">Телефон</div>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="email" name="" value="" class="input">
+							<div class="label">Email</div>
+						</div>
+					</div>
+
+					<div class="line for_type for_type1" style="display: block;">
+						<div class="field">
+							<input type="text" name="" value="" class="input">
+							<div class="label">Название компании</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="line agree">
+					<div class="field">
+						<input type="checkbox" name="agree" id="best_price_agree_check" checked>
+						<label for="best_price_agree_check">Я ознакомлен и согласен с <a href="/" target="_blank">Политикой конфиденциальности</a></label>
+					</div>
+				</div>
+
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Снизить цену!</button>
+				</div>
+			</form>
+		</section>
+
+
+		<section class="modal" id="callback_modal">
+			<div class="modal_title">Заказать звонок</div>
+
+			<form action="" class="form">
+				<div class="line type">
+					<div class="field">
+						<input type="radio" name="type" id="callback_type_check1" checked>
+						<label for="callback_type_check1" data-content=".for_type1">Компания</label>
+
+						<input type="radio" name="type" id="callback_type_check2">
+						<label for="callback_type_check2" data-content=".for_type2">Частное лицо</label>
+					</div>
+				</div>
+
+
+				<div class="columns flex">
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input">
+							<div class="label">Ф.И.О.</div>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="tel" name="" value="" class="input">
+						<div class="label">Телефон</div>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="email" name="" value="" class="input">
+							<div class="label">Email</div>
+						</div>
+					</div>
+
+					<div class="line for_type for_type1" style="display: block;">
+						<div class="field">
+							<input type="text" name="" value="" class="input">
+							<div class="label">Название компании</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="line agree">
+					<div class="field">
+						<input type="checkbox" name="agree" id="callback_agree_check" checked>
+						<label for="callback_agree_check">Я ознакомлен и согласен с <a href="/" target="_blank">Политикой конфиденциальности</a></label>
+					</div>
+				</div>
+
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Получить консультацию</button>
+				</div>
+			</form>
+		</section>
+
+
+		<section class="modal" id="feedback_modal">
+			<div class="modal_title">Написать нам</div>
+
+			<div class="modal_desc">Заполните форму и наш специалист свяжется с<br> Вами в ближайшее время</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+						<div class="label">Ваше имя</div>
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="field">
+						<input type="tel" name="" value="" class="input">
+					<div class="label">Телефон</div>
+					</div>
+				</div>
+
+				<div class="line for_type for_type1" style="display: block;">
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+						<div class="label">Название компании</div>
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="field">
+						<textarea name=""></textarea>
+						<div class="label">Ваш вопрос</div>
+					</div>
+				</div>
+
+				<div class="line exp">
+					<div class="field">* Все поля обязательны для заполнения</div>
+				</div>
+
+				<div class="line agree">
+					<div class="field">
+						<input type="checkbox" name="agree" id="feedback_agree_check" checked>
+						<label for="feedback_agree_check">Я ознакомлен и согласен с условиями<br> <a href="/" target="_blank">Политики конфиденциальности</a></label>
+					</div>
+				</div>
+
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Отправить</button>
+				</div>
+			</form>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/jquery-migrate-1.4.1.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/clipboard.min.js"></script>
+		<script src="js/sticky-kit.min.js"></script>
+		<script src="js/datepicker.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/ion.rangeSlider.min.js"></script>
+		<script src="js/wheelSlider.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
