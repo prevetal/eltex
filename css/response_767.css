@@ -2269,7 +2269,7 @@
     ---------------*/
     .photo_hunting .competition
     {
-        padding: 52px 0 60px;
+        padding: 52px 0 68px;
     }
 
 
@@ -2291,22 +2291,56 @@
     }
 
 
+    .photo_hunting .competition .items
+    {
+        padding-left: 0;
+    }
+
+
     .photo_hunting .competition .exp
     {
         right: auto;
-        bottom: -32px;
         left: 100%;
 
         zoom: .8;
 
-        margin-left: -44px;
+        margin-left: -80px;
+    }
+
+
+    .photo_hunting .competition .bg_left
+    {
+        bottom: 188px;
+
+        width: 200px;
+        height: 192px;
     }
 
 
     .photo_hunting .competition .bg
     {
-        top: -60px;
-        left: 75%;
+        object-position: 47% 50%;
+    }
+
+
+
+    .photo_hunting .main_bg
+    {
+        padding-top: 32px;
+    }
+
+
+    .photo_hunting .main_bg > .bg_top
+    {
+        top: -40px;
+    }
+
+
+    .photo_hunting .main_bg > .bg_bottom
+    {
+        width: 200%;
+
+        transform: translateX(-50%);
     }
 
 

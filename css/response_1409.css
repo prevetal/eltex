@@ -1366,13 +1366,6 @@
     /*---------------
        Photo hunting
     ---------------*/
-    .photo_hunting .competition
-    {
-        margin-bottom: 64px;
-        padding: 80px 0 88px;
-    }
-
-
     .photo_hunting .competition .data
     {
         width: 416px;
@@ -1422,17 +1415,14 @@
     .photo_hunting .competition .exp
     {
         right: -176px;
-        bottom: -48px;
+        bottom: 0;
     }
 
 
-    .photo_hunting .competition .bg
-    {
-        right: auto;
-        left: 50%;
 
-        margin-right: 0;
-        margin-left: -100px;
+    .photo_hunting .main_bg > .bg_top
+    {
+        top: -100px;
     }
 
 
@@ -1516,12 +1506,6 @@
     .photo_hunting .pre_footer
     {
         padding: 34px 0;
-    }
-
-
-    .photo_hunting .pre_footer .bg_right
-    {
-        margin-right: -608px;
     }
 
 

@@ -1637,7 +1637,7 @@
         margin-left: 24px;
     }
 
-    .photo_hunting .competition .items > *:nth-child(3)
+    .photo_hunting .competition .items > *:nth-child(1)
     {
         margin-left: 48px;
     }
@@ -1655,8 +1655,8 @@
 
     .photo_hunting .competition .exp
     {
-        right: -56px;
-        bottom: -52px;
+        right: -52px;
+        bottom: -32px;
         left: auto;
 
         zoom: .65;
@@ -1665,9 +1665,18 @@
     }
 
 
+    .photo_hunting .competition .bg_left
+    {
+        bottom: 212px;
+
+        width: 160px;
+        height: 154px;
+    }
+
+
     .photo_hunting .competition .bg
     {
-        display: none;
+        object-position: 50% 50%;
     }
 
 

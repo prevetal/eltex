@@ -23474,8 +23474,7 @@ aside .page_links .items a.active
     position: relative;
     z-index: 3;
 
-    margin-bottom: 67px;
-    padding: 82px 0 103px;
+    padding: 88px 0 144px;
 
     background: #2c2c2c;
 }
@@ -23541,13 +23540,13 @@ aside .page_links .items a.active
     margin-left: 40px;
 }
 
-.photo_hunting .competition .items > *:nth-child(3)
+.photo_hunting .competition .items > *:nth-child(1)
 {
     margin-left: 75px;
 }
 
 
-.photo_hunting .competition .items img
+/* .photo_hunting .competition .items img
 {
     position: absolute;
     right: 100%;
@@ -23574,7 +23573,7 @@ aside .page_links .items a.active
     top: -13px;
 
     margin-right: 18px;
-}
+} */
 
 
 .photo_hunting .competition .items b
@@ -23615,8 +23614,8 @@ aside .page_links .items a.active
 
     position: absolute;
     z-index: 3;
-    right: -185px;
-    bottom: -53px;
+    right: -160px;
+    bottom: 20px;
 
     display: flex;
     align-content: center;
@@ -23661,16 +23660,16 @@ aside .page_links .items a.active
     position: absolute;
     z-index: -2;
     top: 0;
-    right: 50%;
+    left: 0;
 
     display: block;
 
-    width: auto;
-    min-width: 300px;
+    width: 100%;
     height: 100%;
-    margin-right: -960px;
 
     pointer-events: none;
+
+    object-fit: cover;
 }
 
 
@@ -23678,31 +23677,193 @@ aside .page_links .items a.active
 {
     position: absolute;
     z-index: -1;
-    top: 38px;
+    bottom: 164px;
     left: 50%;
 
     display: block;
 
-    width: 298px;
-    height: 734px;
-    margin-left: -1060px;
+    width: 239px;
+    height: 230px;
+    margin-left: -1053px;
 
     pointer-events: none;
 }
 
 
-.photo_hunting .competition .bg_right
+
+.photo_hunting .main_bg
+{
+    position: relative;
+    z-index: 3;
+
+    padding-top: 67px;
+    padding-bottom: 40px;
+}
+
+
+.photo_hunting .main_bg > *
+{
+    position: relative;
+    z-index: 5;
+}
+
+
+.photo_hunting .main_bg > .bg
 {
     position: absolute;
-    z-index: -1;
-    top: -16px;
-    right: 50%;
+    z-index: 1;
+    top: 0;
+    left: 50%;
 
     display: block;
 
-    width: 140px;
-    height: 799px;
-    margin-right: -1007px;
+    width: 1920px;
+    height: 5058px;
+    max-height: 100%;
+
+    transform: translateX(-50%);
+    pointer-events: none;
+}
+
+
+.photo_hunting .main_bg > .bg_top
+{
+    position: absolute;
+    z-index: 2;
+    top: -150px;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+
+    pointer-events: none;
+}
+
+
+.photo_hunting .main_bg > .bg_top_left
+{
+    position: absolute;
+    z-index: 3;
+    top: 340px;
+    left: 0;
+
+    display: block;
+
+    width: 489px;
+    height: 2247px;
+
+    pointer-events: none;
+}
+
+
+.photo_hunting .main_bg > .bg_top_right
+{
+    position: absolute;
+    z-index: 3;
+    top: 40px;
+    right: 0;
+
+    display: block;
+
+    width: 485px;
+    height: 2289px;
+
+    pointer-events: none;
+}
+
+
+.photo_hunting .main_bg > .bg_bottom
+{
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+
+    pointer-events: none;
+}
+
+
+.photo_hunting .main_bg > .bg_bottom_left
+{
+    position: absolute;
+    z-index: 3;
+    bottom: 160px;
+    left: 0;
+
+    display: block;
+
+    width: 516px;
+    height: 1200px;
+
+    pointer-events: none;
+}
+
+
+.photo_hunting .main_bg > .bg_bottom_left2
+{
+    position: absolute;
+    z-index: 3;
+    bottom: 1550px;
+    left: 0;
+
+    display: block;
+
+    width: 484px;
+    height: 1126px;
+
+    pointer-events: none;
+}
+
+
+.photo_hunting .main_bg > .bg_bottom_right
+{
+    position: absolute;
+    z-index: 3;
+    right: 0;
+    bottom: -160px;
+
+    display: block;
+
+    width: 930px;
+    height: 940px;
+
+    pointer-events: none;
+}
+
+
+.photo_hunting .main_bg > .bg_bottom_right2
+{
+    position: absolute;
+    z-index: 3;
+    right: 0;
+    bottom: 1000px;
+
+    display: block;
+
+    width: 794px;
+    height: 1119px;
+
+    pointer-events: none;
+}
+
+
+.photo_hunting .main_bg > .bg_bottom_center
+{
+    position: absolute;
+    z-index: 4;
+    bottom: -140px;
+    left: 50%;
+
+    display: block;
+
+    width: 1920px;
+    height: 1423px;
+    margin-left: -960px;
 
     pointer-events: none;
 }
@@ -23711,9 +23872,6 @@ aside .page_links .items a.active
 
 .photo_hunting .prizes
 {
-    position: relative;
-    z-index: 3;
-
     margin-bottom: 96px;
 }
 
@@ -23834,36 +23992,36 @@ aside .page_links .items a.active
 }
 
 
-.photo_hunting .prizes .bg_left
+.photo_hunting .prizes .bg1
 {
     position: absolute;
-    z-index: -1;
-    bottom: 31px;
+    bottom: 0;
     left: 50%;
 
     display: block;
 
-    width: 128px;
-    height: 235px;
-    margin-left: -945px;
+    width: 335px;
+    height: 293px;
+    margin-left: -733px;
 
+    transform: translateY(50%);
     pointer-events: none;
 }
 
 
-.photo_hunting .prizes .bg_right
+.photo_hunting .prizes .bg2
 {
     position: absolute;
-    z-index: -1;
     right: 50%;
-    bottom: 71px;
+    bottom: 0;
 
     display: block;
 
-    width: 205px;
-    height: 187px;
-    margin-right: -1030px;
+    width: 478px;
+    height: 392px;
+    margin-right: -667px;
 
+    transform: translateY(50%);
     pointer-events: none;
 }
 
@@ -23871,9 +24029,6 @@ aside .page_links .items a.active
 
 .photo_hunting .models
 {
-    position: relative;
-    z-index: 3;
-
     margin-bottom: 96px;
 }
 
@@ -23977,29 +24132,9 @@ aside .page_links .items a.active
 }
 
 
-.photo_hunting .models .bg
-{
-    position: absolute;
-    z-index: -1;
-    right: 50%;
-    bottom: -55px;
-
-    display: block;
-
-    width: 75px;
-    height: 157px;
-    margin-right: -653px;
-
-    pointer-events: none;
-}
-
-
 
 .photo_hunting .requirements
 {
-    position: relative;
-    z-index: 3;
-
     margin-bottom: 60px;
 }
 
@@ -24163,35 +24298,18 @@ aside .page_links .items a.active
 }
 
 
-.photo_hunting .requirements .bg_left
+.photo_hunting .requirements .bg
 {
     position: absolute;
-    z-index: -1;
-    bottom: 32px;
+    z-index: 1;
+    top: 32px;
     left: 50%;
 
     display: block;
 
-    width: 245px;
-    height: 200px;
-    margin-left: -1070px;
-
-    pointer-events: none;
-}
-
-
-.photo_hunting .requirements .bg_right
-{
-    position: absolute;
-    z-index: -1;
-    top: 57px;
-    right: 50%;
-
-    display: block;
-
-    width: 185px;
-    height: 117px;
-    margin-right: -1008px;
+    width: 1548px;
+    height: 613px;
+    margin-left: -960px;
 
     pointer-events: none;
 }
@@ -24200,9 +24318,6 @@ aside .page_links .items a.active
 
 .photo_hunting .how_take
 {
-    position: relative;
-    z-index: 3;
-
     margin-bottom: 52px;
 }
 
@@ -24401,23 +24516,6 @@ aside .page_links .items a.active
 
     max-width: 100%;
     margin: 23px auto 0;
-}
-
-
-.photo_hunting .how_take .bg
-{
-    position: absolute;
-    z-index: -1;
-    bottom: 354px;
-    left: 50%;
-
-    display: block;
-
-    width: 75px;
-    height: 157px;
-    margin-left: -853px;
-
-    pointer-events: none;
 }
 
 
@@ -24701,35 +24799,48 @@ aside .page_links .items a.active
 }
 
 
-.photo_hunting .pre_footer .bg_left
+@media (max-width: 1899px)
 {
-    position: absolute;
-    top: -94px;
-    left: 50%;
-
-    display: block;
-
-    width: 82px;
-    height: 155px;
-    margin-left: -846px;
-
-    pointer-events: none;
-}
+    .photo_hunting .competition
+    {
+        padding: 68px 0 120px;
+    }
 
 
-.photo_hunting .pre_footer .bg_right
-{
-    position: absolute;
-    top: -139px;
-    right: 50%;
+    .photo_hunting .competition .bg_left
+    {
+        left: 0;
 
-    display: block;
+        margin-left: 0;
 
-    width: 151px;
-    height: 178px;
-    margin-right: -707px;
+        transform: translateX(-50%);
+    }
 
-    pointer-events: none;
+
+    .photo_hunting .main_bg > .bg_top
+    {
+        top: -120px;
+    }
+
+
+    .photo_hunting .main_bg > .bg_top_left,
+    .photo_hunting .main_bg > .bg_bottom_left,
+    .photo_hunting .main_bg > .bg_bottom_left2
+    {
+        left: 50%;
+
+        margin-left: -960px;
+    }
+
+
+    .photo_hunting .main_bg > .bg_top_right,
+    .photo_hunting .main_bg > .bg_bottom_right,
+    .photo_hunting .main_bg > .bg_bottom_right2
+    {
+        right: 50%;
+
+        margin-right: -960px;
+    }
 }
 
 

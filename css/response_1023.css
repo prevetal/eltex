@@ -2518,7 +2518,7 @@
     ---------------*/
     .photo_hunting .competition
     {
-        padding: 60px 0;
+        padding: 60px 0 80px;
     }
 
 
@@ -2581,13 +2581,27 @@
     .photo_hunting .competition .exp
     {
         right: -220px;
-        bottom: -36px;
     }
 
 
-    .photo_hunting .competition .bg
+
+    .photo_hunting .main_bg > .bg_top
     {
-        margin-left: 0;
+        top: -60px;
+    }
+
+
+    .photo_hunting .main_bg > .bg_bottom
+    {
+        width: 150%;
+
+        transform: translateX(-25%);
+    }
+
+
+    .photo_hunting .main_bg > .bg_bottom_center
+    {
+        display: none;
     }
 
 
@@ -2740,6 +2754,12 @@
     .photo_hunting .requirements .where .item:nth-child(4)
     {
         margin-left: 40px;
+    }
+
+
+    .photo_hunting .requirements .bg
+    {
+        display: none;
     }
 
 

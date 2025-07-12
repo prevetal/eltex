@@ -2913,8 +2913,7 @@
     ---------------*/
     .photo_hunting .competition
     {
-        margin-bottom: 60px;
-        padding: 60px 0 68px;
+        padding: 60px 0 88px;
     }
 
 
@@ -2963,13 +2962,19 @@
     .photo_hunting .competition .exp
     {
         right: -172px;
-        bottom: -36px;
     }
 
 
-    .photo_hunting .competition .bg
+
+    .photo_hunting .main_bg
     {
-        margin-left: -44px;
+        padding-top: 40px;
+    }
+
+
+    .photo_hunting .main_bg > .bg_top
+    {
+        top: -80px;
     }
 
 
@@ -3290,14 +3295,6 @@
         padding: 28px 0;
 
         border-width: 4px;
-    }
-
-
-    .photo_hunting .pre_footer .bg_right
-    {
-        right: 24px;
-
-        margin-right: 0;
     }
 
 
