@@ -2480,6 +2480,108 @@
 
 
 
+    /*-------------------------
+    Design networks page
+    -------------------------*/
+    .design_networks_page .block_title
+    {
+        margin-bottom: 24px;
+        padding-left: 12px;
+
+        font-size: 26px;
+    }
+
+
+    .design_networks_page .page_title:before
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+
+
+    /*-------------------------
+    Design networks head
+    -------------------------*/
+    .design_networks_head .data
+    {
+        height: 348px;
+    }
+
+
+    .design_networks_head .data .title2
+    {
+        font-size: 16px;
+    }
+
+
+    .design_networks_head .data .title2 br
+    {
+        display: none;
+    }
+
+
+
+    /*-------------------------
+    Design networks head
+    -------------------------*/
+    .design_networks_head .form
+    {
+        padding: 24px;
+    }
+
+
+    .design_networks_head .form .title
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*-----------------------------
+    Design networks services
+    -----------------------------*/
+    .design_networks_services .data
+    {
+        margin-bottom: 340px;
+
+        font-size: 12px;
+    }
+
+
+    .design_networks_services .image
+    {
+        width: 260px;
+    }
+
+
+
+    /*------------------------
+    Design networks why
+    ------------------------*/
+    .design_networks_why .items
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*---------------------------
+    Design networks action
+    ---------------------------*/
+    .design_networks_action .form .title
+    {
+        font-size: 20px;
+    }
+
+
+    .design_networks_action .form .submit_btn
+    {
+        font-size: 16px;
+    }
+
+
+
     /*---------------
         PopUp
     ---------------*/

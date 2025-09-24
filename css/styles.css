@@ -30537,6 +30537,537 @@ aside .page_links .items a.active
 
 
 
+/*-------------------------
+   Design networks page
+-------------------------*/
+.design_networks_page
+{
+    font-family: var(--font_family5);
+}
+
+
+
+.design_networks_page .breadcrumbs
+{
+    margin-bottom: 40px;
+}
+
+
+
+.design_networks_page .block_title
+{
+    position: relative;
+
+    margin-bottom: 32px;
+    padding-top: 13px;
+    padding-left: 32px;
+
+    font-size: 50px;
+    font-weight: 500;
+
+    z-index: 3;
+
+    color: #000;
+}
+
+
+.design_networks_page .block_title:before
+{
+    position: absolute;
+    top: 0;
+    left: -5px;
+
+    display: block;
+
+    width: 76px;
+    height: 76px;
+
+    content: '';
+    z-index: -1;
+
+    border-radius: 50%;
+    background: #bae5f2;
+}
+
+
+
+/*-------------------------
+   Design networks head
+-------------------------*/
+.design_networks_head
+{
+    margin-bottom: 42px;
+    padding-top: 20px;
+    padding-bottom: 116px;
+
+    border-radius: 0 0 20px 20px;
+    background: rgba(248, 248, 248, .9);
+}
+
+
+.design_networks_head .cont
+{
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.design_networks_head .data
+{
+    position: relative;
+
+    display: flex;
+    align-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    width: calc(100% - 505px);
+    padding-left: 32px;
+}
+
+
+.design_networks_head .data .title
+{
+    position: relative;
+
+    font-size: 25px;
+
+    z-index: 2;
+
+    color: #000;
+}
+
+
+.design_networks_head .data .image
+{
+    position: absolute;
+    top: 100px;
+    left: 0;
+
+    width: 984px;
+
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+.design_networks_head .data .image img
+{
+    display: block;
+
+    width: 100%;
+}
+
+
+.design_networks_head .data .title2
+{
+    position: relative;
+
+    font-size: 31px;
+    font-weight: 600;
+
+    z-index: 2;
+
+    color: #ff9511;
+}
+
+
+.design_networks_head .form
+{
+    position: relative;
+
+    width: 484px;
+    max-width: 100%;
+    margin-left: auto;
+
+    z-index: 3;
+
+    --form_border_color: #fff;
+    --form_focus_color: #fff;
+    --form_bg_color: #fff;
+    --form_border_radius: 10px;
+    --form_placeholder_color: rgba(0, 0, 0, .60);
+}
+
+
+.design_networks_head .form .title
+{
+    margin-bottom: 38px;
+
+    font-size: 31px;
+    font-weight: 600;
+
+    color: #000;
+}
+
+
+.design_networks_head .form .line
+{
+    margin-bottom: 18px;
+}
+
+
+.design_networks_head .form .input
+{
+    height: 55px;
+}
+
+
+.design_networks_head .form .exp
+{
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding: 0;
+
+    font-size: 13px;
+    font-weight: 500;
+
+    color: rgba(0, 0, 0, .40);
+}
+
+
+.design_networks_head .form input[type=checkbox] + label
+{
+    font-size: 13px;
+    font-weight: 500;
+
+    color: #848484;
+}
+
+
+.design_networks_head .form input[type=checkbox] + label a
+{
+    color: var(--color_blue);
+}
+
+
+.design_networks_head .form .submit_btn
+{
+    min-width: 238px;
+    height: 45px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    border-color: #ff9511;
+    border-radius: 5px;
+    background: #ff9511;
+}
+
+
+
+/*-----------------------------
+   Design networks services
+-----------------------------*/
+.design_networks_services
+{
+    margin-bottom: 71px;
+}
+
+
+.design_networks_services .data
+{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    width: calc(100% - 213px);
+    min-height: 481px;
+    margin-left: auto;
+    padding-block: 19px;
+    padding-inline: 160px 45px;
+
+    font-size: 21px;
+
+    color: #000;
+    border: 3px dashed rgba(0, 0, 0, .10);
+    border-radius: 20px;
+    background: rgba(204, 224, 233, .20);
+}
+
+
+.design_networks_services .data > div
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    height: 80px;
+}
+
+
+.design_networks_services .image
+{
+    position: absolute;
+    top: 26px;
+    left: -292px;
+
+    display: block;
+
+    width: 423px;
+}
+
+
+.design_networks_services .image img
+{
+    display: block;
+
+    width: 100%;
+}
+
+
+
+/*------------------------
+   Design networks why
+------------------------*/
+.design_networks_why
+{
+    margin-bottom: 84px;
+    padding-block: 58px 95px;
+
+    border-radius: 20px;
+    background: #f8f8f8;
+}
+
+
+.design_networks_why .items
+{
+    display: flex;
+    flex-direction: column;
+
+    font-size: 21px;
+    line-height: calc(100% + 19px);
+
+    color: #000;
+
+    gap: 24px;
+}
+
+
+.design_networks_why .items > *
+{
+    position: relative;
+
+    padding-left: 32px;
+}
+
+
+.design_networks_why .items > *:before
+{
+    position: absolute;
+    top: .5lh;
+    left: 0;
+
+    display: block;
+
+    width: 10px;
+    height: 10px;
+
+    content: '';
+    transform: translateY(-50%);
+
+    border-radius: 50%;
+    background: #51d66a;
+}
+
+
+.design_networks_why .gallery
+{
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    margin-top: 64px;
+    margin-bottom: -24px;
+    margin-left: -24px;
+}
+
+
+.design_networks_why .gallery > *
+{
+    width: calc(50% - 24px);
+    margin-bottom: 24px;
+    margin-left: 24px;
+}
+
+
+.design_networks_why .gallery .item
+{
+    display: block;
+
+    text-decoration: none;
+
+    color: currentColor;
+    border-radius: 20px;
+    background: #fff;
+}
+
+
+.design_networks_why .gallery .image
+{
+    display: block;
+
+    border-radius: inherit;
+}
+
+
+.design_networks_why .gallery img
+{
+    display: block;
+
+    width: 100%;
+
+    border-radius: inherit;
+}
+
+
+
+/*---------------------------
+   Design networks action
+---------------------------*/
+.design_networks_action
+{
+    margin-bottom: 100px;
+}
+
+
+.design_networks_action .data
+{
+    position: relative;
+
+    padding-top: 20px;
+}
+
+
+.design_networks_action .form
+{
+    position: relative;
+
+    width: 547px;
+    max-width: 100%;
+
+    z-index: 3;
+
+    --form_border_color: #fff;
+    --form_focus_color: #fff;
+    --form_bg_color: #fff;
+    --form_border_radius: 10px;
+    --form_placeholder_color: rgba(0, 0, 0, .60);
+}
+
+
+.design_networks_action .form .title
+{
+    margin-bottom: 38px;
+
+    font-size: 29px;
+    font-weight: 500;
+
+    color: #000;
+}
+
+
+.design_networks_action .form .fields
+{
+    padding: 30px;
+
+    border-radius: 10px;
+    background: #efefef;
+}
+
+
+.design_networks_action .form .line
+{
+    margin-bottom: 18px;
+}
+
+
+.design_networks_action .form .input
+{
+    height: 55px;
+}
+
+
+.design_networks_action .form .exp
+{
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding: 0;
+
+    font-size: 13px;
+    font-weight: 500;
+
+    color: rgba(0, 0, 0, .40);
+}
+
+
+.design_networks_action .form input[type=checkbox] + label
+{
+    font-size: 13px;
+    font-weight: 500;
+
+    color: #848484;
+}
+
+
+.design_networks_action .form input[type=checkbox] + label a
+{
+    color: var(--color_blue);
+}
+
+
+.design_networks_action .form .submit_btn
+{
+    min-width: 238px;
+    height: 45px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    border-color: #ff9511;
+    border-radius: 5px;
+    background: #ff9511;
+}
+
+
+
+.design_networks_action .image
+{
+    position: absolute;
+    top: 3px;
+    right: -33px;
+
+    display: block;
+
+    width: 972px;
+
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+.design_networks_action .image img
+{
+    display: block;
+
+    width: 100%;
+}
+
+
+
 /*---------------
    Footer
 ---------------*/

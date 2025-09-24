@@ -4525,6 +4525,167 @@
 
 
 
+    /*-------------------------
+    Design networks page
+    -------------------------*/
+    .design_networks_page .block_title
+    {
+        font-size: 40px;
+    }
+
+
+    .design_networks_page .block_title:before
+    {
+        width: 64px;
+        height: 64px;
+    }
+
+
+
+    /*-------------------------
+    Design networks head
+    -------------------------*/
+    .design_networks_head
+    {
+        padding-bottom: 64px;
+    }
+
+
+    .design_networks_head .data
+    {
+        width: calc(100% - 460px);
+        padding-left: 0;
+    }
+
+
+    .design_networks_head .data .title
+    {
+        font-size: 20px;
+    }
+
+
+    .design_networks_head .data .image
+    {
+        top: 88px;
+        left: -40px;
+
+        width: 800px;
+    }
+
+
+    .design_networks_head .data .title2
+    {
+        font-size: 22px;
+    }
+
+
+
+    .design_networks_head .form
+    {
+        width: 340px;
+    }
+
+
+    .design_networks_head .form .title
+    {
+        margin-bottom: 20px;
+
+        font-size: 22px;
+    }
+
+
+    .design_networks_head .form .submit
+    {
+        padding-top: 0;
+    }
+
+
+
+    /*-----------------------------
+    Design networks services
+    -----------------------------*/
+    .design_networks_services .data
+    {
+        min-height: 412px;
+        padding-inline: 120px 21px;
+
+        font-size: 18px;
+    }
+
+
+    .design_networks_services .data > div
+    {
+        height: 71px;
+    }
+
+
+    .design_networks_services .image
+    {
+        top: 20px;
+
+        width: 380px;
+    }
+
+
+
+    /*------------------------
+    Design networks why
+    ------------------------*/
+    .design_networks_why .items
+    {
+        gap: 20px;
+    }
+
+
+
+    /*---------------------------
+    Design networks action
+    ---------------------------*/
+    .design_networks_action
+    {
+        margin-bottom: 64px;
+    }
+
+
+    .design_networks_action .data
+    {
+        padding-top: 0;
+    }
+
+
+    .design_networks_action .form
+    {
+        width: 400px;
+    }
+
+
+    .design_networks_action .form .title
+    {
+        margin-bottom: 20px;
+
+        font-size: 22px;
+    }
+
+
+    .design_networks_action .form .fields
+    {
+        padding: 24px;
+    }
+
+
+    .design_networks_action .form .submit
+    {
+        padding-top: 0;
+    }
+
+
+    .design_networks_action .image
+    {
+        width: calc(100% - 260px);
+    }
+
+
+
     /*---------------
         Footer
     ---------------*/

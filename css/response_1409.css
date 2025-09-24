@@ -3266,4 +3266,218 @@
         width: 720px;
         height: 591px;
     }
+
+
+
+    /*-------------------------
+    Design networks page
+    -------------------------*/
+    .design_networks_page .block_title
+    {
+        margin-bottom: 40px;
+        padding-top: 12px;
+        padding-left: 28px;
+
+        font-size: 44px;
+    }
+
+
+    .design_networks_page .block_title:before
+    {
+        left: -4px;
+
+        width: 68px;
+        height: 68px;
+    }
+
+
+
+    /*-------------------------
+    Design networks head
+    -------------------------*/
+    .design_networks_head
+    {
+        margin-bottom: 48px;
+        padding-bottom: 88px;
+    }
+
+
+    .design_networks_head .data
+    {
+        width: calc(100% - 460px);
+    }
+
+
+    .design_networks_head .data .title
+    {
+        font-size: 22px;
+    }
+
+
+    .design_networks_head .data .image
+    {
+        top: 92px;
+
+        width: 924px;
+    }
+
+
+    .design_networks_head .data .title2
+    {
+        font-size: 28px;
+    }
+
+
+
+    .design_networks_head .form
+    {
+        width: 400px;
+    }
+
+
+    .design_networks_head .form .title
+    {
+        margin-bottom: 40px;
+
+        font-size: 24px;
+    }
+
+
+    .design_networks_head .form .line
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .design_networks_head .form .input
+    {
+        height: 54px;
+    }
+
+
+    .design_networks_head .form .exp
+    {
+        margin-bottom: 12px;
+
+        font-size: 12px;
+    }
+
+
+    .design_networks_head .form input[type=checkbox] + label
+    {
+        font-size: 12px;
+    }
+
+
+    .design_networks_head .form .submit_btn
+    {
+        min-width: 220px;
+        height: 44px;
+        padding: 0 20px;
+
+        font-size: 18px;
+    }
+
+
+
+    /*-----------------------------
+    Design networks services
+    -----------------------------*/
+    .design_networks_services .data
+    {
+        width: calc(100% - 292px);
+        min-height: 460px;
+    }
+
+
+
+    /*------------------------
+    Design networks why
+    ------------------------*/
+    .design_networks_why
+    {
+        margin-bottom: 64px;
+        padding-block: 64px;
+    }
+
+
+    .design_networks_why .items
+    {
+        font-size: 18px;
+        line-height: calc(100% + 8px);
+    }
+
+
+    .design_networks_why .gallery
+    {
+        margin-top: 48px;
+    }
+
+
+
+    /*---------------------------
+    Design networks action
+    ---------------------------*/
+    .design_networks_action
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .design_networks_action .form
+    {
+        width: 464px;
+    }
+
+
+    .design_networks_action .form .title
+    {
+        margin-bottom: 40px;
+
+        font-size: 24px;
+    }
+
+
+    .design_networks_action .form .line
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .design_networks_action .form .input
+    {
+        height: 54px;
+    }
+
+
+    .design_networks_action .form .exp
+    {
+        margin-bottom: 12px;
+
+        font-size: 12px;
+    }
+
+
+    .design_networks_action .form input[type=checkbox] + label
+    {
+        font-size: 12px;
+    }
+
+
+    .design_networks_action .form .submit_btn
+    {
+        height: 44px;
+        padding: 0 20px;
+
+        font-size: 18px;
+    }
+
+
+    .design_networks_action .image
+    {
+        top: 0;
+        right: -40px;
+
+        width: 920px;
+    }
 }

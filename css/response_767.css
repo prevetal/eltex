@@ -3650,6 +3650,193 @@
 
 
 
+    /*-------------------------
+    Design networks page
+    -------------------------*/
+    .design_networks_page .block_title
+    {
+        margin-bottom: 32px;
+        padding-left: 16px;
+
+        font-size: 30px;
+    }
+
+
+    .design_networks_page .block_title:before
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+
+    /*-------------------------
+    Design networks head
+    -------------------------*/
+    .design_networks_head
+    {
+        padding-bottom: 48px;
+    }
+
+
+    .design_networks_head .data
+    {
+        height: 360px;
+    }
+
+
+    .design_networks_head .data .title
+    {
+        font-size: 15px;
+    }
+
+
+    .design_networks_head .data .image
+    {
+        top: 0;
+        left: 50%;
+
+        width: 313px;
+
+        transform: translateX(-50%);
+    }
+
+
+    .design_networks_head .data .title2
+    {
+        font-size: 18px;
+    }
+
+
+
+    .design_networks_head .form
+    {
+        margin-top: 32px;
+        padding: 24px 32px;
+    }
+
+
+
+    /*-----------------------------
+    Design networks services
+    -----------------------------*/
+    .design_networks_services .data
+    {
+        width: 100%;
+        min-height: 0;
+        margin-bottom: 380px;
+        padding-inline: 21px;
+
+        font-size: 15px;
+
+        gap: 16px;
+    }
+
+
+    .design_networks_services .data > div
+    {
+        position: relative;
+
+        height: auto;
+        padding-left: 24px;
+    }
+
+
+    .design_networks_services .data > div:before
+    {
+        position: absolute;
+        top: .5lh;
+        left: 0;
+
+        display: block;
+
+        width: 10px;
+        height: 10px;
+
+        content: '';
+        transform: translateY(-50%);
+
+        border-radius: 50%;
+        background: #51d66a;
+    }
+
+
+    .design_networks_services .image
+    {
+        top: 100%;
+        left: 50%;
+
+        width: 300px;
+        margin-top: 28px;
+
+        transform: translateX(-50%);
+    }
+
+
+
+    /*------------------------
+    Design networks why
+    ------------------------*/
+    .design_networks_why
+    {
+        margin-bottom: 48px;
+        padding-block: 48px;
+    }
+
+
+    .design_networks_why .items
+    {
+        font-size: 15px;
+
+        gap: 12px;
+    }
+
+
+    .design_networks_why .gallery
+    {
+        margin-top: 32px;
+        margin-left: 0;
+    }
+
+
+    .design_networks_why .gallery > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*---------------------------
+    Design networks action
+    ---------------------------*/
+    .design_networks_action
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .design_networks_action .form
+    {
+        margin-top: 20px;
+    }
+
+
+    .design_networks_action .form .fields
+    {
+        padding: 24px 32px;
+    }
+
+
+    .design_networks_action .image
+    {
+        width: calc(100% + 32px);
+        margin-top: -48px;
+        margin-left: -32px;
+    }
+
+
+
     /*---------------
         Footer
     ---------------*/
