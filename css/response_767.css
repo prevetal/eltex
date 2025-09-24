@@ -248,12 +248,12 @@
 
     .main_slider .slide .link
     {
-        font-size: 17px;
-        line-height: 50px;
-
         height: 50px;
         margin-top: 32px;
         padding: 0 28px;
+
+        font-size: 17px;
+        line-height: 50px;
     }
 
 
@@ -314,9 +314,9 @@
 
     .products .tabs .sep
     {
-        font-size: 17px;
-
         margin: 0 20px;
+
+        font-size: 17px;
     }
 
 
@@ -435,10 +435,10 @@
 
     .product_info .product_name
     {
+        padding: 15px 20px;
+
         font-size: 20px;
         line-height: 24px;
-
-        padding: 15px 20px;
     }
 
 
@@ -598,9 +598,9 @@
 
     .prod_equipment .item .name
     {
-        font-size: 15px;
-
         width: calc(100% - 166px);
+
+        font-size: 15px;
     }
 
 
@@ -727,11 +727,11 @@
 
     .cart_info .empty .links a
     {
-        font-size: 14px;
-        line-height: 32px;
-
         height: 34px;
         padding: 0 20px;
+
+        font-size: 14px;
+        line-height: 32px;
     }
 
 
@@ -790,10 +790,10 @@
 
     .contacts_info .data .title
     {
+        padding: 15px 20px;
+
         font-size: 20px;
         line-height: 24px;
-
-        padding: 15px 20px;
     }
 
 
@@ -893,18 +893,18 @@
 
     .articles_page .title
     {
+        padding: 15px 20px;
+
         font-size: 20px;
         line-height: 24px;
-
-        padding: 15px 20px;
     }
 
 
     .articles .types a
     {
-        font-size: 15px;
-
         padding: 0 20px;
+
+        font-size: 15px;
     }
 
 
@@ -1060,10 +1060,10 @@
     .checkout_status .success,
     .checkout_status .error
     {
+        margin-bottom: 25px;
+
         font-size: 18px;
         line-height: 22px;
-
-        margin-bottom: 25px;
     }
 
 
@@ -1338,18 +1338,18 @@
 
     .online_stand .block_title
     {
+        margin-bottom: 12px;
+
         font-size: 26px;
         line-height: 30px;
-
-        margin-bottom: 12px;
     }
 
     .online_stand .block_desc
     {
+        margin-bottom: 30px;
+
         font-size: 15px;
         line-height: 21px;
-
-        margin-bottom: 30px;
     }
 
 
@@ -1371,10 +1371,10 @@
 
     .online_stand .data .checks label
     {
+        padding-left: 41px;
+
         font-size: 15px;
         line-height: 25px;
-
-        padding-left: 41px;
     }
 
     .online_stand .data .checks label:before
@@ -1401,10 +1401,10 @@
 
     .cases .title
     {
+        padding: 15px 20px;
+
         font-size: 20px;
         line-height: 24px;
-
-        padding: 15px 20px;
     }
 
 
@@ -1446,9 +1446,9 @@
     .case_tabs .specification table td.articul,
     .case_tabs .specification table td.amount
     {
-        font-size: 14px;
-
         min-width: 0;
+
+        font-size: 14px;
     }
 
     .case_tabs .specification table td.amount
@@ -1516,10 +1516,6 @@
 
     .compare_info .product_features .list > *:before
     {
-        font-size: 12px;
-        font-weight: normal;
-        line-height: 14px;
-
         position: absolute;
         top: 0;
         left: 0;
@@ -1533,6 +1529,10 @@
         width: 100%;
         height: 28px;
         padding: 0 20px;
+
+        font-size: 12px;
+        font-weight: normal;
+        line-height: 14px;
 
         content: attr(data-column);
         text-align: left;
@@ -1572,17 +1572,17 @@
 
     .page_about_v2 .about_info_v2 .title
     {
-        font-size: 28px;
-
         margin-top: 16px;
+
+        font-size: 28px;
     }
 
 
     .page_about_v2 .about_info_v2 .description
     {
-        font-size: 14px;
-
         margin-top: 12px;
+
+        font-size: 14px;
     }
 
 
@@ -1615,9 +1615,9 @@
 
     .page_about_v2 .about_info_v2 .stats .val
     {
-        font-size: 30px;
-
         width: 96px;
+
+        font-size: 30px;
     }
 
     .page_about_v2 .about_info_v2 .stats .desc
@@ -1654,18 +1654,18 @@
 
     .page_about_v2 .employees .col_left .title
     {
-        font-size: 22px;
-
         margin-top: 20px;
+
+        font-size: 22px;
     }
 
 
     .page_about_v2 .employees .time
     {
-        font-size: 14px;
-
         margin-top: 28px;
         margin-left: 30px;
+
+        font-size: 14px;
     }
 
     .page_about_v2 .employees .time .icon
@@ -1742,20 +1742,20 @@
 
     .page_about_v2 .tech_support .boss .post
     {
-        font-size: 14px;
-
         width: 100%;
+
+        font-size: 14px;
     }
 
 
     .page_about_v2 .tech_support .message
     {
-        font-size: 14px;
-
         align-self: flex-end;
 
         width: calc(100% - 288px);
         margin-top: 0;
+
+        font-size: 14px;
     }
 
     .page_about_v2 .tech_support .message .icon
@@ -1871,9 +1871,9 @@
 
     .page_about_v2 .warehouses .head .count .val
     {
-        font-size: 80px;
-
         margin-left: 0;
+
+        font-size: 80px;
     }
 
     .page_about_v2 .warehouses .head .count .name
@@ -1915,14 +1915,14 @@
 
     .page_about_v2 .clients .count
     {
-        font-size: 80px;
-
         position: relative;
         top: 0;
         right: 0;
 
         margin-bottom: 20px;
         margin-left: 30px;
+
+        font-size: 80px;
     }
 
 
@@ -2251,9 +2251,9 @@
 
     .configurator_ec .tabs button
     {
-        font-size: 16px;
-
         margin-left: 0;
+
+        font-size: 16px;
     }
 
 
@@ -2347,9 +2347,9 @@
 
     .photo_hunting .prizes .block_title
     {
-        font-size: 40px;
-
         margin-bottom: 32px;
+
+        font-size: 40px;
     }
 
 
@@ -2413,9 +2413,9 @@
 
     .photo_hunting .requirements .block_title
     {
-        font-size: 40px;
-
         margin-bottom: 32px;
+
+        font-size: 40px;
     }
 
 
@@ -2525,9 +2525,9 @@
 
     .photo_hunting .how_take .bottom .title
     {
-        font-size: 24px;
-
         width: 100%;
+
+        font-size: 24px;
     }
 
 
@@ -2552,14 +2552,14 @@
 
     .photo_hunting .add_photo form .required
     {
-        font-size: 20px;
-
         position: relative;
         top: 0;
         left: 0;
 
         margin-top: 28px;
         margin-left: 0;
+
+        font-size: 20px;
 
         white-space: normal;
     }
@@ -2647,10 +2647,10 @@
 
     .vacancy .causes .block_title
     {
-        font-size: 30px;
-
         width: 100%;
         margin-left: 0;
+
+        font-size: 30px;
     }
 
 
@@ -2723,9 +2723,9 @@
 
     .vacancy .conditions .not_found .btn
     {
-        font-size: 18px;
-
         width: 100%;
+
+        font-size: 18px;
     }
 
 
@@ -2738,9 +2738,9 @@
 
     .vacancy .vacancy_info .salary
     {
-        font-size: 20px;
-
         margin-top: 24px;
+
+        font-size: 20px;
     }
 
 
@@ -2771,9 +2771,9 @@
     .courses .has_question_btn,
     .courses .order_btn
     {
-        font-size: 15px;
-
         height: 56px;
+
+        font-size: 15px;
     }
 
 
@@ -2877,9 +2877,9 @@
 
     .courses .wheelSlider-container figcaption
     {
-        font-size: 14px;
-
         margin-top: 12px;
+
+        font-size: 14px;
     }
 
     .courses .wheelSlider-container figcaption:before
@@ -2985,10 +2985,10 @@
 
     .courses .schedule table td
     {
-        font-size: 14px;
-
         height: 80px;
         padding: 12px 20px;
+
+        font-size: 14px;
     }
 
 
@@ -3001,10 +3001,10 @@
 
     .courses .academy_address .data
     {
-        font-size: 15px;
-
         width: 100%;
         padding: 28px;
+
+        font-size: 15px;
     }
 
 
@@ -3277,16 +3277,16 @@
 
     .specification_info .get_prices .form .input
     {
-        font-size: 14px;
-
         height: 44px;
+
+        font-size: 14px;
     }
 
     .specification_info .get_prices .form textarea
     {
-        font-size: 14px;
-
         height: 120px;
+
+        font-size: 14px;
     }
 
 
@@ -3296,9 +3296,9 @@
     -------------------------*/
     .for_integrators_page .page_title
     {
-        font-size: 30px;
-
         padding-left: 16px;
+
+        font-size: 30px;
     }
 
 
@@ -3333,18 +3333,18 @@
 
     .for_integrators_first .image .title
     {
+        top: 0;
+
         font-size: 16px;
         line-height: 22px;
-
-        top: 0;
     }
 
 
     .for_integrators_first .form .title
     {
-        font-size: 18px;
-
         margin-bottom: 16px;
+
+        font-size: 18px;
     }
 
 
@@ -3360,10 +3360,10 @@
 
     .for_integrators_provide .block_title
     {
-        font-size: 28px;
-
         margin-bottom: 28px;
         padding-left: 16px;
+
+        font-size: 28px;
     }
 
 
@@ -3408,11 +3408,11 @@
 
     .for_integrators_provide .tech_support .items
     {
-        font-size: 14px;
-        line-height: 20px;
-
         width: 260px;
         margin-top: 20px;
+
+        font-size: 14px;
+        line-height: 20px;
     }
 
 
@@ -3590,9 +3590,9 @@
 
     .for_integrators_provide .uploading .items
     {
-        font-size: 14px;
-
         width: 100%;
+
+        font-size: 14px;
     }
 
 
@@ -3615,10 +3615,10 @@
 
     .for_integrators_unloading_mechanism .block_title
     {
-        font-size: 28px;
-
         margin-bottom: 28px;
         padding-left: 16px;
+
+        font-size: 28px;
     }
 
 
@@ -3631,9 +3631,9 @@
 
     .for_integrators_unloading_mechanism .desc
     {
-        font-size: 14px;
-
         padding-left: 0;
+
+        font-size: 14px;
     }
 
 
@@ -3750,10 +3750,10 @@
 
     .modal .product .amount .box .input
     {
-        font-size: 18px;
-
         height: 44px;
         padding: 0 40px;
+
+        font-size: 18px;
     }
 
     .modal .product .amount .vals
@@ -3765,10 +3765,10 @@
 
     .modal .product .amount .total_price
     {
+        margin-left: 10px;
+
         font-size: 22px;
         line-height: 22px;
-
-        margin-left: 10px;
     }
 
 
@@ -3898,11 +3898,11 @@
 
     #cart_widget .bottom .checkout_link
     {
-        line-height: 40px;
-
         height: 40px;
         margin-left: 20px;
         padding: 0 20px;
+
+        line-height: 40px;
     }
 
 

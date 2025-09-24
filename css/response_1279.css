@@ -18,10 +18,10 @@
 
     .block_head .desc
     {
+        margin-top: 10px;
+
         font-size: 15px;
         line-height: 17px;
-
-        margin-top: 10px;
     }
 
 
@@ -175,9 +175,9 @@
 
     header .catalog .link
     {
-        font-size: 15px;
-
         min-height: 62px;
+
+        font-size: 15px;
     }
 
 
@@ -190,9 +190,9 @@
 
     header .menu .item > a
     {
-        font-size: 15px;
-
         min-height: 62px;
+
+        font-size: 15px;
     }
 
 
@@ -303,10 +303,10 @@
 
     .main_slider .slide .videos_row .name
     {
-        font-size: 15px;
-
         min-height: 56px;
         padding: 8px 12px;
+
+        font-size: 15px;
     }
 
 
@@ -362,9 +362,9 @@
 
     .products .tabs .sep
     {
-        font-size: 18px;
-
         margin: 0 30px;
+
+        font-size: 18px;
     }
 
 
@@ -547,10 +547,10 @@
 
     .product_info .product_name
     {
+        padding: 20px;
+
         font-size: 26px;
         line-height: 30px;
-
-        padding: 20px;
     }
 
 
@@ -797,10 +797,10 @@
 
     .contacts_info .data .title
     {
+        padding: 25px;
+
         font-size: 26px;
         line-height: 30px;
-
-        padding: 25px;
     }
 
 
@@ -868,18 +868,18 @@
 
     .articles_page .title
     {
+        padding: 20px;
+
         font-size: 26px;
         line-height: 30px;
-
-        padding: 20px;
     }
 
 
     .articles .types a
     {
-        font-size: 17px;
-
         height: 50px;
+
+        font-size: 17px;
     }
 
 
@@ -959,10 +959,10 @@
 
     .search_info .search_title
     {
+        margin-bottom: 20px;
+
         font-size: 28px;
         line-height: 36px;
-
-        margin-bottom: 20px;
     }
 
 
@@ -1201,10 +1201,10 @@
 
     .service_sections .section .title
     {
+        padding: 5px 0 5px 19px;
+
         font-size: 19px;
         line-height: 21px;
-
-        padding: 5px 0 5px 19px;
     }
 
     .service_sections .section .col_left
@@ -1340,27 +1340,27 @@
 
     .online_stand .block_title
     {
+        margin-bottom: 25px;
+
         font-size: 32px;
         line-height: 36px;
-
-        margin-bottom: 25px;
     }
 
     .online_stand .block_desc
     {
+        margin-bottom: 30px;
+
         font-size: 17px;
         line-height: 23px;
-
-        margin-bottom: 30px;
     }
 
 
     .online_stand .steps
     {
+        margin-left: -60px;
+
         font-size: 15px;
         line-height: 23px;
-
-        margin-left: -60px;
     }
 
     .online_stand .steps > *
@@ -1419,20 +1419,20 @@
 
     .online_stand .data .form .submit_btn
     {
-        font-size: 18px;
-
         width: 260px;
         height: 50px;
+
+        font-size: 18px;
     }
 
 
 
     .cases .title
     {
+        padding: 20px;
+
         font-size: 26px;
         line-height: 30px;
-
-        padding: 20px;
     }
 
 
@@ -1488,20 +1488,20 @@
 
     .cases_info .info .name
     {
+        margin-bottom: 25px;
+
         font-size: 24px;
         line-height: 30px;
-
-        margin-bottom: 25px;
     }
 
 
     .cases_info .info .desc,
     .cases_info .info .feature
     {
+        margin-top: 20px;
+
         font-size: 15px;
         line-height: 20px;
-
-        margin-top: 20px;
     }
 
 
@@ -1514,10 +1514,10 @@
 
     .cases_info .info .calc_btn
     {
+        padding: 12px 40px;
+
         font-size: 16px;
         line-height: 22px;
-
-        padding: 12px 40px;
     }
 
 
@@ -1553,10 +1553,10 @@
 
     .case_tabs .specification .table_title
     {
+        padding: 12px;
+
         font-size: 16px;
         line-height: 22px;
-
-        padding: 12px;
     }
 
 
@@ -1647,11 +1647,11 @@
 
     .page_about_v2 .about_info_v2 .years
     {
-        font-size: 16px;
-
         min-height: 60px;
         margin-left: 0;
         padding-left: 30px;
+
+        font-size: 16px;
     }
 
     .page_about_v2 .about_info_v2 .years:before
@@ -1663,19 +1663,19 @@
 
     .page_about_v2 .about_info_v2 .title
     {
-        font-size: 36px;
-        line-height: calc(100% + 4px);
-
         margin-top: 20px;
         margin-left: 30px;
+
+        font-size: 36px;
+        line-height: calc(100% + 4px);
     }
 
 
     .page_about_v2 .about_info_v2 .description
     {
-        font-size: 16px;
-
         margin-left: 30px;
+
+        font-size: 16px;
     }
 
 
@@ -1732,9 +1732,9 @@
 
     .page_about_v2 .about_info_v2 .stats .val
     {
-        font-size: 38px;
-
         width: 128px;
+
+        font-size: 38px;
     }
 
     .page_about_v2 .about_info_v2 .stats .desc
@@ -1758,11 +1758,11 @@
 
     .page_about_v2 .employees .block_title
     {
-        font-size: 16px;
-
         min-height: 60px;
         margin-left: 0;
         padding-left: 30px;
+
+        font-size: 16px;
     }
 
     .page_about_v2 .employees .block_title:before
@@ -1774,28 +1774,28 @@
 
     .page_about_v2 .employees .description
     {
-        font-size: 15px;
-
         margin-top: 20px;
         margin-left: 30px;
+
+        font-size: 15px;
     }
 
 
     .page_about_v2 .employees .col_left .title
     {
-        font-size: 25px;
-
         margin-top: 24px;
         margin-left: 30px;
+
+        font-size: 25px;
     }
 
 
     .page_about_v2 .employees .time
     {
-        font-size: 15px;
-
         margin-top: 32px;
         margin-left: 30px;
+
+        font-size: 15px;
     }
 
     .page_about_v2 .employees .time .icon
@@ -1812,9 +1812,9 @@
 
     .page_about_v2 .employees .col_right .title
     {
-        font-size: 16px;
-
         margin-bottom: 20px;
+
+        font-size: 16px;
     }
 
 
@@ -1831,9 +1831,9 @@
 
     .page_about_v2 .employees .items .name
     {
-        font-size: 15px;
-
         width: calc(100% - 84px);
+
+        font-size: 15px;
     }
 
 
@@ -1853,11 +1853,11 @@
 
     .page_about_v2 .tech_support .col_left .block_title
     {
-        font-size: 16px;
-
         min-height: 60px;
         margin-left: 0;
         padding-left: 30px;
+
+        font-size: 16px;
     }
 
     .page_about_v2 .tech_support .col_left .block_title:before
@@ -1869,18 +1869,18 @@
 
     .page_about_v2 .tech_support .col_left .description
     {
-        font-size: 15px;
-
         margin-left: 30px;
+
+        font-size: 15px;
     }
 
 
     .page_about_v2 .tech_support .col_left .title
     {
-        font-size: 25px;
-
         margin-top: 24px;
         margin-left: 30px;
+
+        font-size: 25px;
     }
 
 
@@ -1910,10 +1910,10 @@
 
     .page_about_v2 .tech_support .services .title
     {
-        font-size: 16px;
-
         margin-top: 0;
         margin-left: 0;
+
+        font-size: 16px;
     }
 
 
@@ -1955,25 +1955,25 @@
 
     .page_about_v2 .tech_support .boss .name
     {
-        font-size: 17px;
-
         margin-top: 12px;
+
+        font-size: 17px;
     }
 
     .page_about_v2 .tech_support .boss .post
     {
-        font-size: 15px;
-
         width: 220px;
+
+        font-size: 15px;
     }
 
 
     .page_about_v2 .tech_support .message
     {
-        font-size: 15px;
-
         width: 280px;
         margin-top: 52px;
+
+        font-size: 15px;
     }
 
     .page_about_v2 .tech_support .message .icon
@@ -1993,9 +1993,9 @@
 
     .page_about_v2 .tech_support .webinars .title
     {
-        font-size: 16px;
-
         margin-bottom: 20px;
+
+        font-size: 16px;
     }
 
     .page_about_v2 .tech_support .webinars .flex
@@ -2005,29 +2005,29 @@
 
     .page_about_v2 .tech_support .webinars .all_link a
     {
-        font-size: 13px;
-
         width: 72px;
         height: 72px;
+
+        font-size: 13px;
     }
 
 
     .page_about_v2 .tech_support .exp
     {
-        font-size: 15px;
-
         max-width: 100%;
         margin-top: 28px;
         margin-left: 0;
+
+        font-size: 15px;
     }
 
     .page_about_v2 .tech_support .exp .icon
     {
-        font-size: 36px;
-
         width: 40px;
         height: 40px;
         padding-top: 14px;
+
+        font-size: 36px;
     }
 
 
@@ -2040,11 +2040,11 @@
 
     .page_about_v2 .warehouses .head .block_title
     {
-        font-size: 16px;
-
         min-height: 60px;
         margin-left: 0;
         padding-left: 30px;
+
+        font-size: 16px;
     }
 
     .page_about_v2 .warehouses .head .block_title:before
@@ -2056,26 +2056,26 @@
 
     .page_about_v2 .warehouses .head .description
     {
-        font-size: 15px;
-
         margin-left: 30px;
+
+        font-size: 15px;
     }
 
 
     .page_about_v2 .warehouses .head .title
     {
-        font-size: 25px;
-
         margin-left: 30px;
+
+        font-size: 25px;
     }
 
 
     .page_about_v2 .warehouses .head .count .val
     {
-        font-size: 124px;
-
         margin-bottom: -6px;
         margin-left: -12px;
+
+        font-size: 124px;
     }
 
     .page_about_v2 .warehouses .head .count .name
@@ -2098,21 +2098,21 @@
 
     .page_about_v2 .warehouses .photos .city
     {
-        font-size: 13px;
-
         width: 88px;
         height: 88px;
+
+        font-size: 13px;
     }
 
 
 
     .page_about_v2 .clients .block_title
     {
-        font-size: 16px;
-
         min-height: 60px;
         margin-left: 0;
         padding-left: 30px;
+
+        font-size: 16px;
     }
 
     .page_about_v2 .clients .block_title:before
@@ -2124,10 +2124,10 @@
 
     .page_about_v2 .clients .count
     {
-        font-size: 116px;
-
         top: -20px;
         right: 24px;
+
+        font-size: 116px;
     }
 
 
@@ -2183,9 +2183,9 @@
 
     .page_about_v2 .advantages .data .title
     {
-        font-size: 25px;
-
         margin-bottom: 24px;
+
+        font-size: 25px;
     }
 
 
@@ -2222,21 +2222,21 @@
 
     .page_about_v2 .advantages .item .desc
     {
-        font-size: 15px;
-
         margin-top: 8px;
+
+        font-size: 15px;
     }
 
 
 
     .page_about_v2 .reviews_v2 .block_title
     {
-        font-size: 16px;
-
         min-height: 60px;
         margin-bottom: 28px;
         margin-left: 0;
         padding-left: 30px;
+
+        font-size: 16px;
     }
 
     .page_about_v2 .reviews_v2 .block_title:before
@@ -2287,11 +2287,11 @@
 
     .page_about_v2 .get_price_list .block_title
     {
-        font-size: 16px;
-
         min-height: 60px;
         margin-left: 0;
         padding-left: 30px;
+
+        font-size: 16px;
     }
 
     .page_about_v2 .get_price_list .block_title:before
@@ -2319,20 +2319,20 @@
 
     .page_about_v2 .get_price_list form .submit_btn
     {
-        font-size: 15px;
-
         width: 180px;
+
+        font-size: 15px;
     }
 
 
 
     .page_about_v2 .projects .block_title
     {
-        font-size: 16px;
-
         min-height: 60px;
         margin-left: 0;
         padding-left: 30px;
+
+        font-size: 16px;
     }
 
     .page_about_v2 .projects .block_title:before
@@ -2344,10 +2344,10 @@
 
     .page_about_v2 .projects .description
     {
-        font-size: 15px;
-
         width: 444px;
         margin-left: 30px;
+
+        font-size: 15px;
     }
 
 
@@ -2368,20 +2368,20 @@
 
     .page_about_v2 .projects .project .cats
     {
-        font-size: 14px;
-
         margin-top: 16px;
+
+        font-size: 14px;
     }
 
 
 
     .page_about_v2 .conferences .block_title
     {
-        font-size: 16px;
-
         min-height: 60px;
         margin-left: 0;
         padding-left: 30px;
+
+        font-size: 16px;
     }
 
     .page_about_v2 .conferences .block_title:before
@@ -2394,10 +2394,10 @@
     .page_about_v2 .conferences .description,
     .page_about_v2 .conferences .description2
     {
-        font-size: 15px;
-
         width: 480px;
         margin-left: 30px;
+
+        font-size: 15px;
     }
 
     .page_about_v2 .conferences .description2
@@ -2408,10 +2408,10 @@
 
     .page_about_v2 .conferences .items
     {
-        font-size: 15px;
-
         width: 480px;
         margin-left: 30px;
+
+        font-size: 15px;
     }
 
     .page_about_v2 .conferences .items > *
@@ -2438,10 +2438,10 @@
 
     .page_about_v2 .conferences .diplom .name
     {
-        font-size: 14px;
-
         width: 96px;
         height: 96px;
+
+        font-size: 14px;
     }
 
 
@@ -2460,11 +2460,11 @@
 
     .page_about_v2 .diploms .block_title
     {
-        font-size: 16px;
-
         min-height: 60px;
         margin-left: 0;
         padding-left: 30px;
+
+        font-size: 16px;
     }
 
     .page_about_v2 .diploms .block_title:before
@@ -2476,10 +2476,10 @@
 
     .page_about_v2 .diploms .description
     {
-        font-size: 15px;
-
         width: 464px;
         margin-left: 30px;
+
+        font-size: 15px;
     }
 
 
@@ -2508,10 +2508,10 @@
 
     .page_about_v2 .diploms .item .year
     {
-        font-size: 15px;
-
         width: 64px;
         height: 64px;
+
+        font-size: 15px;
     }
 
 
@@ -2525,11 +2525,11 @@
 
     .page_about_v2 .licenses .block_title
     {
-        font-size: 16px;
-
         min-height: 60px;
         margin-left: 0;
         padding-left: 30px;
+
+        font-size: 16px;
     }
 
     .page_about_v2 .licenses .block_title:before
@@ -2566,11 +2566,11 @@
 
     .page_about_v2 .get_discount .block_title
     {
-        font-size: 16px;
-
         min-height: 60px;
         margin-left: 0;
         padding-left: 30px;
+
+        font-size: 16px;
     }
 
     .page_about_v2 .get_discount .block_title:before
@@ -2582,10 +2582,10 @@
 
     .page_about_v2 .get_discount .description
     {
-        font-size: 15px;
-
         width: 372px;
         margin-left: 30px;
+
+        font-size: 15px;
     }
 
 
@@ -2625,9 +2625,9 @@
 
     .configurator_type .name
     {
-        font-size: 18px;
-
         margin-right: 8px;
+
+        font-size: 18px;
     }
 
 
@@ -2638,9 +2638,9 @@
 
     .configurator_ec .nice-select .current
     {
-        font-size: 15px;
-
         padding: 0 55px 0 15px;
+
+        font-size: 15px;
     }
 
     .configurator_ec .nice-select .list
@@ -2668,9 +2668,9 @@
 
     .configurator_ec .tabs button
     {
-        font-size: 20px;
-
         padding: 4px 16px;
+
+        font-size: 20px;
     }
 
 
@@ -2681,9 +2681,9 @@
 
     .configurator_ec .block .title
     {
-        font-size: 20px;
-
         padding: 4px 20px;
+
+        font-size: 20px;
     }
 
     .configurator_ec .block .name
@@ -2726,9 +2726,9 @@
 
     .configurator_ec input[type=checkbox] + label
     {
-        font-size: 15px;
-
         padding-left: 44px;
+
+        font-size: 15px;
     }
 
 
@@ -2805,9 +2805,9 @@
 
     .configurator_ec .specification .title
     {
-        font-size: 20px;
-
         margin-bottom: 20px;
+
+        font-size: 20px;
     }
 
 
@@ -2826,9 +2826,9 @@
 
     .configurator_ec .specification .product
     {
-        font-size: 15px;
-
         padding: 15px 0;
+
+        font-size: 15px;
 
         border-top: 1px solid #bdc6d1;
     }
@@ -2841,9 +2841,9 @@
 
     .configurator_ec .specification .product .type
     {
-        font-size: 18px;
-
         margin-bottom: 12px;
+
+        font-size: 18px;
     }
 
     .configurator_ec .specification .product .col_name
@@ -2867,10 +2867,6 @@
     .configurator_ec .specification .product .col_articul:before,
     .configurator_ec .specification .product .col_amount:before
     {
-        font-size: 13px;
-        font-weight: normal;
-        line-height: 15px;
-
         position: absolute;
         top: 0;
         left: 0;
@@ -2878,6 +2874,10 @@
         display: block;
 
         width: 100%;
+
+        font-size: 13px;
+        font-weight: normal;
+        line-height: 15px;
 
         content: attr(data-column);
         text-align: left;
@@ -2938,9 +2938,9 @@
 
     .photo_hunting .competition .items
     {
-        font-size: 16px;
-
         margin-top: 40px;
+
+        font-size: 16px;
     }
 
     .photo_hunting .competition .items > * + *
@@ -2951,11 +2951,11 @@
 
     .photo_hunting .competition .btn
     {
-        font-size: 17px;
-
         width: 224px;
         height: 56px;
         margin-top: 36px;
+
+        font-size: 17px;
     }
 
 
@@ -2987,9 +2987,9 @@
 
     .photo_hunting .prizes .block_title
     {
-        font-size: 48px;
-
         margin-bottom: 40px;
+
+        font-size: 48px;
     }
 
 
@@ -3020,9 +3020,9 @@
 
     .photo_hunting .prizes .prize
     {
-        font-size: 16px;
-
         width: 200px;
+
+        font-size: 16px;
     }
 
 
@@ -3053,17 +3053,17 @@
 
     .photo_hunting .models .desc
     {
-        font-size: 16px;
-
         margin-top: 28px;
+
+        font-size: 16px;
     }
 
 
     .photo_hunting .models .btn
     {
-        font-size: 16px;
-
         margin-top: 20px;
+
+        font-size: 16px;
     }
 
 
@@ -3083,9 +3083,9 @@
 
     .photo_hunting .requirements .block_title
     {
-        font-size: 48px;
-
         margin-bottom: 40px;
+
+        font-size: 48px;
     }
 
 
@@ -3143,9 +3143,9 @@
 
     .photo_hunting .requirements .where .title
     {
-        font-size: 27px;
-
         margin-bottom: 28px;
+
+        font-size: 27px;
     }
 
 
@@ -3161,10 +3161,10 @@
 
     .photo_hunting .requirements .where .item:before
     {
-        font-size: 44px;
-
         top: -7px;
         left: -6px;
+
+        font-size: 44px;
     }
 
 
@@ -3177,9 +3177,9 @@
 
     .photo_hunting .how_take .block_title
     {
-        font-size: 48px;
-
         margin-bottom: 32px;
+
+        font-size: 48px;
     }
 
 
@@ -3193,9 +3193,9 @@
 
     .photo_hunting .how_take .image .exp
     {
-        font-size: 14px;
-
         margin-top: 52px;
+
+        font-size: 14px;
     }
 
 
@@ -3207,17 +3207,17 @@
 
     .photo_hunting .how_take .bottom .title
     {
-        font-size: 28px;
-
         width: 716px;
+
+        font-size: 28px;
     }
 
     .photo_hunting .how_take .bottom .desc
     {
-        font-size: 16px;
-
         width: 540px;
         margin-top: 20px;
+
+        font-size: 16px;
     }
 
     .photo_hunting .how_take .bottom img
@@ -3235,18 +3235,18 @@
 
     .photo_hunting .add_photo .block_title
     {
-        font-size: 48px;
-
         margin-bottom: 36px;
+
+        font-size: 48px;
     }
 
 
     .photo_hunting .add_photo form .input
     {
-        font-size: 16px;
-
         height: 64px;
         padding: 0 24px;
+
+        font-size: 16px;
 
         border-width: 4px;
     }
@@ -3273,19 +3273,19 @@
 
     .photo_hunting .add_photo form .submit_btn
     {
-        font-size: 18px;
-
         padding: 18px;
+
+        font-size: 18px;
     }
 
 
     .photo_hunting .add_photo form .required
     {
-        font-size: 26px;
-
         top: 80px;
 
         margin-left: 44px;
+
+        font-size: 26px;
     }
 
 
@@ -3324,18 +3324,18 @@
 
     .vacancy .vacancies_head .desc
     {
-        font-size: 17px;
-
         width: 400px;
+
+        font-size: 17px;
     }
 
 
     .vacancy .vacancies_head .link a
     {
-        font-size: 18px;
-
         width: 280px;
         height: 56px;
+
+        font-size: 18px;
     }
 
 
@@ -3352,10 +3352,10 @@
 
     .vacancy .vacancies .block_title
     {
-        font-size: 36px;
-
         margin-bottom: 32px;
         padding: 0;
+
+        font-size: 36px;
     }
 
 
@@ -3405,8 +3405,6 @@
 
     .vacancy .causes .block_title
     {
-        font-size: 36px;
-
         position: relative;
         top: 0;
         left: 0;
@@ -3414,6 +3412,8 @@
         width: calc(100% - 24px);
         margin-bottom: 32px;
         margin-left: 24px;
+
+        font-size: 36px;
 
         transform: none;
     }
@@ -3445,9 +3445,9 @@
 
     .vacancy .causes .item .number
     {
-        font-size: 70px;
-
         top: 6px;
+
+        font-size: 70px;
     }
 
     .vacancy .causes .item .desc
@@ -3459,18 +3459,18 @@
 
     .vacancy .conditions .block_title
     {
-        font-size: 36px;
-
         margin-bottom: 32px;
         padding: 0;
+
+        font-size: 36px;
     }
 
 
     .vacancy .conditions .items
     {
-        font-size: 16px;
-
         margin-left: -40px;
+
+        font-size: 16px;
     }
 
     .vacancy .conditions .items > *
@@ -3573,11 +3573,11 @@
 
     .vacancy .vacancy_info .btn
     {
-        font-size: 18px;
-
         width: 280px;
         height: 56px;
         margin-top: 40px;
+
+        font-size: 18px;
     }
 
 
@@ -3602,9 +3602,9 @@
 
     .vacancy .stats .val b
     {
-        font-size: 70px;
-
         top: 6px;
+
+        font-size: 70px;
     }
 
     .vacancy .stats .val b:before
@@ -3653,10 +3653,10 @@
 
     .vacancy .vacancies_list .item .name
     {
-        font-size: 18px;
-
         min-height: 100px;
         padding: 24px 28px;
+
+        font-size: 18px;
     }
 
 
@@ -3697,9 +3697,9 @@
     .courses .has_question_btn,
     .courses .order_btn
     {
-        font-size: 16px;
-
         height: 60px;
+
+        font-size: 16px;
     }
 
 
@@ -3708,9 +3708,9 @@
     .courses .courses_title,
     .courses .block_title
     {
-        font-size: 36px;
-
         margin-bottom: 32px;
+
+        font-size: 36px;
     }
 
     .courses .couse_name:before,
@@ -3864,9 +3864,9 @@
 
     .courses .available .desc
     {
-        font-size: 14px;
-
         padding-bottom: 8px;
+
+        font-size: 14px;
     }
 
 
@@ -3936,10 +3936,10 @@
 
     .courses .academy_address .data
     {
-        font-size: 16px;
-
         width: 340px;
         padding: 40px;
+
+        font-size: 16px;
     }
 
 
@@ -3971,10 +3971,10 @@
 
     .courses .academy_address .callback_btn
     {
-        font-size: 15px;
-
         width: 220px;
         margin-top: 28px;
+
+        font-size: 15px;
     }
 
 
@@ -4034,9 +4034,9 @@
 
     .specifier .top .add_new > .btn
     {
-        font-size: 15px;
-
         width: 220px;
+
+        font-size: 15px;
     }
 
 
@@ -4083,18 +4083,18 @@
 
     .specifier .product .name
     {
-        font-size: 15px;
-
         width: calc(100% - 394px);
+
+        font-size: 15px;
     }
 
 
     .specifier .product .articul
     {
-        font-size: 15px;
-
         width: 192px;
         margin-left: 24px;
+
+        font-size: 15px;
     }
 
 
@@ -4129,9 +4129,9 @@
 
     .specification_info .top .add_new > .btn
     {
-        font-size: 15px;
-
         width: 220px;
+
+        font-size: 15px;
     }
 
 
@@ -4195,10 +4195,10 @@
 
     .for_integrators_first .image .title
     {
-        font-size: 20px;
-
         top: 12px;
         right: 100px;
+
+        font-size: 20px;
     }
 
 
@@ -4210,9 +4210,9 @@
 
     .for_integrators_first .form .title
     {
-        font-size: 20px;
-
         margin-bottom: 20px;
+
+        font-size: 20px;
     }
 
 
@@ -4256,11 +4256,11 @@
 
     .for_integrators_provide .tech_support .items
     {
-        font-size: 16px;
-        line-height: 22px;
-
         width: 300px;
         margin-top: 24px;
+
+        font-size: 16px;
+        line-height: 22px;
     }
 
 
@@ -4278,9 +4278,9 @@
 
     .for_integrators_provide .tech_support .desc
     {
-        font-size: 18px;
-
         width: 320px;
+
+        font-size: 18px;
     }
 
 
@@ -4324,9 +4324,9 @@
 
     .for_integrators_provide .marketing_support .title
     {
-        font-size: 26px;
-
         min-height: 72px;
+
+        font-size: 26px;
     }
 
 
@@ -4502,10 +4502,10 @@
 
     .for_integrators_unloading_mechanism .desc
     {
-        font-size: 16px;
-
         margin-top: 32px;
         margin-bottom: 24px;
+
+        font-size: 16px;
     }
 
 

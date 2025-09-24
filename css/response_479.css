@@ -162,9 +162,9 @@
 
     .products .product .desc
     {
-        font-size: 13px;
-
         margin-top: 10px;
+
+        font-size: 13px;
     }
 
     .products .product .bottom
@@ -174,18 +174,18 @@
 
     .products .product .price
     {
-        font-size: 15px;
-
         padding-right: 12px;
+
+        font-size: 15px;
 
         background-size: 11px auto;
     }
 
     .products .product .to_cart
     {
-        font-size: 13px;
-
         padding: 0 10px;
+
+        font-size: 13px;
     }
 
 
@@ -295,11 +295,11 @@
 
     .product_info .info .buy_info .issue_invoice
     {
-        font-size: 13px;
-
         width: 148px;
         margin-left: 0;
         padding: 0 12px 0 40px;
+
+        font-size: 13px;
     }
 
     .product_info .info .buy_info .issue_invoice img
@@ -445,11 +445,11 @@
 
     .reviews .head .rating
     {
-        font-size: 20px;
-
         width: auto;
         margin-top: 10px;
         margin-left: 0;
+
+        font-size: 20px;
     }
 
     .reviews .head .rating .stars
@@ -834,18 +834,18 @@
 
     .online_stand .data .form .submit_btn
     {
-        font-size: 16px;
-
         width: 232px;
         height: 48px;
+
+        font-size: 16px;
     }
 
     .online_stand .data .form .notice
     {
+        padding: 8px 0 8px 14px;
+
         font-size: 13px;
         line-height: 17px;
-
-        padding: 8px 0 8px 14px;
     }
 
 
@@ -882,11 +882,11 @@
 
     .page_about_v2 .about_info_v2 .years
     {
-        font-size: 15px;
-
         min-height: 52px;
         margin-left: 0;
         padding-left: 26px;
+
+        font-size: 15px;
     }
 
     .page_about_v2 .about_info_v2 .years:before
@@ -898,9 +898,9 @@
 
     .page_about_v2 .about_info_v2 .title
     {
-        font-size: 26px;
-
         margin-left: 0;
+
+        font-size: 26px;
     }
 
 
@@ -928,9 +928,9 @@
 
     .page_about_v2 .about_info_v2 .stats .val
     {
-        font-size: 27px;
-
         width: 84px;
+
+        font-size: 27px;
     }
 
     .page_about_v2 .about_info_v2 .stats .desc
@@ -949,11 +949,11 @@
 
     .page_about_v2 .employees .block_title
     {
-        font-size: 15px;
-
         min-height: 52px;
         margin-left: 0;
         padding-left: 26px;
+
+        font-size: 15px;
     }
 
     .page_about_v2 .employees .block_title:before
@@ -972,30 +972,30 @@
 
     .page_about_v2 .employees .col_left .title
     {
-        font-size: 20px;
-
         margin-top: 16px;
         margin-left: 0;
+
+        font-size: 20px;
     }
 
 
     .page_about_v2 .employees .time
     {
-        font-size: 14px;
-
         margin-top: 24px;
         margin-left: 0;
+
+        font-size: 14px;
     }
 
 
 
     .page_about_v2 .tech_support .col_left .block_title
     {
-        font-size: 15px;
-
         min-height: 52px;
         margin-left: 0;
         padding-left: 26px;
+
+        font-size: 15px;
     }
 
     .page_about_v2 .tech_support .col_left .block_title:before
@@ -1007,19 +1007,19 @@
 
     .page_about_v2 .tech_support .col_left .description
     {
-        font-size: 14px;
-
         margin-top: 16px;
         margin-left: 0;
+
+        font-size: 14px;
     }
 
 
     .page_about_v2 .tech_support .col_left .title
     {
-        font-size: 20px;
-
         margin-top: 16px;
         margin-left: 0;
+
+        font-size: 20px;
     }
 
 
@@ -1101,11 +1101,11 @@
 
     .page_about_v2 .warehouses .head .block_title
     {
-        font-size: 15px;
-
         min-height: 52px;
         margin-left: 0;
         padding-left: 26px;
+
+        font-size: 15px;
     }
 
     .page_about_v2 .warehouses .head .block_title:before
@@ -1117,19 +1117,19 @@
 
     .page_about_v2 .warehouses .head .description
     {
-        font-size: 14px;
-
         margin-top: 16px;
         margin-left: 0;
+
+        font-size: 14px;
     }
 
 
     .page_about_v2 .warehouses .head .title
     {
-        font-size: 20px;
-
         margin-top: 16px;
         margin-left: 0;
+
+        font-size: 20px;
     }
 
 
@@ -1154,11 +1154,11 @@
 
     .page_about_v2 .clients .block_title
     {
-        font-size: 15px;
-
         min-height: 52px;
         margin-left: 0;
         padding-left: 26px;
+
+        font-size: 15px;
     }
 
     .page_about_v2 .clients .block_title:before
@@ -1208,9 +1208,9 @@
 
     .page_about_v2 .advantages .data .title
     {
-        font-size: 20px;
-
         margin-bottom: 24px;
+
+        font-size: 20px;
     }
 
 
@@ -1240,12 +1240,12 @@
 
     .page_about_v2 .reviews_v2 .block_title
     {
-        font-size: 15px;
-
         min-height: 52px;
         margin-bottom: 24px;
         margin-left: 0;
         padding-left: 26px;
+
+        font-size: 15px;
     }
 
     .page_about_v2 .reviews_v2 .block_title:before
@@ -1264,12 +1264,12 @@
 
     .page_about_v2 .get_price_list .block_title
     {
-        font-size: 15px;
-
         min-height: 52px;
         margin-bottom: 24px;
         margin-left: 0;
         padding-left: 26px;
+
+        font-size: 15px;
     }
 
     .page_about_v2 .get_price_list .block_title:before
@@ -1300,11 +1300,11 @@
 
     .page_about_v2 .projects .block_title
     {
-        font-size: 15px;
-
         min-height: 52px;
         margin-left: 0;
         padding-left: 26px;
+
+        font-size: 15px;
     }
 
     .page_about_v2 .projects .block_title:before
@@ -1316,22 +1316,22 @@
 
     .page_about_v2 .projects .description
     {
-        font-size: 14px;
-
         width: 100%;
         margin-top: 16px;
         margin-left: 0;
+
+        font-size: 14px;
     }
 
 
 
     .page_about_v2 .conferences .block_title
     {
-        font-size: 15px;
-
         min-height: 52px;
         margin-left: 0;
         padding-left: 26px;
+
+        font-size: 15px;
     }
 
     .page_about_v2 .conferences .block_title:before
@@ -1345,10 +1345,10 @@
     .page_about_v2 .conferences .description2,
     .page_about_v2 .conferences .items
     {
-        font-size: 14px;
-
         margin-top: 16px;
         margin-left: 0;
+
+        font-size: 14px;
     }
 
 
@@ -1366,11 +1366,11 @@
 
     .page_about_v2 .diploms .block_title
     {
-        font-size: 15px;
-
         min-height: 52px;
         margin-left: 0;
         padding-left: 26px;
+
+        font-size: 15px;
     }
 
     .page_about_v2 .diploms .block_title:before
@@ -1382,11 +1382,11 @@
 
     .page_about_v2 .diploms .description
     {
-        font-size: 14px;
-
         width: 100%;
         margin-top: 16px;
         margin-left: 0;
+
+        font-size: 14px;
     }
 
 
@@ -1410,11 +1410,11 @@
 
     .page_about_v2 .licenses .block_title
     {
-        font-size: 15px;
-
         min-height: 52px;
         margin-left: 0;
         padding-left: 26px;
+
+        font-size: 15px;
     }
 
     .page_about_v2 .licenses .block_title:before
@@ -1444,11 +1444,11 @@
 
     .page_about_v2 .get_discount .block_title
     {
-        font-size: 15px;
-
         min-height: 52px;
         margin-left: 0;
         padding-left: 26px;
+
+        font-size: 15px;
     }
 
     .page_about_v2 .get_discount .block_title:before
@@ -1460,11 +1460,11 @@
 
     .page_about_v2 .get_discount .description
     {
-        font-size: 14px;
-
         width: 100%;
         margin-top: 16px;
         margin-left: 0;
+
+        font-size: 14px;
     }
 
 
@@ -1504,9 +1504,9 @@
 
     .configurator_ec .nice-select .current
     {
-        font-size: 14px;
-
         padding: 0 43px 0 15px;
+
+        font-size: 14px;
     }
 
     .configurator_ec .nice-select .current:after
@@ -1533,9 +1533,9 @@
 
     .configurator_ec .block .title
     {
-        font-size: 17px;
-
         padding: 4px 16px;
+
+        font-size: 17px;
 
         text-align: left;
     }
@@ -1575,9 +1575,9 @@
 
     .configurator_ec .amount .unit
     {
-        font-size: 15px;
-
         margin-left: 6px;
+
+        font-size: 15px;
     }
 
     .configurator_ec .amount button.plus
@@ -1645,11 +1645,11 @@
 
     .photo_hunting .competition .btn
     {
-        font-size: 16px;
-
         width: 196px;
         height: 52px;
         margin-top: 36px;
+
+        font-size: 16px;
     }
 
 
@@ -1820,9 +1820,9 @@
 
     .photo_hunting .how_take .bottom .desc
     {
-        font-size: 15px;
-
         width: 100%;
+
+        font-size: 15px;
     }
 
 
@@ -1923,10 +1923,10 @@
 
     .vacancy .vacancies_list .item .name
     {
-        font-size: 16px;
-
         min-height: 80px;
         padding: 20px 24px;
+
+        font-size: 16px;
     }
 
 
@@ -1945,9 +1945,9 @@
 
     .vacancy .stats .val b
     {
-        font-size: 50px;
-
         top: 6px;
+
+        font-size: 50px;
     }
 
     .vacancy .stats .val b:before
@@ -2067,9 +2067,9 @@
 
     .specifier .top .add_new .tip
     {
-        font-size: 14px;
-
         padding: 5px 11px;
+
+        font-size: 14px;
     }
 
 
@@ -2081,9 +2081,9 @@
 
     .specifier .top .add_new .tip .add_btn
     {
-        font-size: 11px;
-
         padding: 6px 11px;
+
+        font-size: 11px;
     }
 
 
@@ -2115,17 +2115,17 @@
 
     .specifier .product .name
     {
-        font-size: 13px;
-
         width: calc(100% - 154px);
+
+        font-size: 13px;
     }
 
 
     .specifier .product .articul
     {
-        font-size: 13px;
-
         padding-left: 72px;
+
+        font-size: 13px;
     }
 
 
@@ -2169,10 +2169,10 @@
 
     .specification_info .top .add_new .tip
     {
+        padding: 5px 11px;
+
         font-size: 14px;
         line-height: 18px;
-
-        padding: 5px 11px;
     }
 
 
@@ -2184,9 +2184,9 @@
 
     .specification_info .top .add_new .tip .add_btn
     {
-        font-size: 11px;
-
         padding: 6px 11px;
+
+        font-size: 11px;
     }
 
 
@@ -2267,9 +2267,9 @@
 
     .for_integrators_page .page_title
     {
-        font-size: 26px;
-
         padding-left: 12px;
+
+        font-size: 26px;
     }
 
 
@@ -2309,10 +2309,10 @@
     ----------------------------*/
     .for_integrators_provide .block_title
     {
-        font-size: 22px;
-
         margin-bottom: 24px;
         padding-left: 12px;
+
+        font-size: 22px;
     }
 
 
@@ -2447,10 +2447,10 @@
     ----------------------------------------*/
     .for_integrators_unloading_mechanism .block_title
     {
-        font-size: 22px;
-
         margin-bottom: 24px;
         padding-left: 12px;
+
+        font-size: 22px;
     }
 
 
@@ -2498,9 +2498,9 @@
 
     .modal_title
     {
-        font-size: 20px;
-
         margin-bottom: 25px;
+
+        font-size: 20px;
     }
 
     .modal_desc
