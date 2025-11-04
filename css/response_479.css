@@ -2583,6 +2583,47 @@
 
 
     /*---------------
+    First section
+    ---------------*/
+    .first_section
+    {
+        width: 100%;
+        margin-inline: 0;
+    }
+
+
+    .first_section .slider .swiper-slide
+    {
+        height: 360px;
+    }
+
+
+    .first_section .slider .title
+    {
+        font-size: 26px;
+    }
+
+
+    .first_section .slider .btn
+    {
+        width: 100%;
+    }
+
+
+    .first_section .item .title
+    {
+        font-size: 28px;
+    }
+
+
+    .first_section .item .btn
+    {
+        width: 100%;
+    }
+
+
+
+    /*---------------
         PopUp
     ---------------*/
     .fancybox-slide--html .fancybox-close-small

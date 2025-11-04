@@ -4687,6 +4687,157 @@
 
 
     /*---------------
+    First section
+    ---------------*/
+    .first_section
+    {
+        height: 600px;
+    }
+
+
+    .first_section .slider
+    {
+        clip-path: polygon(0 0, 100% 0, 100% calc(75.25% - 10px), calc(58.70% + 10px) 100%);
+    }
+
+
+    .first_section .slider .swiper-slide
+    {
+        height: 348px;
+        padding: 24px 28px;
+    }
+
+
+    .first_section .slider .title
+    {
+        font-size: 32px;
+    }
+
+
+    .first_section .slider .desc
+    {
+        width: 420px;
+        margin-top: 16px;
+
+        font-size: 16px;
+    }
+
+
+    .first_section .slider .btn
+    {
+        width: 200px;
+        height: 40px;
+
+        font-size: 16px;
+    }
+
+
+    .first_section .slider .exp a
+    {
+        font-size: 14px;
+    }
+
+
+
+    .first_section .item
+    {
+        padding-block: 20px;
+        padding-inline: 20px;
+    }
+
+
+    .first_section .item1
+    {
+        height: 588px;
+
+        clip-path: polygon(0 0, 100% 28.6%, 100% 100%, 0% 100%);
+    }
+
+
+    .first_section .item2
+    {
+        height: 413px;
+
+        clip-path: polygon(0 0, 100% 40.8%, 100% 100%, 0% 100%);
+    }
+
+
+    .first_section .item3
+    {
+        height: 338px;
+
+        clip-path: polygon(0 28%, 100% 0, 100% 100%, 0% 100%);
+    }
+
+
+    .first_section .item .title
+    {
+        font-size: 32px;
+    }
+
+
+    .first_section .item .title span
+    {
+        font-size: 60px;
+    }
+
+
+    .first_section .item3 .title span
+    {
+        margin-bottom: -10px;
+    }
+
+
+    .first_section .item .items
+    {
+        margin-top: 24px;
+
+        gap: 12px;
+    }
+
+
+    .first_section .item .items > *
+    {
+        padding-left: 16px;
+    }
+
+
+    .first_section .item .items > *:before
+    {
+        width: 6px;
+        height: 6px;
+    }
+
+
+    .first_section .item .desc
+    {
+        margin-top: 20px;
+        margin-bottom: -4px;
+
+        font-size: 18px;
+    }
+
+
+    .first_section .item .btn
+    {
+        width: 180px;
+        height: 44px;
+        margin-top: 28px;
+
+        font-size: 12px;
+    }
+
+
+    .first_section .item .exp
+    {
+        margin-top: 16px;
+
+        font-size: 14px;
+    }
+
+
+
+    /*---------------
         Footer
     ---------------*/
     footer .info

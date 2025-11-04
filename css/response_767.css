@@ -3838,6 +3838,144 @@
 
 
     /*---------------
+    First section
+    ---------------*/
+    .first_section
+    {
+        width: calc(100% + 40px);
+        height: auto;
+        margin-inline: -20px;
+    }
+
+
+    .first_section .slider
+    {
+        position: relative;
+
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 20px));
+    }
+
+
+    .first_section .slider .swiper-slide
+    {
+        align-items: flex-start;
+
+        height: 324px;
+        padding: 40px 20px;
+
+        text-align: left;
+    }
+
+
+    .first_section .slider .title
+    {
+        font-size: 28px;
+    }
+
+
+    .first_section .slider .desc
+    {
+        width: 288px;
+        margin-top: 20px;
+
+        font-weight: 500;
+    }
+
+
+    .first_section .slider .btn
+    {
+        width: 200px;
+        height: 40px;
+
+        font-size: 16px;
+    }
+
+
+    .first_section .slider .exp a
+    {
+        font-size: 14px;
+    }
+
+
+
+    .first_section .item
+    {
+        position: relative;
+
+        margin-top: -10px;
+        padding: 40px 20px;
+    }
+
+
+    .first_section .item1
+    {
+        width: 100%;
+        height: auto;
+
+        clip-path: polygon(0 0, 100% 20px, 100% calc(100% - 20px), 0 100%);
+    }
+
+
+    .first_section .item2
+    {
+        left: 0;
+
+        width: 100%;
+        height: auto;
+
+        clip-path: polygon(0 20px, 100% 0, 100% 100%, 0 calc(100% - 20px));
+    }
+
+
+    .first_section .item3
+    {
+        width: 100%;
+        height: auto;
+
+        clip-path: polygon(0 0, 100% 20px, 100% 100%, 0 100%);
+    }
+
+
+    .first_section .item .title
+    {
+        font-size: 32px;
+    }
+
+
+    .first_section .item .title span
+    {
+        font-size: 60px;
+    }
+
+
+    .first_section .item3 .title
+    {
+        justify-content: flex-start;
+    }
+
+
+    .first_section .item3 .title span
+    {
+        margin-bottom: -10px;
+    }
+
+
+    .first_section .item .items
+    {
+        margin-top: 20px;
+
+        gap: 10px;
+    }
+
+
+    .first_section .item3 .items > *
+    {
+        margin-left: 0;
+    }
+
+
+
+    /*---------------
         Footer
     ---------------*/
     footer .bottom

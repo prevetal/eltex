@@ -472,6 +472,27 @@ $(() => {
 	})
 
 
+	// First section
+	let firstSectionSlider = document.querySelector('.first_section .swiper')
+
+	if (firstSectionSlider) {
+		new Swiper('.first_section .swiper', {
+			loop: true,
+			speed: 500,
+			watchSlidesProgress: true,
+			slideActiveClass: 'active',
+			slideVisibleClass: 'visible',
+			spaceBetween: 0,
+			slidesPerView: 1,
+			lazy: true,
+			effect: 'fade',
+			fadeEffect: {
+				crossFade: true
+			},
+		})
+	}
+
+
 	// Отправка форм
 	$('body').on('submit', '#best_price_modal .form', (e) => {
 		e.preventDefault()
