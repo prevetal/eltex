@@ -4098,6 +4098,17 @@
 
 
     /*---------------
+    First section
+    ---------------*/
+    .first_section
+    {
+        width: calc(100% + 40px);
+        margin-inline: -20px;
+    }
+
+
+
+    /*---------------
         Footer
     ---------------*/
     footer .menu

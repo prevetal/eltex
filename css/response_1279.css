@@ -245,6 +245,30 @@
     /*---------------
         Sidebar
     ---------------*/
+    aside .most_popular .product .thumb
+    {
+        width: 92px;
+        height: 40px;
+    }
+
+
+    aside .most_popular .product .name
+    {
+        width: calc(100% - 102px);
+
+        font-size: 17px;
+    }
+
+
+    aside .most_popular .product .desc
+    {
+        margin-top: 8px;
+
+        font-size: 14px;
+    }
+
+
+
     aside .cats > * + *
     {
         margin-top: 10px;
@@ -4708,9 +4732,32 @@
     }
 
 
+    .first_section .slider .swiper-button-prev,
+    .first_section .slider .swiper-button-next
+    {
+        top: 112px;
+
+        width: 28px;
+    }
+
+
+    .first_section .slider .pre_title
+    {
+        margin-bottom: 4px;
+
+        font-size: 20px;
+    }
+
+
     .first_section .slider .title
     {
         font-size: 32px;
+    }
+
+
+    .first_section .slider .title.small
+    {
+        font-size: 28px;
     }
 
 
@@ -4735,6 +4782,14 @@
     .first_section .slider .exp a
     {
         font-size: 14px;
+    }
+
+
+    .first_section .slider .items
+    {
+        margin-top: 24px;
+
+        font-size: 15px;
     }
 
 

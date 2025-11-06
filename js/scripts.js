@@ -472,6 +472,23 @@ $(() => {
 	})
 
 
+	// Most popular
+	let mostPopularSlider = document.querySelector('.most_popular .swiper')
+
+	if (mostPopularSlider) {
+		new Swiper('.most_popular .swiper', {
+			loop: true,
+			speed: 500,
+			watchSlidesProgress: true,
+			slideActiveClass: 'active',
+			slideVisibleClass: 'visible',
+			spaceBetween: 0,
+			slidesPerView: 1,
+			lazy: true
+		})
+	}
+
+
 	// First section
 	let firstSectionSlider = document.querySelector('.first_section .swiper')
 
@@ -489,6 +506,10 @@ $(() => {
 			fadeEffect: {
 				crossFade: true
 			},
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev'
+			}
 		})
 	}
 

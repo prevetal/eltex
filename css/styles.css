@@ -3876,6 +3876,92 @@ aside .compare_informer a:hover
 
 
 
+aside .most_popular
+{
+    margin-bottom: 12px;
+}
+
+
+aside .most_popular .swiper
+{
+    overflow: hidden;
+
+    background: #fff;
+}
+
+
+aside .most_popular .product
+{
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding: 16px 20px;
+
+    text-decoration: none;
+
+    color: #000;
+}
+
+
+aside .most_popular .product .title
+{
+    width: 100%;
+    margin-bottom: 4px;
+
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+aside .most_popular .product .thumb
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 96px;
+    height: 42px;
+}
+
+
+aside .most_popular .product .thumb img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+aside .most_popular .product .name
+{
+    align-self: center;
+
+    width: calc(100% - 103px);
+
+    font-size: 19px;
+
+    color: #009cdf;
+}
+
+
+aside .most_popular .product .desc
+{
+    width: 100%;
+    margin-top: 7px;
+
+    font-size: 17px;
+
+    letter-spacing: .68px;
+}
+
+
+
 aside .cats
 {
     padding: 20px;
@@ -31119,6 +31205,71 @@ aside .page_links .items a.active
 }
 
 
+.first_section .slider .swiper-button-prev,
+.first_section .slider .swiper-button-next
+{
+    top: 147px;
+    bottom: auto;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 40px;
+    margin: 0;
+
+    cursor: pointer;
+    transition: opacity .2s linear;
+
+    opacity: .5;
+    color: #fff;
+    border: none;
+    background: none;
+
+    aspect-ratio: 1 / 1;
+}
+
+
+.first_section .slider .swiper-button-prev
+{
+    left: 0;
+
+    display: none;
+}
+
+.first_section .slider .swiper-button-next
+{
+    right: 0;
+}
+
+
+.first_section .slider .swiper-button-prev:after,
+.first_section .slider .swiper-button-next:after
+{
+    display: none;
+}
+
+
+.first_section .slider .swiper-button-prev svg,
+.first_section .slider .swiper-button-next svg
+{
+    display: block;
+    display: block;
+
+    width: 16px;
+    height: 25px;
+}
+
+
+.first_section .slider .swiper-button-prev:hover,
+.first_section .slider .swiper-button-next:hover
+{
+    opacity: 1;
+}
+
+
 .first_section .slider .swiper-slide > *
 {
     position: relative;
@@ -31127,10 +31278,27 @@ aside .page_links .items a.active
 }
 
 
+.first_section .slider .pre_title
+{
+    margin-bottom: 7px;
+
+    font-size: 24px;
+    font-weight: 500;
+
+    text-transform: uppercase;
+}
+
+
 .first_section .slider .title
 {
     font-size: 40px;
     font-weight: 700;
+}
+
+
+.first_section .slider .title.small
+{
+    font-size: 32px;
 }
 
 
@@ -31176,6 +31344,12 @@ aside .page_links .items a.active
 }
 
 
+.first_section .slider .btn.blue
+{
+    background: #11c0ff;
+}
+
+
 .first_section .slider .exp
 {
     display: flex;
@@ -31200,6 +31374,43 @@ aside .page_links .items a.active
     vertical-align: top;
 
     color: #9affad;
+}
+
+
+.first_section .slider .items
+{
+    margin-top: 31px;
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+
+.first_section .slider .items > *
+{
+    position: relative;
+
+    padding-right: 10px;
+}
+
+
+.first_section .slider .items > *:before
+{
+    position: absolute;
+    top: .5lh;
+    right: 0;
+
+    display: block;
+
+    width: 4px;
+    height: 4px;
+
+    content: '';
+    transform: translateY(-50%);
+
+    border-radius: 50%;
+    background: #11bfff;
 }
 
 
