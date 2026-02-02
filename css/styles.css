@@ -30644,7 +30644,7 @@ aside .page_links .items a.active
 {
     position: relative;
 
-    margin-bottom: 32px;
+    margin-bottom: 50px;
     padding-top: 13px;
     padding-left: 32px;
 
@@ -31015,6 +31015,528 @@ aside .page_links .items a.active
     width: 100%;
 
     border-radius: inherit;
+}
+
+
+
+/*---------------------------
+Design networks cases
+---------------------------*/
+.design_networks_cases
+{
+    margin-bottom: 100px;
+}
+
+
+.design_networks_cases .list
+{
+    display: flex;
+    flex-direction: column;
+
+    gap: 56px;
+}
+
+
+.design_networks_cases .case .head
+{
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    font-weight: 500;
+
+    color: #000;
+}
+
+
+.design_networks_cases .case .city
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    min-height: 80px;
+
+    font-size: 32px;
+}
+
+
+.design_networks_cases .case .name
+{
+    position: relative;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+    min-width: 680px;
+    min-height: 80px;
+    padding-block: 12px;
+    padding-inline: 0 40px;
+
+    font-size: 30px;
+
+    border-top: 3px solid rgba(121, 123, 124, .30);
+    border-top-right-radius: 16px;
+    background: #eee;
+}
+
+
+.design_networks_cases .case .name:before
+{
+    position: absolute;
+    right: 100%;
+    bottom: 0;
+
+    display: block;
+
+    width: 126px;
+    height: calc(100% + 3px);
+
+    content: '';
+    z-index: 1;
+
+    background: linear-gradient(to bottom, rgba(121, 123, 124, .30), rgba(121, 123, 124, .30)), linear-gradient(to bottom, #eee, #eee);
+
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+}
+
+
+.design_networks_cases .case .name:after
+{
+    position: absolute;
+    top: 0;
+    right: 100%;
+
+    display: block;
+
+    width: 120px;
+    height: 100%;
+
+    content: '';
+    z-index: 2;
+
+    background: #eee;
+
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+}
+
+
+.design_networks_cases .case .data
+{
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding: 40px;
+
+    border: 3px dashed rgba(0, 0, 0, .10);
+    border-radius: 20px 0 20px 20px;
+    background: rgba(204, 224, 233, .20);
+}
+
+
+.design_networks_cases .case .images
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 578px;
+    max-width: 100%;
+
+    gap: 12px;
+}
+
+
+.design_networks_cases .case .swiper-button-prev,
+.design_networks_cases .case .swiper-button-next
+{
+    top: 0;
+    bottom: 0;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 46px;
+    height: 46px;
+    margin: auto 0;
+
+    cursor: pointer;
+
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    background: rgba(205, 205, 205, .50);
+}
+
+
+.design_networks_cases .case .swiper-button-prev
+{
+    left: -23px;
+
+    padding-left: 20px;
+}
+
+.design_networks_cases .case .swiper-button-next
+{
+    right: -23px;
+
+    padding-right: 20px;
+}
+
+
+.design_networks_cases .case .swiper-button-prev:after,
+.design_networks_cases .case .swiper-button-next:after
+{
+    display: none;
+}
+
+
+.design_networks_cases .case .swiper-button-prev svg,
+.design_networks_cases .case .swiper-button-next svg
+{
+    display: block;
+
+    width: 24px;
+    height: 25px;
+
+    transform: rotate(-90deg);
+}
+
+
+.design_networks_cases .case .swiper-button-next svg
+{
+    transform: rotate(90deg);
+}
+
+
+
+.design_networks_cases .case .images .big .image
+{
+    display: block;
+
+    text-decoration: none;
+
+    color: currentColor;
+}
+
+
+.design_networks_cases .case .images .big .thumb
+{
+    display: block;
+
+    border-radius: 5px;
+
+    aspect-ratio: 142/107;
+}
+
+
+.design_networks_cases .case .images .big .thumb img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
+}
+
+
+.design_networks_cases .case .images .thumbs .swiper-container
+{
+    display: none;
+}
+
+
+.design_networks_cases .case .images .thumbs .swiper-container-initialized
+{
+    display: block;
+}
+
+
+.design_networks_cases .case .images .thumbs .thumb
+{
+    display: block;
+
+    cursor: pointer;
+
+    border-radius: 5px;
+
+    aspect-ratio: 47/35;
+}
+
+
+.design_networks_cases .case .images .thumbs .thumb img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
+}
+
+
+.design_networks_cases .case .images .thumbs .swiper-slide-thumb-active .thumb
+{
+    outline: 2px solid #37b8ff;
+    outline-offset: -2px;
+}
+
+
+
+.design_networks_cases .case .info
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 632px;
+
+    gap: 40px;
+}
+
+
+.design_networks_cases .case .info .desc
+{
+    line-height: 30px;
+
+    text-align: right;
+
+    color: #000;
+}
+
+
+
+.design_networks_cases .case .schemes
+{
+    display: flex;
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+
+.design_networks_cases .case .schemes .big .image
+{
+    display: block;
+
+    text-decoration: none;
+
+    color: currentColor;
+}
+
+
+.design_networks_cases .case .schemes .big .thumb
+{
+    display: block;
+
+    border-radius: 5px;
+
+    aspect-ratio: 631.88/278.80;
+}
+
+
+.design_networks_cases .case .schemes .big .thumb img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
+}
+
+
+.design_networks_cases .case .schemes .thumbs .swiper-container
+{
+    display: none;
+}
+
+
+.design_networks_cases .case .schemes .thumbs .swiper-container-initialized
+{
+    display: block;
+}
+
+
+.design_networks_cases .case .schemes .thumbs .thumb
+{
+    display: block;
+
+    cursor: pointer;
+
+    border-radius: 5px;
+
+    aspect-ratio: 111.31/49.11;
+}
+
+
+.design_networks_cases .case .schemes .thumbs .thumb img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
+}
+
+
+.design_networks_cases .case .schemes .thumbs .swiper-slide-thumb-active .thumb
+{
+    outline: 2px solid #37b8ff;
+    outline-offset: -2px;
+}
+
+
+
+.design_networks_cases .case:nth-child(2n) .city
+{
+    order: 2;
+}
+
+
+.design_networks_cases .case:nth-child(2n) .name
+{
+    justify-content: flex-start;
+
+    padding-inline: 40px 0;
+
+    border-top-left-radius: 16px;
+    border-top-right-radius: 0;
+}
+
+
+.design_networks_cases .case:nth-child(2n) .name:before,
+.design_networks_cases .case:nth-child(2n) .name:after
+{
+    right: 0;
+    left: 100%;
+
+    transform: scale(-1, 1);
+}
+
+
+.design_networks_cases .case:nth-child(2n) .data
+{
+    border-radius: 0 20px 20px 20px;
+}
+
+
+.design_networks_cases .case:nth-child(2n) .info .desc
+{
+    text-align: left;
+}
+
+
+.design_networks_cases .case:nth-child(2n) .images
+{
+    order: 2;
+}
+
+
+
+/*---------------------------
+Design networks license
+---------------------------*/
+.design_networks_license
+{
+    margin-bottom: 100px;
+    padding-block: 70px;
+
+    background: #f8f8f8;
+}
+
+
+.design_networks_license .row
+{
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 44px;
+}
+
+
+.design_networks_license .row > *
+{
+    width: 509px;
+    max-width: calc(50% - 22px);
+}
+
+
+.design_networks_license .item
+{
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: currentColor;
+
+    gap: 13px;
+}
+
+
+.design_networks_license .item .thumb
+{
+    display: block;
+}
+
+
+.design_networks_license .item .thumb img
+{
+    display: block;
+
+    width: 100%;
+}
+
+
+.design_networks_license .item .btn
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    font-size: 16px;
+
+    color: #37b8ff;
+
+    gap: 3px;
+}
+
+
+.design_networks_license .item .btn .icon
+{
+    display: block;
+
+    width: 34px;
+    height: 34px;
 }
 
 

@@ -2567,6 +2567,67 @@
 
 
     /*---------------------------
+    Design networks cases
+    ---------------------------*/
+    .design_networks_cases .case .city
+    {
+        font-size: 18px;
+    }
+
+
+    .design_networks_cases .case .name,
+    .design_networks_cases .case:nth-child(2n) .name
+    {
+        font-size: 14px;
+    }
+
+
+    .design_networks_cases .case .schemes,
+    .design_networks_cases .case .images
+    {
+        gap: 8px;
+    }
+
+
+
+    /*---------------------------
+    Design networks license
+    ---------------------------*/
+    .design_networks_license .row
+    {
+        gap: 16px;
+    }
+
+
+    .design_networks_license .row > *
+    {
+        max-width: calc(50% - 8px);
+    }
+
+
+    .design_networks_license .item
+    {
+        gap: 10px;
+    }
+
+
+    .design_networks_license .item .btn
+    {
+        font-size: 12px;
+
+        gap: 2px;
+    }
+
+
+    .design_networks_license .item .btn .icon
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+
+
+    /*---------------------------
     Design networks action
     ---------------------------*/
     .design_networks_action .form .title

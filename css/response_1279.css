@@ -4663,6 +4663,122 @@
 
 
     /*---------------------------
+    Design networks cases
+    ---------------------------*/
+    .design_networks_cases
+    {
+        margin-bottom: 64px;
+    }
+
+
+    .design_networks_cases .list
+    {
+        gap: 40px;
+    }
+
+
+    .design_networks_cases .case .city
+    {
+        min-height: 68px;
+
+        font-size: 26px;
+    }
+
+
+    .design_networks_cases .case .name
+    {
+        min-width: 520px;
+        min-height: 68px;
+        padding-inline: 0 27px;
+
+        font-size: 24px;
+    }
+
+
+    .design_networks_cases .case .name:before
+    {
+        width: 106px;
+    }
+
+
+    .design_networks_cases .case .name:after
+    {
+        width: 100px;
+    }
+
+
+    .design_networks_cases .case .data
+    {
+        padding: 24px;
+    }
+
+
+    .design_networks_cases .case .images
+    {
+        width: 420px;
+    }
+
+
+    .design_networks_cases .case .info
+    {
+        width: calc(100% - 444px);
+    }
+
+
+    .design_networks_cases .case .info .desc
+    {
+        line-height: 22px;
+    }
+
+
+
+    .design_networks_cases .case:nth-child(2n) .name
+    {
+        padding-inline: 27px 0;
+    }
+
+
+
+    /*---------------------------
+    Design networks license
+    ---------------------------*/
+    .design_networks_license
+    {
+        margin-bottom: 64px;
+        padding-block: 48px;
+    }
+
+
+    .design_networks_license .row
+    {
+        gap: 24px;
+    }
+
+
+    .design_networks_license .row > *
+    {
+        width: 400px;
+        max-width: calc(50% - 12px);
+    }
+
+
+    .design_networks_license .item .btn
+    {
+        font-size: var(--font_size);
+
+        gap: 4px;
+    }
+
+
+    .design_networks_license .item .btn .icon
+    {
+        width: 30px;
+        height: 30px;
+    }
+
+
+
+    /*---------------------------
     Design networks action
     ---------------------------*/
     .design_networks_action

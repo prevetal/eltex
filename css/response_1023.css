@@ -4064,6 +4064,86 @@
 
 
     /*---------------------------
+    Design networks cases
+    ---------------------------*/
+    .design_networks_cases
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .design_networks_cases .case .city
+    {
+        min-height: 64px;
+
+        font-size: 24px;
+    }
+
+
+    .design_networks_cases .case .name
+    {
+        min-width: 400px;
+        min-height: 64px;
+        padding-inline: 0 24px;
+
+        font-size: 22px;
+    }
+
+
+    .design_networks_cases .case .name:before
+    {
+        width: 86px;
+    }
+
+
+    .design_networks_cases .case .name:after
+    {
+        width: 80px;
+    }
+
+
+    .design_networks_cases .case .data
+    {
+        padding: 21px;
+    }
+
+
+    .design_networks_cases .case .images
+    {
+        order: 2;
+
+        width: 100%;
+    }
+
+
+    .design_networks_cases .case .info
+    {
+        width: 100%;
+        margin-bottom: 24px;
+
+        gap: 24px;
+    }
+
+
+
+    .design_networks_cases .case:nth-child(2n) .name
+    {
+        padding-inline: 24px 0;
+    }
+
+
+
+    /*---------------------------
+    Design networks license
+    ---------------------------*/
+    .design_networks_license
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    /*---------------------------
     Design networks action
     ---------------------------*/
     .design_networks_action

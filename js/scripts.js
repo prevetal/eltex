@@ -955,6 +955,115 @@ $(() => {
 
 		$(this).toggleClass('active').next().slideToggle(300)
 	})
+
+
+	// Design networks case slider
+	const designNetworksCaseImagesBigSliders = [],
+		designNetworksCaseImagesThumbsSliders = [],
+		designNetworksCaseSchemesBigSliders = [],
+		designNetworksCaseSchemesThumbsSliders = [],
+		designNetworksCaseImagesBig = document.querySelectorAll('.design_networks_cases .case .images .big .swiper-container'),
+		designNetworksCaseImagesThumbs = document.querySelectorAll('.design_networks_cases .case .images .thumbs .swiper-container'),
+		designNetworksCaseSchemesBig = document.querySelectorAll('.design_networks_cases .case .schemes .big .swiper-container'),
+		designNetworksCaseSchemesThumbs = document.querySelectorAll('.design_networks_cases .case .schemes .thumbs .swiper-container')
+
+	designNetworksCaseImagesThumbs.forEach((el, i) => {
+		el.classList.add('design_networks_cases_images_thumbs_s' + i)
+
+		let options = {
+			loop: false,
+			speed: 500,
+			watchSlidesProgress: true,
+			slideActiveClass: 'active',
+			slideVisibleClass: 'visible',
+			lazy: true,
+			breakpoints: {
+				0: {
+					spaceBetween: 8,
+					slidesPerView: 4,
+				},
+				480: {
+					spaceBetween: 9,
+					slidesPerView: 5,
+				},
+			},
+		}
+
+		designNetworksCaseImagesThumbsSliders.push(new Swiper('.design_networks_cases_images_thumbs_s' + i, options))
+	})
+
+	designNetworksCaseImagesBig.forEach((el, i) => {
+		el.classList.add('design_networks_cases_images_big_s' + i)
+
+		let options = {
+			loop: false,
+			speed: 500,
+			watchSlidesProgress: true,
+			slideActiveClass: 'active',
+			slideVisibleClass: 'visible',
+			lazy: true,
+			spaceBetween: 0,
+			slidesPerView: 1,
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev'
+			},
+			thumbs: {
+				swiper: designNetworksCaseImagesThumbsSliders[i]
+			}
+		}
+
+		designNetworksCaseImagesBigSliders.push(new Swiper('.design_networks_cases_images_big_s' + i, options))
+	})
+
+	designNetworksCaseSchemesThumbs.forEach((el, i) => {
+		el.classList.add('design_networks_cases_schemes_thumbs_s' + i)
+
+		let options = {
+			loop: false,
+			speed: 500,
+			watchSlidesProgress: true,
+			slideActiveClass: 'active',
+			slideVisibleClass: 'visible',
+			lazy: true,
+			breakpoints: {
+				0: {
+					spaceBetween: 8,
+					slidesPerView: 4,
+				},
+				480: {
+					spaceBetween: 9,
+					slidesPerView: 5,
+				},
+			},
+		}
+
+		designNetworksCaseSchemesThumbsSliders.push(new Swiper('.design_networks_cases_schemes_thumbs_s' + i, options))
+	})
+
+	designNetworksCaseSchemesBig.forEach((el, i) => {
+		el.classList.add('design_networks_cases_schemes_big_s' + i)
+
+		let options = {
+			loop: false,
+			speed: 500,
+			watchSlidesProgress: true,
+			slideActiveClass: 'active',
+			slideVisibleClass: 'visible',
+			lazy: true,
+			spaceBetween: 0,
+			slidesPerView: 1,
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev'
+			},
+			thumbs: {
+				swiper: designNetworksCaseSchemesThumbsSliders[i]
+			}
+		}
+
+		designNetworksCaseSchemesBigSliders.push(new Swiper('.design_networks_cases_schemes_big_s' + i, options))
+	})
 })
 
 
